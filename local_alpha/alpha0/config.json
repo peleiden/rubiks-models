@@ -1,0 +1,18 @@
+{
+    "activation_function": "elu",
+    "batchnorm": true,
+    "architecture": "fc",
+    "init": "glorot",
+    "shared_sizes": [
+        4096,
+        2048
+    ],
+    "part_sizes": [
+        512
+    ],
+    "conv_channels": null,
+    "cat_sizes": null,
+    "res_blocks": null,
+    "res_size": null,
+    "is2024": true
+}

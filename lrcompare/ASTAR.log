@@ -1,0 +1,62 @@
+2020-06-02 04:33:53.588090	ASTAR
+
+2020-06-02 04:33:53.589573	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-02 04:33:54.135367	Loaded model from data/local_lrcompare
+2020-06-02 04:33:54.136603	Initialized ASTAR with agents AStar (lambda=0.2, N=50) adaptivelow, AStar (lambda=0.2, N=50) adaptivehigh, AStar (lambda=0.2, N=50) fixedlow
+2020-06-02 04:33:54.137504	TIME ESTIMATE: 25.00 min.	(Rough upper bound)
+2020-06-02 04:33:54.226472	Beginning evaluator ASTAR
+                          	Location data/local_lrcompare
+                          	Commit: 83b253e12be0384440de17771de2293d511dd3f9
+
+2020-06-02 04:33:54.228459	Evaluationg agent AStar (lambda=0.2, N=50) adaptivelow
+
+2020-06-02 04:33:54.230050	Evaluation of AStar (lambda=0.2, N=50)
+2020-06-02 04:33:54.230997	500 games with max time per game 1.0
+                          	Expected time <= ~8.33 min
+2020-06-02 04:39:04.701635	Performed evaluation at depth: 100/100
+2020-06-02 04:39:04.704450	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 66.80 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 29.77 +/- 2.6 (std.), Median: 30
+                          		States seen: Pr. game: 85784.39 +/- 48592 (std.), Pr. sec.: 135189.01 +/- 10044 (std.)
+                          		Time:  0.62 +/- 0.34 (std.)
+                          	S: 99.67 p/m 0.04
+2020-06-02 04:39:04.710713	Evaluation runtime
+                          	Execution times                                   | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=50). Depth 100 |  310.466 s |  500 | 620.933 ms
+
+2020-06-02 04:39:04.721614	Evaluationg agent AStar (lambda=0.2, N=50) adaptivehigh
+
+2020-06-02 04:39:04.723212	Evaluation of AStar (lambda=0.2, N=50)
+2020-06-02 04:39:04.724196	500 games with max time per game 1.0
+                          	Expected time <= ~8.33 min
+2020-06-02 04:41:46.071306	Performed evaluation at depth: 100/100
+2020-06-02 04:41:46.075908	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 96.60 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 29.97 +/- 2.9 (std.), Median: 30
+                          		States seen: Pr. game: 44697.47 +/- 34777 (std.), Pr. sec.: 136560.00 +/- 9102 (std.)
+                          		Time:  0.32 +/- 0.24 (std.)
+                          	S: 99.97 p/m 0.02
+2020-06-02 04:41:46.082764	Evaluation runtime
+                          	Execution times                                   | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=50). Depth 100 |  471.809 s | 1,000 | 471.809 ms
+
+2020-06-02 04:41:46.091369	Evaluationg agent AStar (lambda=0.2, N=50) fixedlow
+
+2020-06-02 04:41:46.093009	Evaluation of AStar (lambda=0.2, N=50)
+2020-06-02 04:41:46.093865	500 games with max time per game 1.0
+                          	Expected time <= ~8.33 min
+2020-06-02 04:50:07.478731	Performed evaluation at depth: 100/100
+2020-06-02 04:50:07.481842	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 137661.91 +/- 3663 (std.), Pr. sec.: 137284.75 +/- 3693 (std.)
+                          		Time:  1.00 +/- 0.00 (std.)
+                          	S: 99.00 p/m 0.00
+2020-06-02 04:50:07.488145	Evaluation runtime
+                          	Execution times                                   | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=50). Depth 100 |  973.189 s | 1,500 | 648.793 ms
+2020-06-02 04:50:08.796838	Saved plots to ['data/local_lrcompare/eval_winrates.png', 'data/local_lrcompare/eval_sollengths.png', 'data/local_lrcompare/eval_S.png']

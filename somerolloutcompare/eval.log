@@ -1,0 +1,46 @@
+2020-05-31 22:18:00.772201	eval
+
+2020-05-31 22:18:00.773601	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-05-31 22:18:01.988291	Loaded model from data/local_hpc_train
+2020-05-31 22:18:01.989632	Initialized eval with agents AStar (lambda=0.2, N=50) bigroll, AStar (lambda=0.2, N=50) smallroll
+2020-05-31 22:18:01.990410	TIME ESTIMATE: 16.67 min.	(Rough upper bound)
+2020-05-31 22:18:02.052943	Beginning evaluator eval
+                          	Location data/local_hpc_train
+                          	Commit: 1848172feaedafb09d6249bb77589e9cbfba6d28
+
+2020-05-31 22:18:02.055182	Evaluationg agent AStar (lambda=0.2, N=50) bigroll
+
+2020-05-31 22:18:02.057062	Evaluation of AStar (lambda=0.2, N=50)
+2020-05-31 22:18:02.058069	500 games with max time per game 1.0
+                          	Expected time <~ 8.33 min
+2020-05-31 22:23:16.948935	Performed evaluation at depth: 100/100
+2020-05-31 22:23:16.955911	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 59.60 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 29.68 +/- 2.9 (std.), Median: 30
+                          		States seen: Pr. game: 85605.19 +/- 50153 (std.), Pr. sec.: 133588.58 +/- 8584 (std.)
+                          		Time:  0.63 +/- 0.36 (std.)
+                          	S: 99.60 p/m 0.04
+2020-05-31 22:23:16.965326	Evaluation runtime
+                          	Execution times                                   | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=50). Depth 100 |  314.887 s |  500 | 629.774 ms
+
+2020-05-31 22:23:16.980189	Evaluationg agent AStar (lambda=0.2, N=50) smallroll
+
+2020-05-31 22:23:16.982214	Evaluation of AStar (lambda=0.2, N=50)
+2020-05-31 22:23:16.983240	500 games with max time per game 1.0
+                          	Expected time <~ 8.33 min
+2020-05-31 22:26:34.005819	Performed evaluation at depth: 100/100
+2020-05-31 22:26:34.009613	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 91.80 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 29.43 +/- 3.0 (std.), Median: 30
+                          		States seen: Pr. game: 54487.29 +/- 41510 (std.), Pr. sec.: 136002.97 +/- 8885 (std.)
+                          		Time:  0.39 +/- 0.29 (std.)
+                          	S: 99.92 p/m 0.02
+2020-05-31 22:26:34.018611	Evaluation runtime
+                          	Execution times                                   | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=50). Depth 100 |  511.906 s | 1,000 | 511.906 ms
+2020-05-31 22:26:34.957962	Saved plots to ['data/local_hpc_train/eval_winrates.png', 'data/local_hpc_train/eval_sollengths.png', 'data/local_hpc_train/eval_S.png']

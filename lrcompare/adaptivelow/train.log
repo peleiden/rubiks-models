@@ -1,0 +1,1577 @@
+
+2020-06-02 02:10:00.925779	Starting job:
+                          	ADAPTIVELOW with 20x24 representation
+                          	Location data/local_lrcompare/adaptivelow
+                          	Commit: 83b253e12be0384440de17771de2293d511dd3f9
+2020-06-02 02:10:00.927392	Created trainer
+                          	Alpha update: 0.00Learning rate and gamma: 1e-05 and 0.95
+                          	Learning rate and alpha will update every 25 rollouts: lr <- 0.9500 * lr and alpha += 0.0000
+                          	Optimizer:      <class 'torch.optim.rmsprop.RMSprop'>
+                          	Policy and value criteria: CrossEntropyLoss() and MSELoss()
+                          	Rollouts:       1000
+                          	Batch size:     1000
+                          	Rollout games:  1000
+                          	Rollout depth:  100
+                          	alpha update:   0.0
+2020-06-02 02:10:00.928280	Rough upper bound on total evaluation time during training: 1.37 min
+2020-06-02 02:10:01.061043	Created network
+                          	ModelConfig(activation_function=ELU(alpha=1.0), batchnorm=True, architecture='fc', init='glorot', shared_sizes=[4096, 2048], part_sizes=[512], conv_channels=None, cat_sizes=None, res_blocks=None, res_size=None, is2024=True)
+                          	Model(
+                          	  (shared_net): Sequential(
+                          	    (0): Linear(in_features=480, out_features=4096, bias=True)
+                          	    (1): ELU(alpha=1.0)
+                          	    (2): BatchNorm1d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                          	    (3): Linear(in_features=4096, out_features=2048, bias=True)
+                          	    (4): ELU(alpha=1.0)
+                          	    (5): BatchNorm1d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                          	  )
+                          	  (policy_net): Sequential(
+                          	    (0): Linear(in_features=2048, out_features=512, bias=True)
+                          	    (1): ELU(alpha=1.0)
+                          	    (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                          	    (3): Linear(in_features=512, out_features=12, bias=True)
+                          	  )
+                          	  (value_net): Sequential(
+                          	    (0): Linear(in_features=2048, out_features=512, bias=True)
+                          	    (1): ELU(alpha=1.0)
+                          	    (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                          	    (3): Linear(in_features=512, out_features=1, bias=True)
+                          	  )
+                          	)
+2020-06-02 02:10:01.074995	Beginning training. Optimization is performed in batches of 1000
+2020-06-02 02:10:01.076207	Rollouts: 1000
+                          	Each consisting of 1000 games with a depth of 100
+                          	Evaluations: 41
+2020-06-02 02:10:03.888755	Intercepted RuntimeError CUDA out of memory. Tried to allocate 18.31 GiB (GPU 0; 31.75 GiB total capacity; 20.68 GiB already allocated; 9.98 GiB free; 20.71 GiB reserved in total by PyTorch)
+                          	Increasing number of ADI feed forward batches from 1 to 2
+2020-06-02 02:10:10.397421	Rollout 0 completed with mean loss 3.2191260129213326
+
+2020-06-02 02:10:10.400854	Evaluation of Greedy policy
+2020-06-02 02:10:10.401626	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:10:12.505384	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 21.43 +/- 1 (std.), Pr. sec.: 2039.27 +/- 27 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.00 p/m 0.00
+2020-06-02 02:10:21.134151	Rollout 1 completed with mean loss 2.203250474780797
+2020-06-02 02:10:29.660357	Rollout 2 completed with mean loss 2.053493702113629
+2020-06-02 02:10:38.345377	Rollout 3 completed with mean loss 2.0702309150993825
+2020-06-02 02:10:46.818360	Rollout 4 completed with mean loss 1.9787744265794756
+2020-06-02 02:10:55.458772	Rollout 5 completed with mean loss 1.9340503813326362
+2020-06-02 02:11:03.919183	Rollout 6 completed with mean loss 1.8959920276701454
+2020-06-02 02:11:12.554555	Rollout 7 completed with mean loss 1.884407132416964
+2020-06-02 02:11:21.042479	Rollout 8 completed with mean loss 1.833399614691734
+2020-06-02 02:11:29.605220	Rollout 9 completed with mean loss 1.7919682240486148
+2020-06-02 02:11:38.206032	Rollout 10 completed with mean loss 1.7881525306403632
+2020-06-02 02:11:46.845245	Rollout 11 completed with mean loss 1.7659005307406193
+2020-06-02 02:11:55.275190	Rollout 12 completed with mean loss 1.7577186416089534
+2020-06-02 02:12:03.924674	Rollout 13 completed with mean loss 1.7454498418420552
+2020-06-02 02:12:12.388659	Rollout 14 completed with mean loss 1.7305356331169606
+2020-06-02 02:12:20.954418	Rollout 15 completed with mean loss 1.6940932483226054
+2020-06-02 02:12:29.487484	Rollout 16 completed with mean loss 1.6953184156119823
+2020-06-02 02:12:38.007835	Rollout 17 completed with mean loss 1.6745107155293226
+2020-06-02 02:12:46.592876	Rollout 18 completed with mean loss 1.6880048839747908
+2020-06-02 02:12:55.214002	Rollout 19 completed with mean loss 1.664316761642695
+2020-06-02 02:13:03.721963	Rollout 20 completed with mean loss 1.637744017094374
+2020-06-02 02:13:12.381123	Rollout 21 completed with mean loss 1.609083300828934
+2020-06-02 02:13:20.911887	Rollout 22 completed with mean loss 1.5660176187008625
+2020-06-02 02:13:29.550225	Rollout 23 completed with mean loss 1.566846123635769
+2020-06-02 02:13:38.034654	Rollout 24 completed with mean loss 1.553852023556828
+
+2020-06-02 02:13:38.038001	Evaluation of Greedy policy
+2020-06-02 02:13:38.038866	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:13:40.097852	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 2.00 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 2.00 +/- 0.0 (std.), Median: 2
+                          		States seen: Pr. game: 21.02 +/- 3 (std.), Pr. sec.: 2038.28 +/- 60 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.02 p/m 0.02
+2020-06-02 02:13:40.247115	Updated best net with solve rate 2.00 % at depth [10]
+2020-06-02 02:13:48.929104	Updated learning rate from 1.00e-05 to 9.50e-06
+2020-06-02 02:13:48.931797	Rollout 25 completed with mean loss 1.5509754575788979
+2020-06-02 02:13:57.407664	Rollout 26 completed with mean loss 1.5470045233517886
+2020-06-02 02:14:06.034652	Rollout 27 completed with mean loss 1.5431699182093146
+2020-06-02 02:14:14.461268	Rollout 28 completed with mean loss 1.5307533057779077
+2020-06-02 02:14:23.168892	Rollout 29 completed with mean loss 1.5012852765619755
+2020-06-02 02:14:31.550436	Rollout 30 completed with mean loss 1.5192719685286287
+2020-06-02 02:14:40.104662	Rollout 31 completed with mean loss 1.4850185878574849
+2020-06-02 02:14:48.625489	Rollout 32 completed with mean loss 1.4633698710799221
+2020-06-02 02:14:57.311282	Rollout 33 completed with mean loss 1.4321861728280783
+2020-06-02 02:15:05.783645	Rollout 34 completed with mean loss 1.4618135604262354
+2020-06-02 02:15:14.369639	Rollout 35 completed with mean loss 1.4212847183644768
+2020-06-02 02:15:22.801497	Rollout 36 completed with mean loss 1.4328089027851818
+2020-06-02 02:15:31.402859	Rollout 37 completed with mean loss 1.4481836950033893
+2020-06-02 02:15:39.985776	Rollout 38 completed with mean loss 1.4128848795592783
+2020-06-02 02:15:48.404123	Rollout 39 completed with mean loss 1.4467633963376283
+2020-06-02 02:15:56.917188	Rollout 40 completed with mean loss 1.4366511135548352
+2020-06-02 02:16:05.403099	Rollout 41 completed with mean loss 1.4378836406767368
+2020-06-02 02:16:13.943119	Rollout 42 completed with mean loss 1.4442690514028074
+2020-06-02 02:16:22.465927	Rollout 43 completed with mean loss 1.404666239544749
+2020-06-02 02:16:31.115654	Rollout 44 completed with mean loss 1.389435779750347
+2020-06-02 02:16:39.566902	Rollout 45 completed with mean loss 1.367990837395192
+2020-06-02 02:16:48.163021	Rollout 46 completed with mean loss 1.366853485107422
+2020-06-02 02:16:56.651729	Rollout 47 completed with mean loss 1.3591464166343208
+2020-06-02 02:17:05.380017	Rollout 48 completed with mean loss 1.3820998377352949
+2020-06-02 02:17:13.926796	Rollout 49 completed with mean loss 1.3463790256530048
+
+2020-06-02 02:17:13.930364	Evaluation of Greedy policy
+2020-06-02 02:17:13.931180	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:17:15.955919	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 4.50 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 4.00 +/- 0.9 (std.), Median: 4
+                          		States seen: Pr. game: 20.58 +/- 4 (std.), Pr. sec.: 2027.58 +/- 62 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.04 p/m 0.03
+2020-06-02 02:17:16.101464	Updated best net with solve rate 4.50 % at depth [10]
+2020-06-02 02:17:24.771471	Updated learning rate from 9.50e-06 to 9.03e-06
+2020-06-02 02:17:24.774054	Rollout 50 completed with mean loss 1.3350539116561406
+2020-06-02 02:17:33.211919	Rollout 51 completed with mean loss 1.364250251948833
+2020-06-02 02:17:41.825706	Rollout 52 completed with mean loss 1.3592206083983176
+2020-06-02 02:17:50.426304	Rollout 53 completed with mean loss 1.3720298966765405
+2020-06-02 02:17:58.884275	Rollout 54 completed with mean loss 1.3855838117003436
+2020-06-02 02:18:07.584292	Rollout 55 completed with mean loss 1.3778260931372643
+2020-06-02 02:18:16.107035	Rollout 56 completed with mean loss 1.3713026761263605
+2020-06-02 02:18:24.714157	Rollout 57 completed with mean loss 1.3596668936312195
+2020-06-02 02:18:33.210832	Rollout 58 completed with mean loss 1.3870025216042994
+2020-06-02 02:18:41.809948	Rollout 59 completed with mean loss 1.355712685286999
+2020-06-02 02:18:50.404254	Rollout 60 completed with mean loss 1.3537867704778908
+2020-06-02 02:18:58.874614	Rollout 61 completed with mean loss 1.3895890461653475
+2020-06-02 02:19:07.514551	Rollout 62 completed with mean loss 1.3808861540257933
+2020-06-02 02:19:16.023369	Rollout 63 completed with mean loss 1.411577080562711
+2020-06-02 02:19:24.651725	Rollout 64 completed with mean loss 1.3836649063229556
+2020-06-02 02:19:33.143539	Rollout 65 completed with mean loss 1.3717666278779506
+2020-06-02 02:19:41.813454	Rollout 66 completed with mean loss 1.3680137973278754
+2020-06-02 02:19:50.344583	Rollout 67 completed with mean loss 1.352810732424259
+2020-06-02 02:19:58.895322	Rollout 68 completed with mean loss 1.3649207692593341
+2020-06-02 02:20:07.530875	Rollout 69 completed with mean loss 1.3502782543748615
+2020-06-02 02:20:16.169077	Rollout 70 completed with mean loss 1.3784458094835288
+2020-06-02 02:20:24.673557	Rollout 71 completed with mean loss 1.3677956815809016
+2020-06-02 02:20:33.340069	Rollout 72 completed with mean loss 1.357863247692585
+2020-06-02 02:20:41.850329	Rollout 73 completed with mean loss 1.372762362211942
+2020-06-02 02:20:50.562074	Rollout 74 completed with mean loss 1.337112680077552
+
+2020-06-02 02:20:50.565410	Evaluation of Greedy policy
+2020-06-02 02:20:50.566110	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:20:52.576279	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 5.00 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 4.20 +/- 0.6 (std.), Median: 4
+                          		States seen: Pr. game: 20.31 +/- 4 (std.), Pr. sec.: 2015.08 +/- 55 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.05 p/m 0.03
+2020-06-02 02:20:52.727343	Updated best net with solve rate 5.00 % at depth [10]
+2020-06-02 02:21:01.245752	Updated learning rate from 9.03e-06 to 8.57e-06
+2020-06-02 02:21:01.248406	Rollout 75 completed with mean loss 1.3489287798851732
+2020-06-02 02:21:09.760746	Rollout 76 completed with mean loss 1.315584461539984
+2020-06-02 02:21:18.393373	Rollout 77 completed with mean loss 1.3297625420987602
+2020-06-02 02:21:27.045527	Rollout 78 completed with mean loss 1.3094306295365092
+2020-06-02 02:21:35.542478	Rollout 79 completed with mean loss 1.3384030648320921
+2020-06-02 02:21:44.183598	Rollout 80 completed with mean loss 1.3443269687891
+2020-06-02 02:21:52.659788	Rollout 81 completed with mean loss 1.3809297540038816
+2020-06-02 02:22:01.237824	Rollout 82 completed with mean loss 1.3601717217266553
+2020-06-02 02:22:09.707239	Rollout 83 completed with mean loss 1.3633893499523397
+2020-06-02 02:22:18.361050	Rollout 84 completed with mean loss 1.3816185143589976
+2020-06-02 02:22:26.893860	Rollout 85 completed with mean loss 1.3588654410094017
+2020-06-02 02:22:35.398771	Rollout 86 completed with mean loss 1.409272112548351
+2020-06-02 02:22:43.882414	Rollout 87 completed with mean loss 1.3982151553779842
+2020-06-02 02:22:52.514941	Rollout 88 completed with mean loss 1.409914776086807
+2020-06-02 02:23:01.036489	Rollout 89 completed with mean loss 1.401372391581536
+2020-06-02 02:23:09.656629	Rollout 90 completed with mean loss 1.4183770684897903
+2020-06-02 02:23:18.140038	Rollout 91 completed with mean loss 1.3795947612822057
+2020-06-02 02:23:26.730727	Rollout 92 completed with mean loss 1.4062688936293122
+2020-06-02 02:23:35.232769	Rollout 93 completed with mean loss 1.3863020458817483
+2020-06-02 02:23:43.842722	Rollout 94 completed with mean loss 1.3916031956672672
+2020-06-02 02:23:52.369766	Rollout 95 completed with mean loss 1.4224509152024984
+2020-06-02 02:24:00.912980	Rollout 96 completed with mean loss 1.3982977145910263
+2020-06-02 02:24:09.512213	Rollout 97 completed with mean loss 1.3854676511138675
+2020-06-02 02:24:18.066565	Rollout 98 completed with mean loss 1.4049754595756534
+2020-06-02 02:24:26.734507	Rollout 99 completed with mean loss 1.4161509470641611
+
+2020-06-02 02:24:26.738117	Evaluation of Greedy policy
+2020-06-02 02:24:26.738848	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:24:28.665382	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 11.00 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 5.27 +/- 1.3 (std.), Median: 6
+                          		States seen: Pr. game: 19.36 +/- 5 (std.), Pr. sec.: 1999.79 +/- 72 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.11 p/m 0.04
+2020-06-02 02:24:28.811283	Updated best net with solve rate 11.00 % at depth [10]
+2020-06-02 02:24:37.336773	Updated learning rate from 8.57e-06 to 8.15e-06
+2020-06-02 02:24:37.339228	Rollout 100 completed with mean loss 1.4368291194736953
+2020-06-02 02:24:45.871612	Rollout 101 completed with mean loss 1.4425078564882274
+2020-06-02 02:24:54.488158	Rollout 102 completed with mean loss 1.4464260978996757
+2020-06-02 02:25:03.153219	Rollout 103 completed with mean loss 1.4477699545770883
+2020-06-02 02:25:11.596706	Rollout 104 completed with mean loss 1.4370660980045795
+2020-06-02 02:25:20.223744	Rollout 105 completed with mean loss 1.4513118912279603
+2020-06-02 02:25:28.709388	Rollout 106 completed with mean loss 1.4187484616041184
+2020-06-02 02:25:37.324473	Rollout 107 completed with mean loss 1.4229104319214818
+2020-06-02 02:25:45.800303	Rollout 108 completed with mean loss 1.423375867307186
+2020-06-02 02:25:54.445936	Rollout 109 completed with mean loss 1.4250526114553206
+2020-06-02 02:26:02.868892	Rollout 110 completed with mean loss 1.4302960861474279
+2020-06-02 02:26:11.453931	Rollout 111 completed with mean loss 1.4054841504991056
+2020-06-02 02:26:20.105570	Rollout 112 completed with mean loss 1.4412399587035176
+2020-06-02 02:26:28.603739	Rollout 113 completed with mean loss 1.4316550793498757
+2020-06-02 02:26:37.249231	Rollout 114 completed with mean loss 1.4223560707271103
+2020-06-02 02:26:45.775569	Rollout 115 completed with mean loss 1.435329010635614
+2020-06-02 02:26:54.393546	Rollout 116 completed with mean loss 1.4094674305617814
+2020-06-02 02:27:02.806066	Rollout 117 completed with mean loss 1.4022715827077623
+2020-06-02 02:27:11.474240	Rollout 118 completed with mean loss 1.3948300467431554
+2020-06-02 02:27:20.058255	Rollout 119 completed with mean loss 1.3782640008628366
+2020-06-02 02:27:28.637687	Rollout 120 completed with mean loss 1.3662920132279395
+2020-06-02 02:27:37.320457	Rollout 121 completed with mean loss 1.326056321188808
+2020-06-02 02:27:45.753668	Rollout 122 completed with mean loss 1.286287919282913
+2020-06-02 02:27:54.318336	Rollout 123 completed with mean loss 1.231822329238057
+2020-06-02 02:28:02.749765	Rollout 124 completed with mean loss 1.200550777539611
+
+2020-06-02 02:28:02.753255	Evaluation of Greedy policy
+2020-06-02 02:28:02.754006	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:28:04.613360	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 15.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 5.60 +/- 1.3 (std.), Median: 6
+                          		States seen: Pr. game: 18.75 +/- 6 (std.), Pr. sec.: 2005.42 +/- 60 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.15 p/m 0.05
+2020-06-02 02:28:04.757840	Updated best net with solve rate 15.00 % at depth [10]
+2020-06-02 02:28:13.355006	Updated learning rate from 8.15e-06 to 7.74e-06
+2020-06-02 02:28:13.357651	Rollout 125 completed with mean loss 1.2010420487076048
+2020-06-02 02:28:21.911756	Rollout 126 completed with mean loss 1.1893742643296725
+2020-06-02 02:28:30.453758	Rollout 127 completed with mean loss 1.1605712847411631
+2020-06-02 02:28:39.001466	Rollout 128 completed with mean loss 1.1605160547047852
+2020-06-02 02:28:47.611920	Rollout 129 completed with mean loss 1.1908464401960372
+2020-06-02 02:28:56.168573	Rollout 130 completed with mean loss 1.1668987633287906
+2020-06-02 02:29:04.846470	Rollout 131 completed with mean loss 1.23191232547164
+2020-06-02 02:29:13.363840	Rollout 132 completed with mean loss 1.2238711479306217
+2020-06-02 02:29:21.969106	Rollout 133 completed with mean loss 1.2109601312875746
+2020-06-02 02:29:30.496629	Rollout 134 completed with mean loss 1.2439930685609575
+2020-06-02 02:29:39.046212	Rollout 135 completed with mean loss 1.2652891219407323
+2020-06-02 02:29:47.647553	Rollout 136 completed with mean loss 1.2528013478964568
+2020-06-02 02:29:56.224659	Rollout 137 completed with mean loss 1.2341046967357396
+2020-06-02 02:30:04.754798	Rollout 138 completed with mean loss 1.2624851322919135
+2020-06-02 02:30:13.382551	Rollout 139 completed with mean loss 1.258655132353306
+2020-06-02 02:30:21.832911	Rollout 140 completed with mean loss 1.2711274302750826
+2020-06-02 02:30:30.441398	Rollout 141 completed with mean loss 1.2800551275163883
+2020-06-02 02:30:38.900584	Rollout 142 completed with mean loss 1.2873098044097422
+2020-06-02 02:30:47.522475	Rollout 143 completed with mean loss 1.2708213425427677
+2020-06-02 02:30:56.066902	Rollout 144 completed with mean loss 1.2303333069384101
+2020-06-02 02:31:04.639875	Rollout 145 completed with mean loss 1.204414955899119
+2020-06-02 02:31:13.123025	Rollout 146 completed with mean loss 1.1568284762650727
+2020-06-02 02:31:21.762083	Rollout 147 completed with mean loss 1.1199938662350177
+2020-06-02 02:31:30.275019	Rollout 148 completed with mean loss 1.0737854577600958
+2020-06-02 02:31:38.830278	Rollout 149 completed with mean loss 1.05212199755013
+
+2020-06-02 02:31:38.833657	Evaluation of Greedy policy
+2020-06-02 02:31:38.834628	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:31:40.656557	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 17.50 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 5.14 +/- 1.6 (std.), Median: 6
+                          		States seen: Pr. game: 18.45 +/- 6 (std.), Pr. sec.: 2005.78 +/- 85 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.18 p/m 0.05
+2020-06-02 02:31:40.803336	Updated best net with solve rate 17.50 % at depth [10]
+2020-06-02 02:31:49.241140	Updated learning rate from 7.74e-06 to 7.35e-06
+2020-06-02 02:31:49.243782	Rollout 150 completed with mean loss 1.032386065274477
+2020-06-02 02:31:57.928053	Rollout 151 completed with mean loss 1.022172262743115
+2020-06-02 02:32:06.397563	Rollout 152 completed with mean loss 1.0453290221840144
+2020-06-02 02:32:15.016767	Rollout 153 completed with mean loss 1.0717369093000886
+2020-06-02 02:32:23.510337	Rollout 154 completed with mean loss 1.0818098635971547
+2020-06-02 02:32:32.051939	Rollout 155 completed with mean loss 1.0762967941910027
+2020-06-02 02:32:40.663707	Rollout 156 completed with mean loss 1.1288693500310187
+2020-06-02 02:32:49.174607	Rollout 157 completed with mean loss 1.1371200054883956
+2020-06-02 02:32:57.828609	Rollout 158 completed with mean loss 1.1425011754781005
+2020-06-02 02:33:06.374790	Rollout 159 completed with mean loss 1.174884967654943
+2020-06-02 02:33:14.923789	Rollout 160 completed with mean loss 1.1616900884360082
+2020-06-02 02:33:23.445540	Rollout 161 completed with mean loss 1.1873180598020552
+2020-06-02 02:33:32.040043	Rollout 162 completed with mean loss 1.182406282275915
+2020-06-02 02:33:40.457820	Rollout 163 completed with mean loss 1.149291570186615
+2020-06-02 02:33:49.125814	Rollout 164 completed with mean loss 1.1544071844220167
+2020-06-02 02:33:57.604591	Rollout 165 completed with mean loss 1.131838933229446
+2020-06-02 02:34:06.283014	Rollout 166 completed with mean loss 1.1530555313080546
+2020-06-02 02:34:14.829493	Rollout 167 completed with mean loss 1.1346621759235858
+2020-06-02 02:34:23.439658	Rollout 168 completed with mean loss 1.132335954159498
+2020-06-02 02:34:31.837747	Rollout 169 completed with mean loss 1.161613417267799
+2020-06-02 02:34:40.405502	Rollout 170 completed with mean loss 1.1780117107927797
+2020-06-02 02:34:48.957386	Rollout 171 completed with mean loss 1.1632023003697396
+2020-06-02 02:34:57.398745	Rollout 172 completed with mean loss 1.173750649914145
+2020-06-02 02:35:06.021961	Rollout 173 completed with mean loss 1.144478489756584
+2020-06-02 02:35:14.513459	Rollout 174 completed with mean loss 1.1324789906293153
+
+2020-06-02 02:35:14.516927	Evaluation of Greedy policy
+2020-06-02 02:35:14.517939	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:35:16.406771	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 14.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 6.14 +/- 1.3 (std.), Median: 6
+                          		States seen: Pr. game: 19.23 +/- 5 (std.), Pr. sec.: 2026.74 +/- 54 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.14 p/m 0.05
+2020-06-02 02:35:24.983040	Updated learning rate from 7.35e-06 to 6.98e-06
+2020-06-02 02:35:24.985626	Rollout 175 completed with mean loss 1.1230633284151557
+2020-06-02 02:35:33.359639	Rollout 176 completed with mean loss 1.1464975984394552
+2020-06-02 02:35:41.925322	Rollout 177 completed with mean loss 1.1461076722294092
+2020-06-02 02:35:50.497908	Rollout 178 completed with mean loss 1.1348532924056058
+2020-06-02 02:35:58.902896	Rollout 179 completed with mean loss 1.1157797767221929
+2020-06-02 02:36:07.487975	Rollout 180 completed with mean loss 1.1325818732380866
+2020-06-02 02:36:15.957670	Rollout 181 completed with mean loss 1.1276481702923773
+2020-06-02 02:36:24.556736	Rollout 182 completed with mean loss 1.114576536267996
+2020-06-02 02:36:32.959119	Rollout 183 completed with mean loss 1.1147877079248427
+2020-06-02 02:36:41.661063	Rollout 184 completed with mean loss 1.1372463657706975
+2020-06-02 02:36:50.166966	Rollout 185 completed with mean loss 1.1285330781340597
+2020-06-02 02:36:58.698295	Rollout 186 completed with mean loss 1.129299448803067
+2020-06-02 02:37:07.249051	Rollout 187 completed with mean loss 1.1256463304162028
+2020-06-02 02:37:15.848804	Rollout 188 completed with mean loss 1.132051994949579
+2020-06-02 02:37:24.392623	Rollout 189 completed with mean loss 1.1250549314916136
+2020-06-02 02:37:33.073162	Rollout 190 completed with mean loss 1.1371541257947682
+2020-06-02 02:37:41.524847	Rollout 191 completed with mean loss 1.1487668314576147
+2020-06-02 02:37:50.105791	Rollout 192 completed with mean loss 1.1385731731355189
+2020-06-02 02:37:58.630255	Rollout 193 completed with mean loss 1.181669901907444
+2020-06-02 02:38:07.051154	Rollout 194 completed with mean loss 1.1606120325624945
+2020-06-02 02:38:15.674844	Rollout 195 completed with mean loss 1.1537745670229194
+2020-06-02 02:38:24.268444	Rollout 196 completed with mean loss 1.149326883628964
+2020-06-02 02:38:32.781297	Rollout 197 completed with mean loss 1.136014466881752
+2020-06-02 02:38:41.413903	Rollout 198 completed with mean loss 1.1470426555722952
+2020-06-02 02:38:49.949367	Rollout 199 completed with mean loss 1.1399828451126812
+
+2020-06-02 02:38:49.952595	Evaluation of Greedy policy
+2020-06-02 02:38:49.953563	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:38:51.789005	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 17.50 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 6.11 +/- 1.7 (std.), Median: 6
+                          		States seen: Pr. game: 18.50 +/- 6 (std.), Pr. sec.: 2002.00 +/- 69 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.18 p/m 0.05
+2020-06-02 02:39:00.434886	Updated learning rate from 6.98e-06 to 6.63e-06
+2020-06-02 02:39:00.437743	Rollout 200 completed with mean loss 1.1271395288407802
+2020-06-02 02:39:08.898029	Rollout 201 completed with mean loss 1.13734773799777
+2020-06-02 02:39:17.547990	Rollout 202 completed with mean loss 1.1529616663604976
+2020-06-02 02:39:26.088242	Rollout 203 completed with mean loss 1.1314566094428298
+2020-06-02 02:39:34.702924	Rollout 204 completed with mean loss 1.1188522771745917
+2020-06-02 02:39:43.150453	Rollout 205 completed with mean loss 1.1343102094531055
+2020-06-02 02:39:51.837247	Rollout 206 completed with mean loss 1.1250781060755255
+2020-06-02 02:40:00.323033	Rollout 207 completed with mean loss 1.138395616263151
+2020-06-02 02:40:08.875852	Rollout 208 completed with mean loss 1.1394390024244787
+2020-06-02 02:40:17.342821	Rollout 209 completed with mean loss 1.137861641272903
+2020-06-02 02:40:25.962185	Rollout 210 completed with mean loss 1.1406786892563108
+2020-06-02 02:40:34.395355	Rollout 211 completed with mean loss 1.1626973577588795
+2020-06-02 02:40:42.982613	Rollout 212 completed with mean loss 1.1442313469201324
+2020-06-02 02:40:51.486613	Rollout 213 completed with mean loss 1.1693504156917336
+2020-06-02 02:41:00.089923	Rollout 214 completed with mean loss 1.1580349733680488
+2020-06-02 02:41:08.697978	Rollout 215 completed with mean loss 1.1630109597742557
+2020-06-02 02:41:17.169487	Rollout 216 completed with mean loss 1.1747874128073454
+2020-06-02 02:41:25.772154	Rollout 217 completed with mean loss 1.1566967865824698
+2020-06-02 02:41:34.292553	Rollout 218 completed with mean loss 1.1373397789150475
+2020-06-02 02:41:42.839838	Rollout 219 completed with mean loss 1.1428804954141376
+2020-06-02 02:41:51.377100	Rollout 220 completed with mean loss 1.1389427435398096
+2020-06-02 02:41:59.960354	Rollout 221 completed with mean loss 1.122355626001954
+2020-06-02 02:42:08.452353	Rollout 222 completed with mean loss 1.1051788548380133
+2020-06-02 02:42:17.061043	Rollout 223 completed with mean loss 1.1091508310288192
+2020-06-02 02:42:25.601760	Rollout 224 completed with mean loss 1.0927689577639101
+
+2020-06-02 02:42:25.605280	Evaluation of Greedy policy
+2020-06-02 02:42:25.606018	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:42:27.387120	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 21.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 5.95 +/- 1.2 (std.), Median: 6
+                          		States seen: Pr. game: 17.93 +/- 6 (std.), Pr. sec.: 1995.83 +/- 68 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.21 p/m 0.06
+2020-06-02 02:42:27.532745	Updated best net with solve rate 21.00 % at depth [10]
+2020-06-02 02:42:36.165699	Updated learning rate from 6.63e-06 to 6.30e-06
+2020-06-02 02:42:36.168330	Rollout 225 completed with mean loss 1.1235509985685346
+2020-06-02 02:42:44.655777	Rollout 226 completed with mean loss 1.1413192541897295
+2020-06-02 02:42:53.277434	Rollout 227 completed with mean loss 1.1363121946901082
+2020-06-02 02:43:01.652302	Rollout 228 completed with mean loss 1.156258342936635
+2020-06-02 02:43:10.243731	Rollout 229 completed with mean loss 1.1669985532760618
+2020-06-02 02:43:18.838992	Rollout 230 completed with mean loss 1.186815577372908
+2020-06-02 02:43:27.298206	Rollout 231 completed with mean loss 1.1775642423331736
+2020-06-02 02:43:35.927764	Rollout 232 completed with mean loss 1.186028431281447
+2020-06-02 02:43:44.421781	Rollout 233 completed with mean loss 1.1516664191335437
+2020-06-02 02:43:53.060385	Rollout 234 completed with mean loss 1.1486035204678775
+2020-06-02 02:44:01.510809	Rollout 235 completed with mean loss 1.157807841897011
+2020-06-02 02:44:10.199048	Rollout 236 completed with mean loss 1.1615067134052515
+2020-06-02 02:44:18.767578	Rollout 237 completed with mean loss 1.1472730784863232
+2020-06-02 02:44:27.220268	Rollout 238 completed with mean loss 1.1684608402103183
+2020-06-02 02:44:35.859446	Rollout 239 completed with mean loss 1.1747140397131444
+2020-06-02 02:44:44.357108	Rollout 240 completed with mean loss 1.183950320035219
+2020-06-02 02:44:52.957604	Rollout 241 completed with mean loss 1.1900558793544767
+2020-06-02 02:45:01.406721	Rollout 242 completed with mean loss 1.191430358663201
+2020-06-02 02:45:10.157923	Rollout 243 completed with mean loss 1.1965574342757466
+2020-06-02 02:45:18.636757	Rollout 244 completed with mean loss 1.1785289404541257
+2020-06-02 02:45:27.189543	Rollout 245 completed with mean loss 1.162033767700195
+2020-06-02 02:45:35.718393	Rollout 246 completed with mean loss 1.1292594451457263
+2020-06-02 02:45:44.363485	Rollout 247 completed with mean loss 1.1381597466021776
+2020-06-02 02:45:52.870805	Rollout 248 completed with mean loss 1.1290298973023896
+2020-06-02 02:46:01.519968	Rollout 249 completed with mean loss 1.138153073191643
+
+2020-06-02 02:46:01.523341	Evaluation of Greedy policy
+2020-06-02 02:46:01.524037	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:46:03.231731	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 27.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.37 +/- 1.4 (std.), Median: 6
+                          		States seen: Pr. game: 17.22 +/- 7 (std.), Pr. sec.: 1997.65 +/- 72 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.27 p/m 0.06
+2020-06-02 02:46:03.377740	Updated best net with solve rate 27.00 % at depth [10]
+2020-06-02 02:46:11.855952	Updated learning rate from 6.30e-06 to 5.99e-06
+2020-06-02 02:46:11.858299	Rollout 250 completed with mean loss 1.1347851590812206
+2020-06-02 02:46:20.478469	Rollout 251 completed with mean loss 1.1352489807456732
+2020-06-02 02:46:29.004733	Rollout 252 completed with mean loss 1.1375110871344805
+2020-06-02 02:46:37.560012	Rollout 253 completed with mean loss 1.1489062958210707
+2020-06-02 02:46:46.074997	Rollout 254 completed with mean loss 1.1607991164177656
+2020-06-02 02:46:54.744082	Rollout 255 completed with mean loss 1.176144691109657
+2020-06-02 02:47:03.181318	Rollout 256 completed with mean loss 1.172802010178566
+2020-06-02 02:47:11.814545	Rollout 257 completed with mean loss 1.1882031593471767
+2020-06-02 02:47:20.379017	Rollout 258 completed with mean loss 1.1746272104233502
+2020-06-02 02:47:28.949045	Rollout 259 completed with mean loss 1.195601654574275
+2020-06-02 02:47:37.417469	Rollout 260 completed with mean loss 1.1851387291401623
+2020-06-02 02:47:45.964950	Rollout 261 completed with mean loss 1.1999869629740714
+2020-06-02 02:47:54.537469	Rollout 262 completed with mean loss 1.2015970190614462
+2020-06-02 02:48:03.114911	Rollout 263 completed with mean loss 1.1827191580086949
+2020-06-02 02:48:11.593537	Rollout 264 completed with mean loss 1.1789452560245988
+2020-06-02 02:48:20.160900	Rollout 265 completed with mean loss 1.1731778054684399
+2020-06-02 02:48:28.634215	Rollout 266 completed with mean loss 1.1750828002393243
+2020-06-02 02:48:37.275133	Rollout 267 completed with mean loss 1.177931208238006
+2020-06-02 02:48:45.765443	Rollout 268 completed with mean loss 1.1758142405748366
+2020-06-02 02:48:54.381921	Rollout 269 completed with mean loss 1.1646348169445992
+2020-06-02 02:49:02.893268	Rollout 270 completed with mean loss 1.1421852853149177
+2020-06-02 02:49:11.503482	Rollout 271 completed with mean loss 1.1634356549382208
+2020-06-02 02:49:19.953036	Rollout 272 completed with mean loss 1.1770951727032664
+2020-06-02 02:49:28.622849	Rollout 273 completed with mean loss 1.1776365073025228
+2020-06-02 02:49:37.219128	Rollout 274 completed with mean loss 1.16654331214726
+
+2020-06-02 02:49:37.222639	Evaluation of Greedy policy
+2020-06-02 02:49:37.223490	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:49:38.922493	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 27.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.11 +/- 1.4 (std.), Median: 6
+                          		States seen: Pr. game: 17.00 +/- 7 (std.), Pr. sec.: 1979.45 +/- 78 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.27 p/m 0.06
+2020-06-02 02:49:47.428662	Updated learning rate from 5.99e-06 to 5.69e-06
+2020-06-02 02:49:47.431222	Rollout 275 completed with mean loss 1.1782124307751658
+2020-06-02 02:49:56.028909	Rollout 276 completed with mean loss 1.1606743185222146
+2020-06-02 02:50:04.491685	Rollout 277 completed with mean loss 1.1603620953112843
+2020-06-02 02:50:13.035662	Rollout 278 completed with mean loss 1.1583658933639525
+2020-06-02 02:50:21.569539	Rollout 279 completed with mean loss 1.1690227641165256
+2020-06-02 02:50:30.199553	Rollout 280 completed with mean loss 1.159636636301875
+2020-06-02 02:50:38.667603	Rollout 281 completed with mean loss 1.1880825998634097
+2020-06-02 02:50:47.277076	Rollout 282 completed with mean loss 1.1772967772185798
+2020-06-02 02:50:55.693928	Rollout 283 completed with mean loss 1.2000946442782878
+2020-06-02 02:51:04.325351	Rollout 284 completed with mean loss 1.1837358175963164
+2020-06-02 02:51:12.786599	Rollout 285 completed with mean loss 1.2048427660018204
+2020-06-02 02:51:21.475887	Rollout 286 completed with mean loss 1.2121184019744398
+2020-06-02 02:51:29.856188	Rollout 287 completed with mean loss 1.1844361343979837
+2020-06-02 02:51:38.375933	Rollout 288 completed with mean loss 1.2075479292869562
+2020-06-02 02:51:47.006791	Rollout 289 completed with mean loss 1.1858886450529098
+2020-06-02 02:51:55.458661	Rollout 290 completed with mean loss 1.1658716609328983
+2020-06-02 02:52:04.106892	Rollout 291 completed with mean loss 1.1707846167683604
+2020-06-02 02:52:12.598901	Rollout 292 completed with mean loss 1.1635629616677763
+2020-06-02 02:52:21.205968	Rollout 293 completed with mean loss 1.1628050206601621
+2020-06-02 02:52:29.623428	Rollout 294 completed with mean loss 1.178557036817074
+2020-06-02 02:52:38.231255	Rollout 295 completed with mean loss 1.1813763872534042
+2020-06-02 02:52:46.792108	Rollout 296 completed with mean loss 1.1669820217043165
+2020-06-02 02:52:55.308368	Rollout 297 completed with mean loss 1.1564746822416785
+2020-06-02 02:53:04.010289	Rollout 298 completed with mean loss 1.184485132098198
+2020-06-02 02:53:12.542823	Rollout 299 completed with mean loss 1.1832301294803624
+
+2020-06-02 02:53:12.546685	Evaluation of Greedy policy
+2020-06-02 02:53:12.547542	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:53:14.232916	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 29.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.83 +/- 1.9 (std.), Median: 8
+                          		States seen: Pr. game: 17.09 +/- 7 (std.), Pr. sec.: 2011.27 +/- 65 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.29 p/m 0.06
+2020-06-02 02:53:14.378553	Updated best net with solve rate 29.00 % at depth [10]
+2020-06-02 02:53:23.033482	Updated learning rate from 5.69e-06 to 5.40e-06
+2020-06-02 02:53:23.035967	Rollout 300 completed with mean loss 1.1669309425354009
+2020-06-02 02:53:31.444483	Rollout 301 completed with mean loss 1.1758482188731434
+2020-06-02 02:53:40.129743	Rollout 302 completed with mean loss 1.1748327998816972
+2020-06-02 02:53:48.583112	Rollout 303 completed with mean loss 1.1760656902194022
+2020-06-02 02:53:57.117548	Rollout 304 completed with mean loss 1.1698011733591558
+2020-06-02 02:54:05.658338	Rollout 305 completed with mean loss 1.188200457468629
+2020-06-02 02:54:14.260424	Rollout 306 completed with mean loss 1.1819856385886667
+2020-06-02 02:54:22.783931	Rollout 307 completed with mean loss 1.1904931673407555
+2020-06-02 02:54:31.463668	Rollout 308 completed with mean loss 1.183233098164201
+2020-06-02 02:54:39.949399	Rollout 309 completed with mean loss 1.17831193625927
+2020-06-02 02:54:48.521579	Rollout 310 completed with mean loss 1.1707572803646324
+2020-06-02 02:54:56.978216	Rollout 311 completed with mean loss 1.1350258338451389
+2020-06-02 02:55:05.473817	Rollout 312 completed with mean loss 1.1505889888107776
+2020-06-02 02:55:14.029397	Rollout 313 completed with mean loss 1.1601822420954704
+2020-06-02 02:55:22.659455	Rollout 314 completed with mean loss 1.1582204397767781
+2020-06-02 02:55:31.197505	Rollout 315 completed with mean loss 1.165404754579067
+2020-06-02 02:55:39.797334	Rollout 316 completed with mean loss 1.1818062055110932
+2020-06-02 02:55:48.306529	Rollout 317 completed with mean loss 1.1933003329485652
+2020-06-02 02:55:56.803856	Rollout 318 completed with mean loss 1.1929784518480295
+2020-06-02 02:56:05.356656	Rollout 319 completed with mean loss 1.1963278537988664
+2020-06-02 02:56:13.996706	Rollout 320 completed with mean loss 1.1875230583548548
+2020-06-02 02:56:22.483823	Rollout 321 completed with mean loss 1.1924288753420111
+2020-06-02 02:56:31.158762	Rollout 322 completed with mean loss 1.1871420320868495
+2020-06-02 02:56:39.673337	Rollout 323 completed with mean loss 1.1990948191285136
+2020-06-02 02:56:48.316647	Rollout 324 completed with mean loss 1.1841483999043705
+
+2020-06-02 02:56:48.319846	Evaluation of Greedy policy
+2020-06-02 02:56:48.320578	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 02:56:49.988599	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 30.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.50 +/- 1.8 (std.), Median: 6
+                          		States seen: Pr. game: 16.89 +/- 7 (std.), Pr. sec.: 2003.02 +/- 74 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.30 p/m 0.06
+2020-06-02 02:56:50.135567	Updated best net with solve rate 30.00 % at depth [10]
+2020-06-02 02:56:58.651737	Updated learning rate from 5.40e-06 to 5.13e-06
+2020-06-02 02:56:58.654855	Rollout 325 completed with mean loss 1.180095794498921
+2020-06-02 02:57:07.173131	Rollout 326 completed with mean loss 1.170948126912117
+2020-06-02 02:57:15.618068	Rollout 327 completed with mean loss 1.141969943717122
+2020-06-02 02:57:24.240514	Rollout 328 completed with mean loss 1.1588827867805955
+2020-06-02 02:57:32.739852	Rollout 329 completed with mean loss 1.1759015501290562
+2020-06-02 02:57:41.356882	Rollout 330 completed with mean loss 1.1771183278411625
+2020-06-02 02:57:49.863918	Rollout 331 completed with mean loss 1.1915336442738773
+2020-06-02 02:57:58.491905	Rollout 332 completed with mean loss 1.1878390739113094
+2020-06-02 02:58:07.142943	Rollout 333 completed with mean loss 1.1991959404200319
+2020-06-02 02:58:15.663888	Rollout 334 completed with mean loss 1.1807852157950398
+2020-06-02 02:58:24.296134	Rollout 335 completed with mean loss 1.1766257688403128
+2020-06-02 02:58:32.767850	Rollout 336 completed with mean loss 1.197186474502087
+2020-06-02 02:58:41.311748	Rollout 337 completed with mean loss 1.1955826259404416
+2020-06-02 02:58:49.934860	Rollout 338 completed with mean loss 1.2052836617082363
+2020-06-02 02:58:58.557828	Rollout 339 completed with mean loss 1.1953786072134969
+2020-06-02 02:59:06.953715	Rollout 340 completed with mean loss 1.2029895573109386
+2020-06-02 02:59:15.591599	Rollout 341 completed with mean loss 1.1986919558048252
+2020-06-02 02:59:24.100977	Rollout 342 completed with mean loss 1.1807807315140961
+2020-06-02 02:59:32.790309	Rollout 343 completed with mean loss 1.1817701369523999
+2020-06-02 02:59:41.308063	Rollout 344 completed with mean loss 1.176872886046767
+2020-06-02 02:59:49.979894	Rollout 345 completed with mean loss 1.1654424879699943
+2020-06-02 02:59:58.465300	Rollout 346 completed with mean loss 1.1828639820963145
+2020-06-02 03:00:07.043059	Rollout 347 completed with mean loss 1.1751719267666343
+2020-06-02 03:00:15.679267	Rollout 348 completed with mean loss 1.1832434249669315
+2020-06-02 03:00:24.173079	Rollout 349 completed with mean loss 1.1816076789796355
+
+2020-06-02 03:00:24.176450	Evaluation of Greedy policy
+2020-06-02 03:00:24.177209	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:00:25.812588	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 32.00 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.56 +/- 1.7 (std.), Median: 6
+                          		States seen: Pr. game: 16.45 +/- 7 (std.), Pr. sec.: 1990.62 +/- 73 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.32 p/m 0.06
+2020-06-02 03:00:25.959318	Updated best net with solve rate 32.00 % at depth [10]
+2020-06-02 03:00:34.651344	Updated learning rate from 5.13e-06 to 4.88e-06
+2020-06-02 03:00:34.654247	Rollout 350 completed with mean loss 1.1665288034081458
+2020-06-02 03:00:43.175296	Rollout 351 completed with mean loss 1.1698761084675793
+2020-06-02 03:00:51.811395	Rollout 352 completed with mean loss 1.1681470303237433
+2020-06-02 03:01:00.301027	Rollout 353 completed with mean loss 1.1841479541361335
+2020-06-02 03:01:08.870110	Rollout 354 completed with mean loss 1.1923069170117377
+2020-06-02 03:01:17.406755	Rollout 355 completed with mean loss 1.1863288956135511
+2020-06-02 03:01:25.939493	Rollout 356 completed with mean loss 1.1727514086663722
+2020-06-02 03:01:34.584652	Rollout 357 completed with mean loss 1.1641945619881149
+2020-06-02 03:01:43.065249	Rollout 358 completed with mean loss 1.1524139428883795
+2020-06-02 03:01:51.675426	Rollout 359 completed with mean loss 1.1689694555848835
+2020-06-02 03:02:00.127248	Rollout 360 completed with mean loss 1.1640353569388386
+2020-06-02 03:02:08.726255	Rollout 361 completed with mean loss 1.152099433615804
+2020-06-02 03:02:17.223975	Rollout 362 completed with mean loss 1.1752493821829553
+2020-06-02 03:02:25.797224	Rollout 363 completed with mean loss 1.170751438811422
+2020-06-02 03:02:34.382312	Rollout 364 completed with mean loss 1.1725531960278748
+2020-06-02 03:02:43.022238	Rollout 365 completed with mean loss 1.1819680539518593
+2020-06-02 03:02:51.479259	Rollout 366 completed with mean loss 1.178520831093192
+2020-06-02 03:03:00.093965	Rollout 367 completed with mean loss 1.1787457778304813
+2020-06-02 03:03:08.634178	Rollout 368 completed with mean loss 1.1636456401646138
+2020-06-02 03:03:17.261463	Rollout 369 completed with mean loss 1.1486549057811501
+2020-06-02 03:03:25.785640	Rollout 370 completed with mean loss 1.172325770482421
+2020-06-02 03:03:34.240759	Rollout 371 completed with mean loss 1.1732503871619702
+2020-06-02 03:03:42.805156	Rollout 372 completed with mean loss 1.1992711608111861
+2020-06-02 03:03:51.377132	Rollout 373 completed with mean loss 1.1969658315181737
+2020-06-02 03:03:59.827440	Rollout 374 completed with mean loss 1.214223881438375
+
+2020-06-02 03:03:59.830909	Evaluation of Greedy policy
+2020-06-02 03:03:59.831618	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:04:01.497250	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 30.50 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.52 +/- 1.5 (std.), Median: 6
+                          		States seen: Pr. game: 16.84 +/- 7 (std.), Pr. sec.: 2001.94 +/- 71 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.30 p/m 0.06
+2020-06-02 03:04:10.213509	Updated learning rate from 4.88e-06 to 4.63e-06
+2020-06-02 03:04:10.216038	Rollout 375 completed with mean loss 1.2266057749092578
+2020-06-02 03:04:18.713124	Rollout 376 completed with mean loss 1.2128478980809452
+2020-06-02 03:04:27.338408	Rollout 377 completed with mean loss 1.1721763393282887
+2020-06-02 03:04:35.782461	Rollout 378 completed with mean loss 1.1886019641160965
+2020-06-02 03:04:44.460286	Rollout 379 completed with mean loss 1.168347495794296
+2020-06-02 03:04:52.917815	Rollout 380 completed with mean loss 1.1802987542748449
+2020-06-02 03:05:01.563272	Rollout 381 completed with mean loss 1.1731161284446716
+2020-06-02 03:05:10.111738	Rollout 382 completed with mean loss 1.1736580668389793
+2020-06-02 03:05:18.696395	Rollout 383 completed with mean loss 1.1740975875407456
+2020-06-02 03:05:27.247654	Rollout 384 completed with mean loss 1.1796489182114602
+2020-06-02 03:05:35.854532	Rollout 385 completed with mean loss 1.1635083925724028
+2020-06-02 03:05:44.330521	Rollout 386 completed with mean loss 1.1588728653639553
+2020-06-02 03:05:52.905928	Rollout 387 completed with mean loss 1.1567250684648755
+2020-06-02 03:06:01.378559	Rollout 388 completed with mean loss 1.1659624211490154
+2020-06-02 03:06:09.996566	Rollout 389 completed with mean loss 1.1685148815065622
+2020-06-02 03:06:18.477144	Rollout 390 completed with mean loss 1.162758138254285
+2020-06-02 03:06:27.028522	Rollout 391 completed with mean loss 1.180654434710741
+2020-06-02 03:06:35.633806	Rollout 392 completed with mean loss 1.1465683668851854
+2020-06-02 03:06:44.133293	Rollout 393 completed with mean loss 1.1670598535239691
+2020-06-02 03:06:52.763748	Rollout 394 completed with mean loss 1.1528581266105173
+2020-06-02 03:07:01.306946	Rollout 395 completed with mean loss 1.1595503391325477
+2020-06-02 03:07:09.871688	Rollout 396 completed with mean loss 1.1719882988184693
+2020-06-02 03:07:18.482328	Rollout 397 completed with mean loss 1.1756952511519192
+2020-06-02 03:07:27.063762	Rollout 398 completed with mean loss 1.1643384464085103
+2020-06-02 03:07:35.529837	Rollout 399 completed with mean loss 1.1759411149472
+
+2020-06-02 03:07:35.533024	Evaluation of Greedy policy
+2020-06-02 03:07:35.533784	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:07:37.170210	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 33.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.82 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 16.66 +/- 7 (std.), Pr. sec.: 2016.86 +/- 77 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.33 p/m 0.07
+2020-06-02 03:07:37.315935	Updated best net with solve rate 33.00 % at depth [10]
+2020-06-02 03:07:46.018559	Updated learning rate from 4.63e-06 to 4.40e-06
+2020-06-02 03:07:46.021123	Rollout 400 completed with mean loss 1.1890829482674596
+2020-06-02 03:07:54.485624	Rollout 401 completed with mean loss 1.1755138339102267
+2020-06-02 03:08:03.082620	Rollout 402 completed with mean loss 1.1759303646534685
+2020-06-02 03:08:11.544374	Rollout 403 completed with mean loss 1.1795664254575968
+2020-06-02 03:08:20.189924	Rollout 404 completed with mean loss 1.1378558506071568
+2020-06-02 03:08:28.668973	Rollout 405 completed with mean loss 1.1484231162816287
+2020-06-02 03:08:37.205783	Rollout 406 completed with mean loss 1.1746387262642384
+2020-06-02 03:08:45.819513	Rollout 407 completed with mean loss 1.1737451380491255
+2020-06-02 03:08:54.239650	Rollout 408 completed with mean loss 1.143617484495044
+2020-06-02 03:09:02.794718	Rollout 409 completed with mean loss 1.1762216928601266
+2020-06-02 03:09:11.311781	Rollout 410 completed with mean loss 1.1889858689159154
+2020-06-02 03:09:19.959296	Rollout 411 completed with mean loss 1.2023119302839038
+2020-06-02 03:09:28.414625	Rollout 412 completed with mean loss 1.1797580627351998
+2020-06-02 03:09:37.045173	Rollout 413 completed with mean loss 1.1869806098192928
+2020-06-02 03:09:45.658520	Rollout 414 completed with mean loss 1.1904766920208927
+2020-06-02 03:09:54.101125	Rollout 415 completed with mean loss 1.197846867516637
+2020-06-02 03:10:02.749982	Rollout 416 completed with mean loss 1.1895697455853225
+2020-06-02 03:10:11.238866	Rollout 417 completed with mean loss 1.1871160516142845
+2020-06-02 03:10:19.803919	Rollout 418 completed with mean loss 1.2002138802409166
+2020-06-02 03:10:28.258226	Rollout 419 completed with mean loss 1.1845910981297492
+2020-06-02 03:10:36.926624	Rollout 420 completed with mean loss 1.1596405548602344
+2020-06-02 03:10:45.417275	Rollout 421 completed with mean loss 1.1664177122712134
+2020-06-02 03:10:53.955729	Rollout 422 completed with mean loss 1.164422511532902
+2020-06-02 03:11:02.529177	Rollout 423 completed with mean loss 1.134763092473149
+2020-06-02 03:11:11.044984	Rollout 424 completed with mean loss 1.1634815230965618
+
+2020-06-02 03:11:11.048759	Evaluation of Greedy policy
+2020-06-02 03:11:11.049601	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:11:12.679163	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 34.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.24 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 16.60 +/- 7 (std.), Pr. sec.: 2021.49 +/- 75 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.34 p/m 0.07
+2020-06-02 03:11:12.824861	Updated best net with solve rate 34.00 % at depth [10]
+2020-06-02 03:11:21.324613	Updated learning rate from 4.40e-06 to 4.18e-06
+2020-06-02 03:11:21.326929	Rollout 425 completed with mean loss 1.1627147483825684
+2020-06-02 03:11:29.880509	Rollout 426 completed with mean loss 1.1662385974824427
+2020-06-02 03:11:38.382600	Rollout 427 completed with mean loss 1.1671954680234196
+2020-06-02 03:11:47.023584	Rollout 428 completed with mean loss 1.1708143886923792
+2020-06-02 03:11:55.444724	Rollout 429 completed with mean loss 1.1736608403176072
+2020-06-02 03:12:03.905791	Rollout 430 completed with mean loss 1.1822175885736943
+2020-06-02 03:12:12.432776	Rollout 431 completed with mean loss 1.1810133784264323
+2020-06-02 03:12:21.007396	Rollout 432 completed with mean loss 1.1714809063822034
+2020-06-02 03:12:29.410625	Rollout 433 completed with mean loss 1.1767998336255547
+2020-06-02 03:12:37.995075	Rollout 434 completed with mean loss 1.167980189174414
+2020-06-02 03:12:46.456428	Rollout 435 completed with mean loss 1.1692318820208314
+2020-06-02 03:12:55.004625	Rollout 436 completed with mean loss 1.1828053446114062
+2020-06-02 03:13:03.450620	Rollout 437 completed with mean loss 1.1889390674978497
+2020-06-02 03:13:12.127033	Rollout 438 completed with mean loss 1.184714888855815
+2020-06-02 03:13:20.614830	Rollout 439 completed with mean loss 1.1861277323961255
+2020-06-02 03:13:29.221463	Rollout 440 completed with mean loss 1.1870663037151097
+2020-06-02 03:13:37.734476	Rollout 441 completed with mean loss 1.184696224704385
+2020-06-02 03:13:46.337745	Rollout 442 completed with mean loss 1.1909823524951937
+2020-06-02 03:13:54.806915	Rollout 443 completed with mean loss 1.181997569799423
+2020-06-02 03:14:03.367597	Rollout 444 completed with mean loss 1.1738266845047471
+2020-06-02 03:14:11.890773	Rollout 445 completed with mean loss 1.163927677348256
+2020-06-02 03:14:20.546431	Rollout 446 completed with mean loss 1.1587317506968977
+2020-06-02 03:14:29.058086	Rollout 447 completed with mean loss 1.1698732836544512
+2020-06-02 03:14:37.694136	Rollout 448 completed with mean loss 1.164322560876608
+2020-06-02 03:14:46.203751	Rollout 449 completed with mean loss 1.1653325542807582
+
+2020-06-02 03:14:46.207021	Evaluation of Greedy policy
+2020-06-02 03:14:46.207800	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:14:47.784748	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 37.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.81 +/- 1.7 (std.), Median: 6
+                          		States seen: Pr. game: 15.99 +/- 7 (std.), Pr. sec.: 2003.91 +/- 73 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.37 p/m 0.07
+2020-06-02 03:14:47.929317	Updated best net with solve rate 37.00 % at depth [10]
+2020-06-02 03:14:56.514090	Updated learning rate from 4.18e-06 to 3.97e-06
+2020-06-02 03:14:56.516712	Rollout 450 completed with mean loss 1.1632589094340802
+2020-06-02 03:15:05.081205	Rollout 451 completed with mean loss 1.183242432028055
+2020-06-02 03:15:13.542244	Rollout 452 completed with mean loss 1.1500954603403806
+2020-06-02 03:15:22.071865	Rollout 453 completed with mean loss 1.1681386521458625
+2020-06-02 03:15:30.548650	Rollout 454 completed with mean loss 1.1653482253849508
+2020-06-02 03:15:39.105164	Rollout 455 completed with mean loss 1.1658447974175212
+2020-06-02 03:15:47.595204	Rollout 456 completed with mean loss 1.175128673017024
+2020-06-02 03:15:56.194813	Rollout 457 completed with mean loss 1.1646388030052184
+2020-06-02 03:16:04.615169	Rollout 458 completed with mean loss 1.1717057568579914
+2020-06-02 03:16:13.237609	Rollout 459 completed with mean loss 1.1771861050277947
+2020-06-02 03:16:21.675927	Rollout 460 completed with mean loss 1.171415716558695
+2020-06-02 03:16:30.335062	Rollout 461 completed with mean loss 1.1647176653146742
+2020-06-02 03:16:38.827724	Rollout 462 completed with mean loss 1.1600408985465762
+2020-06-02 03:16:47.459334	Rollout 463 completed with mean loss 1.1595575505495075
+2020-06-02 03:16:55.852745	Rollout 464 completed with mean loss 1.1466540575027468
+2020-06-02 03:17:04.419212	Rollout 465 completed with mean loss 1.1693836519122125
+2020-06-02 03:17:13.027176	Rollout 466 completed with mean loss 1.1655611383169888
+2020-06-02 03:17:21.511140	Rollout 467 completed with mean loss 1.1659790014475586
+2020-06-02 03:17:30.207705	Rollout 468 completed with mean loss 1.1711785510927437
+2020-06-02 03:17:38.736639	Rollout 469 completed with mean loss 1.1789651501923804
+2020-06-02 03:17:47.407369	Rollout 470 completed with mean loss 1.1616749159246686
+2020-06-02 03:17:55.830311	Rollout 471 completed with mean loss 1.1584809841960664
+2020-06-02 03:18:04.448571	Rollout 472 completed with mean loss 1.1642118107527493
+2020-06-02 03:18:13.063931	Rollout 473 completed with mean loss 1.1525120203197003
+2020-06-02 03:18:21.599004	Rollout 474 completed with mean loss 1.1524959183484316
+
+2020-06-02 03:18:21.602409	Evaluation of Greedy policy
+2020-06-02 03:18:21.603073	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:18:23.156056	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 38.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.88 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 15.71 +/- 7 (std.), Pr. sec.: 2001.89 +/- 64 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.38 p/m 0.07
+2020-06-02 03:18:23.301785	Updated best net with solve rate 38.50 % at depth [10]
+2020-06-02 03:18:31.941887	Updated learning rate from 3.97e-06 to 3.77e-06
+2020-06-02 03:18:31.944297	Rollout 475 completed with mean loss 1.155972145274281
+2020-06-02 03:18:40.361503	Rollout 476 completed with mean loss 1.1598792882263667
+2020-06-02 03:18:49.021256	Rollout 477 completed with mean loss 1.1423277872800828
+2020-06-02 03:18:57.493323	Rollout 478 completed with mean loss 1.140566059276462
+2020-06-02 03:19:06.064789	Rollout 479 completed with mean loss 1.1591578791290522
+2020-06-02 03:19:14.599274	Rollout 480 completed with mean loss 1.1535555207729342
+2020-06-02 03:19:23.146513	Rollout 481 completed with mean loss 1.1400948418676857
+2020-06-02 03:19:31.703722	Rollout 482 completed with mean loss 1.1493391190469262
+2020-06-02 03:19:40.298505	Rollout 483 completed with mean loss 1.1234995520859958
+2020-06-02 03:19:48.811621	Rollout 484 completed with mean loss 1.1419380290806294
+2020-06-02 03:19:57.384113	Rollout 485 completed with mean loss 1.1375018986314533
+2020-06-02 03:20:05.838950	Rollout 486 completed with mean loss 1.1467228920757773
+2020-06-02 03:20:14.496785	Rollout 487 completed with mean loss 1.1499491210281847
+2020-06-02 03:20:22.911523	Rollout 488 completed with mean loss 1.1169966351240872
+2020-06-02 03:20:31.429193	Rollout 489 completed with mean loss 1.1489845020323997
+2020-06-02 03:20:40.005554	Rollout 490 completed with mean loss 1.1501635815203195
+2020-06-02 03:20:48.675357	Rollout 491 completed with mean loss 1.15508822388947
+2020-06-02 03:20:57.133827	Rollout 492 completed with mean loss 1.120458446145058
+2020-06-02 03:21:05.779644	Rollout 493 completed with mean loss 1.142213905453682
+2020-06-02 03:21:14.281589	Rollout 494 completed with mean loss 1.141032429784537
+2020-06-02 03:21:22.873690	Rollout 495 completed with mean loss 1.1380910481512547
+2020-06-02 03:21:31.360886	Rollout 496 completed with mean loss 1.1409418611228466
+2020-06-02 03:21:39.957501	Rollout 497 completed with mean loss 1.1440968001633878
+2020-06-02 03:21:48.460747	Rollout 498 completed with mean loss 1.1483145355433222
+2020-06-02 03:21:57.040460	Rollout 499 completed with mean loss 1.1491868345439433
+
+2020-06-02 03:21:57.044005	Evaluation of Greedy policy
+2020-06-02 03:21:57.045026	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:21:58.675321	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 31.50 % +/- 6 % (approx. 95 % CI)
+                          		Turns to win: 6.32 +/- 1.7 (std.), Median: 6
+                          		States seen: Pr. game: 16.58 +/- 7 (std.), Pr. sec.: 2011.28 +/- 70 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.31 p/m 0.06
+2020-06-02 03:22:07.204876	Updated learning rate from 3.77e-06 to 3.58e-06
+2020-06-02 03:22:07.207950	Rollout 500 completed with mean loss 1.1661007411032918
+2020-06-02 03:22:15.830769	Rollout 501 completed with mean loss 1.1329568313062188
+2020-06-02 03:22:24.274927	Rollout 502 completed with mean loss 1.1395189347118135
+2020-06-02 03:22:32.781564	Rollout 503 completed with mean loss 1.1392340023815635
+2020-06-02 03:22:41.299629	Rollout 504 completed with mean loss 1.1711951440572739
+2020-06-02 03:22:49.884812	Rollout 505 completed with mean loss 1.1658393490314485
+2020-06-02 03:22:58.412426	Rollout 506 completed with mean loss 1.163303353413939
+2020-06-02 03:23:06.976675	Rollout 507 completed with mean loss 1.1653479459881781
+2020-06-02 03:23:15.407867	Rollout 508 completed with mean loss 1.161021118611097
+2020-06-02 03:23:23.949589	Rollout 509 completed with mean loss 1.162163850143552
+2020-06-02 03:23:32.580837	Rollout 510 completed with mean loss 1.1603143707662824
+2020-06-02 03:23:41.112096	Rollout 511 completed with mean loss 1.1493625561892986
+2020-06-02 03:23:49.764226	Rollout 512 completed with mean loss 1.1538950677961108
+2020-06-02 03:23:58.257206	Rollout 513 completed with mean loss 1.158733613267541
+2020-06-02 03:24:06.782914	Rollout 514 completed with mean loss 1.1660741664469243
+2020-06-02 03:24:15.307854	Rollout 515 completed with mean loss 1.158702816441655
+2020-06-02 03:24:23.803597	Rollout 516 completed with mean loss 1.1450205469876527
+2020-06-02 03:24:32.253259	Rollout 517 completed with mean loss 1.160818782821297
+2020-06-02 03:24:40.946171	Rollout 518 completed with mean loss 1.1455098659545184
+2020-06-02 03:24:49.449121	Rollout 519 completed with mean loss 1.1412664067000151
+2020-06-02 03:24:58.090568	Rollout 520 completed with mean loss 1.1386348269879822
+2020-06-02 03:25:06.570065	Rollout 521 completed with mean loss 1.1405391729623082
+2020-06-02 03:25:15.150917	Rollout 522 completed with mean loss 1.1363448542356491
+2020-06-02 03:25:23.560344	Rollout 523 completed with mean loss 1.1461550246924164
+2020-06-02 03:25:32.097693	Rollout 524 completed with mean loss 1.1534398978948597
+
+2020-06-02 03:25:32.101538	Evaluation of Greedy policy
+2020-06-02 03:25:32.102405	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:25:33.598425	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 43.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.97 +/- 1.7 (std.), Median: 8
+                          		States seen: Pr. game: 15.06 +/- 7 (std.), Pr. sec.: 1988.51 +/- 70 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.44 p/m 0.07
+2020-06-02 03:25:33.742391	Updated best net with solve rate 43.50 % at depth [10]
+2020-06-02 03:25:42.381449	Updated learning rate from 3.58e-06 to 3.41e-06
+2020-06-02 03:25:42.384038	Rollout 525 completed with mean loss 1.132856985926628
+2020-06-02 03:25:50.832245	Rollout 526 completed with mean loss 1.1163932690024374
+2020-06-02 03:25:59.470922	Rollout 527 completed with mean loss 1.1499871345609427
+2020-06-02 03:26:07.991072	Rollout 528 completed with mean loss 1.139787015989423
+2020-06-02 03:26:16.616472	Rollout 529 completed with mean loss 1.1378710932284593
+2020-06-02 03:26:25.029363	Rollout 530 completed with mean loss 1.1403391829133036
+2020-06-02 03:26:33.595372	Rollout 531 completed with mean loss 1.1287585414201025
+2020-06-02 03:26:42.189377	Rollout 532 completed with mean loss 1.1333113621920345
+2020-06-02 03:26:50.671469	Rollout 533 completed with mean loss 1.130662999972701
+2020-06-02 03:26:59.289678	Rollout 534 completed with mean loss 1.1151938309520484
+2020-06-02 03:27:07.733980	Rollout 535 completed with mean loss 1.1340267237275836
+2020-06-02 03:27:16.276309	Rollout 536 completed with mean loss 1.1302693241089583
+2020-06-02 03:27:24.687802	Rollout 537 completed with mean loss 1.126310339644551
+2020-06-02 03:27:33.310264	Rollout 538 completed with mean loss 1.1297088950872416
+2020-06-02 03:27:41.774390	Rollout 539 completed with mean loss 1.1136543603241444
+2020-06-02 03:27:50.233710	Rollout 540 completed with mean loss 1.1342753458023072
+2020-06-02 03:27:58.857700	Rollout 541 completed with mean loss 1.1398303086310624
+2020-06-02 03:28:07.478713	Rollout 542 completed with mean loss 1.1067683078348636
+2020-06-02 03:28:15.993407	Rollout 543 completed with mean loss 1.1350359846651552
+2020-06-02 03:28:24.654509	Rollout 544 completed with mean loss 1.130350938439369
+2020-06-02 03:28:33.181803	Rollout 545 completed with mean loss 1.1427990249544382
+2020-06-02 03:28:41.806407	Rollout 546 completed with mean loss 1.132133549079299
+2020-06-02 03:28:50.343577	Rollout 547 completed with mean loss 1.1428850615769621
+2020-06-02 03:28:58.889623	Rollout 548 completed with mean loss 1.1463707465678452
+2020-06-02 03:29:07.424666	Rollout 549 completed with mean loss 1.1441395886987444
+
+2020-06-02 03:29:07.428275	Evaluation of Greedy policy
+2020-06-02 03:29:07.429010	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:29:08.989424	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 38.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.66 +/- 2.0 (std.), Median: 6
+                          		States seen: Pr. game: 15.81 +/- 7 (std.), Pr. sec.: 2001.05 +/- 79 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.38 p/m 0.07
+2020-06-02 03:29:17.617138	Updated learning rate from 3.41e-06 to 3.24e-06
+2020-06-02 03:29:17.619491	Rollout 550 completed with mean loss 1.142998840510845
+2020-06-02 03:29:26.056133	Rollout 551 completed with mean loss 1.1407566367089748
+2020-06-02 03:29:34.683245	Rollout 552 completed with mean loss 1.1678027468919756
+2020-06-02 03:29:43.220191	Rollout 553 completed with mean loss 1.1645926968008287
+2020-06-02 03:29:51.856430	Rollout 554 completed with mean loss 1.159023944288492
+2020-06-02 03:30:00.390708	Rollout 555 completed with mean loss 1.161374523118138
+2020-06-02 03:30:09.036986	Rollout 556 completed with mean loss 1.1412938851118084
+2020-06-02 03:30:17.552658	Rollout 557 completed with mean loss 1.1467862252891066
+2020-06-02 03:30:26.133852	Rollout 558 completed with mean loss 1.1287805548310277
+2020-06-02 03:30:34.606739	Rollout 559 completed with mean loss 1.1321568801999096
+2020-06-02 03:30:43.253540	Rollout 560 completed with mean loss 1.137532241344452
+2020-06-02 03:30:51.748715	Rollout 561 completed with mean loss 1.1283919444680217
+2020-06-02 03:31:00.405368	Rollout 562 completed with mean loss 1.1104388959705829
+2020-06-02 03:31:08.882628	Rollout 563 completed with mean loss 1.1326492239534858
+2020-06-02 03:31:17.494895	Rollout 564 completed with mean loss 1.1408255566656589
+2020-06-02 03:31:25.957496	Rollout 565 completed with mean loss 1.1403111606091259
+2020-06-02 03:31:34.615965	Rollout 566 completed with mean loss 1.1349196186661723
+2020-06-02 03:31:43.171540	Rollout 567 completed with mean loss 1.1005485757440325
+2020-06-02 03:31:51.750522	Rollout 568 completed with mean loss 1.1297997412830592
+2020-06-02 03:32:00.374377	Rollout 569 completed with mean loss 1.1263936518877748
+2020-06-02 03:32:08.912789	Rollout 570 completed with mean loss 1.122102804854512
+2020-06-02 03:32:17.488598	Rollout 571 completed with mean loss 1.1236837560683492
+2020-06-02 03:32:26.057379	Rollout 572 completed with mean loss 1.1286937563121318
+2020-06-02 03:32:34.616187	Rollout 573 completed with mean loss 1.1260009802132844
+2020-06-02 03:32:43.139159	Rollout 574 completed with mean loss 1.133719419836998
+
+2020-06-02 03:32:43.142883	Evaluation of Greedy policy
+2020-06-02 03:32:43.143560	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:32:44.712626	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 38.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.00 +/- 1.6 (std.), Median: 6
+                          		States seen: Pr. game: 15.79 +/- 7 (std.), Pr. sec.: 1993.25 +/- 66 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.38 p/m 0.07
+2020-06-02 03:32:53.334585	Updated learning rate from 3.24e-06 to 3.07e-06
+2020-06-02 03:32:53.336836	Rollout 575 completed with mean loss 1.1415482276678088
+2020-06-02 03:33:01.762126	Rollout 576 completed with mean loss 1.1408883357048034
+2020-06-02 03:33:10.391532	Rollout 577 completed with mean loss 1.1486150748282666
+2020-06-02 03:33:18.874432	Rollout 578 completed with mean loss 1.1116831041127442
+2020-06-02 03:33:27.524254	Rollout 579 completed with mean loss 1.1411013083904982
+2020-06-02 03:33:36.089126	Rollout 580 completed with mean loss 1.0989136099070307
+2020-06-02 03:33:44.753199	Rollout 581 completed with mean loss 1.1239133038371798
+2020-06-02 03:33:53.192804	Rollout 582 completed with mean loss 1.131378941908479
+2020-06-02 03:34:01.799346	Rollout 583 completed with mean loss 1.1316740554571154
+2020-06-02 03:34:10.463057	Rollout 584 completed with mean loss 1.1364818912744525
+2020-06-02 03:34:18.944062	Rollout 585 completed with mean loss 1.1208765474706888
+2020-06-02 03:34:27.518025	Rollout 586 completed with mean loss 1.1399449931830166
+2020-06-02 03:34:36.035741	Rollout 587 completed with mean loss 1.1363966788351534
+2020-06-02 03:34:44.672211	Rollout 588 completed with mean loss 1.1110452225059269
+2020-06-02 03:34:53.068981	Rollout 589 completed with mean loss 1.1230994477868081
+2020-06-02 03:35:01.672842	Rollout 590 completed with mean loss 1.1367383848130703
+2020-06-02 03:35:10.375640	Rollout 591 completed with mean loss 1.12265628695488
+2020-06-02 03:35:18.851561	Rollout 592 completed with mean loss 1.124071039184928
+2020-06-02 03:35:27.526133	Rollout 593 completed with mean loss 1.125982995256782
+2020-06-02 03:35:35.978695	Rollout 594 completed with mean loss 1.1237673830240968
+2020-06-02 03:35:44.628666	Rollout 595 completed with mean loss 1.1298212865740056
+2020-06-02 03:35:53.074055	Rollout 596 completed with mean loss 1.1264968790858987
+2020-06-02 03:36:01.730085	Rollout 597 completed with mean loss 1.1091625014692543
+2020-06-02 03:36:10.261496	Rollout 598 completed with mean loss 1.1057431187480684
+2020-06-02 03:36:18.810979	Rollout 599 completed with mean loss 1.139641304090619
+
+2020-06-02 03:36:18.814211	Evaluation of Greedy policy
+2020-06-02 03:36:18.814928	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:36:20.343295	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 40.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.69 +/- 1.8 (std.), Median: 6
+                          		States seen: Pr. game: 15.35 +/- 7 (std.), Pr. sec.: 1982.11 +/- 85 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.40 p/m 0.07
+2020-06-02 03:36:28.963769	Updated learning rate from 3.07e-06 to 2.92e-06
+2020-06-02 03:36:28.966554	Rollout 600 completed with mean loss 1.1283180174231529
+2020-06-02 03:36:37.593688	Rollout 601 completed with mean loss 1.1400044452399016
+2020-06-02 03:36:46.060294	Rollout 602 completed with mean loss 1.1186918346583845
+2020-06-02 03:36:54.653237	Rollout 603 completed with mean loss 1.1426009316742423
+2020-06-02 03:37:03.170225	Rollout 604 completed with mean loss 1.1344451659917827
+2020-06-02 03:37:11.829642	Rollout 605 completed with mean loss 1.116146928966046
+2020-06-02 03:37:20.378455	Rollout 606 completed with mean loss 1.1323636325448754
+2020-06-02 03:37:28.960160	Rollout 607 completed with mean loss 1.134217627942562
+2020-06-02 03:37:37.517550	Rollout 608 completed with mean loss 1.1432013009488584
+2020-06-02 03:37:46.085335	Rollout 609 completed with mean loss 1.1392933607101439
+2020-06-02 03:37:54.568630	Rollout 610 completed with mean loss 1.1267330255359407
+2020-06-02 03:38:03.214223	Rollout 611 completed with mean loss 1.1371678192168475
+2020-06-02 03:38:11.763721	Rollout 612 completed with mean loss 1.1300322774052622
+2020-06-02 03:38:20.355014	Rollout 613 completed with mean loss 1.127892937362194
+2020-06-02 03:38:28.842097	Rollout 614 completed with mean loss 1.1029213590919975
+2020-06-02 03:38:37.452794	Rollout 615 completed with mean loss 1.139194786772132
+2020-06-02 03:38:46.009862	Rollout 616 completed with mean loss 1.1192754120379693
+2020-06-02 03:38:54.552032	Rollout 617 completed with mean loss 1.1284910599887368
+2020-06-02 03:39:03.028105	Rollout 618 completed with mean loss 1.1128364187479018
+2020-06-02 03:39:11.633575	Rollout 619 completed with mean loss 1.1251670999825003
+2020-06-02 03:39:20.130593	Rollout 620 completed with mean loss 1.1295513413101437
+2020-06-02 03:39:28.740983	Rollout 621 completed with mean loss 1.0880614703148601
+2020-06-02 03:39:37.223694	Rollout 622 completed with mean loss 1.1264951818436386
+2020-06-02 03:39:45.805872	Rollout 623 completed with mean loss 1.1126432407647378
+2020-06-02 03:39:54.244752	Rollout 624 completed with mean loss 1.1207210443168876
+
+2020-06-02 03:39:54.248418	Evaluation of Greedy policy
+2020-06-02 03:39:54.249156	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:39:55.771417	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 42.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.02 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 15.34 +/- 7 (std.), Pr. sec.: 1988.84 +/- 82 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.42 p/m 0.07
+2020-06-02 03:40:04.404128	Updated learning rate from 2.92e-06 to 2.77e-06
+2020-06-02 03:40:04.406655	Rollout 625 completed with mean loss 1.131401159837842
+2020-06-02 03:40:12.895363	Rollout 626 completed with mean loss 1.1167930144816638
+2020-06-02 03:40:21.407771	Rollout 627 completed with mean loss 1.1266414358466863
+2020-06-02 03:40:29.972013	Rollout 628 completed with mean loss 1.1245987363904715
+2020-06-02 03:40:38.456504	Rollout 629 completed with mean loss 1.1399631500244143
+2020-06-02 03:40:46.977613	Rollout 630 completed with mean loss 1.1402941050380466
+2020-06-02 03:40:55.476853	Rollout 631 completed with mean loss 1.1393273148685696
+2020-06-02 03:41:04.001816	Rollout 632 completed with mean loss 1.1464299466460943
+2020-06-02 03:41:12.601813	Rollout 633 completed with mean loss 1.1509670159220697
+2020-06-02 03:41:21.148006	Rollout 634 completed with mean loss 1.1275983099639415
+2020-06-02 03:41:29.590804	Rollout 635 completed with mean loss 1.1250833187997338
+2020-06-02 03:41:38.241291	Rollout 636 completed with mean loss 1.1389945873618126
+2020-06-02 03:41:46.750621	Rollout 637 completed with mean loss 1.1233028389513493
+2020-06-02 03:41:55.390189	Rollout 638 completed with mean loss 1.133964708223939
+2020-06-02 03:42:03.922306	Rollout 639 completed with mean loss 1.101434042453766
+2020-06-02 03:42:12.557627	Rollout 640 completed with mean loss 1.1194029504805802
+2020-06-02 03:42:21.011708	Rollout 641 completed with mean loss 1.1160522232949732
+2020-06-02 03:42:29.619057	Rollout 642 completed with mean loss 1.124828058928251
+2020-06-02 03:42:38.126409	Rollout 643 completed with mean loss 1.1009623140096663
+2020-06-02 03:42:46.575799	Rollout 644 completed with mean loss 1.1058492408692833
+2020-06-02 03:42:55.213478	Rollout 645 completed with mean loss 1.114701629132032
+2020-06-02 03:43:03.746728	Rollout 646 completed with mean loss 1.1169240358471866
+2020-06-02 03:43:12.347202	Rollout 647 completed with mean loss 1.11375661611557
+2020-06-02 03:43:20.813422	Rollout 648 completed with mean loss 1.1149577966332438
+2020-06-02 03:43:29.433279	Rollout 649 completed with mean loss 1.1102460001409054
+
+2020-06-02 03:43:29.436496	Evaluation of Greedy policy
+2020-06-02 03:43:29.437238	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:43:30.938282	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 43.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.88 +/- 2.1 (std.), Median: 7
+                          		States seen: Pr. game: 15.13 +/- 7 (std.), Pr. sec.: 1989.75 +/- 81 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.43 p/m 0.07
+2020-06-02 03:43:39.565698	Updated learning rate from 2.77e-06 to 2.64e-06
+2020-06-02 03:43:39.568261	Rollout 650 completed with mean loss 1.099356485977769
+2020-06-02 03:43:48.006877	Rollout 651 completed with mean loss 1.1117588044703004
+2020-06-02 03:43:56.693849	Rollout 652 completed with mean loss 1.1225625131279233
+2020-06-02 03:44:05.185344	Rollout 653 completed with mean loss 1.0791980043798681
+2020-06-02 03:44:13.840754	Rollout 654 completed with mean loss 1.1036919330805537
+2020-06-02 03:44:22.278909	Rollout 655 completed with mean loss 1.1272415916621685
+2020-06-02 03:44:30.963420	Rollout 656 completed with mean loss 1.1117609594017268
+2020-06-02 03:44:39.420751	Rollout 657 completed with mean loss 1.0844730436801904
+2020-06-02 03:44:47.931609	Rollout 658 completed with mean loss 1.1413047158718104
+2020-06-02 03:44:56.573547	Rollout 659 completed with mean loss 1.1116559708863498
+2020-06-02 03:45:05.147889	Rollout 660 completed with mean loss 1.1302546089142562
+2020-06-02 03:45:13.639816	Rollout 661 completed with mean loss 1.1134043511003249
+2020-06-02 03:45:22.281642	Rollout 662 completed with mean loss 1.1260522724688056
+2020-06-02 03:45:30.776819	Rollout 663 completed with mean loss 1.1211400000005958
+2020-06-02 03:45:39.308866	Rollout 664 completed with mean loss 1.1329156816750763
+2020-06-02 03:45:47.825589	Rollout 665 completed with mean loss 1.1259647476673127
+2020-06-02 03:45:56.391993	Rollout 666 completed with mean loss 1.1264790914952756
+2020-06-02 03:46:05.019719	Rollout 667 completed with mean loss 1.1306052935868502
+2020-06-02 03:46:13.696104	Rollout 668 completed with mean loss 1.0973900913447143
+2020-06-02 03:46:22.170852	Rollout 669 completed with mean loss 1.1131318001449113
+2020-06-02 03:46:30.805263	Rollout 670 completed with mean loss 1.1106776807457204
+2020-06-02 03:46:39.285165	Rollout 671 completed with mean loss 1.0993359524756672
+2020-06-02 03:46:47.903663	Rollout 672 completed with mean loss 1.1112542711198328
+2020-06-02 03:46:56.409140	Rollout 673 completed with mean loss 1.117365274950862
+2020-06-02 03:47:04.993110	Rollout 674 completed with mean loss 1.1157750030606985
+
+2020-06-02 03:47:04.997055	Evaluation of Greedy policy
+2020-06-02 03:47:04.997851	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:47:06.535155	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 40.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.78 +/- 2.0 (std.), Median: 6
+                          		States seen: Pr. game: 15.44 +/- 7 (std.), Pr. sec.: 1980.88 +/- 86 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.40 p/m 0.07
+2020-06-02 03:47:15.062193	Updated learning rate from 2.64e-06 to 2.50e-06
+2020-06-02 03:47:15.064529	Rollout 675 completed with mean loss 1.117557885572314
+2020-06-02 03:47:23.599891	Rollout 676 completed with mean loss 1.104243362545967
+2020-06-02 03:47:32.131940	Rollout 677 completed with mean loss 1.1020271821320053
+2020-06-02 03:47:40.776562	Rollout 678 completed with mean loss 1.1049300903826949
+2020-06-02 03:47:49.248580	Rollout 679 completed with mean loss 1.107991771697998
+2020-06-02 03:47:57.948961	Rollout 680 completed with mean loss 1.1086732656508684
+2020-06-02 03:48:06.434432	Rollout 681 completed with mean loss 1.1088496372103687
+2020-06-02 03:48:15.114298	Rollout 682 completed with mean loss 1.102019352689386
+2020-06-02 03:48:23.642078	Rollout 683 completed with mean loss 1.099299714267254
+2020-06-02 03:48:32.187917	Rollout 684 completed with mean loss 1.0921916507184506
+2020-06-02 03:48:40.606307	Rollout 685 completed with mean loss 1.0909158191084858
+2020-06-02 03:48:49.229156	Rollout 686 completed with mean loss 1.0687398833036423
+2020-06-02 03:48:57.887049	Rollout 687 completed with mean loss 1.0925453783571721
+2020-06-02 03:49:06.371381	Rollout 688 completed with mean loss 1.0901529064029456
+2020-06-02 03:49:14.999631	Rollout 689 completed with mean loss 1.0709787632524963
+2020-06-02 03:49:23.483385	Rollout 690 completed with mean loss 1.0903997305035595
+2020-06-02 03:49:31.943788	Rollout 691 completed with mean loss 1.0954611273854973
+2020-06-02 03:49:40.474173	Rollout 692 completed with mean loss 1.0986646089702845
+2020-06-02 03:49:49.115305	Rollout 693 completed with mean loss 1.1032344222813846
+2020-06-02 03:49:57.562703	Rollout 694 completed with mean loss 1.0984544751793146
+2020-06-02 03:50:06.160421	Rollout 695 completed with mean loss 1.110912118703127
+2020-06-02 03:50:14.630027	Rollout 696 completed with mean loss 1.0982085160166024
+2020-06-02 03:50:23.280670	Rollout 697 completed with mean loss 1.0793829575926068
+2020-06-02 03:50:31.842559	Rollout 698 completed with mean loss 1.1159100868552918
+2020-06-02 03:50:40.442947	Rollout 699 completed with mean loss 1.1089439719170333
+
+2020-06-02 03:50:40.446351	Evaluation of Greedy policy
+2020-06-02 03:50:40.447043	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:50:41.913911	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 44.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.65 +/- 1.7 (std.), Median: 6
+                          		States seen: Pr. game: 14.87 +/- 7 (std.), Pr. sec.: 1999.62 +/- 79 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.45 p/m 0.07
+2020-06-02 03:50:42.062534	Updated best net with solve rate 44.50 % at depth [10]
+2020-06-02 03:50:50.464166	Updated learning rate from 2.50e-06 to 2.38e-06
+2020-06-02 03:50:50.466727	Rollout 700 completed with mean loss 1.093057496920228
+2020-06-02 03:50:59.112382	Rollout 701 completed with mean loss 1.1263903838396072
+2020-06-02 03:51:07.653418	Rollout 702 completed with mean loss 1.1083319874107838
+2020-06-02 03:51:16.117877	Rollout 703 completed with mean loss 1.1052750054746867
+2020-06-02 03:51:24.728559	Rollout 704 completed with mean loss 1.1084497893601657
+2020-06-02 03:51:33.149788	Rollout 705 completed with mean loss 1.1095060551911595
+2020-06-02 03:51:41.723131	Rollout 706 completed with mean loss 1.1198672913759946
+2020-06-02 03:51:50.109413	Rollout 707 completed with mean loss 1.1025682573020457
+2020-06-02 03:51:58.633939	Rollout 708 completed with mean loss 1.1201189418137072
+2020-06-02 03:52:07.236241	Rollout 709 completed with mean loss 1.1107341389358043
+2020-06-02 03:52:15.748119	Rollout 710 completed with mean loss 1.0935446420311927
+2020-06-02 03:52:24.402713	Rollout 711 completed with mean loss 1.0668462923914195
+2020-06-02 03:52:32.935123	Rollout 712 completed with mean loss 1.1020842393487695
+2020-06-02 03:52:41.609610	Rollout 713 completed with mean loss 1.097613318860531
+2020-06-02 03:52:50.048076	Rollout 714 completed with mean loss 1.1252053342014552
+2020-06-02 03:52:58.647751	Rollout 715 completed with mean loss 1.1075022435933353
+2020-06-02 03:53:07.165978	Rollout 716 completed with mean loss 1.0983616498112678
+2020-06-02 03:53:15.684932	Rollout 717 completed with mean loss 1.1034150541573764
+2020-06-02 03:53:24.213785	Rollout 718 completed with mean loss 1.1074363648891445
+2020-06-02 03:53:32.867319	Rollout 719 completed with mean loss 1.0978117776662113
+2020-06-02 03:53:41.335732	Rollout 720 completed with mean loss 1.0767250709980734
+2020-06-02 03:53:50.027496	Rollout 721 completed with mean loss 1.0986798719316722
+2020-06-02 03:53:58.549865	Rollout 722 completed with mean loss 1.1104522117227318
+2020-06-02 03:54:07.196540	Rollout 723 completed with mean loss 1.1023894633352755
+2020-06-02 03:54:15.708682	Rollout 724 completed with mean loss 1.1110827982425686
+
+2020-06-02 03:54:15.712308	Evaluation of Greedy policy
+2020-06-02 03:54:15.713018	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:54:17.320557	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 35.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.27 +/- 1.8 (std.), Median: 8
+                          		States seen: Pr. game: 16.23 +/- 7 (std.), Pr. sec.: 1999.70 +/- 70 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.36 p/m 0.07
+2020-06-02 03:54:25.800949	Updated learning rate from 2.38e-06 to 2.26e-06
+2020-06-02 03:54:25.803316	Rollout 725 completed with mean loss 1.089897631555795
+2020-06-02 03:54:34.424470	Rollout 726 completed with mean loss 1.0995744394510985
+2020-06-02 03:54:43.068571	Rollout 727 completed with mean loss 1.1193014667183163
+2020-06-02 03:54:51.446562	Rollout 728 completed with mean loss 1.0951441380381584
+2020-06-02 03:55:00.094337	Rollout 729 completed with mean loss 1.0958444156497722
+2020-06-02 03:55:08.579097	Rollout 730 completed with mean loss 1.0957218769192696
+2020-06-02 03:55:17.103228	Rollout 731 completed with mean loss 1.1021771880239253
+2020-06-02 03:55:25.514234	Rollout 732 completed with mean loss 1.0741746297478678
+2020-06-02 03:55:34.207444	Rollout 733 completed with mean loss 1.0880166444182398
+2020-06-02 03:55:42.646748	Rollout 734 completed with mean loss 1.0838346695899959
+2020-06-02 03:55:51.204209	Rollout 735 completed with mean loss 1.0999222132563586
+2020-06-02 03:55:59.691856	Rollout 736 completed with mean loss 1.089449888840318
+2020-06-02 03:56:08.310515	Rollout 737 completed with mean loss 1.0999976626038552
+2020-06-02 03:56:16.841311	Rollout 738 completed with mean loss 1.0986790619045494
+2020-06-02 03:56:25.477884	Rollout 739 completed with mean loss 1.1061432550102472
+2020-06-02 03:56:33.934559	Rollout 740 completed with mean loss 1.08889793664217
+2020-06-02 03:56:42.593907	Rollout 741 completed with mean loss 1.089614173471928
+2020-06-02 03:56:51.097462	Rollout 742 completed with mean loss 1.0901845972985031
+2020-06-02 03:56:59.720251	Rollout 743 completed with mean loss 1.0911793027073153
+2020-06-02 03:57:08.261879	Rollout 744 completed with mean loss 1.1016879300773146
+2020-06-02 03:57:16.945791	Rollout 745 completed with mean loss 1.0936228017508984
+2020-06-02 03:57:25.554689	Rollout 746 completed with mean loss 1.101501145809889
+2020-06-02 03:57:34.046204	Rollout 747 completed with mean loss 1.0933536146581175
+2020-06-02 03:57:42.672779	Rollout 748 completed with mean loss 1.0872237772494555
+2020-06-02 03:57:51.163796	Rollout 749 completed with mean loss 1.1064539808779954
+
+2020-06-02 03:57:51.167131	Evaluation of Greedy policy
+2020-06-02 03:57:51.167839	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 03:57:52.713491	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 40.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.92 +/- 1.6 (std.), Median: 6
+                          		States seen: Pr. game: 15.73 +/- 7 (std.), Pr. sec.: 2010.98 +/- 75 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.40 p/m 0.07
+2020-06-02 03:58:01.317404	Updated learning rate from 2.26e-06 to 2.15e-06
+2020-06-02 03:58:01.320267	Rollout 750 completed with mean loss 1.1014067210257044
+2020-06-02 03:58:09.953936	Rollout 751 completed with mean loss 1.1099592544138435
+2020-06-02 03:58:18.559535	Rollout 752 completed with mean loss 1.1068971300870183
+2020-06-02 03:58:27.007054	Rollout 753 completed with mean loss 1.100171659812331
+2020-06-02 03:58:35.644425	Rollout 754 completed with mean loss 1.1129074830561878
+2020-06-02 03:58:44.113354	Rollout 755 completed with mean loss 1.0927652746438983
+2020-06-02 03:58:52.797295	Rollout 756 completed with mean loss 1.0942520824819806
+2020-06-02 03:59:01.270711	Rollout 757 completed with mean loss 1.0964000688493252
+2020-06-02 03:59:09.901346	Rollout 758 completed with mean loss 1.1064454588294028
+2020-06-02 03:59:18.291796	Rollout 759 completed with mean loss 1.1028392889350656
+2020-06-02 03:59:26.882222	Rollout 760 completed with mean loss 1.1132845166325567
+2020-06-02 03:59:35.565687	Rollout 761 completed with mean loss 1.099704533591866
+2020-06-02 03:59:44.035263	Rollout 762 completed with mean loss 1.099332637935877
+2020-06-02 03:59:52.731868	Rollout 763 completed with mean loss 1.0787623849511148
+2020-06-02 04:00:01.249447	Rollout 764 completed with mean loss 1.101348176971078
+2020-06-02 04:00:09.809010	Rollout 765 completed with mean loss 1.087290640324354
+2020-06-02 04:00:18.232416	Rollout 766 completed with mean loss 1.0859710623323917
+2020-06-02 04:00:26.767714	Rollout 767 completed with mean loss 1.0988456744700672
+2020-06-02 04:00:35.285970	Rollout 768 completed with mean loss 1.0861775778979061
+2020-06-02 04:00:43.775928	Rollout 769 completed with mean loss 1.0900234923511742
+2020-06-02 04:00:52.391227	Rollout 770 completed with mean loss 1.0516877322643994
+2020-06-02 04:01:00.900341	Rollout 771 completed with mean loss 1.0886589888483285
+2020-06-02 04:01:09.556260	Rollout 772 completed with mean loss 1.0956151108443737
+2020-06-02 04:01:18.000541	Rollout 773 completed with mean loss 1.0961157152056697
+2020-06-02 04:01:26.636115	Rollout 774 completed with mean loss 1.101074750572443
+
+2020-06-02 04:01:26.639474	Evaluation of Greedy policy
+2020-06-02 04:01:26.640212	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:01:28.131885	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 43.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.80 +/- 1.8 (std.), Median: 6
+                          		States seen: Pr. game: 14.88 +/- 7 (std.), Pr. sec.: 1968.32 +/- 77 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.44 p/m 0.07
+2020-06-02 04:01:36.628850	Updated learning rate from 2.15e-06 to 2.04e-06
+2020-06-02 04:01:36.631363	Rollout 775 completed with mean loss 1.0550051896274093
+2020-06-02 04:01:45.171239	Rollout 776 completed with mean loss 1.0811203847825526
+2020-06-02 04:01:53.706282	Rollout 777 completed with mean loss 1.1109071736782796
+2020-06-02 04:02:02.286081	Rollout 778 completed with mean loss 1.0707373843342065
+2020-06-02 04:02:10.838584	Rollout 779 completed with mean loss 1.0910715806484226
+2020-06-02 04:02:19.462703	Rollout 780 completed with mean loss 1.0716565239429474
+2020-06-02 04:02:27.957712	Rollout 781 completed with mean loss 1.0982605940103534
+2020-06-02 04:02:36.625112	Rollout 782 completed with mean loss 1.0922905112057923
+2020-06-02 04:02:45.069619	Rollout 783 completed with mean loss 1.1113527273386712
+2020-06-02 04:02:53.613946	Rollout 784 completed with mean loss 1.0976760272681712
+2020-06-02 04:03:02.169028	Rollout 785 completed with mean loss 1.0817337568104266
+2020-06-02 04:03:10.708769	Rollout 786 completed with mean loss 1.059776471927762
+2020-06-02 04:03:19.214357	Rollout 787 completed with mean loss 1.0872818918526173
+2020-06-02 04:03:27.816871	Rollout 788 completed with mean loss 1.0892044746875762
+2020-06-02 04:03:36.309362	Rollout 789 completed with mean loss 1.0926462338864802
+2020-06-02 04:03:44.880093	Rollout 790 completed with mean loss 1.0941786457598213
+2020-06-02 04:03:53.377885	Rollout 791 completed with mean loss 1.092848758175969
+2020-06-02 04:04:02.003535	Rollout 792 completed with mean loss 1.0935401780158285
+2020-06-02 04:04:10.425963	Rollout 793 completed with mean loss 1.0940163957327604
+2020-06-02 04:04:19.044625	Rollout 794 completed with mean loss 1.0921847304701806
+2020-06-02 04:04:27.563373	Rollout 795 completed with mean loss 1.1013448480516677
+2020-06-02 04:04:36.219564	Rollout 796 completed with mean loss 1.081098742410541
+2020-06-02 04:04:44.694445	Rollout 797 completed with mean loss 1.09742490619421
+2020-06-02 04:04:53.287325	Rollout 798 completed with mean loss 1.0901970427483318
+2020-06-02 04:05:01.809278	Rollout 799 completed with mean loss 1.0946591003239157
+
+2020-06-02 04:05:01.812687	Evaluation of Greedy policy
+2020-06-02 04:05:01.813471	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:05:03.356324	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 41.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.34 +/- 1.7 (std.), Median: 8
+                          		States seen: Pr. game: 15.46 +/- 7 (std.), Pr. sec.: 1983.92 +/- 65 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.41 p/m 0.07
+2020-06-02 04:05:11.971623	Updated learning rate from 2.04e-06 to 1.94e-06
+2020-06-02 04:05:11.974288	Rollout 800 completed with mean loss 1.0741110802441833
+2020-06-02 04:05:20.446908	Rollout 801 completed with mean loss 1.0871972265094518
+2020-06-02 04:05:29.095518	Rollout 802 completed with mean loss 1.050912646576762
+2020-06-02 04:05:37.603051	Rollout 803 completed with mean loss 1.0821999769657848
+2020-06-02 04:05:46.182436	Rollout 804 completed with mean loss 1.0795658461004498
+2020-06-02 04:05:54.787900	Rollout 805 completed with mean loss 1.044441998228431
+2020-06-02 04:06:03.292685	Rollout 806 completed with mean loss 1.0740841736644506
+2020-06-02 04:06:11.917084	Rollout 807 completed with mean loss 1.083728936240077
+2020-06-02 04:06:20.446273	Rollout 808 completed with mean loss 1.0408331611752506
+2020-06-02 04:06:28.926735	Rollout 809 completed with mean loss 1.0934899063408374
+2020-06-02 04:06:37.570797	Rollout 810 completed with mean loss 1.0807823904603722
+2020-06-02 04:06:46.201744	Rollout 811 completed with mean loss 1.0811482129245997
+2020-06-02 04:06:54.648280	Rollout 812 completed with mean loss 1.0889718502759935
+2020-06-02 04:07:03.301770	Rollout 813 completed with mean loss 1.1020641342550515
+2020-06-02 04:07:11.698982	Rollout 814 completed with mean loss 1.097712352722883
+2020-06-02 04:07:20.292571	Rollout 815 completed with mean loss 1.0994854412972925
+2020-06-02 04:07:28.781068	Rollout 816 completed with mean loss 1.1055231393128633
+2020-06-02 04:07:37.364521	Rollout 817 completed with mean loss 1.0932011948525904
+2020-06-02 04:07:45.821368	Rollout 818 completed with mean loss 1.081637329608202
+2020-06-02 04:07:54.410547	Rollout 819 completed with mean loss 1.101642835959792
+2020-06-02 04:08:03.006220	Rollout 820 completed with mean loss 1.0916190084069968
+2020-06-02 04:08:11.471155	Rollout 821 completed with mean loss 1.0598392037302253
+2020-06-02 04:08:19.993417	Rollout 822 completed with mean loss 1.0979911339282986
+2020-06-02 04:08:28.469777	Rollout 823 completed with mean loss 1.095492459833622
+2020-06-02 04:08:37.120213	Rollout 824 completed with mean loss 1.0938819465041159
+
+2020-06-02 04:08:37.123685	Evaluation of Greedy policy
+2020-06-02 04:08:37.124437	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:08:38.568721	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 46.50 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.75 +/- 1.8 (std.), Median: 6
+                          		States seen: Pr. game: 14.72 +/- 8 (std.), Pr. sec.: 2012.66 +/- 72 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.46 p/m 0.07
+2020-06-02 04:08:38.715050	Updated best net with solve rate 46.50 % at depth [10]
+2020-06-02 04:08:47.154646	Updated learning rate from 1.94e-06 to 1.84e-06
+2020-06-02 04:08:47.157089	Rollout 825 completed with mean loss 1.1046339526772502
+2020-06-02 04:08:55.684561	Rollout 826 completed with mean loss 1.0847392366081474
+2020-06-02 04:09:04.311565	Rollout 827 completed with mean loss 1.0503289272636174
+2020-06-02 04:09:12.798959	Rollout 828 completed with mean loss 1.0865042399615046
+2020-06-02 04:09:21.357473	Rollout 829 completed with mean loss 1.086790575608611
+2020-06-02 04:09:29.805254	Rollout 830 completed with mean loss 1.0970270593464373
+2020-06-02 04:09:38.462230	Rollout 831 completed with mean loss 1.0935397490859031
+2020-06-02 04:09:46.868490	Rollout 832 completed with mean loss 1.090746631473303
+2020-06-02 04:09:55.512342	Rollout 833 completed with mean loss 1.0935830871015788
+2020-06-02 04:10:04.091860	Rollout 834 completed with mean loss 1.0766251885890958
+2020-06-02 04:10:12.622908	Rollout 835 completed with mean loss 1.0578423515707247
+2020-06-02 04:10:21.244704	Rollout 836 completed with mean loss 1.0876850920915604
+2020-06-02 04:10:29.900974	Rollout 837 completed with mean loss 1.061040428504348
+2020-06-02 04:10:38.390446	Rollout 838 completed with mean loss 1.091097014248371
+2020-06-02 04:10:47.048650	Rollout 839 completed with mean loss 1.0755628726631403
+2020-06-02 04:10:55.549762	Rollout 840 completed with mean loss 1.097067659795284
+2020-06-02 04:11:04.124672	Rollout 841 completed with mean loss 1.0931948705762624
+2020-06-02 04:11:12.661647	Rollout 842 completed with mean loss 1.0819458829611541
+2020-06-02 04:11:21.225948	Rollout 843 completed with mean loss 1.086446544229984
+2020-06-02 04:11:29.806511	Rollout 844 completed with mean loss 1.0532942841202022
+2020-06-02 04:11:38.414083	Rollout 845 completed with mean loss 1.0918395557999614
+2020-06-02 04:11:46.910270	Rollout 846 completed with mean loss 1.0840248830616472
+2020-06-02 04:11:55.658921	Rollout 847 completed with mean loss 1.0816978097707033
+2020-06-02 04:12:04.144151	Rollout 848 completed with mean loss 1.0927000897377728
+2020-06-02 04:12:12.761233	Rollout 849 completed with mean loss 1.07819049179554
+
+2020-06-02 04:12:12.764581	Evaluation of Greedy policy
+2020-06-02 04:12:12.765291	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:12:14.211669	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 47.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.96 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 14.51 +/- 7 (std.), Pr. sec.: 1980.75 +/- 76 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.47 p/m 0.07
+2020-06-02 04:12:14.358253	Updated best net with solve rate 47.00 % at depth [10]
+2020-06-02 04:12:22.883403	Updated learning rate from 1.84e-06 to 1.75e-06
+2020-06-02 04:12:22.886127	Rollout 850 completed with mean loss 1.0875280756503345
+2020-06-02 04:12:31.552864	Rollout 851 completed with mean loss 1.085138213932514
+2020-06-02 04:12:40.042117	Rollout 852 completed with mean loss 1.103167234733701
+2020-06-02 04:12:48.629625	Rollout 853 completed with mean loss 1.0776019102334975
+2020-06-02 04:12:57.184984	Rollout 854 completed with mean loss 1.0989746651798487
+2020-06-02 04:13:05.731853	Rollout 855 completed with mean loss 1.0979961968213323
+2020-06-02 04:13:14.207370	Rollout 856 completed with mean loss 1.0986196053773165
+2020-06-02 04:13:22.841687	Rollout 857 completed with mean loss 1.0949857313930986
+2020-06-02 04:13:31.352202	Rollout 858 completed with mean loss 1.0439015154540536
+2020-06-02 04:13:40.045668	Rollout 859 completed with mean loss 1.0739087447524074
+2020-06-02 04:13:48.536405	Rollout 860 completed with mean loss 1.0845037497580046
+2020-06-02 04:13:57.119434	Rollout 861 completed with mean loss 1.0646754583716398
+2020-06-02 04:14:05.634920	Rollout 862 completed with mean loss 1.0830535203963518
+2020-06-02 04:14:14.247599	Rollout 863 completed with mean loss 1.0945192739367484
+2020-06-02 04:14:22.867971	Rollout 864 completed with mean loss 1.051651395708323
+2020-06-02 04:14:31.369904	Rollout 865 completed with mean loss 1.0989701861888177
+2020-06-02 04:14:39.998650	Rollout 866 completed with mean loss 1.0525777529180051
+2020-06-02 04:14:48.549938	Rollout 867 completed with mean loss 1.0785283458232877
+2020-06-02 04:14:57.114343	Rollout 868 completed with mean loss 1.0914861719310283
+2020-06-02 04:15:05.749019	Rollout 869 completed with mean loss 1.0716156610846521
+2020-06-02 04:15:14.372616	Rollout 870 completed with mean loss 1.10164373382926
+2020-06-02 04:15:22.879838	Rollout 871 completed with mean loss 1.0969948633015154
+2020-06-02 04:15:31.495977	Rollout 872 completed with mean loss 1.088245935365558
+2020-06-02 04:15:39.978669	Rollout 873 completed with mean loss 1.0911888202279802
+2020-06-02 04:15:48.563466	Rollout 874 completed with mean loss 1.0672313971817495
+
+2020-06-02 04:15:48.566673	Evaluation of Greedy policy
+2020-06-02 04:15:48.567381	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:15:50.036941	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 45.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.91 +/- 2.0 (std.), Median: 8
+                          		States seen: Pr. game: 14.69 +/- 7 (std.), Pr. sec.: 1971.74 +/- 78 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.45 p/m 0.07
+2020-06-02 04:15:58.605574	Updated learning rate from 1.75e-06 to 1.66e-06
+2020-06-02 04:15:58.608029	Rollout 875 completed with mean loss 1.0864078924804925
+2020-06-02 04:16:07.242309	Rollout 876 completed with mean loss 1.086251264065504
+2020-06-02 04:16:15.715842	Rollout 877 completed with mean loss 1.0749195088446137
+2020-06-02 04:16:24.332134	Rollout 878 completed with mean loss 1.0918378060311082
+2020-06-02 04:16:32.987112	Rollout 879 completed with mean loss 1.074863164126873
+2020-06-02 04:16:41.443092	Rollout 880 completed with mean loss 1.0657031762599949
+2020-06-02 04:16:50.055325	Rollout 881 completed with mean loss 1.087327345609665
+2020-06-02 04:16:58.533788	Rollout 882 completed with mean loss 1.0851216116547588
+2020-06-02 04:17:07.171304	Rollout 883 completed with mean loss 1.076243072897196
+2020-06-02 04:17:15.616345	Rollout 884 completed with mean loss 1.0803210743516687
+2020-06-02 04:17:24.096068	Rollout 885 completed with mean loss 1.0833854119479656
+2020-06-02 04:17:32.662745	Rollout 886 completed with mean loss 1.0463885888457303
+2020-06-02 04:17:41.130590	Rollout 887 completed with mean loss 1.0831608401238915
+2020-06-02 04:17:49.689712	Rollout 888 completed with mean loss 1.080005601793528
+2020-06-02 04:17:58.183167	Rollout 889 completed with mean loss 1.0469662010669707
+2020-06-02 04:18:06.827775	Rollout 890 completed with mean loss 1.0818385995924475
+2020-06-02 04:18:15.292223	Rollout 891 completed with mean loss 1.095217993184924
+2020-06-02 04:18:23.987025	Rollout 892 completed with mean loss 1.087188626602292
+2020-06-02 04:18:32.488189	Rollout 893 completed with mean loss 1.0736697638034818
+2020-06-02 04:18:41.009911	Rollout 894 completed with mean loss 1.0463447081297639
+2020-06-02 04:18:49.566026	Rollout 895 completed with mean loss 1.099190204814077
+2020-06-02 04:18:58.063290	Rollout 896 completed with mean loss 1.0955500747263431
+2020-06-02 04:19:06.556635	Rollout 897 completed with mean loss 1.074218183234334
+2020-06-02 04:19:15.228317	Rollout 898 completed with mean loss 1.0409657230973244
+2020-06-02 04:19:23.683919	Rollout 899 completed with mean loss 1.0434019107371573
+
+2020-06-02 04:19:23.687389	Evaluation of Greedy policy
+2020-06-02 04:19:23.688118	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:19:25.156467	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 45.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.84 +/- 2.0 (std.), Median: 6
+                          		States seen: Pr. game: 14.67 +/- 7 (std.), Pr. sec.: 1969.38 +/- 81 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.45 p/m 0.07
+2020-06-02 04:19:33.729316	Updated learning rate from 1.66e-06 to 1.58e-06
+2020-06-02 04:19:33.731752	Rollout 900 completed with mean loss 1.0847224966436626
+2020-06-02 04:19:42.230702	Rollout 901 completed with mean loss 1.0834123325347902
+2020-06-02 04:19:50.808962	Rollout 902 completed with mean loss 1.0921417003870006
+2020-06-02 04:19:59.390677	Rollout 903 completed with mean loss 1.0751814081519842
+2020-06-02 04:20:08.019953	Rollout 904 completed with mean loss 1.0725739805400376
+2020-06-02 04:20:16.531183	Rollout 905 completed with mean loss 1.1050591361522673
+2020-06-02 04:20:25.084036	Rollout 906 completed with mean loss 1.0791460097581154
+2020-06-02 04:20:33.580810	Rollout 907 completed with mean loss 1.073432045355439
+2020-06-02 04:20:42.216199	Rollout 908 completed with mean loss 1.0879660781472922
+2020-06-02 04:20:50.669700	Rollout 909 completed with mean loss 1.0780881022661923
+2020-06-02 04:20:59.281220	Rollout 910 completed with mean loss 1.0911656411737207
+2020-06-02 04:21:07.801234	Rollout 911 completed with mean loss 1.0469296636432408
+2020-06-02 04:21:16.396433	Rollout 912 completed with mean loss 1.0773248938471078
+2020-06-02 04:21:24.883654	Rollout 913 completed with mean loss 1.0785493207722907
+2020-06-02 04:21:33.569986	Rollout 914 completed with mean loss 1.077142808809877
+2020-06-02 04:21:42.124145	Rollout 915 completed with mean loss 1.0822010345757007
+2020-06-02 04:21:50.716045	Rollout 916 completed with mean loss 1.0899273431301117
+2020-06-02 04:21:59.159075	Rollout 917 completed with mean loss 1.076193621903658
+2020-06-02 04:22:07.787554	Rollout 918 completed with mean loss 1.0794627057760953
+2020-06-02 04:22:16.307234	Rollout 919 completed with mean loss 1.0499996940046552
+2020-06-02 04:22:25.016602	Rollout 920 completed with mean loss 1.0851523108035324
+2020-06-02 04:22:33.547184	Rollout 921 completed with mean loss 1.068594801351428
+2020-06-02 04:22:42.082569	Rollout 922 completed with mean loss 1.1026769890636205
+2020-06-02 04:22:50.619588	Rollout 923 completed with mean loss 1.1059893836826085
+2020-06-02 04:22:59.098378	Rollout 924 completed with mean loss 1.0976251555234195
+
+2020-06-02 04:22:59.101916	Evaluation of Greedy policy
+2020-06-02 04:22:59.102648	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:23:00.483691	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 51.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.73 +/- 1.9 (std.), Median: 6
+                          		States seen: Pr. game: 13.89 +/- 7 (std.), Pr. sec.: 1982.76 +/- 83 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.51 p/m 0.07
+2020-06-02 04:23:00.631042	Updated best net with solve rate 51.00 % at depth [10]
+2020-06-02 04:23:09.297551	Updated learning rate from 1.58e-06 to 1.50e-06
+2020-06-02 04:23:09.300054	Rollout 925 completed with mean loss 1.087482535839081
+2020-06-02 04:23:17.798928	Rollout 926 completed with mean loss 1.058773562014103
+2020-06-02 04:23:26.290624	Rollout 927 completed with mean loss 1.0846185787022116
+2020-06-02 04:23:34.854035	Rollout 928 completed with mean loss 1.056110945940018
+2020-06-02 04:23:43.562835	Rollout 929 completed with mean loss 1.0409819254279133
+2020-06-02 04:23:51.999079	Rollout 930 completed with mean loss 1.0896073284000156
+2020-06-02 04:24:00.588766	Rollout 931 completed with mean loss 1.0888961870968343
+2020-06-02 04:24:09.110938	Rollout 932 completed with mean loss 1.085314916148782
+2020-06-02 04:24:17.764393	Rollout 933 completed with mean loss 1.0875467529147862
+2020-06-02 04:24:26.297206	Rollout 934 completed with mean loss 1.0985247058421377
+2020-06-02 04:24:34.925851	Rollout 935 completed with mean loss 1.0883075900375845
+2020-06-02 04:24:43.364614	Rollout 936 completed with mean loss 1.1065527165681128
+2020-06-02 04:24:51.920985	Rollout 937 completed with mean loss 1.0801151345670224
+2020-06-02 04:25:00.455176	Rollout 938 completed with mean loss 1.0835164637118582
+2020-06-02 04:25:08.905393	Rollout 939 completed with mean loss 1.0417096136510373
+2020-06-02 04:25:17.576597	Rollout 940 completed with mean loss 1.0767145748436453
+2020-06-02 04:25:25.997211	Rollout 941 completed with mean loss 1.0318807680159805
+2020-06-02 04:25:34.547648	Rollout 942 completed with mean loss 1.0390660528838633
+2020-06-02 04:25:42.991364	Rollout 943 completed with mean loss 1.065088676139712
+2020-06-02 04:25:51.568678	Rollout 944 completed with mean loss 1.0970847567170856
+2020-06-02 04:26:00.189576	Rollout 945 completed with mean loss 1.08503870472312
+2020-06-02 04:26:08.668274	Rollout 946 completed with mean loss 1.0805866733938454
+2020-06-02 04:26:17.343062	Rollout 947 completed with mean loss 1.082857863456011
+2020-06-02 04:26:25.817670	Rollout 948 completed with mean loss 1.0688409640640013
+2020-06-02 04:26:34.442232	Rollout 949 completed with mean loss 1.0789778746664527
+
+2020-06-02 04:26:34.445431	Evaluation of Greedy policy
+2020-06-02 04:26:34.446194	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:26:35.850235	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 50.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 6.98 +/- 1.7 (std.), Median: 7
+                          		States seen: Pr. game: 14.19 +/- 7 (std.), Pr. sec.: 1993.97 +/- 81 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.50 p/m 0.07
+2020-06-02 04:26:44.289785	Updated learning rate from 1.50e-06 to 1.42e-06
+2020-06-02 04:26:44.292294	Rollout 950 completed with mean loss 1.0800804535299542
+2020-06-02 04:26:52.958576	Rollout 951 completed with mean loss 1.0929054547846315
+2020-06-02 04:27:01.458543	Rollout 952 completed with mean loss 1.035531564205885
+2020-06-02 04:27:09.937414	Rollout 953 completed with mean loss 1.032477061673999
+2020-06-02 04:27:18.490211	Rollout 954 completed with mean loss 1.0365824503451586
+2020-06-02 04:27:27.137813	Rollout 955 completed with mean loss 1.0889040970057247
+2020-06-02 04:27:35.601983	Rollout 956 completed with mean loss 1.0705264905095098
+2020-06-02 04:27:44.240616	Rollout 957 completed with mean loss 1.0696514736860991
+2020-06-02 04:27:52.708022	Rollout 958 completed with mean loss 1.0379382250458005
+2020-06-02 04:28:01.341415	Rollout 959 completed with mean loss 1.0920797739922998
+2020-06-02 04:28:09.866363	Rollout 960 completed with mean loss 1.0828996601700782
+2020-06-02 04:28:18.404176	Rollout 961 completed with mean loss 1.0956431385874745
+2020-06-02 04:28:26.972183	Rollout 962 completed with mean loss 1.0705482545495029
+2020-06-02 04:28:35.601515	Rollout 963 completed with mean loss 1.083453752025962
+2020-06-02 04:28:44.105806	Rollout 964 completed with mean loss 1.0892727592587472
+2020-06-02 04:28:52.701312	Rollout 965 completed with mean loss 1.0866558972746134
+2020-06-02 04:29:01.210639	Rollout 966 completed with mean loss 1.070192717015743
+2020-06-02 04:29:09.867333	Rollout 967 completed with mean loss 1.0862925214320418
+2020-06-02 04:29:18.393340	Rollout 968 completed with mean loss 1.0642471748590472
+2020-06-02 04:29:26.963220	Rollout 969 completed with mean loss 1.0618734899908304
+2020-06-02 04:29:35.480904	Rollout 970 completed with mean loss 1.098880732655525
+2020-06-02 04:29:43.994455	Rollout 971 completed with mean loss 1.0945895708352327
+2020-06-02 04:29:52.476075	Rollout 972 completed with mean loss 1.0899651359766718
+2020-06-02 04:30:01.068680	Rollout 973 completed with mean loss 1.0845513554662467
+2020-06-02 04:30:09.624802	Rollout 974 completed with mean loss 1.0900763672590252
+
+2020-06-02 04:30:09.628435	Evaluation of Greedy policy
+2020-06-02 04:30:09.629189	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:30:11.144534	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 43.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.28 +/- 1.9 (std.), Median: 8
+                          		States seen: Pr. game: 15.27 +/- 7 (std.), Pr. sec.: 1990.83 +/- 80 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.43 p/m 0.07
+2020-06-02 04:30:19.768404	Updated learning rate from 1.42e-06 to 1.35e-06
+2020-06-02 04:30:19.770842	Rollout 975 completed with mean loss 1.0840251789987085
+2020-06-02 04:30:28.229207	Rollout 976 completed with mean loss 1.0896802390366793
+2020-06-02 04:30:36.899008	Rollout 977 completed with mean loss 1.0834110032767057
+2020-06-02 04:30:45.421579	Rollout 978 completed with mean loss 1.0688428975641728
+2020-06-02 04:30:54.050925	Rollout 979 completed with mean loss 1.089819583445787
+2020-06-02 04:31:02.565719	Rollout 980 completed with mean loss 1.0957208123058082
+2020-06-02 04:31:11.047779	Rollout 981 completed with mean loss 1.0921196656674146
+2020-06-02 04:31:19.623725	Rollout 982 completed with mean loss 1.0991738247126344
+2020-06-02 04:31:28.076105	Rollout 983 completed with mean loss 1.0858702350407838
+2020-06-02 04:31:36.676149	Rollout 984 completed with mean loss 1.0974593421071765
+2020-06-02 04:31:45.171710	Rollout 985 completed with mean loss 1.0385220749676223
+2020-06-02 04:31:53.632023	Rollout 986 completed with mean loss 1.0843859746307136
+2020-06-02 04:32:02.188914	Rollout 987 completed with mean loss 1.076892605870962
+2020-06-02 04:32:10.750462	Rollout 988 completed with mean loss 1.097296642139554
+2020-06-02 04:32:19.092357	Rollout 989 completed with mean loss 1.082211079224944
+2020-06-02 04:32:27.692978	Rollout 990 completed with mean loss 1.0871582818031307
+2020-06-02 04:32:36.132619	Rollout 991 completed with mean loss 1.0824372792243957
+2020-06-02 04:32:44.712344	Rollout 992 completed with mean loss 1.0819117814302444
+2020-06-02 04:32:53.233800	Rollout 993 completed with mean loss 1.0684607114642857
+2020-06-02 04:33:01.853786	Rollout 994 completed with mean loss 1.078080972209573
+2020-06-02 04:33:10.219181	Rollout 995 completed with mean loss 1.038669835552573
+2020-06-02 04:33:18.753322	Rollout 996 completed with mean loss 1.0702427447587248
+2020-06-02 04:33:27.326970	Rollout 997 completed with mean loss 1.0750368746370076
+2020-06-02 04:33:35.787965	Rollout 998 completed with mean loss 1.0904622524231673
+2020-06-02 04:33:44.410888	Rollout 999 completed with mean loss 1.0835503128916024
+
+2020-06-02 04:33:44.414366	Evaluation of Greedy policy
+2020-06-02 04:33:44.415070	200 games with max time per game 0.01
+                          	Expected time <= ~0.03 min
+2020-06-02 04:33:45.841671	Evaluation results
+                          	Scrambling depth 10
+                          		Share completed: 49.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 7.10 +/- 1.6 (std.), Median: 8
+                          		States seen: Pr. game: 14.53 +/- 7 (std.), Pr. sec.: 2010.99 +/- 70 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	S: 9.49 p/m 0.07
+2020-06-02 04:33:45.850151	Training time distribution
+2020-06-02 04:33:45.851025	Execution times                      |  Total time |  Hits |    Avg. time
+                          	ADI training data                    | 7,511.222 s | 1,000 | 7,511.222 ms
+                          	- Scrambling                         |   110.144 s | 1,000 |   110.144 ms
+                          	- ADI substates                      | 1,730.215 s | 1,000 | 1,730.215 ms
+                          	- One-hot encoding                   |   277.041 s | 1,000 |   277.041 ms
+                          	- Reward                             |    30.370 s | 1,000 |    30.370 ms
+                          	- ADI feedforward                    | 5,333.820 s | 1,000 | 5,333.820 ms
+                          	- Calculating targets                |    24.359 s | 1,000 |    24.359 ms
+                          	- To cuda                            |     0.623 s | 1,000 |     0.623 ms
+                          	Training loop                        |   995.763 s | 1,000 |   995.763 ms
+                          	Evaluating using agent Greedy policy |    67.729 s |    41 | 1,651.934 ms
+2020-06-02 04:33:45.852214	Best net solves 51.00 % of games at depth [10]
+2020-06-02 04:33:45.853033	Total running time:            8,624.777 s
+                          	- Training data for ADI:       7,511.222 s or 87.09 %
+                          	- Training time:               995.763 s or 11.55 %
+                          	- Evaluation time:             67.729 s or 0.79 %
+                          	States witnessed:              1,200,000,000
+                          	- States per training second:  141,060
+2020-06-02 04:33:46.346971	Saved model to data/local_lrcompare/adaptivelow/model.pt and configuration to data/local_lrcompare/adaptivelow/config.json
+2020-06-02 04:33:46.819174	Making plot of training
+2020-06-02 04:33:47.255395	Saved loss and evaluation plot to data/local_lrcompare/adaptivelow/training_ADAPTIVELOW.png

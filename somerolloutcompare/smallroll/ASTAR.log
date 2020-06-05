@@ -1,0 +1,29 @@
+2020-06-01 23:47:48.680557	ASTAR
+
+2020-06-01 23:47:48.681842	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-01 23:47:48.915522	Loaded model from ../rubiks-models/somerolloutcompare/smallroll
+2020-06-01 23:47:48.916693	Initialized ASTAR with agents AStar (lambda=0.13241595603788708, N=234)
+2020-06-01 23:47:48.917500	TIME ESTIMATE: 8.33 min.	(Rough upper bound)
+2020-06-01 23:47:49.068839	Beginning evaluator ASTAR
+                          	Location ../rubiks-models/somerolloutcompare/smallroll
+                          	Commit: 83b253e12be0384440de17771de2293d511dd3f9
+
+2020-06-01 23:47:49.070724	Evaluationg agent AStar (lambda=0.13241595603788708, N=234)
+
+2020-06-01 23:47:49.072342	Evaluation of AStar (lambda=0.13241595603788708, N=234)
+2020-06-01 23:47:49.073160	500 games with max time per game 1.0
+                          	Expected time <= ~8.33 min
+2020-06-01 23:52:00.086206	Performed evaluation at depth: 100/100
+2020-06-01 23:52:00.089218	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 95.20 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 29.03 +/- 3.7 (std.), Median: 30
+                          		States seen: Pr. game: 74889.43 +/- 26743 (std.), Pr. sec.: 150235.42 +/- 10474 (std.)
+                          		Time:  0.50 +/- 0.19 (std.)
+                          	S: 99.95 p/m 0.02
+2020-06-01 23:52:00.095961	Evaluation runtime
+                          	Execution times                                                    | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.13241595603788708, N=234). Depth 100 |  251.008 s |  500 | 502.015 ms
+2020-06-01 23:52:00.954330	Saved plots to ['../rubiks-models/somerolloutcompare/smallroll/eval_winrates.png', '../rubiks-models/somerolloutcompare/smallroll/eval_sollengths.png', '../rubiks-models/somerolloutcompare/smallroll/eval_S.png']
