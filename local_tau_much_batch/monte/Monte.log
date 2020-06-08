@@ -1,0 +1,96 @@
+2020-06-08 10:24:55.562743	Monte
+
+2020-06-08 10:24:55.562807	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-08 10:24:56.099178	Loaded model from /home/asger/Desktop/rl-rubiks/data/local_tau_much_batch
+2020-06-08 10:24:56.099283	Initialized Monte with agents Naive MCTS (c=0.6) hightau, Naive MCTS (c=0.6) smolbatch, Naive MCTS (c=0.6) bigbatch_lowtau, Naive MCTS (c=0.6) bigbatch_medtau
+2020-06-08 10:24:56.099328	TIME ESTIMATE: 66.67 min.	(Rough upper bound)
+2020-06-08 10:52:38.593588	Beginning evaluator Monte
+                          	Location data/local_tau_much_batch/monte
+                          	Commit: fb08487c58ed6d8556a2e6c6ad5a54d6dfd7e877
+
+2020-06-08 10:52:38.593796	Evaluationg agent Naive MCTS (c=0.6) hightau
+
+2020-06-08 10:52:38.593889	Evaluation of Naive MCTS (c=0.6)
+2020-06-08 10:52:38.593975	500 games with max time per game 2.0
+                          	Expected time <= ~16.67 min
+2020-06-08 11:08:26.735187	Performed evaluation at depth: 100/100
+2020-06-08 11:08:26.735447	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 8.80 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 79.82 +/- 24.7 (std.), Median: 75
+                          		States seen: Pr. game: 8339.80 +/- 1587 (std.), Pr. sec.: 4484.83 +/- 604 (std.)
+                          		Time:  1.90 +/- 0.37 (std.)
+                          	S: 99.09 p/m 0.02
+2020-06-08 11:08:26.737904	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,662.427 s | 2,000 |   831.213 ms
+                          	Evaluation of Naive MCTS (c=0.6). Depth 100        |   948.138 s |   500 | 1,896.277 ms
+2020-06-08 11:08:26.738595	Saved evaluation results to
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) hightau_results.npy
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) hightau_states_seen.npy
+
+2020-06-08 11:08:26.738692	Evaluationg agent Naive MCTS (c=0.6) smolbatch
+
+2020-06-08 11:08:26.738760	Evaluation of Naive MCTS (c=0.6)
+2020-06-08 11:08:26.738819	500 games with max time per game 2.0
+                          	Expected time <= ~16.67 min
+2020-06-08 11:25:05.385607	Performed evaluation at depth: 100/100
+2020-06-08 11:25:05.385839	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 0.40 % +/- 1 % (approx. 95 % CI)
+                          		Turns to win: 258.00 +/- 40.0 (std.), Median: 258
+                          		States seen: Pr. game: 2387.51 +/- 556 (std.), Pr. sec.: 1198.62 +/- 288 (std.)
+                          		Time:  2.00 +/- 0.08 (std.)
+                          	S: 99.00 p/m 0.01
+2020-06-08 11:25:05.386921	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,662.427 s | 2,000 |   831.213 ms
+                          	Evaluation of Naive MCTS (c=0.6). Depth 100        | 1,946.782 s | 1,000 | 1,946.782 ms
+2020-06-08 11:25:05.387502	Saved evaluation results to
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) smolbatch_results.npy
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) smolbatch_states_seen.npy
+
+2020-06-08 11:25:05.387615	Evaluationg agent Naive MCTS (c=0.6) bigbatch_lowtau
+
+2020-06-08 11:25:05.387691	Evaluation of Naive MCTS (c=0.6)
+2020-06-08 11:25:05.387736	500 games with max time per game 2.0
+                          	Expected time <= ~16.67 min
+2020-06-08 11:41:14.782007	Performed evaluation at depth: 100/100
+2020-06-08 11:41:14.782256	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 8.40 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 91.38 +/- 25.8 (std.), Median: 92
+                          		States seen: Pr. game: 9326.14 +/- 1294 (std.), Pr. sec.: 4840.70 +/- 421 (std.)
+                          		Time:  1.94 +/- 0.26 (std.)
+                          	S: 99.08 p/m 0.02
+2020-06-08 11:41:14.783354	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,662.427 s | 2,000 |   831.213 ms
+                          	Evaluation of Naive MCTS (c=0.6). Depth 100        | 2,916.174 s | 1,500 | 1,944.116 ms
+2020-06-08 11:41:14.783943	Saved evaluation results to
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) bigbatch_lowtau_results.npy
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) bigbatch_lowtau_states_seen.npy
+
+2020-06-08 11:41:14.784070	Evaluationg agent Naive MCTS (c=0.6) bigbatch_medtau
+
+2020-06-08 11:41:14.784136	Evaluation of Naive MCTS (c=0.6)
+2020-06-08 11:41:14.784171	500 games with max time per game 2.0
+                          	Expected time <= ~16.67 min
+2020-06-08 11:56:22.902123	Performed evaluation at depth: 100/100
+2020-06-08 11:56:22.902369	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 19.80 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 87.94 +/- 24.3 (std.), Median: 88
+                          		States seen: Pr. game: 8953.23 +/- 2045 (std.), Pr. sec.: 5025.59 +/- 550 (std.)
+                          		Time:  1.82 +/- 0.44 (std.)
+                          	S: 99.20 p/m 0.03
+2020-06-08 11:56:22.903505	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,662.427 s | 2,000 |   831.213 ms
+                          	Evaluation of Naive MCTS (c=0.6). Depth 100        | 3,824.289 s | 2,000 | 1,912.144 ms
+2020-06-08 11:56:22.904075	Saved evaluation results to
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) bigbatch_medtau_results.npy
+                          	data/local_tau_much_batch/monte/evaluation_results/Naive MCTS (c=0.6) bigbatch_medtau_states_seen.npy
+2020-06-08 11:56:24.681154	Saved plots to ['data/local_tau_much_batch/eval_winrates.png', 'data/local_tau_much_batch/eval_sollengths.png', 'data/local_tau_much_batch/eval_S.png']

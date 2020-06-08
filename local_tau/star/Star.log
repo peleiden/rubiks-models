@@ -1,0 +1,91 @@
+2020-06-08 08:43:23.893154	Star
+
+2020-06-08 08:43:23.893233	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-08 08:43:24.540576	Loaded model from /home/asger/Desktop/rl-rubiks/data/local_tau
+2020-06-08 08:43:24.540681	Initialized Star with agents AStar (lambda=0.2, N=100) hightau, AStar (lambda=0.2, N=100) medtau, AStar (lambda=0.2, N=100) lowtau, AStar (lambda=0.2, N=100) onetautorulethemall
+2020-06-08 08:43:24.540726	TIME ESTIMATE: 333.33 min.	(Rough upper bound)
+2020-06-08 08:43:25.102504	Beginning evaluator Star
+                          	Location data/local_tau/star
+                          	Commit: fb08487c58ed6d8556a2e6c6ad5a54d6dfd7e877
+
+2020-06-08 08:43:25.102713	Evaluationg agent AStar (lambda=0.2, N=100) hightau
+
+2020-06-08 08:43:25.102809	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-08 08:43:25.102857	500 games with max time per game 10.0
+                          	Expected time <= ~83.33 min
+2020-06-08 08:53:33.666231	Performed evaluation at depth: 100/100
+2020-06-08 08:53:33.666546	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 61.20 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.93 +/- 2.7 (std.), Median: 30
+                          		States seen: Pr. game: 113403.01 +/- 59997 (std.), Pr. sec.: 92464.61 +/- 2647 (std.)
+                          		Time:  1.22 +/- 0.64 (std.)
+                          	S: 99.61 p/m 0.04
+2020-06-08 08:53:33.681473	Evaluation runtime
+                          	Execution times                                    | Total time | Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  608.560 s |  500 | 1,217.121 ms
+2020-06-08 08:53:33.682095	Saved evaluation results to
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) hightau_results.npy
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) hightau_states_seen.npy
+
+2020-06-08 08:53:33.682193	Evaluationg agent AStar (lambda=0.2, N=100) medtau
+
+2020-06-08 08:53:33.682262	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-08 08:53:33.682305	500 games with max time per game 10.0
+                          	Expected time <= ~83.33 min
+2020-06-08 09:03:36.257355	Performed evaluation at depth: 100/100
+2020-06-08 09:03:36.257620	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 61.00 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.29 +/- 2.5 (std.), Median: 28
+                          		States seen: Pr. game: 111934.39 +/- 61385 (std.), Pr. sec.: 92103.43 +/- 2967 (std.)
+                          		Time:  1.21 +/- 0.65 (std.)
+                          	S: 99.61 p/m 0.04
+2020-06-08 09:03:36.258632	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,211.133 s | 1,000 | 1,211.133 ms
+2020-06-08 09:03:36.259226	Saved evaluation results to
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) medtau_results.npy
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) medtau_states_seen.npy
+
+2020-06-08 09:03:36.259328	Evaluationg agent AStar (lambda=0.2, N=100) lowtau
+
+2020-06-08 09:03:36.259400	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-08 09:03:36.259454	500 games with max time per game 10.0
+                          	Expected time <= ~83.33 min
+2020-06-08 09:11:41.536838	Performed evaluation at depth: 100/100
+2020-06-08 09:11:41.537111	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 77.40 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.65 +/- 2.8 (std.), Median: 28
+                          		States seen: Pr. game: 90257.86 +/- 58714 (std.), Pr. sec.: 92207.98 +/- 3095 (std.)
+                          		Time:  0.97 +/- 0.62 (std.)
+                          	S: 99.77 p/m 0.04
+2020-06-08 09:11:41.538163	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,696.407 s | 1,500 | 1,130.938 ms
+2020-06-08 09:11:41.538734	Saved evaluation results to
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) lowtau_results.npy
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) lowtau_states_seen.npy
+
+2020-06-08 09:11:41.538831	Evaluationg agent AStar (lambda=0.2, N=100) onetautorulethemall
+
+2020-06-08 09:11:41.538918	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-08 09:11:41.538971	500 games with max time per game 10.0
+                          	Expected time <= ~83.33 min
+2020-06-08 09:21:39.423246	Performed evaluation at depth: 100/100
+2020-06-08 09:21:39.423509	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 61.40 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.36 +/- 2.9 (std.), Median: 28
+                          		States seen: Pr. game: 111105.61 +/- 61688 (std.), Pr. sec.: 92023.99 +/- 3215 (std.)
+                          		Time:  1.20 +/- 0.65 (std.)
+                          	S: 99.61 p/m 0.04
+2020-06-08 09:21:39.424638	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 2,294.288 s | 2,000 | 1,147.144 ms
+2020-06-08 09:21:39.425309	Saved evaluation results to
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) onetautorulethemall_results.npy
+                          	data/local_tau/star/evaluation_results/AStar (lambda=0.2, N=100) onetautorulethemall_states_seen.npy
