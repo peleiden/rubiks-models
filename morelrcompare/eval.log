@@ -1,0 +1,34 @@
+2020-06-10 18:44:43.509456	eval
+
+2020-06-10 18:44:43.510774	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-10 18:44:43.697742	Loaded model from data/morelrcompare
+2020-06-10 18:44:43.698745	Initialized eval with agents AStar (lambda=0.2, N=100) adaptivehigh
+2020-06-10 18:44:43.699497	TIME ESTIMATE: 0.00 min.	(Rough upper bound)
+2020-06-10 18:44:43.770514	Beginning evaluator eval
+                          	Location data/morelrcompare
+                          	Commit: ee56097ca4402de02801df0c594d15634742492b
+
+2020-06-10 18:44:43.772295	Evaluationg agent AStar (lambda=0.2, N=100) adaptivehigh
+
+2020-06-10 18:44:43.773873	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-10 18:44:43.774656	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 300,000
+2020-06-10 18:47:33.313263	Performed evaluation at depth: 100/100
+2020-06-10 18:47:33.316171	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 29.09 +/- 3.4 (std.), Median: 30
+                          		States seen: Pr. game: 38596.48 +/- 23770 (std.), Pr. sec.: 118693.36 +/- 31172 (std.)
+                          		Time:  0.34 +/- 0.21 (std.)
+                          	S: 100.00 p/m 0.00
+2020-06-10 18:47:33.322557	Evaluation runtime
+                          	Execution times                                    | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  169.534 s |  500 | 339.069 ms
+2020-06-10 18:47:33.337827	Saved evaluation results to
+                          	data/morelrcompare/evaluation_results/AStar (lambda=0.2, N=100) adaptivehigh_results.npy
+                          	data/morelrcompare/evaluation_results/AStar (lambda=0.2, N=100) adaptivehigh_states_seen.npy
+                          	data/morelrcompare/evaluation_results/AStar (lambda=0.2, N=100) adaptivehigh_playtimes.npy
+2020-06-10 18:47:34.498467	Saved plots to ['data/morelrcompare/eval_winrates.png', 'data/morelrcompare/eval_sollengths.png', 'data/morelrcompare/time_winrate.png', 'data/morelrcompare/eval_S.png']
