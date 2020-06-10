@@ -1,18 +1,8 @@
 {
     "activation_function": "elu",
     "batchnorm": true,
-    "architecture": "fc",
+    "architecture": "fc_small",
     "init": "glorot",
-    "shared_sizes": [
-        4096,
-        2048
-    ],
-    "part_sizes": [
-        512
-    ],
-    "conv_channels": null,
-    "cat_sizes": null,
-    "res_blocks": null,
-    "res_size": null,
-    "is2024": true
+    "is2024": true,
+    "id": 1920175013711831681
 }
