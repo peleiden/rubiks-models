@@ -1,92 +1,100 @@
-2020-06-07 15:23:10.851835	eval
+2020-06-10 15:21:36.357041	eval
 
-2020-06-07 15:23:10.851913	Creating evaluator
+2020-06-10 15:21:36.358176	Creating evaluator
                           	Games per scrambling depth: 500
                           	Scrambling depths: range(100, 101)
-2020-06-07 15:23:11.408312	Loaded model from data/local_alpha
-2020-06-07 15:23:11.408400	Initialized eval with agents AStar (lambda=0.2, N=100) alphahigh, AStar (lambda=0.2, N=100) alphalow, AStar (lambda=0.2, N=100) alpha0, AStar (lambda=0.2, N=100) alphamed
-2020-06-07 15:23:11.408444	TIME ESTIMATE: 33.33 min.	(Rough upper bound)
-2020-06-07 15:23:11.444855	Beginning evaluator eval
+2020-06-10 15:21:37.033173	Loaded model from data/local_alpha
+2020-06-10 15:21:37.034250	Initialized eval with agents AStar (lambda=0.2, N=100) alphalow, AStar (lambda=0.2, N=100) alphamed, AStar (lambda=0.2, N=100) alpha0, AStar (lambda=0.2, N=100) alphahigh
+2020-06-10 15:21:37.034909	TIME ESTIMATE: 0.00 min.	(Rough upper bound)
+2020-06-10 15:21:37.097053	Beginning evaluator eval
                           	Location data/local_alpha
-                          	Commit: bfd2df0bcf90cb15036cf128c233eb437d7fbaba
+                          	Commit: 6945ec513ea3e311536c02d63d983a5c3958ef66
 
-2020-06-07 15:23:11.445036	Evaluationg agent AStar (lambda=0.2, N=100) alphahigh
+2020-06-10 15:21:37.098449	Evaluationg agent AStar (lambda=0.2, N=100) alphalow
 
-2020-06-07 15:23:11.445123	Evaluation of AStar (lambda=0.2, N=100)
-2020-06-07 15:23:11.445173	500 games with max time per game 1.0
-                          	Expected time <= ~8.33 min
-2020-06-07 15:31:25.954616	Performed evaluation at depth: 100/100
-2020-06-07 15:31:25.954851	Evaluation results
+2020-06-10 15:21:37.099665	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-10 15:21:37.100274	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 175,000
+2020-06-10 15:25:53.525327	Performed evaluation at depth: 100/100
+2020-06-10 15:25:53.527650	Evaluation results
                           	Scrambling depth 100
-                          		Share completed: 3.00 % +/- 1 % (approx. 95 % CI)
-                          		Turns to win: 24.80 +/- 2.0 (std.), Median: 26
-                          		States seen: Pr. game: 90825.35 +/- 9979 (std.), Pr. sec.: 91804.31 +/- 948 (std.)
-                          		Time:  0.99 +/- 0.11 (std.)
-                          	S: 99.03 p/m 0.01
-2020-06-07 15:31:25.955849	Evaluation runtime
+                          		Share completed: 80.60 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 28.62 +/- 2.8 (std.), Median: 28
+                          		States seen: Pr. game: 89093.29 +/- 55941 (std.), Pr. sec.: 171192.79 +/- 13059 (std.)
+                          		Time:  0.51 +/- 0.31 (std.)
+                          	S: 99.81 p/m 0.03
+2020-06-10 15:25:53.532853	Evaluation runtime
                           	Execution times                                    | Total time | Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  494.506 s |  500 | 989.013 ms
-2020-06-07 15:31:25.956437	Saved evaluation results to
-                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphahigh_results.npy
-                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphahigh_states_seen.npy
-
-2020-06-07 15:31:25.956564	Evaluationg agent AStar (lambda=0.2, N=100) alphalow
-
-2020-06-07 15:31:25.956635	Evaluation of AStar (lambda=0.2, N=100)
-2020-06-07 15:31:25.956674	500 games with max time per game 1.0
-                          	Expected time <= ~8.33 min
-2020-06-07 15:38:07.751483	Performed evaluation at depth: 100/100
-2020-06-07 15:38:07.751714	Evaluation results
-                          	Scrambling depth 100
-                          		Share completed: 37.40 % +/- 4 % (approx. 95 % CI)
-                          		Turns to win: 27.37 +/- 2.7 (std.), Median: 28
-                          		States seen: Pr. game: 74401.85 +/- 27328 (std.), Pr. sec.: 92274.72 +/- 1847 (std.)
-                          		Time:  0.80 +/- 0.29 (std.)
-                          	S: 99.37 p/m 0.04
-2020-06-07 15:38:07.752623	Evaluation runtime
-                          	Execution times                                    | Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  896.298 s | 1,000 | 896.298 ms
-2020-06-07 15:38:07.753148	Saved evaluation results to
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  256.421 s |  500 | 512.842 ms
+2020-06-10 15:25:53.541930	Saved evaluation results to
                           	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphalow_results.npy
                           	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphalow_states_seen.npy
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphalow_playtimes.npy
 
-2020-06-07 15:38:07.753274	Evaluationg agent AStar (lambda=0.2, N=100) alpha0
+2020-06-10 15:25:53.543198	Evaluationg agent AStar (lambda=0.2, N=100) alphamed
 
-2020-06-07 15:38:07.753361	Evaluation of AStar (lambda=0.2, N=100)
-2020-06-07 15:38:07.753400	500 games with max time per game 1.0
-                          	Expected time <= ~8.33 min
-2020-06-07 15:44:40.507823	Performed evaluation at depth: 100/100
-2020-06-07 15:44:40.508055	Evaluation results
+2020-06-10 15:25:53.544617	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-10 15:25:53.545245	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 175,000
+2020-06-10 15:30:44.692986	Performed evaluation at depth: 100/100
+2020-06-10 15:30:44.694959	Evaluation results
                           	Scrambling depth 100
-                          		Share completed: 43.20 % +/- 4 % (approx. 95 % CI)
-                          		Turns to win: 28.02 +/- 2.7 (std.), Median: 28
-                          		States seen: Pr. game: 72801.01 +/- 27676 (std.), Pr. sec.: 92383.81 +/- 1844 (std.)
-                          		Time:  0.79 +/- 0.30 (std.)
-                          	S: 99.43 p/m 0.04
-2020-06-07 15:44:40.508997	Evaluation runtime
-                          	Execution times                                    |  Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,289.049 s | 1,500 | 859.366 ms
-2020-06-07 15:44:40.509507	Saved evaluation results to
-                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alpha0_results.npy
-                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alpha0_states_seen.npy
-
-2020-06-07 15:44:40.509642	Evaluationg agent AStar (lambda=0.2, N=100) alphamed
-
-2020-06-07 15:44:40.509715	Evaluation of AStar (lambda=0.2, N=100)
-2020-06-07 15:44:40.509752	500 games with max time per game 1.0
-                          	Expected time <= ~8.33 min
-2020-06-07 15:51:49.911909	Performed evaluation at depth: 100/100
-2020-06-07 15:51:49.912148	Evaluation results
-                          	Scrambling depth 100
-                          		Share completed: 30.20 % +/- 4 % (approx. 95 % CI)
-                          		Turns to win: 27.30 +/- 2.7 (std.), Median: 28
-                          		States seen: Pr. game: 79211.39 +/- 24270 (std.), Pr. sec.: 91950.75 +/- 1936 (std.)
-                          		Time:  0.86 +/- 0.26 (std.)
-                          	S: 99.30 p/m 0.04
-2020-06-07 15:51:49.913107	Evaluation runtime
-                          	Execution times                                    |  Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,718.448 s | 2,000 | 859.224 ms
-2020-06-07 15:51:49.913654	Saved evaluation results to
+                          		Share completed: 73.80 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.39 +/- 2.8 (std.), Median: 28
+                          		States seen: Pr. game: 100747.37 +/- 57899 (std.), Pr. sec.: 170216.29 +/- 13159 (std.)
+                          		Time:  0.58 +/- 0.33 (std.)
+                          	S: 99.74 p/m 0.04
+2020-06-10 15:30:44.699886	Evaluation runtime
+                          	Execution times                                    | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  547.565 s | 1,000 | 547.565 ms
+2020-06-10 15:30:44.708419	Saved evaluation results to
                           	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphamed_results.npy
                           	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphamed_states_seen.npy
-2020-06-07 15:51:51.116576	Saved plots to ['data/local_alpha/eval_winrates.png', 'data/local_alpha/eval_sollengths.png', 'data/local_alpha/eval_S.png']
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphamed_playtimes.npy
+
+2020-06-10 15:30:44.709598	Evaluationg agent AStar (lambda=0.2, N=100) alpha0
+
+2020-06-10 15:30:44.710744	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-10 15:30:44.711332	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 175,000
+2020-06-10 15:34:44.151254	Performed evaluation at depth: 100/100
+2020-06-10 15:34:44.153289	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 85.00 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 28.74 +/- 2.5 (std.), Median: 28
+                          		States seen: Pr. game: 82485.05 +/- 53572 (std.), Pr. sec.: 170205.91 +/- 13378 (std.)
+                          		Time:  0.48 +/- 0.30 (std.)
+                          	S: 99.85 p/m 0.03
+2020-06-10 15:34:44.158328	Evaluation runtime
+                          	Execution times                                    | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  787.001 s | 1,500 | 524.667 ms
+2020-06-10 15:34:44.166463	Saved evaluation results to
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alpha0_results.npy
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alpha0_states_seen.npy
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alpha0_playtimes.npy
+
+2020-06-10 15:34:44.167613	Evaluationg agent AStar (lambda=0.2, N=100) alphahigh
+
+2020-06-10 15:34:44.168725	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-10 15:34:44.169282	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 175,000
+2020-06-10 15:40:37.743143	Performed evaluation at depth: 100/100
+2020-06-10 15:40:37.745982	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 55.40 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 27.69 +/- 2.6 (std.), Median: 28
+                          		States seen: Pr. game: 121294.37 +/- 59227 (std.), Pr. sec.: 168610.74 +/- 13054 (std.)
+                          		Time:  0.71 +/- 0.33 (std.)
+                          	S: 99.55 p/m 0.04
+2020-06-10 15:40:37.751070	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 | 1,140.571 s | 2,000 | 570.286 ms
+2020-06-10 15:40:37.761233	Saved evaluation results to
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphahigh_results.npy
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphahigh_states_seen.npy
+                          	data/local_alpha/evaluation_results/AStar (lambda=0.2, N=100) alphahigh_playtimes.npy
+2020-06-10 15:40:39.426524	Saved plots to ['data/local_alpha/eval_winrates.png', 'data/local_alpha/eval_sollengths.png', 'data/local_alpha/time_winrate.png', 'data/local_alpha/eval_S.png']
