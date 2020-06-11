@@ -1,0 +1,56 @@
+2020-06-11 05:05:34.482858	eval
+
+2020-06-11 05:05:34.484253	Creating evaluator
+                          	Games per scrambling depth: 500
+                          	Scrambling depths: range(100, 101)
+2020-06-11 05:05:34.866508	Loaded model from data/moretaucompare
+2020-06-11 05:05:34.867405	Initialized eval with agents AStar (lambda=0.2, N=100) tau, AStar (lambda=0.2, N=100) notau
+2020-06-11 05:05:34.868150	TIME ESTIMATE: 0.00 min.	(Rough upper bound)
+2020-06-11 05:05:34.953725	Beginning evaluator eval
+                          	Location data/moretaucompare
+                          	Commit: ee56097ca4402de02801df0c594d15634742492b
+
+2020-06-11 05:05:34.955619	Evaluationg agent AStar (lambda=0.2, N=100) tau
+
+2020-06-11 05:05:34.957241	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-11 05:05:34.958033	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 300,000
+2020-06-11 05:12:19.554291	Performed evaluation at depth: 100/100
+2020-06-11 05:12:19.558025	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 84.00 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 28.98 +/- 2.7 (std.), Median: 30
+                          		States seen: Pr. game: 137576.16 +/- 100610 (std.), Pr. sec.: 165700.56 +/- 17031 (std.)
+                          		Time:  0.81 +/- 0.57 (std.)
+                          	S: 99.84 p/m 0.03
+2020-06-11 05:12:19.564554	Evaluation runtime
+                          	Execution times                                    | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  404.592 s |  500 | 809.184 ms
+2020-06-11 05:12:19.578395	Saved evaluation results to
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) tau_results.npy
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) tau_states_seen.npy
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) tau_playtimes.npy
+
+2020-06-11 05:12:19.580091	Evaluationg agent AStar (lambda=0.2, N=100) notau
+
+2020-06-11 05:12:19.581834	Evaluation of AStar (lambda=0.2, N=100)
+2020-06-11 05:12:19.582713	500 cubes
+                          	No time limit given
+                          	Maximum number of explored states is 300,000
+2020-06-11 05:20:04.537313	Performed evaluation at depth: 100/100
+2020-06-11 05:20:04.541248	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 76.60 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 28.45 +/- 2.7 (std.), Median: 28
+                          		States seen: Pr. game: 157409.04 +/- 106524 (std.), Pr. sec.: 164263.48 +/- 17525 (std.)
+                          		Time:  0.93 +/- 0.61 (std.)
+                          	S: 99.77 p/m 0.04
+2020-06-11 05:20:04.547830	Evaluation runtime
+                          	Execution times                                    | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.2, N=100). Depth 100 |  869.542 s | 1,000 | 869.542 ms
+2020-06-11 05:20:04.558122	Saved evaluation results to
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) notau_results.npy
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) notau_states_seen.npy
+                          	data/moretaucompare/evaluation_results/AStar (lambda=0.2, N=100) notau_playtimes.npy
+2020-06-11 05:20:05.891623	Saved plots to ['data/moretaucompare/eval_winrates.png', 'data/moretaucompare/eval_sollengths.png', 'data/moretaucompare/time_winrate.png', 'data/moretaucompare/eval_S.png']
