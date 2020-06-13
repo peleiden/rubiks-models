@@ -1,0 +1,40 @@
+2020-06-13 11:51:34.241443	eval
+
+2020-06-13 11:51:34.243035	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(100, 101)
+2020-06-13 11:51:35.115558	Loaded model from ../rubiks-models/net686
+2020-06-13 11:51:35.116981	Initialized eval with agents AStar (lambda=0.4, N=100)
+2020-06-13 11:51:35.117894	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-13 11:51:35.255326	Beginning evaluator eval
+                          	Location ../rubiks-models/net686
+                          	Commit: 087d342456a5d7180e1f7be85e30fef9b745f0fd
+
+2020-06-13 11:51:35.258092	Evaluationg agent AStar (lambda=0.4, N=100)
+
+2020-06-13 11:51:35.259907	Evaluation of AStar (lambda=0.4, N=100)
+2020-06-13 11:51:35.260833	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-13 13:07:31.737582	Performed evaluation at depth: 100/100
+2020-06-13 13:07:31.742829	Evaluation results
+                          	Scrambling depth 100
+                          		Share completed: 18.30 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 23.68 +/- 1.5 (std.), Median: 24
+                          		States seen: Pr. game: 266286.80 +/- 66954 (std.), Pr. sec.: 58180.60 +/- 2952 (std.)
+                          		Time:  4.56 +/- 1.11 (std.)
+2020-06-13 13:07:31.748361	Evaluation runtime
+                          	Execution times                                    |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 | 4,556.468 s | 1,000 | 4,556.468 ms
+2020-06-13 13:07:31.763098	Saved evaluation results to
+                          	../rubiks-models/net686/evaluation_results/AStar (lambda=0.4, N=100)_results.npy
+                          	../rubiks-models/net686/evaluation_results/AStar (lambda=0.4, N=100)_states_seen.npy
+                          	../rubiks-models/net686/evaluation_results/AStar (lambda=0.4, N=100)_playtimes.npy
+2020-06-13 13:07:34.162696	Saved settings to ../rubiks-models/net686/eval_settings.json and plots to
+                          	../rubiks-models/net686/eval_winrates.png
+                          	../rubiks-models/net686/eval_sollengths.png
+                          	../rubiks-models/net686/time_winrate.png
+                          	../rubiks-models/net686/states_winrate.png
+                          	../rubiks-models/net686/solve_length_dist.png
+                          	../rubiks-models/net686/time_dist.png
+                          	../rubiks-models/net686/state_dist.png
