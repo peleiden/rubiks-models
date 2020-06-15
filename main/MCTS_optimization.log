@@ -1,0 +1,514 @@
+2020-06-14 23:41:29.444797	Optimization
+
+2020-06-14 23:41:29.446014	MCTS optimization. Using network from .
+2020-06-14 23:41:29.446737	Received arguments: {'location': '../rubiks-models/main', 'iterations': 100, 'agent': 'MCTS', 'depth': 0, 'eval_games': 100, 'save_optimal': True, 'use_best': True, 'optim_lengths': True}
+2020-06-14 23:41:29.447622	Optimizer BayesianOptimizer() created parameters: {
+                          	    "c": [
+                          	        0.1,
+                          	        100
+                          	    ]
+                          	}
+2020-06-14 23:41:29.449042	Created Bayesian Optimizer with alpha=0.001 and 20 restarts for each optimization. Acquisition function is ei.
+2020-06-14 23:41:29.450046	Optimization 0: Chosen parameters:	: {
+                          	    "c": 57.53911879690242
+                          	}
+2020-06-14 23:49:24.840606		 RESULTS: Solved:: 0.19, Mean length 31.894736842105264
+2020-06-14 23:49:24.847383	Optimization 0: Score: 0.0059570957095709575
+2020-06-14 23:49:24.906475	Optimization 1: Chosen parameters:	: {
+                          	    "c": 96.13242085614158
+                          	}
+2020-06-14 23:57:40.569578		 RESULTS: Solved:: 0.09, Mean length 30.555555555555557
+2020-06-14 23:57:40.576289	Optimization 1: Score: 0.0029454545454545454
+2020-06-14 23:57:40.640774	Optimization 2: Chosen parameters:	: {
+                          	    "c": 0.10657899397157049
+                          	}
+2020-06-15 00:02:33.713326		 RESULTS: Solved:: 0.59, Mean length 159.0
+2020-06-15 00:02:33.719581	Optimization 2: Score: 0.003710691823899371
+2020-06-15 00:02:33.760071	Optimization 3: Chosen parameters:	: {
+                          	    "c": 0.10490448475902098
+                          	}
+2020-06-15 00:08:03.087763		 RESULTS: Solved:: 0.58, Mean length 192.1551724137931
+2020-06-15 00:08:03.092552	Optimization 3: Score: 0.0030183938986092416
+2020-06-15 00:08:03.193249	Optimization 4: Chosen parameters:	: {
+                          	    "c": 99.99244809747957
+                          	}
+2020-06-15 00:16:19.101223		 RESULTS: Solved:: 0.02, Mean length 29.0
+2020-06-15 00:16:19.108143	Optimization 4: Score: 0.0006896551724137932
+2020-06-15 00:16:19.167726	Optimization 5: Chosen parameters:	: {
+                          	    "c": 0.11077767481102842
+                          	}
+2020-06-15 00:21:16.155029		 RESULTS: Solved:: 0.61, Mean length 170.327868852459
+2020-06-15 00:21:16.160839	Optimization 5: Score: 0.0035813282001924927
+2020-06-15 00:21:16.220281	Optimization 6: Chosen parameters:	: {
+                          	    "c": 99.99102318285946
+                          	}
+2020-06-15 00:29:32.079140		 RESULTS: Solved:: 0.05, Mean length 26.4
+2020-06-15 00:29:32.087272	Optimization 6: Score: 0.0018939393939393942
+2020-06-15 00:29:32.154936	Optimization 7: Chosen parameters:	: {
+                          	    "c": 0.10565043604900745
+                          	}
+2020-06-15 00:34:56.721624		 RESULTS: Solved:: 0.58, Mean length 179.56896551724137
+2020-06-15 00:34:56.726297	Optimization 7: Score: 0.003229956793086894
+2020-06-15 00:34:56.799448	Optimization 8: Chosen parameters:	: {
+                          	    "c": 99.99211666848026
+                          	}
+2020-06-15 00:43:15.710375		 RESULTS: Solved:: 0.06, Mean length 31.333333333333332
+2020-06-15 00:43:15.719666	Optimization 8: Score: 0.0019148936170212765
+2020-06-15 00:43:15.787646	Optimization 9: Chosen parameters:	: {
+                          	    "c": 0.10361441132267402
+                          	}
+2020-06-15 00:48:49.819277		 RESULTS: Solved:: 0.6, Mean length 196.13333333333333
+2020-06-15 00:48:49.824861	Optimization 9: Score: 0.0030591434398368456
+2020-06-15 00:48:49.895725	Optimization 10: Chosen parameters:	: {
+                          	    "c": 99.96236686495229
+                          	}
+2020-06-15 00:57:00.476720		 RESULTS: Solved:: 0.05, Mean length 25.2
+2020-06-15 00:57:00.483642	Optimization 10: Score: 0.0019841269841269845
+2020-06-15 00:57:00.549239	Optimization 11: Chosen parameters:	: {
+                          	    "c": 0.10635306655945061
+                          	}
+2020-06-15 01:02:14.562753		 RESULTS: Solved:: 0.59, Mean length 188.40677966101694
+2020-06-15 01:02:14.569872	Optimization 11: Score: 0.003131522130262684
+2020-06-15 01:02:14.631760	Optimization 12: Chosen parameters:	: {
+                          	    "c": 99.97463465765526
+                          	}
+2020-06-15 01:10:34.268391		 RESULTS: Solved:: 0.02, Mean length 25.5
+2020-06-15 01:10:34.275990	Optimization 12: Score: 0.000784313725490196
+2020-06-15 01:10:34.344468	Optimization 13: Chosen parameters:	: {
+                          	    "c": 0.11229018687162146
+                          	}
+2020-06-15 01:15:56.218583		 RESULTS: Solved:: 0.65, Mean length 194.93846153846152
+2020-06-15 01:15:56.222709	Optimization 13: Score: 0.0033343856049246313
+2020-06-15 01:15:56.295846	Optimization 14: Chosen parameters:	: {
+                          	    "c": 99.97531479850136
+                          	}
+2020-06-15 01:24:14.671319		 RESULTS: Solved:: 0.02, Mean length 26.5
+2020-06-15 01:24:14.679401	Optimization 14: Score: 0.0007547169811320754
+2020-06-15 01:24:14.744853	Optimization 15: Chosen parameters:	: {
+                          	    "c": 0.10247996137361348
+                          	}
+2020-06-15 01:29:20.777857		 RESULTS: Solved:: 0.62, Mean length 174.33870967741936
+2020-06-15 01:29:20.782250	Optimization 15: Score: 0.0035562956795263207
+2020-06-15 01:29:20.847511	Optimization 16: Chosen parameters:	: {
+                          	    "c": 99.97669236712149
+                          	}
+2020-06-15 01:37:41.260683		 RESULTS: Solved:: 0.01, Mean length 28.0
+2020-06-15 01:37:41.267234	Optimization 16: Score: 0.00035714285714285714
+2020-06-15 01:37:41.332284	Optimization 17: Chosen parameters:	: {
+                          	    "c": 0.11535281593318637
+                          	}
+2020-06-15 01:43:00.074699		 RESULTS: Solved:: 0.57, Mean length 167.7719298245614
+2020-06-15 01:43:00.080263	Optimization 17: Score: 0.003397469413364007
+2020-06-15 01:43:00.161696	Optimization 18: Chosen parameters:	: {
+                          	    "c": 99.99051059080807
+                          	}
+2020-06-15 01:51:16.614512		 RESULTS: Solved:: 0.02, Mean length 22.0
+2020-06-15 01:51:16.621484	Optimization 18: Score: 0.0009090909090909091
+2020-06-15 01:51:16.692021	Optimization 19: Chosen parameters:	: {
+                          	    "c": 0.12043152239453798
+                          	}
+2020-06-15 01:56:39.940824		 RESULTS: Solved:: 0.58, Mean length 178.41379310344828
+2020-06-15 01:56:39.945317	Optimization 19: Score: 0.0032508697332817933
+2020-06-15 01:56:40.009716	Optimization 20: Chosen parameters:	: {
+                          	    "c": 99.99889683598222
+                          	}
+2020-06-15 02:04:55.078644		 RESULTS: Solved:: 0.06, Mean length 31.0
+2020-06-15 02:04:55.086622	Optimization 20: Score: 0.001935483870967742
+2020-06-15 02:04:55.155090	Optimization 21: Chosen parameters:	: {
+                          	    "c": 0.10999422103549054
+                          	}
+2020-06-15 02:10:24.229678		 RESULTS: Solved:: 0.56, Mean length 188.66071428571428
+2020-06-15 02:10:24.234267	Optimization 21: Score: 0.002968291528632277
+2020-06-15 02:10:24.299603	Optimization 22: Chosen parameters:	: {
+                          	    "c": 99.99951577418301
+                          	}
+2020-06-15 02:18:41.731082		 RESULTS: Solved:: 0.06, Mean length 30.5
+2020-06-15 02:18:41.738230	Optimization 22: Score: 0.0019672131147540984
+2020-06-15 02:18:41.810669	Optimization 23: Chosen parameters:	: {
+                          	    "c": 0.14662750322987259
+                          	}
+2020-06-15 02:23:35.894376		 RESULTS: Solved:: 0.61, Mean length 161.2622950819672
+2020-06-15 02:23:35.900230	Optimization 23: Score: 0.0037826573142218157
+2020-06-15 02:23:35.968235	Optimization 24: Chosen parameters:	: {
+                          	    "c": 99.98917204681797
+                          	}
+2020-06-15 02:31:53.665819		 RESULTS: Solved:: 0.02, Mean length 25.0
+2020-06-15 02:31:53.672774	Optimization 24: Score: 0.0008
+2020-06-15 02:31:53.737145	Optimization 25: Chosen parameters:	: {
+                          	    "c": 0.10923604020346792
+                          	}
+2020-06-15 02:37:24.755919		 RESULTS: Solved:: 0.61, Mean length 202.75409836065575
+2020-06-15 02:37:24.760059	Optimization 25: Score: 0.0030085705045278135
+2020-06-15 02:37:24.828679	Optimization 26: Chosen parameters:	: {
+                          	    "c": 99.98884092657246
+                          	}
+2020-06-15 02:45:36.712763		 RESULTS: Solved:: 0.05, Mean length 28.4
+2020-06-15 02:45:36.719225	Optimization 26: Score: 0.0017605633802816904
+2020-06-15 02:45:36.791063	Optimization 27: Chosen parameters:	: {
+                          	    "c": 0.10580744308147878
+                          	}
+2020-06-15 02:50:59.757013		 RESULTS: Solved:: 0.54, Mean length 171.24074074074073
+2020-06-15 02:50:59.761319	Optimization 27: Score: 0.0031534551746512387
+2020-06-15 02:50:59.838362	Optimization 28: Chosen parameters:	: {
+                          	    "c": 99.99882688477085
+                          	}
+2020-06-15 02:59:17.878627		 RESULTS: Solved:: 0.05, Mean length 26.6
+2020-06-15 02:59:17.885088	Optimization 28: Score: 0.0018796992481203006
+2020-06-15 02:59:17.957250	Optimization 29: Chosen parameters:	: {
+                          	    "c": 0.10282157736878089
+                          	}
+2020-06-15 03:04:40.517952		 RESULTS: Solved:: 0.6, Mean length 195.5
+2020-06-15 03:04:40.524113	Optimization 29: Score: 0.0030690537084398974
+2020-06-15 03:04:40.599752	Optimization 30: Chosen parameters:	: {
+                          	    "c": 99.99273116376956
+                          	}
+2020-06-15 03:12:53.783185		 RESULTS: Solved:: 0.06, Mean length 31.333333333333332
+2020-06-15 03:12:53.791246	Optimization 30: Score: 0.0019148936170212765
+2020-06-15 03:12:53.861069	Optimization 31: Chosen parameters:	: {
+                          	    "c": 0.11759385020188345
+                          	}
+2020-06-15 03:18:25.933058		 RESULTS: Solved:: 0.53, Mean length 171.41509433962264
+2020-06-15 03:18:25.936937	Optimization 31: Score: 0.003091909741331866
+2020-06-15 03:18:26.007146	Optimization 32: Chosen parameters:	: {
+                          	    "c": 99.99886269642347
+                          	}
+2020-06-15 03:26:41.296640		 RESULTS: Solved:: 0.06, Mean length 25.666666666666668
+2020-06-15 03:26:41.304289	Optimization 32: Score: 0.0023376623376623377
+2020-06-15 03:26:41.380139	Optimization 33: Chosen parameters:	: {
+                          	    "c": 0.10212683486580992
+                          	}
+2020-06-15 03:31:57.183029		 RESULTS: Solved:: 0.63, Mean length 193.55555555555554
+2020-06-15 03:31:57.187584	Optimization 33: Score: 0.0032548794489093
+2020-06-15 03:31:57.264756	Optimization 34: Chosen parameters:	: {
+                          	    "c": 99.99736410078121
+                          	}
+2020-06-15 03:40:15.487296		 RESULTS: Solved:: 0.04, Mean length 27.25
+2020-06-15 03:40:15.495683	Optimization 34: Score: 0.0014678899082568807
+2020-06-15 03:40:15.581679	Optimization 35: Chosen parameters:	: {
+                          	    "c": 0.1062783009634833
+                          	}
+2020-06-15 03:45:52.346423		 RESULTS: Solved:: 0.54, Mean length 195.7037037037037
+2020-06-15 03:45:52.351201	Optimization 35: Score: 0.0027592732778198336
+2020-06-15 03:45:52.424043	Optimization 36: Chosen parameters:	: {
+                          	    "c": 99.99771252981073
+                          	}
+2020-06-15 03:54:09.864878		 RESULTS: Solved:: 0.01, Mean length 32.0
+2020-06-15 03:54:09.871992	Optimization 36: Score: 0.0003125
+2020-06-15 03:54:09.946956	Optimization 37: Chosen parameters:	: {
+                          	    "c": 23.91820770115644
+                          	}
+2020-06-15 03:59:55.660477		 RESULTS: Solved:: 0.72, Mean length 44.59722222222222
+2020-06-15 03:59:55.665860	Optimization 37: Score: 0.016144503270009342
+2020-06-15 03:59:55.739043	Optimization 38: Chosen parameters:	: {
+                          	    "c": 94.26867911700734
+                          	}
+2020-06-15 04:08:11.571874		 RESULTS: Solved:: 0.03, Mean length 29.666666666666668
+2020-06-15 04:08:11.579028	Optimization 38: Score: 0.0010112359550561796
+2020-06-15 04:08:11.656522	Optimization 39: Chosen parameters:	: {
+                          	    "c": 33.05606680834485
+                          	}
+2020-06-15 04:15:16.891812		 RESULTS: Solved:: 0.53, Mean length 40.0
+2020-06-15 04:15:16.899255	Optimization 39: Score: 0.013250000000000001
+2020-06-15 04:15:16.982635	Optimization 40: Chosen parameters:	: {
+                          	    "c": 49.98057294196347
+                          	}
+2020-06-15 04:23:10.354236		 RESULTS: Solved:: 0.23, Mean length 37.65217391304348
+2020-06-15 04:23:10.362672	Optimization 40: Score: 0.006108545034642033
+2020-06-15 04:23:10.438602	Optimization 41: Chosen parameters:	: {
+                          	    "c": 51.17635806346962
+                          	}
+2020-06-15 04:31:09.045155		 RESULTS: Solved:: 0.26, Mean length 36.61538461538461
+2020-06-15 04:31:09.052564	Optimization 41: Score: 0.007100840336134454
+2020-06-15 04:31:09.127834	Optimization 42: Chosen parameters:	: {
+                          	    "c": 94.69432209321006
+                          	}
+2020-06-15 04:39:21.429487		 RESULTS: Solved:: 0.04, Mean length 27.25
+2020-06-15 04:39:21.436845	Optimization 42: Score: 0.0014678899082568807
+2020-06-15 04:39:21.521486	Optimization 43: Chosen parameters:	: {
+                          	    "c": 94.40978012179495
+                          	}
+2020-06-15 04:47:40.914019		 RESULTS: Solved:: 0.03, Mean length 26.333333333333332
+2020-06-15 04:47:40.921572	Optimization 43: Score: 0.001139240506329114
+2020-06-15 04:47:41.005588	Optimization 44: Chosen parameters:	: {
+                          	    "c": 87.33852172740197
+                          	}
+2020-06-15 04:55:58.178277		 RESULTS: Solved:: 0.06, Mean length 29.333333333333332
+2020-06-15 04:55:58.185814	Optimization 44: Score: 0.0020454545454545456
+2020-06-15 04:55:58.265314	Optimization 45: Chosen parameters:	: {
+                          	    "c": 53.758739885416595
+                          	}
+2020-06-15 05:04:01.224194		 RESULTS: Solved:: 0.26, Mean length 36.15384615384615
+2020-06-15 05:04:01.234894	Optimization 45: Score: 0.007191489361702128
+2020-06-15 05:04:01.325462	Optimization 46: Chosen parameters:	: {
+                          	    "c": 61.92027807568498
+                          	}
+2020-06-15 05:12:14.466390		 RESULTS: Solved:: 0.1, Mean length 33.5
+2020-06-15 05:12:14.473805	Optimization 46: Score: 0.0029850746268656717
+2020-06-15 05:12:14.554162	Optimization 47: Chosen parameters:	: {
+                          	    "c": 85.86786489714433
+                          	}
+2020-06-15 05:20:32.648049		 RESULTS: Solved:: 0.04, Mean length 28.0
+2020-06-15 05:20:32.656058	Optimization 47: Score: 0.0014285714285714286
+2020-06-15 05:20:32.721910	Optimization 48: Chosen parameters:	: {
+                          	    "c": 19.26430429026479
+                          	}
+2020-06-15 05:25:50.138392		 RESULTS: Solved:: 0.78, Mean length 46.205128205128204
+2020-06-15 05:25:50.143410	Optimization 48: Score: 0.01688124306326304
+2020-06-15 05:25:50.218758	Optimization 49: Chosen parameters:	: {
+                          	    "c": 62.55677214082527
+                          	}
+2020-06-15 05:33:54.329339		 RESULTS: Solved:: 0.16, Mean length 30.5625
+2020-06-15 05:33:54.336135	Optimization 49: Score: 0.005235173824130879
+2020-06-15 05:33:54.411859	Optimization 50: Chosen parameters:	: {
+                          	    "c": 68.95430723907305
+                          	}
+2020-06-15 05:42:12.337222		 RESULTS: Solved:: 0.07, Mean length 32.142857142857146
+2020-06-15 05:42:12.345607	Optimization 50: Score: 0.0021777777777777776
+2020-06-15 05:42:12.417334	Optimization 51: Chosen parameters:	: {
+                          	    "c": 25.061821209335697
+                          	}
+2020-06-15 05:48:03.478764		 RESULTS: Solved:: 0.68, Mean length 41.11764705882353
+2020-06-15 05:48:03.484392	Optimization 51: Score: 0.0165379113018598
+2020-06-15 05:48:03.563727	Optimization 52: Chosen parameters:	: {
+                          	    "c": 83.49311213394627
+                          	}
+2020-06-15 05:56:19.875963		 RESULTS: Solved:: 0.06, Mean length 33.166666666666664
+2020-06-15 05:56:19.883603	Optimization 52: Score: 0.0018090452261306533
+2020-06-15 05:56:19.962136	Optimization 53: Chosen parameters:	: {
+                          	    "c": 79.44744699056085
+                          	}
+2020-06-15 06:04:40.158702		 RESULTS: Solved:: 0.07, Mean length 30.142857142857142
+2020-06-15 06:04:40.166402	Optimization 53: Score: 0.002322274881516588
+2020-06-15 06:04:40.248319	Optimization 54: Chosen parameters:	: {
+                          	    "c": 26.28526388423153
+                          	}
+2020-06-15 06:10:22.886319		 RESULTS: Solved:: 0.76, Mean length 44.56578947368421
+2020-06-15 06:10:22.892334	Optimization 54: Score: 0.01705343962208444
+2020-06-15 06:10:22.987300	Optimization 55: Chosen parameters:	: {
+                          	    "c": 61.33295049976481
+                          	}
+2020-06-15 06:18:35.885621		 RESULTS: Solved:: 0.17, Mean length 31.294117647058822
+2020-06-15 06:18:35.895193	Optimization 55: Score: 0.0054323308270676695
+2020-06-15 06:18:35.988670	Optimization 56: Chosen parameters:	: {
+                          	    "c": 30.55648025376908
+                          	}
+2020-06-15 06:25:02.981560		 RESULTS: Solved:: 0.65, Mean length 41.06153846153846
+2020-06-15 06:25:02.989207	Optimization 56: Score: 0.0158298988385163
+2020-06-15 06:25:03.067867	Optimization 57: Chosen parameters:	: {
+                          	    "c": 26.486862293270832
+                          	}
+2020-06-15 06:31:12.781762		 RESULTS: Solved:: 0.64, Mean length 43.265625
+2020-06-15 06:31:12.786088	Optimization 57: Score: 0.014792343806428314
+2020-06-15 06:31:12.860034	Optimization 58: Chosen parameters:	: {
+                          	    "c": 28.21052662006875
+                          	}
+2020-06-15 06:37:15.753562		 RESULTS: Solved:: 0.71, Mean length 41.436619718309856
+2020-06-15 06:37:15.759805	Optimization 58: Score: 0.01713460231135282
+2020-06-15 06:37:15.847994	Optimization 59: Chosen parameters:	: {
+                          	    "c": 92.55460179420729
+                          	}
+2020-06-15 06:45:33.768498		 RESULTS: Solved:: 0.03, Mean length 28.666666666666668
+2020-06-15 06:45:33.775112	Optimization 59: Score: 0.0010465116279069766
+2020-06-15 06:45:33.860054	Optimization 60: Chosen parameters:	: {
+                          	    "c": 27.09699471313647
+                          	}
+2020-06-15 06:51:40.749889		 RESULTS: Solved:: 0.71, Mean length 42.04225352112676
+2020-06-15 06:51:40.755302	Optimization 60: Score: 0.016887772194304856
+2020-06-15 06:51:40.836096	Optimization 61: Chosen parameters:	: {
+                          	    "c": 22.12841224261157
+                          	}
+2020-06-15 06:57:03.890281		 RESULTS: Solved:: 0.73, Mean length 43.945205479452056
+2020-06-15 06:57:03.895636	Optimization 61: Score: 0.016611596009975062
+2020-06-15 06:57:03.993448	Optimization 62: Chosen parameters:	: {
+                          	    "c": 37.757259777557536
+                          	}
+2020-06-15 07:04:03.479652		 RESULTS: Solved:: 0.51, Mean length 39.35294117647059
+2020-06-15 07:04:03.484519	Optimization 62: Score: 0.012959641255605382
+2020-06-15 07:04:03.585406	Optimization 63: Chosen parameters:	: {
+                          	    "c": 37.80043451584693
+                          	}
+2020-06-15 07:11:23.790712		 RESULTS: Solved:: 0.58, Mean length 39.327586206896555
+2020-06-15 07:11:23.795704	Optimization 63: Score: 0.014747917580008766
+2020-06-15 07:11:23.890216	Optimization 64: Chosen parameters:	: {
+                          	    "c": 29.72323082978669
+                          	}
+2020-06-15 07:17:46.937228		 RESULTS: Solved:: 0.65, Mean length 43.96923076923077
+2020-06-15 07:17:46.942339	Optimization 64: Score: 0.014783065080475858
+2020-06-15 07:17:47.035743	Optimization 65: Chosen parameters:	: {
+                          	    "c": 60.590692373684476
+                          	}
+2020-06-15 07:25:48.984674		 RESULTS: Solved:: 0.18, Mean length 34.5
+2020-06-15 07:25:48.991957	Optimization 65: Score: 0.005217391304347826
+2020-06-15 07:25:49.091604	Optimization 66: Chosen parameters:	: {
+                          	    "c": 56.48912166422055
+                          	}
+2020-06-15 07:33:59.380417		 RESULTS: Solved:: 0.16, Mean length 39.0625
+2020-06-15 07:33:59.387740	Optimization 66: Score: 0.004096
+2020-06-15 07:33:59.477640	Optimization 67: Chosen parameters:	: {
+                          	    "c": 12.627146936003918
+                          	}
+2020-06-15 07:38:09.129634		 RESULTS: Solved:: 0.82, Mean length 53.15853658536585
+2020-06-15 07:38:09.133466	Optimization 67: Score: 0.015425556320256939
+2020-06-15 07:38:09.227710	Optimization 68: Chosen parameters:	: {
+                          	    "c": 44.115156841642424
+                          	}
+2020-06-15 07:45:39.646204		 RESULTS: Solved:: 0.36, Mean length 36.97222222222222
+2020-06-15 07:45:39.655384	Optimization 68: Score: 0.009737039819684448
+2020-06-15 07:45:39.749661	Optimization 69: Chosen parameters:	: {
+                          	    "c": 18.37863934770005
+                          	}
+2020-06-15 07:50:20.391431		 RESULTS: Solved:: 0.75, Mean length 44.88
+2020-06-15 07:50:20.395325	Optimization 69: Score: 0.01671122994652406
+2020-06-15 07:50:20.496318	Optimization 70: Chosen parameters:	: {
+                          	    "c": 55.86034781753517
+                          	}
+2020-06-15 07:58:17.965489		 RESULTS: Solved:: 0.21, Mean length 30.904761904761905
+2020-06-15 07:58:17.973874	Optimization 70: Score: 0.006795069337442218
+2020-06-15 07:58:18.078055	Optimization 71: Chosen parameters:	: {
+                          	    "c": 71.12139239149138
+                          	}
+2020-06-15 08:06:29.199793		 RESULTS: Solved:: 0.13, Mean length 32.30769230769231
+2020-06-15 08:06:29.207342	Optimization 71: Score: 0.004023809523809524
+2020-06-15 08:06:29.288045	Optimization 72: Chosen parameters:	: {
+                          	    "c": 90.6637609976439
+                          	}
+2020-06-15 08:14:46.444567		 RESULTS: Solved:: 0.07, Mean length 26.285714285714285
+2020-06-15 08:14:46.452114	Optimization 72: Score: 0.00266304347826087
+2020-06-15 08:14:46.572343	Optimization 73: Chosen parameters:	: {
+                          	    "c": 76.37889061068482
+                          	}
+2020-06-15 08:23:03.020008		 RESULTS: Solved:: 0.07, Mean length 32.142857142857146
+2020-06-15 08:23:03.027932	Optimization 73: Score: 0.0021777777777777776
+2020-06-15 08:23:03.121896	Optimization 74: Chosen parameters:	: {
+                          	    "c": 74.14865946083466
+                          	}
+2020-06-15 08:31:17.483694		 RESULTS: Solved:: 0.11, Mean length 34.0
+2020-06-15 08:31:17.491388	Optimization 74: Score: 0.003235294117647059
+2020-06-15 08:31:17.585293	Optimization 75: Chosen parameters:	: {
+                          	    "c": 76.37978043531268
+                          	}
+2020-06-15 08:39:34.076553		 RESULTS: Solved:: 0.06, Mean length 30.5
+2020-06-15 08:39:34.087002	Optimization 75: Score: 0.0019672131147540984
+2020-06-15 08:39:34.188350	Optimization 76: Chosen parameters:	: {
+                          	    "c": 67.77780229510678
+                          	}
+2020-06-15 08:47:34.119104		 RESULTS: Solved:: 0.21, Mean length 33.095238095238095
+2020-06-15 08:47:34.127771	Optimization 76: Score: 0.006345323741007194
+2020-06-15 08:47:34.232927	Optimization 77: Chosen parameters:	: {
+                          	    "c": 92.22668600766644
+                          	}
+2020-06-15 08:55:52.274756		 RESULTS: Solved:: 0.05, Mean length 31.2
+2020-06-15 08:55:52.281559	Optimization 77: Score: 0.0016025641025641027
+2020-06-15 08:55:52.385405	Optimization 78: Chosen parameters:	: {
+                          	    "c": 81.17137799726278
+                          	}
+2020-06-15 09:04:10.825226		 RESULTS: Solved:: 0.06, Mean length 31.333333333333332
+2020-06-15 09:04:10.833339	Optimization 78: Score: 0.0019148936170212765
+2020-06-15 09:04:10.935871	Optimization 79: Chosen parameters:	: {
+                          	    "c": 43.071755898525744
+                          	}
+2020-06-15 09:11:36.562348		 RESULTS: Solved:: 0.44, Mean length 35.31818181818182
+2020-06-15 09:11:36.568378	Optimization 79: Score: 0.012458172458172458
+2020-06-15 09:11:36.674506	Optimization 80: Chosen parameters:	: {
+                          	    "c": 84.48697703349795
+                          	}
+2020-06-15 09:19:47.128537		 RESULTS: Solved:: 0.1, Mean length 29.1
+2020-06-15 09:19:47.135969	Optimization 80: Score: 0.003436426116838488
+2020-06-15 09:19:47.234925	Optimization 81: Chosen parameters:	: {
+                          	    "c": 1.594564711613646
+                          	}
+2020-06-15 09:23:51.132211		 RESULTS: Solved:: 0.72, Mean length 101.76388888888889
+2020-06-15 09:23:51.137123	Optimization 81: Score: 0.007075201310222465
+2020-06-15 09:23:51.252491	Optimization 82: Chosen parameters:	: {
+                          	    "c": 61.98591796812393
+                          	}
+2020-06-15 09:31:49.104537		 RESULTS: Solved:: 0.18, Mean length 31.944444444444443
+2020-06-15 09:31:49.111517	Optimization 82: Score: 0.0056347826086956525
+2020-06-15 09:31:49.215563	Optimization 83: Chosen parameters:	: {
+                          	    "c": 39.06086437483168
+                          	}
+2020-06-15 09:39:18.345830		 RESULTS: Solved:: 0.43, Mean length 40.27906976744186
+2020-06-15 09:39:18.351918	Optimization 83: Score: 0.010675519630484989
+2020-06-15 09:39:18.451411	Optimization 84: Chosen parameters:	: {
+                          	    "c": 92.20675821425
+                          	}
+2020-06-15 09:47:33.941312		 RESULTS: Solved:: 0.05, Mean length 26.2
+2020-06-15 09:47:33.950350	Optimization 84: Score: 0.0019083969465648856
+2020-06-15 09:47:34.073466	Optimization 85: Chosen parameters:	: {
+                          	    "c": 29.567114496234094
+                          	}
+2020-06-15 09:53:49.306353		 RESULTS: Solved:: 0.67, Mean length 42.56716417910448
+2020-06-15 09:53:49.311878	Optimization 85: Score: 0.015739831697054698
+2020-06-15 09:53:49.442737	Optimization 86: Chosen parameters:	: {
+                          	    "c": 90.25237789118111
+                          	}
+2020-06-15 10:02:09.704585		 RESULTS: Solved:: 0.02, Mean length 32.5
+2020-06-15 10:02:09.713131	Optimization 86: Score: 0.0006153846153846154
+2020-06-15 10:02:09.830809	Optimization 87: Chosen parameters:	: {
+                          	    "c": 81.1337745671862
+                          	}
+2020-06-15 10:10:27.584748		 RESULTS: Solved:: 0.04, Mean length 34.0
+2020-06-15 10:10:27.593665	Optimization 87: Score: 0.0011764705882352942
+2020-06-15 10:10:27.712361	Optimization 88: Chosen parameters:	: {
+                          	    "c": 45.26278319224961
+                          	}
+2020-06-15 10:18:16.380279		 RESULTS: Solved:: 0.32, Mean length 36.75
+2020-06-15 10:18:16.387327	Optimization 88: Score: 0.008707482993197279
+2020-06-15 10:18:16.529635	Optimization 89: Chosen parameters:	: {
+                          	    "c": 14.83253777365585
+                          	}
+2020-06-15 10:22:57.251951		 RESULTS: Solved:: 0.82, Mean length 53.646341463414636
+2020-06-15 10:22:57.257388	Optimization 89: Score: 0.0152852921118436
+2020-06-15 10:22:57.387770	Optimization 90: Chosen parameters:	: {
+                          	    "c": 77.24192678174819
+                          	}
+2020-06-15 10:31:00.452703		 RESULTS: Solved:: 0.14, Mean length 29.785714285714285
+2020-06-15 10:31:00.459703	Optimization 90: Score: 0.0047002398081534775
+2020-06-15 10:31:00.572845	Optimization 91: Chosen parameters:	: {
+                          	    "c": 77.2428080101821
+                          	}
+2020-06-15 10:39:16.974494		 RESULTS: Solved:: 0.06, Mean length 29.666666666666668
+2020-06-15 10:39:16.981305	Optimization 91: Score: 0.0020224719101123593
+2020-06-15 10:39:17.117431	Optimization 92: Chosen parameters:	: {
+                          	    "c": 89.21144629385849
+                          	}
+2020-06-15 10:47:35.445124		 RESULTS: Solved:: 0.03, Mean length 28.666666666666668
+2020-06-15 10:47:35.453160	Optimization 92: Score: 0.0010465116279069766
+2020-06-15 10:47:35.566735	Optimization 93: Chosen parameters:	: {
+                          	    "c": 72.91545217975253
+                          	}
+2020-06-15 10:55:40.232393		 RESULTS: Solved:: 0.11, Mean length 29.454545454545453
+2020-06-15 10:55:40.239168	Optimization 93: Score: 0.003734567901234568
+2020-06-15 10:55:40.373487	Optimization 94: Chosen parameters:	: {
+                          	    "c": 39.33188028185693
+                          	}
+2020-06-15 11:02:56.277344		 RESULTS: Solved:: 0.44, Mean length 38.93181818181818
+2020-06-15 11:02:56.283806	Optimization 94: Score: 0.011301809690601286
+2020-06-15 11:02:56.418771	Optimization 95: Chosen parameters:	: {
+                          	    "c": 49.08069527468077
+                          	}
+2020-06-15 11:10:46.421829		 RESULTS: Solved:: 0.29, Mean length 33.3448275862069
+2020-06-15 11:10:46.431591	Optimization 95: Score: 0.008697001034126163
+2020-06-15 11:10:46.545926	Optimization 96: Chosen parameters:	: {
+                          	    "c": 97.78008145141742
+                          	}
+2020-06-15 11:19:02.221061		 RESULTS: Solved:: 0.05, Mean length 28.2
+2020-06-15 11:19:02.227564	Optimization 96: Score: 0.001773049645390071
+2020-06-15 11:19:02.350388	Optimization 97: Chosen parameters:	: {
+                          	    "c": 66.09415666288939
+                          	}
+2020-06-15 11:27:17.527509		 RESULTS: Solved:: 0.11, Mean length 33.81818181818182
+2020-06-15 11:27:17.538959	Optimization 97: Score: 0.0032526881720430106
+2020-06-15 11:27:17.687930	Optimization 98: Chosen parameters:	: {
+                          	    "c": 67.8733346329124
+                          	}
+2020-06-15 11:35:35.727923		 RESULTS: Solved:: 0.09, Mean length 34.111111111111114
+2020-06-15 11:35:35.734875	Optimization 98: Score: 0.0026384364820846904
+2020-06-15 11:35:35.857156	Optimization 99: Chosen parameters:	: {
+                          	    "c": 42.39319272977022
+                          	}
+2020-06-15 11:43:00.742414		 RESULTS: Solved:: 0.47, Mean length 37.57446808510638
+2020-06-15 11:43:00.750385	Optimization 99: Score: 0.012508493771234428
+2020-06-15 11:43:00.752194	Optimization done. Best parameters: {
+                          	    "c": 28.21052662006875
+                          	} with score 0.01713460231135282
