@@ -1,0 +1,42 @@
+{
+    "AStar (lambda=0.4, N=100) weighted": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "AStar (lambda=0.4, N=100) paper": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "AStar (lambda=0.4, N=100) notau": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "AStar (lambda=0.4, N=100) adaptive": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "AStar (lambda=0.4, N=100) unweighted": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    }
+}
