@@ -1,5 +1,5 @@
 {
-    "AStar (lambda=0.0, N=1800)": {
+    "AStar (lambda=0.16, N=1000)": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,

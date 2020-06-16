@@ -1,643 +1,764 @@
-2020-06-16 00:23:36.221593	Optimization
+2020-06-16 08:54:47.412683	Optimization
 
-2020-06-16 00:23:36.222994	AStar optimization. Using network from .
-2020-06-16 00:23:36.223952	Received arguments: {'location': 'data/main', 'iterations': 125, 'agent': 'AStar', 'depth': 0, 'eval_games': 100, 'save_optimal': True, 'use_best': True, 'optim_lengths': True, 'optimizer': 'grid'}
-2020-06-16 00:23:36.225074	Optimizer Grid Search created parameters: lambda_: (0, 0.5), expansions: (1, 2000)
-2020-06-16 00:23:36.225892	Created grid search
+2020-06-16 08:54:47.413775	AStar optimization. Using network from .
+2020-06-16 08:54:47.414616	Received arguments: {'location': 'data/main', 'iterations': 125, 'agent': 'AStar', 'depth': 0, 'eval_games': 100, 'save_optimal': True, 'use_best': True, 'optim_lengths': True, 'optimizer': 'grid'}
+2020-06-16 08:54:47.415380	Optimizer Grid Search created parameters: lambda_: (0, 0.4), expansions: (1, 1000)
+2020-06-16 08:54:47.416009	Created grid search
 
-2020-06-16 00:23:36.227929	Starting search over 121 parameter combinations
+2020-06-16 08:54:47.417484	Starting search over 121 parameter combinations
 
-2020-06-16 00:23:36.229696	Optimization 0
+2020-06-16 08:54:47.419075	Optimization 0
                           		Chosen parameters: lambda_: 0.0, expansions: 1
-2020-06-16 00:27:21.339638		RESULTS:           Solved 60.00 %, mean solve length 65.46666666666667
-2020-06-16 00:27:21.344139		Score:             0.009164969450101833
+2020-06-16 08:58:36.467274		RESULTS:           Solved 60.00 %, mean solve length 65.46666666666667
+                          		                   Used 2.29 s and saw 23632 states on average
+                          		Score:             0.009164969450101833
 
-2020-06-16 00:27:21.346188	Optimization 1
+2020-06-16 08:58:36.473241	Optimization 1
+                          		Chosen parameters: lambda_: 0.0, expansions: 100
+2020-06-16 08:59:04.069221		RESULTS:           Solved 100.00 %, mean solve length 37.21
+                          		                   Used 0.27 s and saw 47076 states on average
+                          		Score:             0.026874496103198066
+
+2020-06-16 08:59:04.077928	Optimization 2
                           		Chosen parameters: lambda_: 0.0, expansions: 200
-2020-06-16 00:27:54.712873		RESULTS:           Solved 100.00 %, mean solve length 30.01
-2020-06-16 00:27:54.728054		Score:             0.033322225924691765
+2020-06-16 08:59:33.219919		RESULTS:           Solved 100.00 %, mean solve length 28.06
+                          		                   Used 0.29 s and saw 52832 states on average
+                          		Score:             0.03563791874554526
 
-2020-06-16 00:27:54.730135	Optimization 2
+2020-06-16 08:59:33.234019	Optimization 3
+                          		Chosen parameters: lambda_: 0.0, expansions: 300
+2020-06-16 09:00:14.924542		RESULTS:           Solved 100.00 %, mean solve length 27.61
+                          		                   Used 0.41 s and saw 76658 states on average
+                          		Score:             0.036218761318362915
+
+2020-06-16 09:00:14.948070	Optimization 4
                           		Chosen parameters: lambda_: 0.0, expansions: 400
-2020-06-16 00:28:47.008276		RESULTS:           Solved 100.00 %, mean solve length 25.8
-2020-06-16 00:28:47.034735		Score:             0.03875968992248062
+2020-06-16 09:01:07.440900		RESULTS:           Solved 100.00 %, mean solve length 26.32
+                          		                   Used 0.52 s and saw 96002 states on average
+                          		Score:             0.037993920972644375
 
-2020-06-16 00:28:47.036886	Optimization 3
+2020-06-16 09:01:07.475053	Optimization 5
+                          		Chosen parameters: lambda_: 0.0, expansions: 500
+2020-06-16 09:02:13.221440		RESULTS:           Solved 100.00 %, mean solve length 25.99
+                          		                   Used 0.66 s and saw 117828 states on average
+                          		Score:             0.038476337052712584
+
+2020-06-16 09:02:13.254202	Optimization 6
                           		Chosen parameters: lambda_: 0.0, expansions: 600
-2020-06-16 00:30:07.072722		RESULTS:           Solved 100.00 %, mean solve length 25.65
-2020-06-16 00:30:07.117252		Score:             0.038986354775828465
+2020-06-16 09:03:30.533670		RESULTS:           Solved 100.00 %, mean solve length 25.25
+                          		                   Used 0.77 s and saw 136751 states on average
+                          		Score:             0.039603960396039604
 
-2020-06-16 00:30:07.119680	Optimization 4
+2020-06-16 09:03:30.577572	Optimization 7
+                          		Chosen parameters: lambda_: 0.0, expansions: 700
+2020-06-16 09:05:01.064890		RESULTS:           Solved 100.00 %, mean solve length 24.94
+                          		                   Used 0.90 s and saw 157014 states on average
+                          		Score:             0.040096230954290296
+
+2020-06-16 09:05:01.113712	Optimization 8
                           		Chosen parameters: lambda_: 0.0, expansions: 800
-2020-06-16 00:31:51.990075		RESULTS:           Solved 100.00 %, mean solve length 24.86
-2020-06-16 00:31:52.038942		Score:             0.04022526146419952
+2020-06-16 09:06:44.154968		RESULTS:           Solved 100.00 %, mean solve length 24.96
+                          		                   Used 1.03 s and saw 179355 states on average
+                          		Score:             0.04006410256410256
 
-2020-06-16 00:31:52.041312	Optimization 5
+2020-06-16 09:06:44.207544	Optimization 9
+                          		Chosen parameters: lambda_: 0.0, expansions: 900
+2020-06-16 09:08:40.445307		RESULTS:           Solved 100.00 %, mean solve length 24.71
+                          		                   Used 1.16 s and saw 199303 states on average
+                          		Score:             0.04046944556859571
+
+2020-06-16 09:08:40.496409	Optimization 10
                           		Chosen parameters: lambda_: 0.0, expansions: 1000
-2020-06-16 00:34:04.373741		RESULTS:           Solved 100.00 %, mean solve length 24.81
-2020-06-16 00:34:04.439254		Score:             0.04030632809351068
+2020-06-16 09:10:47.334361		RESULTS:           Solved 100.00 %, mean solve length 24.37
+                          		                   Used 1.27 s and saw 217765 states on average
+                          		Score:             0.04103405826836274
 
-2020-06-16 00:34:04.441441	Optimization 6
-                          		Chosen parameters: lambda_: 0.0, expansions: 1200
-2020-06-16 00:36:38.127214		RESULTS:           Solved 100.00 %, mean solve length 23.97
-2020-06-16 00:36:38.212829		Score:             0.04171881518564873
+2020-06-16 09:10:47.391924	Optimization 11
+                          		Chosen parameters: lambda_: 0.04, expansions: 1
+2020-06-16 09:12:55.393172		RESULTS:           Solved 96.00 %, mean solve length 59.385416666666664
+                          		                   Used 1.28 s and saw 13278 states on average
+                          		Score:             0.016165584985090336
 
-2020-06-16 00:36:38.214895	Optimization 7
-                          		Chosen parameters: lambda_: 0.0, expansions: 1400
-2020-06-16 00:39:37.123061		RESULTS:           Solved 100.00 %, mean solve length 23.88
-2020-06-16 00:39:37.224386		Score:             0.04187604690117253
+2020-06-16 09:12:55.400546	Optimization 12
+                          		Chosen parameters: lambda_: 0.04, expansions: 100
+2020-06-16 09:13:14.613097		RESULTS:           Solved 100.00 %, mean solve length 30.66
+                          		                   Used 0.19 s and saw 33200 states on average
+                          		Score:             0.03261578604044357
 
-2020-06-16 00:39:37.226622	Optimization 8
-                          		Chosen parameters: lambda_: 0.0, expansions: 1600
-2020-06-16 00:43:05.314743		RESULTS:           Solved 100.00 %, mean solve length 24.1
-2020-06-16 00:43:05.424875		Score:             0.04149377593360996
+2020-06-16 09:13:14.623491	Optimization 13
+                          		Chosen parameters: lambda_: 0.04, expansions: 200
+2020-06-16 09:13:45.163051		RESULTS:           Solved 100.00 %, mean solve length 28.48
+                          		                   Used 0.30 s and saw 54728 states on average
+                          		Score:             0.0351123595505618
 
-2020-06-16 00:43:05.427121	Optimization 9
-                          		Chosen parameters: lambda_: 0.0, expansions: 1800
-2020-06-16 00:46:56.107161		RESULTS:           Solved 100.00 %, mean solve length 23.61
-2020-06-16 00:46:56.213787		Score:             0.042354934349851756
+2020-06-16 09:13:45.181804	Optimization 14
+                          		Chosen parameters: lambda_: 0.04, expansions: 300
+2020-06-16 09:14:25.421137		RESULTS:           Solved 100.00 %, mean solve length 26.82
+                          		                   Used 0.40 s and saw 73814 states on average
+                          		Score:             0.03728560775540641
 
-2020-06-16 00:46:56.215843	Optimization 10
-                          		Chosen parameters: lambda_: 0.0, expansions: 2000
-2020-06-16 00:51:13.852648		RESULTS:           Solved 100.00 %, mean solve length 23.65
-2020-06-16 00:51:13.974406		Score:             0.042283298097251586
+2020-06-16 09:14:25.441267	Optimization 15
+                          		Chosen parameters: lambda_: 0.04, expansions: 400
+2020-06-16 09:15:17.753206		RESULTS:           Solved 100.00 %, mean solve length 26.05
+                          		                   Used 0.52 s and saw 94848 states on average
+                          		Score:             0.03838771593090211
 
-2020-06-16 00:51:13.976551	Optimization 11
-                          		Chosen parameters: lambda_: 0.05, expansions: 1
-2020-06-16 00:53:09.080897		RESULTS:           Solved 98.00 %, mean solve length 57.30612244897959
-2020-06-16 00:53:09.087841		Score:             0.0171011396011396
+2020-06-16 09:15:17.781522	Optimization 16
+                          		Chosen parameters: lambda_: 0.04, expansions: 500
+2020-06-16 09:16:23.996292		RESULTS:           Solved 100.00 %, mean solve length 26.07
+                          		                   Used 0.66 s and saw 118281 states on average
+                          		Score:             0.038358266206367474
 
-2020-06-16 00:53:09.089928	Optimization 12
-                          		Chosen parameters: lambda_: 0.05, expansions: 200
-2020-06-16 00:53:39.894074		RESULTS:           Solved 100.00 %, mean solve length 28.1
-2020-06-16 00:53:39.909552		Score:             0.03558718861209964
+2020-06-16 09:16:24.033458	Optimization 17
+                          		Chosen parameters: lambda_: 0.04, expansions: 600
+2020-06-16 09:17:41.753245		RESULTS:           Solved 100.00 %, mean solve length 25.39
+                          		                   Used 0.78 s and saw 137626 states on average
+                          		Score:             0.03938558487593541
 
-2020-06-16 00:53:39.911536	Optimization 13
-                          		Chosen parameters: lambda_: 0.05, expansions: 400
-2020-06-16 00:54:34.368571		RESULTS:           Solved 100.00 %, mean solve length 26.46
-2020-06-16 00:54:34.401606		Score:             0.03779289493575208
+2020-06-16 09:17:41.791292	Optimization 18
+                          		Chosen parameters: lambda_: 0.04, expansions: 700
+2020-06-16 09:19:13.722220		RESULTS:           Solved 100.00 %, mean solve length 25.25
+                          		                   Used 0.92 s and saw 159241 states on average
+                          		Score:             0.039603960396039604
 
-2020-06-16 00:54:34.403520	Optimization 14
-                          		Chosen parameters: lambda_: 0.05, expansions: 600
-2020-06-16 00:55:53.457233		RESULTS:           Solved 100.00 %, mean solve length 25.18
-2020-06-16 00:55:53.494365		Score:             0.03971405877680699
+2020-06-16 09:19:13.763162	Optimization 19
+                          		Chosen parameters: lambda_: 0.04, expansions: 800
+2020-06-16 09:20:54.952555		RESULTS:           Solved 100.00 %, mean solve length 24.56
+                          		                   Used 1.01 s and saw 176047 states on average
+                          		Score:             0.04071661237785017
 
-2020-06-16 00:55:53.496464	Optimization 15
-                          		Chosen parameters: lambda_: 0.05, expansions: 800
-2020-06-16 00:57:37.405202		RESULTS:           Solved 100.00 %, mean solve length 24.65
-2020-06-16 00:57:37.457747		Score:             0.04056795131845842
+2020-06-16 09:20:55.006984	Optimization 20
+                          		Chosen parameters: lambda_: 0.04, expansions: 900
+2020-06-16 09:22:51.393576		RESULTS:           Solved 100.00 %, mean solve length 24.67
+                          		                   Used 1.16 s and saw 198979 states on average
+                          		Score:             0.040535062829347386
 
-2020-06-16 00:57:37.459681	Optimization 16
-                          		Chosen parameters: lambda_: 0.05, expansions: 1000
-2020-06-16 00:59:50.022093		RESULTS:           Solved 100.00 %, mean solve length 24.75
-2020-06-16 00:59:50.076238		Score:             0.04040404040404041
+2020-06-16 09:22:51.452705	Optimization 21
+                          		Chosen parameters: lambda_: 0.04, expansions: 1000
+2020-06-16 09:25:01.243465		RESULTS:           Solved 100.00 %, mean solve length 24.84
+                          		                   Used 1.30 s and saw 222439 states on average
+                          		Score:             0.040257648953301126
 
-2020-06-16 00:59:50.078431	Optimization 17
-                          		Chosen parameters: lambda_: 0.05, expansions: 1200
-2020-06-16 01:02:28.958606		RESULTS:           Solved 100.00 %, mean solve length 24.59
-2020-06-16 01:02:29.036220		Score:             0.040666937779585195
+2020-06-16 09:25:01.304068	Optimization 22
+                          		Chosen parameters: lambda_: 0.08, expansions: 1
+2020-06-16 09:27:00.333074		RESULTS:           Solved 98.00 %, mean solve length 50.714285714285715
+                          		                   Used 1.19 s and saw 12383 states on average
+                          		Score:             0.01932394366197183
 
-2020-06-16 01:02:29.038158	Optimization 18
-                          		Chosen parameters: lambda_: 0.05, expansions: 1400
-2020-06-16 01:05:32.852645		RESULTS:           Solved 100.00 %, mean solve length 24.45
-2020-06-16 01:05:32.944734		Score:             0.0408997955010225
+2020-06-16 09:27:00.349310	Optimization 23
+                          		Chosen parameters: lambda_: 0.08, expansions: 100
+2020-06-16 09:27:18.843462		RESULTS:           Solved 100.00 %, mean solve length 31.13
+                          		                   Used 0.18 s and saw 32028 states on average
+                          		Score:             0.032123353678123995
 
-2020-06-16 01:05:32.946764	Optimization 19
-                          		Chosen parameters: lambda_: 0.05, expansions: 1600
-2020-06-16 01:08:57.050132		RESULTS:           Solved 100.00 %, mean solve length 23.78
-2020-06-16 01:08:57.147017		Score:             0.04205214465937763
+2020-06-16 09:27:18.854504	Optimization 24
+                          		Chosen parameters: lambda_: 0.08, expansions: 200
+2020-06-16 09:27:48.499070		RESULTS:           Solved 100.00 %, mean solve length 28.29
+                          		                   Used 0.29 s and saw 53581 states on average
+                          		Score:             0.03534817956875221
 
-2020-06-16 01:08:57.149032	Optimization 20
-                          		Chosen parameters: lambda_: 0.05, expansions: 1800
-2020-06-16 01:12:51.206139		RESULTS:           Solved 100.00 %, mean solve length 23.93
-2020-06-16 01:12:51.328678		Score:             0.041788549937317176
+2020-06-16 09:27:48.514084	Optimization 25
+                          		Chosen parameters: lambda_: 0.08, expansions: 300
+2020-06-16 09:28:28.680470		RESULTS:           Solved 100.00 %, mean solve length 26.64
+                          		                   Used 0.40 s and saw 73585 states on average
+                          		Score:             0.03753753753753754
 
-2020-06-16 01:12:51.330728	Optimization 21
-                          		Chosen parameters: lambda_: 0.05, expansions: 2000
-2020-06-16 01:17:12.258047		RESULTS:           Solved 100.00 %, mean solve length 23.92
-2020-06-16 01:17:12.385479		Score:             0.04180602006688963
+2020-06-16 09:28:28.703526	Optimization 26
+                          		Chosen parameters: lambda_: 0.08, expansions: 400
+2020-06-16 09:29:21.242734		RESULTS:           Solved 100.00 %, mean solve length 26.19
+                          		                   Used 0.52 s and saw 95365 states on average
+                          		Score:             0.038182512409316534
 
-2020-06-16 01:17:12.387344	Optimization 22
-                          		Chosen parameters: lambda_: 0.1, expansions: 1
-2020-06-16 01:18:46.584824		RESULTS:           Solved 99.00 %, mean solve length 47.43434343434343
-2020-06-16 01:18:46.600621		Score:             0.020870954003407157
+2020-06-16 09:29:21.273571	Optimization 27
+                          		Chosen parameters: lambda_: 0.08, expansions: 500
+2020-06-16 09:30:25.753155		RESULTS:           Solved 100.00 %, mean solve length 25.44
+                          		                   Used 0.64 s and saw 115138 states on average
+                          		Score:             0.03930817610062893
 
-2020-06-16 01:18:46.602366	Optimization 23
-                          		Chosen parameters: lambda_: 0.1, expansions: 200
-2020-06-16 01:19:17.330491		RESULTS:           Solved 100.00 %, mean solve length 28.67
-2020-06-16 01:19:17.352551		Score:             0.034879665155214505
+2020-06-16 09:30:25.783005	Optimization 28
+                          		Chosen parameters: lambda_: 0.08, expansions: 600
+2020-06-16 09:31:44.272484		RESULTS:           Solved 100.00 %, mean solve length 25.63
+                          		                   Used 0.78 s and saw 138965 states on average
+                          		Score:             0.03901677721420211
 
-2020-06-16 01:19:17.354518	Optimization 24
-                          		Chosen parameters: lambda_: 0.1, expansions: 400
-2020-06-16 01:20:10.894628		RESULTS:           Solved 100.00 %, mean solve length 26.03
-2020-06-16 01:20:10.925468		Score:             0.038417210910487894
+2020-06-16 09:31:44.314791	Optimization 29
+                          		Chosen parameters: lambda_: 0.08, expansions: 700
+2020-06-16 09:33:16.188786		RESULTS:           Solved 100.00 %, mean solve length 25.18
+                          		                   Used 0.92 s and saw 158764 states on average
+                          		Score:             0.03971405877680699
 
-2020-06-16 01:20:10.927402	Optimization 25
-                          		Chosen parameters: lambda_: 0.1, expansions: 600
-2020-06-16 01:21:30.849797		RESULTS:           Solved 100.00 %, mean solve length 25.34
-2020-06-16 01:21:30.892175		Score:             0.03946329913180742
+2020-06-16 09:33:16.240149	Optimization 30
+                          		Chosen parameters: lambda_: 0.08, expansions: 800
+2020-06-16 09:34:56.852191		RESULTS:           Solved 100.00 %, mean solve length 24.42
+                          		                   Used 1.00 s and saw 175068 states on average
+                          		Score:             0.04095004095004095
 
-2020-06-16 01:21:30.894314	Optimization 26
-                          		Chosen parameters: lambda_: 0.1, expansions: 800
-2020-06-16 01:23:16.319404		RESULTS:           Solved 100.00 %, mean solve length 24.83
-2020-06-16 01:23:16.376403		Score:             0.04027386226339106
+2020-06-16 09:34:56.910271	Optimization 31
+                          		Chosen parameters: lambda_: 0.08, expansions: 900
+2020-06-16 09:36:51.796140		RESULTS:           Solved 100.00 %, mean solve length 24.38
+                          		                   Used 1.15 s and saw 196285 states on average
+                          		Score:             0.04101722723543889
 
-2020-06-16 01:23:16.378418	Optimization 27
-                          		Chosen parameters: lambda_: 0.1, expansions: 1000
-2020-06-16 01:25:27.959446		RESULTS:           Solved 100.00 %, mean solve length 24.5
-2020-06-16 01:25:28.018121		Score:             0.04081632653061224
+2020-06-16 09:36:51.843192	Optimization 32
+                          		Chosen parameters: lambda_: 0.08, expansions: 1000
+2020-06-16 09:39:01.462517		RESULTS:           Solved 100.00 %, mean solve length 24.75
+                          		                   Used 1.29 s and saw 221619 states on average
+                          		Score:             0.04040404040404041
 
-2020-06-16 01:25:28.020086	Optimization 28
-                          		Chosen parameters: lambda_: 0.1, expansions: 1200
-2020-06-16 01:28:04.334824		RESULTS:           Solved 100.00 %, mean solve length 24.25
-2020-06-16 01:28:04.420096		Score:             0.041237113402061855
+2020-06-16 09:39:01.528696	Optimization 33
+                          		Chosen parameters: lambda_: 0.12, expansions: 1
+2020-06-16 09:41:20.280231		RESULTS:           Solved 97.00 %, mean solve length 44.20618556701031
+                          		                   Used 1.39 s and saw 14415 states on average
+                          		Score:             0.021942630597014925
 
-2020-06-16 01:28:04.422039	Optimization 29
-                          		Chosen parameters: lambda_: 0.1, expansions: 1400
-2020-06-16 01:31:08.301067		RESULTS:           Solved 100.00 %, mean solve length 24.38
-2020-06-16 01:31:08.398019		Score:             0.04101722723543889
+2020-06-16 09:41:20.286585	Optimization 34
+                          		Chosen parameters: lambda_: 0.12, expansions: 100
+2020-06-16 09:41:39.770919		RESULTS:           Solved 100.00 %, mean solve length 30.61
+                          		                   Used 0.19 s and saw 33530 states on average
+                          		Score:             0.032669062397909183
 
-2020-06-16 01:31:08.400210	Optimization 30
-                          		Chosen parameters: lambda_: 0.1, expansions: 1600
-2020-06-16 01:34:33.415201		RESULTS:           Solved 100.00 %, mean solve length 23.84
-2020-06-16 01:34:33.535745		Score:             0.04194630872483222
+2020-06-16 09:41:39.778845	Optimization 35
+                          		Chosen parameters: lambda_: 0.12, expansions: 200
+2020-06-16 09:42:08.644634		RESULTS:           Solved 100.00 %, mean solve length 27.56
+                          		                   Used 0.29 s and saw 51782 states on average
+                          		Score:             0.036284470246734396
 
-2020-06-16 01:34:33.537729	Optimization 31
-                          		Chosen parameters: lambda_: 0.1, expansions: 1800
-2020-06-16 01:38:26.500247		RESULTS:           Solved 100.00 %, mean solve length 23.72
-2020-06-16 01:38:26.599589		Score:             0.04215851602023609
+2020-06-16 09:42:08.658279	Optimization 36
+                          		Chosen parameters: lambda_: 0.12, expansions: 300
+2020-06-16 09:42:48.853764		RESULTS:           Solved 100.00 %, mean solve length 26.68
+                          		                   Used 0.40 s and saw 73757 states on average
+                          		Score:             0.037481259370314844
 
-2020-06-16 01:38:26.602006	Optimization 32
-                          		Chosen parameters: lambda_: 0.1, expansions: 2000
-2020-06-16 01:42:46.811223		RESULTS:           Solved 100.00 %, mean solve length 23.81
-2020-06-16 01:42:46.949408		Score:             0.041999160016799666
+2020-06-16 09:42:48.872537	Optimization 37
+                          		Chosen parameters: lambda_: 0.12, expansions: 400
+2020-06-16 09:43:39.856666		RESULTS:           Solved 100.00 %, mean solve length 25.51
+                          		                   Used 0.51 s and saw 92726 states on average
+                          		Score:             0.03920031360250882
 
-2020-06-16 01:42:46.951328	Optimization 33
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1
-2020-06-16 01:44:55.260851		RESULTS:           Solved 97.00 %, mean solve length 40.391752577319586
-2020-06-16 01:44:55.265103		Score:             0.024014803471158756
+2020-06-16 09:43:39.884271	Optimization 38
+                          		Chosen parameters: lambda_: 0.12, expansions: 500
+2020-06-16 09:44:44.545666		RESULTS:           Solved 100.00 %, mean solve length 25.46
+                          		                   Used 0.64 s and saw 115371 states on average
+                          		Score:             0.03927729772191673
 
-2020-06-16 01:44:55.267149	Optimization 34
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 200
-2020-06-16 01:45:26.343988		RESULTS:           Solved 100.00 %, mean solve length 27.99
-2020-06-16 01:45:26.359912		Score:             0.03572704537334763
+2020-06-16 09:44:44.587286	Optimization 39
+                          		Chosen parameters: lambda_: 0.12, expansions: 600
+2020-06-16 09:46:01.721827		RESULTS:           Solved 100.00 %, mean solve length 25.23
+                          		                   Used 0.77 s and saw 136559 states on average
+                          		Score:             0.03963535473642489
 
-2020-06-16 01:45:26.361794	Optimization 35
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 400
-2020-06-16 01:46:19.121619		RESULTS:           Solved 100.00 %, mean solve length 25.52
-2020-06-16 01:46:19.149436		Score:             0.03918495297805643
+2020-06-16 09:46:01.753227	Optimization 40
+                          		Chosen parameters: lambda_: 0.12, expansions: 700
+2020-06-16 09:47:32.891304		RESULTS:           Solved 100.00 %, mean solve length 25.0
+                          		                   Used 0.91 s and saw 157513 states on average
+                          		Score:             0.04
 
-2020-06-16 01:46:19.151207	Optimization 36
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 600
-2020-06-16 01:47:38.137967		RESULTS:           Solved 100.00 %, mean solve length 25.14
-2020-06-16 01:47:38.175765		Score:             0.03977724741447892
+2020-06-16 09:47:32.934387	Optimization 41
+                          		Chosen parameters: lambda_: 0.12, expansions: 800
+2020-06-16 09:49:14.871752		RESULTS:           Solved 100.00 %, mean solve length 24.67
+                          		                   Used 1.02 s and saw 177040 states on average
+                          		Score:             0.040535062829347386
 
-2020-06-16 01:47:38.177612	Optimization 37
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 800
-2020-06-16 01:49:22.711330		RESULTS:           Solved 100.00 %, mean solve length 24.55
-2020-06-16 01:49:22.767523		Score:             0.04073319755600815
+2020-06-16 09:49:14.932120	Optimization 42
+                          		Chosen parameters: lambda_: 0.12, expansions: 900
+2020-06-16 09:51:11.850771		RESULTS:           Solved 100.00 %, mean solve length 24.71
+                          		                   Used 1.17 s and saw 199568 states on average
+                          		Score:             0.04046944556859571
 
-2020-06-16 01:49:22.769316	Optimization 38
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1000
-2020-06-16 01:51:33.129260		RESULTS:           Solved 100.00 %, mean solve length 24.32
-2020-06-16 01:51:33.216942		Score:             0.04111842105263158
+2020-06-16 09:51:11.908733	Optimization 43
+                          		Chosen parameters: lambda_: 0.12, expansions: 1000
+2020-06-16 09:53:23.296492		RESULTS:           Solved 100.00 %, mean solve length 25.05
+                          		                   Used 1.31 s and saw 224657 states on average
+                          		Score:             0.03992015968063872
 
-2020-06-16 01:51:33.218917	Optimization 39
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1200
-2020-06-16 01:54:09.130346		RESULTS:           Solved 100.00 %, mean solve length 24.17
-2020-06-16 01:54:09.190840		Score:             0.04137360364087712
+2020-06-16 09:53:23.357572	Optimization 44
+                          		Chosen parameters: lambda_: 0.16, expansions: 1
+2020-06-16 09:55:53.865140		RESULTS:           Solved 93.00 %, mean solve length 40.086021505376344
+                          		                   Used 1.50 s and saw 15665 states on average
+                          		Score:             0.02320010729613734
 
-2020-06-16 01:54:09.192760	Optimization 40
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1400
-2020-06-16 01:57:12.390987		RESULTS:           Solved 100.00 %, mean solve length 24.28
-2020-06-16 01:57:12.473359		Score:             0.04118616144975288
+2020-06-16 09:55:53.873342	Optimization 45
+                          		Chosen parameters: lambda_: 0.16, expansions: 100
+2020-06-16 09:56:12.220439		RESULTS:           Solved 100.00 %, mean solve length 29.6
+                          		                   Used 0.18 s and saw 31741 states on average
+                          		Score:             0.03378378378378378
 
-2020-06-16 01:57:12.475717	Optimization 41
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1600
-2020-06-16 02:00:38.848914		RESULTS:           Solved 100.00 %, mean solve length 23.85
-2020-06-16 02:00:38.986129		Score:             0.04192872117400419
+2020-06-16 09:56:12.230077	Optimization 46
+                          		Chosen parameters: lambda_: 0.16, expansions: 200
+2020-06-16 09:56:42.069836		RESULTS:           Solved 100.00 %, mean solve length 27.57
+                          		                   Used 0.30 s and saw 53502 states on average
+                          		Score:             0.03627130939426913
 
-2020-06-16 02:00:38.996453	Optimization 42
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 1800
-2020-06-16 02:04:33.812731		RESULTS:           Solved 100.00 %, mean solve length 23.85
-2020-06-16 02:04:33.937249		Score:             0.04192872117400419
+2020-06-16 09:56:42.081937	Optimization 47
+                          		Chosen parameters: lambda_: 0.16, expansions: 300
+2020-06-16 09:57:22.917391		RESULTS:           Solved 100.00 %, mean solve length 26.69
+                          		                   Used 0.41 s and saw 74848 states on average
+                          		Score:             0.03746721618583739
 
-2020-06-16 02:04:33.939328	Optimization 43
-                          		Chosen parameters: lambda_: 0.15000000000000002, expansions: 2000
-2020-06-16 02:08:59.258478		RESULTS:           Solved 100.00 %, mean solve length 24.15
-2020-06-16 02:08:59.387118		Score:             0.041407867494824016
+2020-06-16 09:57:22.938397	Optimization 48
+                          		Chosen parameters: lambda_: 0.16, expansions: 400
+2020-06-16 09:58:14.517646		RESULTS:           Solved 100.00 %, mean solve length 25.69
+                          		                   Used 0.51 s and saw 93507 states on average
+                          		Score:             0.038925652004671074
 
-2020-06-16 02:08:59.389098	Optimization 44
+2020-06-16 09:58:14.546610	Optimization 49
+                          		Chosen parameters: lambda_: 0.16, expansions: 500
+2020-06-16 09:59:19.960398		RESULTS:           Solved 100.00 %, mean solve length 25.67
+                          		                   Used 0.65 s and saw 116350 states on average
+                          		Score:             0.03895597974289053
+
+2020-06-16 09:59:19.989985	Optimization 50
+                          		Chosen parameters: lambda_: 0.16, expansions: 600
+2020-06-16 10:00:37.756472		RESULTS:           Solved 100.00 %, mean solve length 25.27
+                          		                   Used 0.78 s and saw 136755 states on average
+                          		Score:             0.03957261574990107
+
+2020-06-16 10:00:37.799508	Optimization 51
+                          		Chosen parameters: lambda_: 0.16, expansions: 700
+2020-06-16 10:02:07.313206		RESULTS:           Solved 100.00 %, mean solve length 24.63
+                          		                   Used 0.89 s and saw 154760 states on average
+                          		Score:             0.04060089321965083
+
+2020-06-16 10:02:07.360387	Optimization 52
+                          		Chosen parameters: lambda_: 0.16, expansions: 800
+2020-06-16 10:03:49.686769		RESULTS:           Solved 100.00 %, mean solve length 24.72
+                          		                   Used 1.02 s and saw 177371 states on average
+                          		Score:             0.04045307443365696
+
+2020-06-16 10:03:49.734198	Optimization 53
+                          		Chosen parameters: lambda_: 0.16, expansions: 900
+2020-06-16 10:05:47.815323		RESULTS:           Solved 100.00 %, mean solve length 24.93
+                          		                   Used 1.18 s and saw 201285 states on average
+                          		Score:             0.04011231448054553
+
+2020-06-16 10:05:47.877995	Optimization 54
+                          		Chosen parameters: lambda_: 0.16, expansions: 1000
+2020-06-16 10:07:54.415115		RESULTS:           Solved 100.00 %, mean solve length 24.23
+                          		                   Used 1.26 s and saw 216461 states on average
+                          		Score:             0.041271151465125874
+
+2020-06-16 10:07:54.473930	Optimization 55
                           		Chosen parameters: lambda_: 0.2, expansions: 1
-2020-06-16 02:11:29.426131		RESULTS:           Solved 95.00 %, mean solve length 36.757894736842104
-2020-06-16 02:11:29.454158		Score:             0.025844788087056127
+2020-06-16 10:10:29.255501		RESULTS:           Solved 95.00 %, mean solve length 35.54736842105263
+                          		                   Used 1.55 s and saw 16170 states on average
+                          		Score:             0.02672490376073438
 
-2020-06-16 02:11:29.456148	Optimization 45
+2020-06-16 10:10:29.262041	Optimization 56
+                          		Chosen parameters: lambda_: 0.2, expansions: 100
+2020-06-16 10:10:48.516856		RESULTS:           Solved 100.00 %, mean solve length 28.93
+                          		                   Used 0.19 s and saw 33333 states on average
+                          		Score:             0.034566194262011754
+
+2020-06-16 10:10:48.525665	Optimization 57
                           		Chosen parameters: lambda_: 0.2, expansions: 200
-2020-06-16 02:12:00.606276		RESULTS:           Solved 100.00 %, mean solve length 28.12
-2020-06-16 02:12:00.624168		Score:             0.03556187766714082
+2020-06-16 10:11:18.849107		RESULTS:           Solved 100.00 %, mean solve length 27.32
+                          		                   Used 0.30 s and saw 54801 states on average
+                          		Score:             0.036603221083455345
 
-2020-06-16 02:12:00.626085	Optimization 46
+2020-06-16 10:11:18.865091	Optimization 58
+                          		Chosen parameters: lambda_: 0.2, expansions: 300
+2020-06-16 10:11:59.964609		RESULTS:           Solved 100.00 %, mean solve length 26.79
+                          		                   Used 0.41 s and saw 75273 states on average
+                          		Score:             0.037327360955580445
+
+2020-06-16 10:11:59.986547	Optimization 59
                           		Chosen parameters: lambda_: 0.2, expansions: 400
-2020-06-16 02:12:55.431675		RESULTS:           Solved 100.00 %, mean solve length 26.29
-2020-06-16 02:12:55.457349		Score:             0.038037276531000384
+2020-06-16 10:12:53.269120		RESULTS:           Solved 100.00 %, mean solve length 26.24
+                          		                   Used 0.53 s and saw 96535 states on average
+                          		Score:             0.038109756097560975
 
-2020-06-16 02:12:55.459328	Optimization 47
+2020-06-16 10:12:53.296637	Optimization 60
+                          		Chosen parameters: lambda_: 0.2, expansions: 500
+2020-06-16 10:13:57.643919		RESULTS:           Solved 100.00 %, mean solve length 25.28
+                          		                   Used 0.64 s and saw 114457 states on average
+                          		Score:             0.03955696202531645
+
+2020-06-16 10:13:57.677079	Optimization 61
                           		Chosen parameters: lambda_: 0.2, expansions: 600
-2020-06-16 02:14:14.297291		RESULTS:           Solved 100.00 %, mean solve length 24.97
-2020-06-16 02:14:14.345633		Score:             0.040048057669203045
+2020-06-16 10:15:14.700117		RESULTS:           Solved 100.00 %, mean solve length 25.09
+                          		                   Used 0.77 s and saw 135879 states on average
+                          		Score:             0.03985651654045436
 
-2020-06-16 02:14:14.348118	Optimization 48
+2020-06-16 10:15:14.741312	Optimization 62
+                          		Chosen parameters: lambda_: 0.2, expansions: 700
+2020-06-16 10:16:44.435104		RESULTS:           Solved 100.00 %, mean solve length 24.67
+                          		                   Used 0.89 s and saw 155134 states on average
+                          		Score:             0.040535062829347386
+
+2020-06-16 10:16:44.478413	Optimization 63
                           		Chosen parameters: lambda_: 0.2, expansions: 800
-2020-06-16 02:15:58.916623		RESULTS:           Solved 100.00 %, mean solve length 24.61
-2020-06-16 02:15:58.973757		Score:             0.04063388866314507
+2020-06-16 10:18:26.434646		RESULTS:           Solved 100.00 %, mean solve length 24.65
+                          		                   Used 1.02 s and saw 176730 states on average
+                          		Score:             0.04056795131845842
 
-2020-06-16 02:15:58.975784	Optimization 49
+2020-06-16 10:18:26.489198	Optimization 64
+                          		Chosen parameters: lambda_: 0.2, expansions: 900
+2020-06-16 10:20:23.278421		RESULTS:           Solved 100.00 %, mean solve length 24.64
+                          		                   Used 1.17 s and saw 198933 states on average
+                          		Score:             0.040584415584415584
+
+2020-06-16 10:20:23.333671	Optimization 65
                           		Chosen parameters: lambda_: 0.2, expansions: 1000
-2020-06-16 02:18:12.925632		RESULTS:           Solved 100.00 %, mean solve length 24.77
-2020-06-16 02:18:12.991147		Score:             0.04037141703673799
+2020-06-16 10:22:34.706444		RESULTS:           Solved 100.00 %, mean solve length 25.01
+                          		                   Used 1.31 s and saw 224228 states on average
+                          		Score:             0.03998400639744102
 
-2020-06-16 02:18:12.993563	Optimization 50
-                          		Chosen parameters: lambda_: 0.2, expansions: 1200
-2020-06-16 02:20:50.258738		RESULTS:           Solved 100.00 %, mean solve length 24.33
-2020-06-16 02:20:50.347394		Score:             0.04110152075626799
+2020-06-16 10:22:34.768963	Optimization 66
+                          		Chosen parameters: lambda_: 0.24, expansions: 1
+2020-06-16 10:25:26.446406		RESULTS:           Solved 95.00 %, mean solve length 32.705263157894734
+                          		                   Used 1.71 s and saw 18038 states on average
+                          		Score:             0.02904731252011587
 
-2020-06-16 02:20:50.349499	Optimization 51
-                          		Chosen parameters: lambda_: 0.2, expansions: 1400
-2020-06-16 02:23:48.735002		RESULTS:           Solved 100.00 %, mean solve length 23.67
-2020-06-16 02:23:48.833320		Score:             0.042247570764681025
+2020-06-16 10:25:26.455734	Optimization 67
+                          		Chosen parameters: lambda_: 0.24, expansions: 100
+2020-06-16 10:25:49.566999		RESULTS:           Solved 100.00 %, mean solve length 28.84
+                          		                   Used 0.23 s and saw 39752 states on average
+                          		Score:             0.03467406380027739
 
-2020-06-16 02:23:48.835339	Optimization 52
-                          		Chosen parameters: lambda_: 0.2, expansions: 1600
-2020-06-16 02:27:15.747334		RESULTS:           Solved 100.00 %, mean solve length 23.94
-2020-06-16 02:27:15.845604		Score:             0.04177109440267335
+2020-06-16 10:25:49.576635	Optimization 68
+                          		Chosen parameters: lambda_: 0.24, expansions: 200
+2020-06-16 10:26:20.295544		RESULTS:           Solved 100.00 %, mean solve length 27.05
+                          		                   Used 0.31 s and saw 55131 states on average
+                          		Score:             0.03696857670979667
 
-2020-06-16 02:27:15.847586	Optimization 53
-                          		Chosen parameters: lambda_: 0.2, expansions: 1800
-2020-06-16 02:31:13.658683		RESULTS:           Solved 100.00 %, mean solve length 24.13
-2020-06-16 02:31:13.789557		Score:             0.04144218814753419
+2020-06-16 10:26:20.311973	Optimization 69
+                          		Chosen parameters: lambda_: 0.24, expansions: 300
+2020-06-16 10:27:01.076996		RESULTS:           Solved 100.00 %, mean solve length 26.27
+                          		                   Used 0.41 s and saw 74891 states on average
+                          		Score:             0.03806623524933384
 
-2020-06-16 02:31:13.791821	Optimization 54
-                          		Chosen parameters: lambda_: 0.2, expansions: 2000
-2020-06-16 02:35:34.233789		RESULTS:           Solved 100.00 %, mean solve length 23.81
-2020-06-16 02:35:34.362479		Score:             0.041999160016799666
+2020-06-16 10:27:01.103120	Optimization 70
+                          		Chosen parameters: lambda_: 0.24, expansions: 400
+2020-06-16 10:27:53.722901		RESULTS:           Solved 100.00 %, mean solve length 26.04
+                          		                   Used 0.52 s and saw 95131 states on average
+                          		Score:             0.03840245775729647
 
-2020-06-16 02:35:34.364311	Optimization 55
-                          		Chosen parameters: lambda_: 0.25, expansions: 1
-2020-06-16 02:38:15.179563		RESULTS:           Solved 93.00 %, mean solve length 32.053763440860216
-2020-06-16 02:38:15.188262		Score:             0.029013753773901377
+2020-06-16 10:27:53.747561	Optimization 71
+                          		Chosen parameters: lambda_: 0.24, expansions: 500
+2020-06-16 10:29:00.953626		RESULTS:           Solved 100.00 %, mean solve length 26.03
+                          		                   Used 0.67 s and saw 119512 states on average
+                          		Score:             0.038417210910487894
 
-2020-06-16 02:38:15.190090	Optimization 56
-                          		Chosen parameters: lambda_: 0.25, expansions: 200
-2020-06-16 02:38:45.997860		RESULTS:           Solved 100.00 %, mean solve length 27.01
-2020-06-16 02:38:46.014602		Score:             0.03702332469455757
+2020-06-16 10:29:00.987844	Optimization 72
+                          		Chosen parameters: lambda_: 0.24, expansions: 600
+2020-06-16 10:30:19.124063		RESULTS:           Solved 100.00 %, mean solve length 25.34
+                          		                   Used 0.78 s and saw 137909 states on average
+                          		Score:             0.03946329913180742
 
-2020-06-16 02:38:46.016409	Optimization 57
-                          		Chosen parameters: lambda_: 0.25, expansions: 400
-2020-06-16 02:39:39.467357		RESULTS:           Solved 100.00 %, mean solve length 25.5
-2020-06-16 02:39:39.495397		Score:             0.0392156862745098
+2020-06-16 10:30:19.158166	Optimization 73
+                          		Chosen parameters: lambda_: 0.24, expansions: 700
+2020-06-16 10:31:49.872897		RESULTS:           Solved 100.00 %, mean solve length 24.86
+                          		                   Used 0.91 s and saw 156436 states on average
+                          		Score:             0.04022526146419952
 
-2020-06-16 02:39:39.497403	Optimization 58
-                          		Chosen parameters: lambda_: 0.25, expansions: 600
-2020-06-16 02:40:59.074374		RESULTS:           Solved 100.00 %, mean solve length 25.27
-2020-06-16 02:40:59.121465		Score:             0.03957261574990107
+2020-06-16 10:31:49.920258	Optimization 74
+                          		Chosen parameters: lambda_: 0.24, expansions: 800
+2020-06-16 10:33:33.788238		RESULTS:           Solved 100.00 %, mean solve length 25.01
+                          		                   Used 1.04 s and saw 179825 states on average
+                          		Score:             0.03998400639744102
 
-2020-06-16 02:40:59.123409	Optimization 59
-                          		Chosen parameters: lambda_: 0.25, expansions: 800
-2020-06-16 02:42:45.958684		RESULTS:           Solved 100.00 %, mean solve length 25.1
-2020-06-16 02:42:46.015829		Score:             0.0398406374501992
+2020-06-16 10:33:33.843074	Optimization 75
+                          		Chosen parameters: lambda_: 0.24, expansions: 900
+2020-06-16 10:35:30.966407		RESULTS:           Solved 100.00 %, mean solve length 24.73
+                          		                   Used 1.17 s and saw 199532 states on average
+                          		Score:             0.040436716538617065
 
-2020-06-16 02:42:46.017810	Optimization 60
-                          		Chosen parameters: lambda_: 0.25, expansions: 1000
-2020-06-16 02:44:53.852854		RESULTS:           Solved 100.00 %, mean solve length 23.94
-2020-06-16 02:44:53.919479		Score:             0.04177109440267335
+2020-06-16 10:35:31.035807	Optimization 76
+                          		Chosen parameters: lambda_: 0.24, expansions: 1000
+2020-06-16 10:37:41.631542		RESULTS:           Solved 100.00 %, mean solve length 24.92
+                          		                   Used 1.30 s and saw 223149 states on average
+                          		Score:             0.04012841091492777
 
-2020-06-16 02:44:53.921591	Optimization 61
-                          		Chosen parameters: lambda_: 0.25, expansions: 1200
-2020-06-16 02:47:31.013593		RESULTS:           Solved 100.00 %, mean solve length 24.31
-2020-06-16 02:47:31.109665		Score:             0.04113533525298231
+2020-06-16 10:37:41.698018	Optimization 77
+                          		Chosen parameters: lambda_: 0.28, expansions: 1
+2020-06-16 10:41:23.915730		RESULTS:           Solved 86.00 %, mean solve length 30.813953488372093
+                          		                   Used 2.22 s and saw 23394 states on average
+                          		Score:             0.02790943396226415
 
-2020-06-16 02:47:31.111584	Optimization 62
-                          		Chosen parameters: lambda_: 0.25, expansions: 1400
-2020-06-16 02:50:31.850337		RESULTS:           Solved 100.00 %, mean solve length 23.99
-2020-06-16 02:50:31.938522		Score:             0.041684035014589414
+2020-06-16 10:41:23.922948	Optimization 78
+                          		Chosen parameters: lambda_: 0.28, expansions: 100
+2020-06-16 10:41:46.716634		RESULTS:           Solved 100.00 %, mean solve length 27.42
+                          		                   Used 0.23 s and saw 39231 states on average
+                          		Score:             0.03646973012399708
 
-2020-06-16 02:50:31.940392	Optimization 63
-                          		Chosen parameters: lambda_: 0.25, expansions: 1600
-2020-06-16 02:53:57.351048		RESULTS:           Solved 100.00 %, mean solve length 23.77
-2020-06-16 02:53:57.466291		Score:             0.04206983592763988
+2020-06-16 10:41:46.728820	Optimization 79
+                          		Chosen parameters: lambda_: 0.28, expansions: 200
+2020-06-16 10:42:19.395430		RESULTS:           Solved 100.00 %, mean solve length 27.0
+                          		                   Used 0.32 s and saw 58862 states on average
+                          		Score:             0.037037037037037035
 
-2020-06-16 02:53:57.468280	Optimization 64
-                          		Chosen parameters: lambda_: 0.25, expansions: 1800
-2020-06-16 02:57:52.085788		RESULTS:           Solved 100.00 %, mean solve length 23.8
-2020-06-16 02:57:52.195791		Score:             0.04201680672268907
+2020-06-16 10:42:19.409669	Optimization 80
+                          		Chosen parameters: lambda_: 0.28, expansions: 300
+2020-06-16 10:43:01.481890		RESULTS:           Solved 100.00 %, mean solve length 26.45
+                          		                   Used 0.42 s and saw 77210 states on average
+                          		Score:             0.03780718336483932
 
-2020-06-16 02:57:52.197623	Optimization 65
-                          		Chosen parameters: lambda_: 0.25, expansions: 2000
-2020-06-16 03:02:16.740356		RESULTS:           Solved 100.00 %, mean solve length 24.09
-2020-06-16 03:02:16.871988		Score:             0.04151100041511
+2020-06-16 10:43:01.503517	Optimization 81
+                          		Chosen parameters: lambda_: 0.28, expansions: 400
+2020-06-16 10:43:55.285399		RESULTS:           Solved 100.00 %, mean solve length 25.75
+                          		                   Used 0.54 s and saw 97214 states on average
+                          		Score:             0.038834951456310676
 
-2020-06-16 03:02:16.874063	Optimization 66
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1
-2020-06-16 03:06:08.083492		RESULTS:           Solved 81.00 %, mean solve length 29.25925925925926
-2020-06-16 03:06:08.093517		Score:             0.02768354430379747
+2020-06-16 10:43:55.311638	Optimization 82
+                          		Chosen parameters: lambda_: 0.28, expansions: 500
+2020-06-16 10:44:59.606442		RESULTS:           Solved 100.00 %, mean solve length 25.11
+                          		                   Used 0.64 s and saw 114477 states on average
+                          		Score:             0.039824771007566706
 
-2020-06-16 03:06:08.095568	Optimization 67
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 200
-2020-06-16 03:06:43.906054		RESULTS:           Solved 100.00 %, mean solve length 26.72
-2020-06-16 03:06:43.937579		Score:             0.037425149700598806
+2020-06-16 10:44:59.644018	Optimization 83
+                          		Chosen parameters: lambda_: 0.28, expansions: 600
+2020-06-16 10:46:18.203402		RESULTS:           Solved 100.00 %, mean solve length 25.48
+                          		                   Used 0.78 s and saw 138643 states on average
+                          		Score:             0.03924646781789639
 
-2020-06-16 03:06:43.939437	Optimization 68
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 400
-2020-06-16 03:07:37.553502		RESULTS:           Solved 100.00 %, mean solve length 25.43
-2020-06-16 03:07:37.593525		Score:             0.039323633503735744
+2020-06-16 10:46:18.247412	Optimization 84
+                          		Chosen parameters: lambda_: 0.28, expansions: 700
+2020-06-16 10:47:50.106119		RESULTS:           Solved 100.00 %, mean solve length 25.04
+                          		                   Used 0.92 s and saw 158477 states on average
+                          		Score:             0.039936102236421724
 
-2020-06-16 03:07:37.595649	Optimization 69
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 600
-2020-06-16 03:08:59.031868		RESULTS:           Solved 100.00 %, mean solve length 25.19
-2020-06-16 03:08:59.074727		Score:             0.03969829297340214
+2020-06-16 10:47:50.159238	Optimization 85
+                          		Chosen parameters: lambda_: 0.28, expansions: 800
+2020-06-16 10:49:32.938760		RESULTS:           Solved 100.00 %, mean solve length 24.75
+                          		                   Used 1.03 s and saw 177914 states on average
+                          		Score:             0.04040404040404041
 
-2020-06-16 03:08:59.076699	Optimization 70
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 800
-2020-06-16 03:10:46.040804		RESULTS:           Solved 100.00 %, mean solve length 24.94
-2020-06-16 03:10:46.098900		Score:             0.040096230954290296
+2020-06-16 10:49:32.995617	Optimization 86
+                          		Chosen parameters: lambda_: 0.28, expansions: 900
+2020-06-16 10:51:28.538396		RESULTS:           Solved 100.00 %, mean solve length 24.4
+                          		                   Used 1.15 s and saw 197001 states on average
+                          		Score:             0.04098360655737705
 
-2020-06-16 03:10:46.100819	Optimization 71
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1000
-2020-06-16 03:13:01.907451		RESULTS:           Solved 100.00 %, mean solve length 24.89
-2020-06-16 03:13:01.982078		Score:             0.040176777822418644
+2020-06-16 10:51:28.589878	Optimization 87
+                          		Chosen parameters: lambda_: 0.28, expansions: 1000
+2020-06-16 10:53:39.041192		RESULTS:           Solved 100.00 %, mean solve length 24.75
+                          		                   Used 1.30 s and saw 222870 states on average
+                          		Score:             0.04040404040404041
 
-2020-06-16 03:13:01.984039	Optimization 72
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1200
-2020-06-16 03:15:40.641858		RESULTS:           Solved 100.00 %, mean solve length 24.36
-2020-06-16 03:15:40.715323		Score:             0.041050903119868636
+2020-06-16 10:53:39.106949	Optimization 88
+                          		Chosen parameters: lambda_: 0.32, expansions: 1
+2020-06-16 10:58:58.803994		RESULTS:           Solved 61.00 %, mean solve length 27.62295081967213
+                          		                   Used 3.19 s and saw 33832 states on average
+                          		Score:             0.022083086053412464
 
-2020-06-16 03:15:40.717287	Optimization 73
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1400
-2020-06-16 03:18:41.546551		RESULTS:           Solved 100.00 %, mean solve length 23.9
-2020-06-16 03:18:41.648769		Score:             0.041841004184100423
+2020-06-16 10:58:58.811168	Optimization 89
+                          		Chosen parameters: lambda_: 0.32, expansions: 100
+2020-06-16 10:59:28.230966		RESULTS:           Solved 100.00 %, mean solve length 26.61
+                          		                   Used 0.29 s and saw 50105 states on average
+                          		Score:             0.03757985719654265
 
-2020-06-16 03:18:41.650744	Optimization 74
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1600
-2020-06-16 03:22:12.244366		RESULTS:           Solved 100.00 %, mean solve length 24.21
-2020-06-16 03:22:12.360001		Score:             0.041305245766212306
+2020-06-16 10:59:28.243112	Optimization 90
+                          		Chosen parameters: lambda_: 0.32, expansions: 200
+2020-06-16 11:00:03.086705		RESULTS:           Solved 100.00 %, mean solve length 25.88
+                          		                   Used 0.35 s and saw 62614 states on average
+                          		Score:             0.03863987635239567
 
-2020-06-16 03:22:12.362391	Optimization 75
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 1800
-2020-06-16 03:26:08.696467		RESULTS:           Solved 100.00 %, mean solve length 23.87
-2020-06-16 03:26:08.830259		Score:             0.04189359028068705
+2020-06-16 11:00:03.114758	Optimization 91
+                          		Chosen parameters: lambda_: 0.32, expansions: 300
+2020-06-16 11:00:50.055978		RESULTS:           Solved 100.00 %, mean solve length 26.2
+                          		                   Used 0.47 s and saw 85968 states on average
+                          		Score:             0.03816793893129771
 
-2020-06-16 03:26:08.832291	Optimization 76
-                          		Chosen parameters: lambda_: 0.30000000000000004, expansions: 2000
-2020-06-16 03:30:32.955104		RESULTS:           Solved 100.00 %, mean solve length 24.12
-2020-06-16 03:30:33.093874		Score:             0.04145936981757877
+2020-06-16 11:00:50.076153	Optimization 92
+                          		Chosen parameters: lambda_: 0.32, expansions: 400
+2020-06-16 11:01:46.625856		RESULTS:           Solved 100.00 %, mean solve length 25.8
+                          		                   Used 0.56 s and saw 103174 states on average
+                          		Score:             0.03875968992248062
 
-2020-06-16 03:30:33.096171	Optimization 77
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1
-2020-06-16 03:35:29.538466		RESULTS:           Solved 66.00 %, mean solve length 27.424242424242426
-2020-06-16 03:35:29.562264		Score:             0.024066298342541436
+2020-06-16 11:01:46.677806	Optimization 93
+                          		Chosen parameters: lambda_: 0.32, expansions: 500
+2020-06-16 11:02:59.130074		RESULTS:           Solved 100.00 %, mean solve length 25.58
+                          		                   Used 0.72 s and saw 127994 states on average
+                          		Score:             0.03909304143862393
 
-2020-06-16 03:35:29.564320	Optimization 78
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 200
-2020-06-16 03:36:18.663078		RESULTS:           Solved 100.00 %, mean solve length 25.96
-2020-06-16 03:36:18.689085		Score:             0.03852080123266564
+2020-06-16 11:02:59.167999	Optimization 94
+                          		Chosen parameters: lambda_: 0.32, expansions: 600
+2020-06-16 11:04:19.787476		RESULTS:           Solved 100.00 %, mean solve length 25.14
+                          		                   Used 0.80 s and saw 141610 states on average
+                          		Score:             0.03977724741447892
 
-2020-06-16 03:36:18.690892	Optimization 79
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 400
-2020-06-16 03:37:31.152966		RESULTS:           Solved 100.00 %, mean solve length 25.46
-2020-06-16 03:37:31.183645		Score:             0.03927729772191673
+2020-06-16 11:04:19.830700	Optimization 95
+                          		Chosen parameters: lambda_: 0.32, expansions: 700
+2020-06-16 11:05:52.083236		RESULTS:           Solved 100.00 %, mean solve length 24.87
+                          		                   Used 0.92 s and saw 159166 states on average
+                          		Score:             0.04020908725371934
 
-2020-06-16 03:37:31.185888	Optimization 80
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 600
-2020-06-16 03:38:59.957653		RESULTS:           Solved 100.00 %, mean solve length 24.97
-2020-06-16 03:39:00.001396		Score:             0.040048057669203045
+2020-06-16 11:05:52.128205	Optimization 96
+                          		Chosen parameters: lambda_: 0.32, expansions: 800
+2020-06-16 11:07:40.126144		RESULTS:           Solved 100.00 %, mean solve length 25.17
+                          		                   Used 1.08 s and saw 187270 states on average
+                          		Score:             0.03972983710766786
 
-2020-06-16 03:39:00.003340	Optimization 81
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 800
-2020-06-16 03:40:53.197109		RESULTS:           Solved 100.00 %, mean solve length 24.97
-2020-06-16 03:40:53.257035		Score:             0.040048057669203045
+2020-06-16 11:07:40.180065	Optimization 97
+                          		Chosen parameters: lambda_: 0.32, expansions: 900
+2020-06-16 11:09:39.287944		RESULTS:           Solved 100.00 %, mean solve length 24.69
+                          		                   Used 1.19 s and saw 202585 states on average
+                          		Score:             0.04050222762251924
 
-2020-06-16 03:40:53.259328	Optimization 82
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1000
-2020-06-16 03:43:11.294161		RESULTS:           Solved 100.00 %, mean solve length 24.25
-2020-06-16 03:43:11.376956		Score:             0.041237113402061855
+2020-06-16 11:09:39.349649	Optimization 98
+                          		Chosen parameters: lambda_: 0.32, expansions: 1000
+2020-06-16 11:11:47.881062		RESULTS:           Solved 100.00 %, mean solve length 24.25
+                          		                   Used 1.28 s and saw 219336 states on average
+                          		Score:             0.041237113402061855
 
-2020-06-16 03:43:11.378823	Optimization 83
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1200
-2020-06-16 03:45:55.983115		RESULTS:           Solved 100.00 %, mean solve length 24.6
-2020-06-16 03:45:56.075200		Score:             0.04065040650406504
+2020-06-16 11:11:47.945118	Optimization 99
+                          		Chosen parameters: lambda_: 0.36, expansions: 1
+2020-06-16 11:17:29.692604		RESULTS:           Solved 61.00 %, mean solve length 26.62295081967213
+                          		                   Used 3.42 s and saw 36599 states on average
+                          		Score:             0.02291256157635468
 
-2020-06-16 03:45:56.077151	Optimization 84
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1400
-2020-06-16 03:49:02.509708		RESULTS:           Solved 100.00 %, mean solve length 24.24
-2020-06-16 03:49:02.614349		Score:             0.041254125412541254
+2020-06-16 11:17:29.710367	Optimization 100
+                          		Chosen parameters: lambda_: 0.36, expansions: 100
+2020-06-16 11:18:10.048226		RESULTS:           Solved 100.00 %, mean solve length 25.89
+                          		                   Used 0.40 s and saw 68505 states on average
+                          		Score:             0.03862495171881035
 
-2020-06-16 03:49:02.616487	Optimization 85
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1600
-2020-06-16 03:52:35.568907		RESULTS:           Solved 100.00 %, mean solve length 24.17
-2020-06-16 03:52:35.686137		Score:             0.04137360364087712
+2020-06-16 11:18:10.060961	Optimization 101
+                          		Chosen parameters: lambda_: 0.36, expansions: 200
+2020-06-16 11:19:01.572842		RESULTS:           Solved 100.00 %, mean solve length 25.55
+                          		                   Used 0.51 s and saw 92692 states on average
+                          		Score:             0.03913894324853229
 
-2020-06-16 03:52:35.687899	Optimization 86
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 1800
-2020-06-16 03:56:33.526992		RESULTS:           Solved 100.00 %, mean solve length 23.86
-2020-06-16 03:56:33.635664		Score:             0.041911148365465216
+2020-06-16 11:19:01.639107	Optimization 102
+                          		Chosen parameters: lambda_: 0.36, expansions: 300
+2020-06-16 11:20:01.260314		RESULTS:           Solved 100.00 %, mean solve length 25.53
+                          		                   Used 0.59 s and saw 109609 states on average
+                          		Score:             0.03916960438699569
 
-2020-06-16 03:56:33.638124	Optimization 87
-                          		Chosen parameters: lambda_: 0.35000000000000003, expansions: 2000
-2020-06-16 04:00:58.821103		RESULTS:           Solved 100.00 %, mean solve length 23.71
-2020-06-16 04:00:58.960049		Score:             0.04217629692113032
+2020-06-16 11:20:01.294497	Optimization 103
+                          		Chosen parameters: lambda_: 0.36, expansions: 400
+2020-06-16 11:21:08.898980		RESULTS:           Solved 100.00 %, mean solve length 25.25
+                          		                   Used 0.67 s and saw 124209 states on average
+                          		Score:             0.039603960396039604
 
-2020-06-16 04:00:58.962079	Optimization 88
+2020-06-16 11:21:08.922916	Optimization 104
+                          		Chosen parameters: lambda_: 0.36, expansions: 500
+2020-06-16 11:22:25.601665		RESULTS:           Solved 100.00 %, mean solve length 25.04
+                          		                   Used 0.76 s and saw 136875 states on average
+                          		Score:             0.039936102236421724
+
+2020-06-16 11:22:25.636261	Optimization 105
+                          		Chosen parameters: lambda_: 0.36, expansions: 600
+2020-06-16 11:23:55.550795		RESULTS:           Solved 100.00 %, mean solve length 25.01
+                          		                   Used 0.90 s and saw 159384 states on average
+                          		Score:             0.03998400639744102
+
+2020-06-16 11:23:55.590249	Optimization 106
+                          		Chosen parameters: lambda_: 0.36, expansions: 700
+2020-06-16 11:25:39.990595		RESULTS:           Solved 100.00 %, mean solve length 24.82
+                          		                   Used 1.04 s and saw 180212 states on average
+                          		Score:             0.040290088638195005
+
+2020-06-16 11:25:40.040920	Optimization 107
+                          		Chosen parameters: lambda_: 0.36, expansions: 800
+2020-06-16 11:27:32.570491		RESULTS:           Solved 100.00 %, mean solve length 24.81
+                          		                   Used 1.12 s and saw 197568 states on average
+                          		Score:             0.04030632809351068
+
+2020-06-16 11:27:32.624767	Optimization 108
+                          		Chosen parameters: lambda_: 0.36, expansions: 900
+2020-06-16 11:29:39.625225		RESULTS:           Solved 100.00 %, mean solve length 24.64
+                          		                   Used 1.27 s and saw 216828 states on average
+                          		Score:             0.040584415584415584
+
+2020-06-16 11:29:39.739269	Optimization 109
+                          		Chosen parameters: lambda_: 0.36, expansions: 1000
+2020-06-16 11:31:56.603939		RESULTS:           Solved 100.00 %, mean solve length 24.5
+                          		                   Used 1.37 s and saw 234964 states on average
+                          		Score:             0.04081632653061224
+
+2020-06-16 11:31:56.673530	Optimization 110
                           		Chosen parameters: lambda_: 0.4, expansions: 1
-2020-06-16 04:07:29.420219		RESULTS:           Solved 44.00 %, mean solve length 24.84090909090909
-2020-06-16 04:07:29.448640		Score:             0.017712717291857274
+2020-06-16 11:39:11.289139		RESULTS:           Solved 30.00 %, mean solve length 25.0
+                          		                   Used 4.34 s and saw 47300 states on average
+                          		Score:             0.012
 
-2020-06-16 04:07:29.450573	Optimization 89
+2020-06-16 11:39:11.306691	Optimization 111
+                          		Chosen parameters: lambda_: 0.4, expansions: 100
+2020-06-16 11:40:34.724766		RESULTS:           Solved 100.00 %, mean solve length 24.86
+                          		                   Used 0.83 s and saw 140229 states on average
+                          		Score:             0.04022526146419952
+
+2020-06-16 11:40:34.749599	Optimization 112
                           		Chosen parameters: lambda_: 0.4, expansions: 200
-2020-06-16 04:08:53.171893		RESULTS:           Solved 100.00 %, mean solve length 24.93
-2020-06-16 04:08:53.207286		Score:             0.04011231448054553
+2020-06-16 11:41:48.295035		RESULTS:           Solved 100.00 %, mean solve length 24.77
+                          		                   Used 0.73 s and saw 132258 states on average
+                          		Score:             0.04037141703673799
 
-2020-06-16 04:08:53.209390	Optimization 90
+2020-06-16 11:41:48.352853	Optimization 113
+                          		Chosen parameters: lambda_: 0.4, expansions: 300
+2020-06-16 11:43:15.749623		RESULTS:           Solved 100.00 %, mean solve length 24.97
+                          		                   Used 0.87 s and saw 158545 states on average
+                          		Score:             0.040048057669203045
+
+2020-06-16 11:43:15.827858	Optimization 114
                           		Chosen parameters: lambda_: 0.4, expansions: 400
-2020-06-16 04:10:26.613920		RESULTS:           Solved 100.00 %, mean solve length 24.32
-2020-06-16 04:10:26.649438		Score:             0.04111842105263158
+2020-06-16 11:44:37.898741		RESULTS:           Solved 100.00 %, mean solve length 24.78
+                          		                   Used 0.82 s and saw 152396 states on average
+                          		Score:             0.04035512510088781
 
-2020-06-16 04:10:26.651463	Optimization 91
+2020-06-16 11:44:37.933073	Optimization 115
+                          		Chosen parameters: lambda_: 0.4, expansions: 500
+2020-06-16 11:46:36.914556		RESULTS:           Solved 99.00 %, mean solve length 24.565656565656564
+                          		                   Used 1.19 s and saw 207006 states on average
+                          		Score:             0.040300164473684216
+
+2020-06-16 11:46:36.966768	Optimization 116
                           		Chosen parameters: lambda_: 0.4, expansions: 600
-2020-06-16 04:12:26.207990		RESULTS:           Solved 100.00 %, mean solve length 24.78
-2020-06-16 04:12:26.253787		Score:             0.04035512510088781
+2020-06-16 11:48:30.698543		RESULTS:           Solved 100.00 %, mean solve length 24.4
+                          		                   Used 1.14 s and saw 199767 states on average
+                          		Score:             0.04098360655737705
 
-2020-06-16 04:12:26.256037	Optimization 92
+2020-06-16 11:48:30.736589	Optimization 117
+                          		Chosen parameters: lambda_: 0.4, expansions: 700
+2020-06-16 11:50:46.626412		RESULTS:           Solved 100.00 %, mean solve length 24.61
+                          		                   Used 1.36 s and saw 231732 states on average
+                          		Score:             0.04063388866314507
+
+2020-06-16 11:50:46.741631	Optimization 118
                           		Chosen parameters: lambda_: 0.4, expansions: 800
-2020-06-16 04:14:40.487767		RESULTS:           Solved 100.00 %, mean solve length 24.38
-2020-06-16 04:14:40.745550		Score:             0.04101722723543889
+2020-06-16 11:53:13.069706		RESULTS:           Solved 99.00 %, mean solve length 24.171717171717173
+                          		                   Used 1.46 s and saw 253439 states on average
+                          		Score:             0.04095695779356456
 
-2020-06-16 04:14:40.747476	Optimization 93
+2020-06-16 11:53:13.196476	Optimization 119
+                          		Chosen parameters: lambda_: 0.4, expansions: 900
+2020-06-16 11:55:52.335708		RESULTS:           Solved 100.00 %, mean solve length 24.54
+                          		                   Used 1.59 s and saw 267654 states on average
+                          		Score:             0.040749796251018745
+
+2020-06-16 11:55:52.401809	Optimization 120
                           		Chosen parameters: lambda_: 0.4, expansions: 1000
-2020-06-16 04:17:31.535837		RESULTS:           Solved 100.00 %, mean solve length 24.3
-2020-06-16 04:17:31.623498		Score:             0.0411522633744856
+2020-06-16 11:58:34.376535		RESULTS:           Solved 100.00 %, mean solve length 24.34
+                          		                   Used 1.62 s and saw 273944 states on average
+                          		Score:             0.041084634346754315
+2020-06-16 11:58:34.447001	Optimization done. Best parameters: lambda_: 0.16, expansions: 1000 with score 0.041271151465125874
 
-2020-06-16 04:17:31.625768	Optimization 94
-                          		Chosen parameters: lambda_: 0.4, expansions: 1200
-2020-06-16 04:20:48.774075		RESULTS:           Solved 100.00 %, mean solve length 24.26
-2020-06-16 04:20:48.876519		Score:             0.041220115416323165
-
-2020-06-16 04:20:48.878602	Optimization 95
-                          		Chosen parameters: lambda_: 0.4, expansions: 1400
-2020-06-16 04:24:13.017507		RESULTS:           Solved 100.00 %, mean solve length 23.89
-2020-06-16 04:24:13.115946		Score:             0.04185851820845542
-
-2020-06-16 04:24:13.117893	Optimization 96
-                          		Chosen parameters: lambda_: 0.4, expansions: 1600
-2020-06-16 04:28:14.197781		RESULTS:           Solved 99.00 %, mean solve length 24.373737373737374
-2020-06-16 04:28:14.314551		Score:             0.04061748860339826
-
-2020-06-16 04:28:14.316459	Optimization 97
-                          		Chosen parameters: lambda_: 0.4, expansions: 1800
-2020-06-16 04:32:41.084852		RESULTS:           Solved 96.00 %, mean solve length 23.90625
-2020-06-16 04:32:41.219916		Score:             0.04015686274509804
-
-2020-06-16 04:32:41.222210	Optimization 98
-                          		Chosen parameters: lambda_: 0.4, expansions: 2000
-2020-06-16 04:37:15.890847		RESULTS:           Solved 100.00 %, mean solve length 23.71
-2020-06-16 04:37:16.027293		Score:             0.04217629692113032
-
-2020-06-16 04:37:16.029220	Optimization 99
-                          		Chosen parameters: lambda_: 0.45, expansions: 1
-2020-06-16 04:44:30.694910		RESULTS:           Solved 26.00 %, mean solve length 23.653846153846153
-2020-06-16 04:44:30.723599		Score:             0.010991869918699188
-
-2020-06-16 04:44:30.725659	Optimization 100
-                          		Chosen parameters: lambda_: 0.45, expansions: 200
-2020-06-16 04:47:14.454536		RESULTS:           Solved 94.00 %, mean solve length 23.97872340425532
-2020-06-16 04:47:14.561715		Score:             0.0392014196983141
-
-2020-06-16 04:47:14.563601	Optimization 101
-                          		Chosen parameters: lambda_: 0.45, expansions: 400
-2020-06-16 04:50:27.110051		RESULTS:           Solved 93.00 %, mean solve length 24.182795698924732
-2020-06-16 04:50:27.211331		Score:             0.03845709204090707
-
-2020-06-16 04:50:27.213252	Optimization 102
-                          		Chosen parameters: lambda_: 0.45, expansions: 600
-2020-06-16 04:53:26.390481		RESULTS:           Solved 95.00 %, mean solve length 23.610526315789475
-2020-06-16 04:53:26.480383		Score:             0.04023629068212215
-
-2020-06-16 04:53:26.482324	Optimization 103
-                          		Chosen parameters: lambda_: 0.45, expansions: 800
-2020-06-16 04:57:01.975485		RESULTS:           Solved 90.00 %, mean solve length 23.3
-2020-06-16 04:57:02.030179		Score:             0.03862660944206008
-
-2020-06-16 04:57:02.031997	Optimization 104
-                          		Chosen parameters: lambda_: 0.45, expansions: 1000
-2020-06-16 05:01:03.211903		RESULTS:           Solved 90.00 %, mean solve length 23.644444444444446
-2020-06-16 05:01:03.474271		Score:             0.03806390977443609
-
-2020-06-16 05:01:03.476065	Optimization 105
-                          		Chosen parameters: lambda_: 0.45, expansions: 1200
-2020-06-16 05:05:23.915349		RESULTS:           Solved 92.00 %, mean solve length 23.630434782608695
-2020-06-16 05:05:24.004022		Score:             0.03893284268629255
-
-2020-06-16 05:05:24.005878	Optimization 106
-                          		Chosen parameters: lambda_: 0.45, expansions: 1400
-2020-06-16 05:09:49.883987		RESULTS:           Solved 90.00 %, mean solve length 23.766666666666666
-2020-06-16 05:09:49.991393		Score:             0.03786816269284713
-
-2020-06-16 05:09:49.993273	Optimization 107
-                          		Chosen parameters: lambda_: 0.45, expansions: 1600
-2020-06-16 05:14:36.598063		RESULTS:           Solved 90.00 %, mean solve length 23.566666666666666
-2020-06-16 05:14:36.723982		Score:             0.03818953323903819
-
-2020-06-16 05:14:36.726203	Optimization 108
-                          		Chosen parameters: lambda_: 0.45, expansions: 1800
-2020-06-16 05:19:55.842726		RESULTS:           Solved 81.00 %, mean solve length 23.40740740740741
-2020-06-16 05:19:56.105297		Score:             0.03460443037974684
-
-2020-06-16 05:19:56.107107	Optimization 109
-                          		Chosen parameters: lambda_: 0.45, expansions: 2000
-2020-06-16 05:25:26.872870		RESULTS:           Solved 87.00 %, mean solve length 23.344827586206897
-2020-06-16 05:25:27.141099		Score:             0.03726735598227474
-
-2020-06-16 05:25:27.143152	Optimization 110
-                          		Chosen parameters: lambda_: 0.5, expansions: 1
-2020-06-16 05:33:13.051365		RESULTS:           Solved 10.00 %, mean solve length 22.5
-2020-06-16 05:33:13.075875		Score:             0.0044444444444444444
-
-2020-06-16 05:33:13.078019	Optimization 111
-                          		Chosen parameters: lambda_: 0.5, expansions: 200
-2020-06-16 05:38:16.406735		RESULTS:           Solved 68.00 %, mean solve length 23.014705882352942
-2020-06-16 05:38:16.525486		Score:             0.02954632587859425
-
-2020-06-16 05:38:16.527438	Optimization 112
-                          		Chosen parameters: lambda_: 0.5, expansions: 400
-2020-06-16 05:42:36.617151		RESULTS:           Solved 79.00 %, mean solve length 23.0
-2020-06-16 05:42:36.932467		Score:             0.03434782608695652
-
-2020-06-16 05:42:36.934661	Optimization 113
-                          		Chosen parameters: lambda_: 0.5, expansions: 600
-2020-06-16 05:47:17.192156		RESULTS:           Solved 80.00 %, mean solve length 22.8375
-2020-06-16 05:47:17.477203		Score:             0.03503010399562124
-
-2020-06-16 05:47:17.479095	Optimization 114
-                          		Chosen parameters: lambda_: 0.5, expansions: 800
-2020-06-16 05:52:28.006090		RESULTS:           Solved 75.00 %, mean solve length 23.16
-2020-06-16 05:52:28.303829		Score:             0.03238341968911917
-
-2020-06-16 05:52:28.305887	Optimization 115
-                          		Chosen parameters: lambda_: 0.5, expansions: 1000
-2020-06-16 05:58:07.861254		RESULTS:           Solved 65.00 %, mean solve length 23.015384615384615
-2020-06-16 05:58:08.089831		Score:             0.02824197860962567
-
-2020-06-16 05:58:08.091845	Optimization 116
-                          		Chosen parameters: lambda_: 0.5, expansions: 1200
-2020-06-16 06:03:47.994015		RESULTS:           Solved 69.00 %, mean solve length 22.695652173913043
-2020-06-16 06:03:48.081901		Score:             0.030402298850574713
-
-2020-06-16 06:03:48.083815	Optimization 117
-                          		Chosen parameters: lambda_: 0.5, expansions: 1400
-2020-06-16 06:09:58.737588		RESULTS:           Solved 63.00 %, mean solve length 22.746031746031747
-2020-06-16 06:09:58.827943		Score:             0.027697138869504534
-
-2020-06-16 06:09:58.829936	Optimization 118
-                          		Chosen parameters: lambda_: 0.5, expansions: 1600
-2020-06-16 06:16:11.419770		RESULTS:           Solved 67.00 %, mean solve length 22.746268656716417
-2020-06-16 06:16:11.691011		Score:             0.029455380577427824
-
-2020-06-16 06:16:11.692976	Optimization 119
-                          		Chosen parameters: lambda_: 0.5, expansions: 1800
-2020-06-16 06:23:10.952641		RESULTS:           Solved 52.00 %, mean solve length 22.96153846153846
-2020-06-16 06:23:11.150182		Score:             0.022646566164154107
-
-2020-06-16 06:23:11.152292	Optimization 120
-                          		Chosen parameters: lambda_: 0.5, expansions: 2000
-2020-06-16 06:29:46.608901		RESULTS:           Solved 63.00 %, mean solve length 22.857142857142858
-2020-06-16 06:29:46.811887		Score:             0.0275625
-2020-06-16 06:29:46.813079	Optimization done. Best parameters: lambda_: 0.0, expansions: 1800 with score 0.042354934349851756
-
-2020-06-16 06:29:46.814602	All parameters and scores
-2020-06-16 06:29:46.815903	Parameter spaces
-                          	lambda_: [0.   0.05 0.1  0.15 0.2  0.25 0.3  0.35 0.4  0.45 0.5 ]
-                          	expansions: [1.0000e+00 2.0090e+02 4.0080e+02 6.0070e+02 8.0060e+02 1.0005e+03
-                          	 1.2004e+03 1.4003e+03 1.6002e+03 1.8001e+03 2.0000e+03]
-2020-06-16 06:29:46.817830	Scores
-                          	[[0.00916497 0.03332223 0.03875969 0.03898635 0.04022526 0.04030633
-                          	  0.04171882 0.04187605 0.04149378 0.04235493 0.0422833 ]
-                          	 [0.01710114 0.03558719 0.03779289 0.03971406 0.04056795 0.04040404
-                          	  0.04066694 0.0408998  0.04205214 0.04178855 0.04180602]
-                          	 [0.02087095 0.03487967 0.03841721 0.0394633  0.04027386 0.04081633
-                          	  0.04123711 0.04101723 0.04194631 0.04215852 0.04199916]
-                          	 [0.0240148  0.03572705 0.03918495 0.03977725 0.0407332  0.04111842
-                          	  0.0413736  0.04118616 0.04192872 0.04192872 0.04140787]
-                          	 [0.02584479 0.03556188 0.03803728 0.04004806 0.04063389 0.04037142
-                          	  0.04110152 0.04224757 0.04177109 0.04144219 0.04199916]
-                          	 [0.02901375 0.03702332 0.03921569 0.03957262 0.03984064 0.04177109
-                          	  0.04113534 0.04168404 0.04206984 0.04201681 0.041511  ]
-                          	 [0.02768354 0.03742515 0.03932363 0.03969829 0.04009623 0.04017678
-                          	  0.0410509  0.041841   0.04130525 0.04189359 0.04145937]
-                          	 [0.0240663  0.0385208  0.0392773  0.04004806 0.04004806 0.04123711
-                          	  0.04065041 0.04125413 0.0413736  0.04191115 0.0421763 ]
-                          	 [0.01771272 0.04011231 0.04111842 0.04035513 0.04101723 0.04115226
-                          	  0.04122012 0.04185852 0.04061749 0.04015686 0.0421763 ]
-                          	 [0.01099187 0.03920142 0.03845709 0.04023629 0.03862661 0.03806391
-                          	  0.03893284 0.03786816 0.03818953 0.03460443 0.03726736]
-                          	 [0.00444444 0.02954633 0.03434783 0.0350301  0.03238342 0.02824198
-                          	  0.0304023  0.02769714 0.02945538 0.02264657 0.0275625 ]]
+2020-06-16 11:58:34.448291	All parameters and scores
+2020-06-16 11:58:34.449412	Parameter spaces
+                          	lambda_: [0.   0.04 0.08 0.12 0.16 0.2  0.24 0.28 0.32 0.36 0.4 ]
+                          	expansions: [   1.   100.9  200.8  300.7  400.6  500.5  600.4  700.3  800.2  900.1
+                          	 1000. ]
+2020-06-16 11:58:34.451009	Scores
+                          	[[0.00916497 0.0268745  0.03563792 0.03621876 0.03799392 0.03847634
+                          	  0.03960396 0.04009623 0.0400641  0.04046945 0.04103406]
+                          	 [0.01616558 0.03261579 0.03511236 0.03728561 0.03838772 0.03835827
+                          	  0.03938558 0.03960396 0.04071661 0.04053506 0.04025765]
+                          	 [0.01932394 0.03212335 0.03534818 0.03753754 0.03818251 0.03930818
+                          	  0.03901678 0.03971406 0.04095004 0.04101723 0.04040404]
+                          	 [0.02194263 0.03266906 0.03628447 0.03748126 0.03920031 0.0392773
+                          	  0.03963535 0.04       0.04053506 0.04046945 0.03992016]
+                          	 [0.02320011 0.03378378 0.03627131 0.03746722 0.03892565 0.03895598
+                          	  0.03957262 0.04060089 0.04045307 0.04011231 0.04127115]
+                          	 [0.0267249  0.03456619 0.03660322 0.03732736 0.03810976 0.03955696
+                          	  0.03985652 0.04053506 0.04056795 0.04058442 0.03998401]
+                          	 [0.02904731 0.03467406 0.03696858 0.03806624 0.03840246 0.03841721
+                          	  0.0394633  0.04022526 0.03998401 0.04043672 0.04012841]
+                          	 [0.02790943 0.03646973 0.03703704 0.03780718 0.03883495 0.03982477
+                          	  0.03924647 0.0399361  0.04040404 0.04098361 0.04040404]
+                          	 [0.02208309 0.03757986 0.03863988 0.03816794 0.03875969 0.03909304
+                          	  0.03977725 0.04020909 0.03972984 0.04050223 0.04123711]
+                          	 [0.02291256 0.03862495 0.03913894 0.0391696  0.03960396 0.0399361
+                          	  0.03998401 0.04029009 0.04030633 0.04058442 0.04081633]
+                          	 [0.012      0.04022526 0.04037142 0.04004806 0.04035513 0.04030016
+                          	  0.04098361 0.04063389 0.04095696 0.0407498  0.04108463]]
