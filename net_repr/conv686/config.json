@@ -1,0 +1,8 @@
+{
+    "activation_function": "elu",
+    "batchnorm": true,
+    "architecture": "conv",
+    "init": "glorot",
+    "is2024": false,
+    "id": 827129064063490503
+}
