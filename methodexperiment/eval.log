@@ -1,120 +1,115 @@
-2020-06-15 15:48:03.803139	eval
+2020-06-16 16:31:21.427765	eval
 
-2020-06-15 15:48:03.804424	Creating evaluator
+2020-06-16 16:31:21.428995	Creating evaluator
                           	Games per scrambling depth: 1000
                           	Scrambling depths: range(0, 0)
-2020-06-15 15:48:06.914651	Loaded model from ../rubiks-models/methodexperiment
-2020-06-15 15:48:06.915776	Initialized eval with agents AStar (lambda=0.4, N=100) weighted, AStar (lambda=0.4, N=100) paper, AStar (lambda=0.4, N=100) notau, AStar (lambda=0.4, N=100) adaptive, AStar (lambda=0.4, N=100) unweighted
-2020-06-15 15:48:06.916510	TIME ESTIMATE: 416.67 min.	(Rough upper bound)
-2020-06-15 15:48:07.011552	Beginning evaluator eval
+2020-06-16 16:31:24.596471	Loaded model from ../rubiks-models/methodexperiment
+2020-06-16 16:31:24.597657	Initialized eval with agents AStar (lambda=0.12, N=800) weighted, AStar (lambda=0.12, N=800) paper, AStar (lambda=0.12, N=800) notau, AStar (lambda=0.12, N=800) adaptive, AStar (lambda=0.12, N=800) unweighted
+2020-06-16 16:31:24.598438	TIME ESTIMATE: 416.67 min.	(Rough upper bound)
+2020-06-16 16:31:24.698948	Beginning evaluator eval
                           	Location ../rubiks-models/methodexperiment
-                          	Commit: 6692187292d7d6bb6133cc6dcae9a96d06d61be8
+                          	Commit: dd2be3c1fbddbf3198feb0e53ee4ae5475526f38
 
-2020-06-15 15:48:07.013561	Evaluationg agent AStar (lambda=0.4, N=100) weighted
+2020-06-16 16:31:24.700979	Evaluationg agent AStar (lambda=0.12, N=800) weighted
 
-2020-06-15 15:48:07.015132	Evaluation of AStar (lambda=0.4, N=100)
-2020-06-15 15:48:07.015972	1000 cubes
+2020-06-16 16:31:24.702651	Evaluation of AStar (lambda=0.12, N=800)
+2020-06-16 16:31:24.703643	1000 cubes
                           	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
                           	No max states given
-2020-06-15 16:03:06.729209	Performed evaluation at depth: 788/0
-2020-06-15 16:03:06.734859	Evaluation results
-                          	Scrambling depth deep
-                          		Share completed: 99.50 % +/- 0 % (approx. 95 % CI)
-                          		Turns to win: 24.94 +/- 1.8 (std.), Median: 25
-                          		States seen: Pr. game: 156464.92 +/- 145325 (std.), Pr. sec.: 169272.60 +/- 18924 (std.)
-                          		Time:  0.90 +/- 0.82 (std.)
-2020-06-15 16:03:06.739943	Evaluation runtime
-                          	Execution times                                          | Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 - 999 |  899.685 s | 1,000 | 899.685 ms
-2020-06-15 16:03:06.754888	Saved evaluation results to
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) weighted_results.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) weighted_states_seen.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) weighted_playtimes.npy
-
-2020-06-15 16:03:06.756496	Evaluationg agent AStar (lambda=0.4, N=100) paper
-
-2020-06-15 16:03:06.758108	Evaluation of AStar (lambda=0.4, N=100)
-2020-06-15 16:03:06.758941	1000 cubes
-                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
-                          	No max states given
-2020-06-15 16:14:54.741921	Performed evaluation at depth: 893/0
-2020-06-15 16:14:54.745792	Evaluation results
+2020-06-16 16:48:47.494674	Evaluation results
                           	Scrambling depth deep
                           		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
-                          		Turns to win: 25.23 +/- 1.9 (std.), Median: 25
-                          		States seen: Pr. game: 123564.04 +/- 109967 (std.), Pr. sec.: 170891.62 +/- 17082 (std.)
-                          		Time:  0.71 +/- 0.61 (std.)
-2020-06-15 16:14:54.751375	Evaluation runtime
-                          	Execution times                                          |  Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 - 999 | 1,607.639 s | 2,000 | 803.820 ms
-2020-06-15 16:14:54.761606	Saved evaluation results to
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) paper_results.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) paper_states_seen.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) paper_playtimes.npy
+                          		Turns to win: 24.98 +/- 2.3 (std.), Median: 25
+                          		States seen: Pr. game: 179542.29 +/- 18106 (std.), Pr. sec.: 172604.92 +/- 5452 (std.)
+                          		Time:  1.04 +/- 0.11 (std.)
+2020-06-16 16:48:47.504237	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.12, N=800). Depth 100 - 999 | 1,041.089 s | 1,000 | 1,041.089 ms
+2020-06-16 16:48:47.518081	Saved evaluation results to
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) weighted_results.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) weighted_states_seen.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) weighted_playtimes.npy
 
-2020-06-15 16:14:54.763262	Evaluationg agent AStar (lambda=0.4, N=100) notau
+2020-06-16 16:48:47.519757	Evaluationg agent AStar (lambda=0.12, N=800) paper
 
-2020-06-15 16:14:54.764959	Evaluation of AStar (lambda=0.4, N=100)
-2020-06-15 16:14:54.765849	1000 cubes
+2020-06-16 16:48:47.521392	Evaluation of AStar (lambda=0.12, N=800)
+2020-06-16 16:48:47.522232	1000 cubes
                           	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
                           	No max states given
-2020-06-15 16:46:46.282207	Performed evaluation at depth: 223/0
-2020-06-15 16:46:46.288202	Evaluation results
-                          	Scrambling depth deep
-                          		Share completed: 91.40 % +/- 2 % (approx. 95 % CI)
-                          		Turns to win: 24.51 +/- 1.6 (std.), Median: 25
-                          		States seen: Pr. game: 326932.82 +/- 261340 (std.), Pr. sec.: 164621.73 +/- 21459 (std.)
-                          		Time:  1.91 +/- 1.48 (std.)
-2020-06-15 16:46:46.293366	Evaluation runtime
-                          	Execution times                                          |  Total time |  Hits |    Avg. time
-                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 - 999 | 3,519.126 s | 3,000 | 1,173.042 ms
-2020-06-15 16:46:46.304158	Saved evaluation results to
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) notau_results.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) notau_states_seen.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) notau_playtimes.npy
-
-2020-06-15 16:46:46.305795	Evaluationg agent AStar (lambda=0.4, N=100) adaptive
-
-2020-06-15 16:46:46.307585	Evaluation of AStar (lambda=0.4, N=100)
-2020-06-15 16:46:46.308387	1000 cubes
-                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
-                          	No max states given
-2020-06-15 16:58:30.547143	Performed evaluation at depth: 793/0
-2020-06-15 16:58:30.550067	Evaluation results
+2020-06-16 17:06:37.419085	Evaluation results
                           	Scrambling depth deep
                           		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
-                          		Turns to win: 25.05 +/- 1.9 (std.), Median: 25
-                          		States seen: Pr. game: 122790.11 +/- 113078 (std.), Pr. sec.: 170555.42 +/- 17279 (std.)
-                          		Time:  0.70 +/- 0.63 (std.)
-2020-06-15 16:58:30.555760	Evaluation runtime
-                          	Execution times                                          |  Total time |  Hits |    Avg. time
-                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 - 999 | 4,223.337 s | 4,000 | 1,055.834 ms
-2020-06-15 16:58:30.565677	Saved evaluation results to
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) adaptive_results.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) adaptive_states_seen.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) adaptive_playtimes.npy
+                          		Turns to win: 25.06 +/- 2.2 (std.), Median: 25
+                          		States seen: Pr. game: 180246.75 +/- 17970 (std.), Pr. sec.: 168875.47 +/- 5629 (std.)
+                          		Time:  1.07 +/- 0.11 (std.)
+2020-06-16 17:06:37.428197	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.12, N=800). Depth 100 - 999 | 2,109.242 s | 2,000 | 1,054.621 ms
+2020-06-16 17:06:37.439605	Saved evaluation results to
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) paper_results.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) paper_states_seen.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) paper_playtimes.npy
 
-2020-06-15 16:58:30.567305	Evaluationg agent AStar (lambda=0.4, N=100) unweighted
+2020-06-16 17:06:37.441330	Evaluationg agent AStar (lambda=0.12, N=800) notau
 
-2020-06-15 16:58:30.568878	Evaluation of AStar (lambda=0.4, N=100)
-2020-06-15 16:58:30.569681	1000 cubes
+2020-06-16 17:06:37.443046	Evaluation of AStar (lambda=0.12, N=800)
+2020-06-16 17:06:37.444074	1000 cubes
                           	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
                           	No max states given
-2020-06-15 17:09:11.431938	Performed evaluation at depth: 582/0
-2020-06-15 17:09:11.436608	Evaluation results
+2020-06-16 17:25:39.062485	Evaluation results
                           	Scrambling depth deep
                           		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
-                          		Turns to win: 25.14 +/- 1.9 (std.), Median: 25
-                          		States seen: Pr. game: 111822.16 +/- 97863 (std.), Pr. sec.: 170817.43 +/- 17658 (std.)
-                          		Time:  0.64 +/- 0.55 (std.)
-2020-06-15 17:09:11.442619	Evaluation runtime
-                          	Execution times                                          |  Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.4, N=100). Depth 100 - 999 | 4,864.170 s | 5,000 | 972.834 ms
-2020-06-15 17:09:11.454653	Saved evaluation results to
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) unweighted_results.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) unweighted_states_seen.npy
-                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.4, N=100) unweighted_playtimes.npy
-2020-06-15 17:09:15.343749	Saved settings to ../rubiks-models/methodexperiment/eval_settings.json and plots to
+                          		Turns to win: 25.97 +/- 2.6 (std.), Median: 26
+                          		States seen: Pr. game: 187794.66 +/- 21657 (std.), Pr. sec.: 164963.06 +/- 5887 (std.)
+                          		Time:  1.14 +/- 0.14 (std.)
+2020-06-16 17:25:39.072456	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.12, N=800). Depth 100 - 999 | 3,249.179 s | 3,000 | 1,083.060 ms
+2020-06-16 17:25:39.083812	Saved evaluation results to
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) notau_results.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) notau_states_seen.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) notau_playtimes.npy
+
+2020-06-16 17:25:39.085411	Evaluationg agent AStar (lambda=0.12, N=800) adaptive
+
+2020-06-16 17:25:39.086883	Evaluation of AStar (lambda=0.12, N=800)
+2020-06-16 17:25:39.087649	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-16 17:43:54.840619	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.78 +/- 2.3 (std.), Median: 25
+                          		States seen: Pr. game: 177912.05 +/- 18614 (std.), Pr. sec.: 162893.52 +/- 6668 (std.)
+                          		Time:  1.09 +/- 0.12 (std.)
+2020-06-16 17:43:54.849783	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.12, N=800). Depth 100 - 999 | 4,343.207 s | 4,000 | 1,085.802 ms
+2020-06-16 17:43:54.861391	Saved evaluation results to
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) adaptive_results.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) adaptive_states_seen.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) adaptive_playtimes.npy
+
+2020-06-16 17:43:54.863145	Evaluationg agent AStar (lambda=0.12, N=800) unweighted
+
+2020-06-16 17:43:54.864822	Evaluation of AStar (lambda=0.12, N=800)
+2020-06-16 17:43:54.865667	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-16 18:02:21.359187	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.79 +/- 2.1 (std.), Median: 25
+                          		States seen: Pr. game: 178083.40 +/- 17211 (std.), Pr. sec.: 161482.71 +/- 7108 (std.)
+                          		Time:  1.10 +/- 0.12 (std.)
+2020-06-16 18:02:21.368712	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.12, N=800). Depth 100 - 999 | 5,447.974 s | 5,000 | 1,089.595 ms
+2020-06-16 18:02:21.380575	Saved evaluation results to
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) unweighted_results.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) unweighted_states_seen.npy
+                          	../rubiks-models/methodexperiment/evaluation_results/AStar (lambda=0.12, N=800) unweighted_playtimes.npy
+2020-06-16 18:02:25.361771	Saved settings to ../rubiks-models/methodexperiment/eval_settings.json and plots to
                           	../rubiks-models/methodexperiment/eval_winrates.png
                           	../rubiks-models/methodexperiment/eval_sollengths.png
                           	../rubiks-models/methodexperiment/time_winrate.png

@@ -1,5 +1,5 @@
 {
-    "AStar (lambda=0.4, N=100) weighted": {
+    "AStar (lambda=0.12, N=800) weighted": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,
@@ -7,7 +7,7 @@
             0
         ]
     },
-    "AStar (lambda=0.4, N=100) paper": {
+    "AStar (lambda=0.12, N=800) paper": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,
@@ -15,7 +15,7 @@
             0
         ]
     },
-    "AStar (lambda=0.4, N=100) notau": {
+    "AStar (lambda=0.12, N=800) notau": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,
@@ -23,7 +23,7 @@
             0
         ]
     },
-    "AStar (lambda=0.4, N=100) adaptive": {
+    "AStar (lambda=0.12, N=800) adaptive": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,
@@ -31,7 +31,7 @@
             0
         ]
     },
-    "AStar (lambda=0.4, N=100) unweighted": {
+    "AStar (lambda=0.12, N=800) unweighted": {
         "n_games": 1000,
         "max_time": 5.0,
         "max_states": 0,
