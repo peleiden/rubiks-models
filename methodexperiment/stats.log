@@ -1,242 +1,193 @@
-2020-06-15 20:17:21.453627	Statistical comparison
+2020-06-16 18:11:46.697761	Statistical comparison
 
-2020-06-15 20:17:21.455952	Results loaded for agents
-                          		['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) unweighted', 'AStar (lambda=0.4, N=100) notau', 'AStar (lambda=0.4, N=100) weighted']
+2020-06-16 18:11:46.709102	Results loaded for agents
+                          		['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) weighted', 'AStar (lambda=0.12, N=800) paper', 'AStar (lambda=0.12, N=800) unweighted']
                           	from path
-                          		/home/sorenwh/Dokumenter/rubiks-models/methodexperiment/evaluation_results
+                          		../rubiks-models/methodexperiment/evaluation_results
 
-2020-06-15 20:17:21.456249	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) paper']
+2020-06-16 18:11:46.710529	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) notau']
 
-2020-06-15 20:17:21.456374	Test of equal solution lengths
+2020-06-16 18:11:46.711895	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1997.5926272207616 degrees of freedom
+                          	in t-distribution with 1963.6579990855482 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 0.030133126950319555 -2.169884383309182
+                          		 0.0 -10.740558202818393
                           	Confidence interval at level 0.01 of difference is
-                          		-0.18599999999999994 +/- 0.22100829712488554
-                          		(which is [-0.4070083  0.0350083])
+                          		-1.186 +/- 0.2847064078530415
+                          		(which is [-1.47070641 -0.90129359])
 
-2020-06-15 20:17:21.457984	Test of equal solve proportions
+2020-06-16 18:11:46.717460	Test of equal solve proportions
                           	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.458230	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) unweighted']
+2020-06-16 18:11:46.719644	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) weighted']
 
-2020-06-15 20:17:21.458346	Test of equal solution lengths
+2020-06-16 18:11:46.720961	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1997.145054206348 degrees of freedom
+                          	in t-distribution with 1997.524719950141 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 0.29235091578439953 -1.053256378718644
+                          		 0.05498762540969793 -1.920099224008732
                           	Confidence interval at level 0.01 of difference is
-                          		-0.08999999999999986 +/- 0.22031330871595847
-                          		(which is [-0.31031331  0.13031331])
+                          		-0.1960000000000015 +/- 0.2631871260494611
+                          		(which is [-0.45918713  0.06718713])
 
-2020-06-15 20:17:21.459390	Test of equal solve proportions
+2020-06-16 18:11:46.725452	Test of equal solve proportions
                           	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.459626	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) notau']
+2020-06-16 18:11:46.727686	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) paper']
 
-2020-06-15 20:17:21.459738	Test of equal solution lengths
+2020-06-16 18:11:46.729186	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1903.3945381066992 degrees of freedom
+                          	in t-distribution with 1996.6946964328852 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 5.818523440836998e-11 6.58625461037805
+                          		 0.006255671610990721 -2.7369742672446558
                           	Confidence interval at level 0.01 of difference is
-                          		0.53915317286652 +/- 0.21106996235246128
-                          		(which is [0.32808321 0.75022314])
+                          		-0.27800000000000225 +/- 0.2618825112269971
+                          		(which is [-0.53988251 -0.01611749])
 
-2020-06-15 20:17:21.460775	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.0 9.479670818634787
-                          	Confidence interval at level 0.01 of difference is
-                          		0.08599999999999997 +/- 0.022837018466224334
-                          		(which is [0.06316298 0.10883702])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 914], [0, 85]
-
-2020-06-15 20:17:21.461780	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) weighted']
-
-2020-06-15 20:17:21.461886	Test of equal solution lengths
-                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1987.822797479664 degrees of freedom
-                          	Resulting (non-corrected) p value and t test statistic:
-                          		 0.21080327723484826 1.2517636393922997
-                          	Confidence interval at level 0.01 of difference is
-                          		0.10528140703517508 +/- 0.2168520927945666
-                          		(which is [-0.11157069  0.3221335 ])
-
-2020-06-15 20:17:21.462903	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.02516448570031682 2.2388683141982506
-                          	Confidence interval at level 0.01 of difference is
-                          		0.0050000000000000044 +/- 0.005745312053324916
-                          		(which is [-0.00074531  0.01074531])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 995], [0, 5]
-
-2020-06-15 20:17:21.463850	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) unweighted']
-
-2020-06-15 20:17:21.463959	Test of equal solution lengths
-                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1997.9178680197292 degrees of freedom
-                          	Resulting (non-corrected) p value and t test statistic:
-                          		 0.25792410782904374 1.1316340914820395
-                          	Confidence interval at level 0.01 of difference is
-                          		0.09600000000000009 +/- 0.21872446920157648
-                          		(which is [-0.12272447  0.31472447])
-
-2020-06-15 20:17:21.464953	Test of equal solve proportions
+2020-06-16 18:11:46.733813	Test of equal solve proportions
                           	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.465188	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) notau']
+2020-06-16 18:11:46.736120	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) unweighted']
 
-2020-06-15 20:17:21.465290	Test of equal solution lengths
+2020-06-16 18:11:46.737674	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1906.6237732685788 degrees of freedom
+                          	in t-distribution with 1987.9926190719852 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 0.0 8.928596286789556
+                          		 0.9679035921711256 -0.040242805651187666
                           	Confidence interval at level 0.01 of difference is
-                          		0.7251531728665199 +/- 0.20941057522185436
-                          		(which is [0.5157426  0.93456375])
+                          		-0.004000000000001336 +/- 0.2562748417247324
+                          		(which is [-0.26027484  0.25227484])
 
-2020-06-15 20:17:21.466276	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.0 9.479670818634787
-                          	Confidence interval at level 0.01 of difference is
-                          		0.08599999999999997 +/- 0.022837018466224334
-                          		(which is [0.06316298 0.10883702])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 914], [0, 85]
+2020-06-16 18:11:46.742506	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.467249	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) weighted']
+2020-06-16 18:11:46.744645	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) weighted']
 
-2020-06-15 20:17:21.467360	Test of equal solution lengths
+2020-06-16 18:11:46.745911	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1990.3070739639313 degrees of freedom
+                          	in t-distribution with 1955.5301361966617 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 0.000494966150821341 3.4892215367359367
+                          		 0.0 9.025240923494742
                           	Confidence interval at level 0.01 of difference is
-                          		0.291281407035175 +/- 0.21523751434327265
-                          		(which is [0.07604389 0.50651892])
+                          		0.9899999999999984 +/- 0.28282484152154386
+                          		(which is [0.70717516 1.27282484])
 
-2020-06-15 20:17:21.468373	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.02516448570031682 2.2388683141982506
-                          	Confidence interval at level 0.01 of difference is
-                          		0.0050000000000000044 +/- 0.005745312053324916
-                          		(which is [-0.00074531  0.01074531])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 995], [0, 5]
+2020-06-16 18:11:46.750431	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.469319	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) unweighted', 'AStar (lambda=0.4, N=100) notau']
+2020-06-16 18:11:46.752591	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) paper']
 
-2020-06-15 20:17:21.469434	Test of equal solution lengths
+2020-06-16 18:11:46.753942	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1907.8319184856257 degrees of freedom
+                          	in t-distribution with 1949.7676432001213 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 1.2434497875801753e-14 7.77381440561213
+                          		 2.220446049250313e-16 8.313373405171491
                           	Confidence interval at level 0.01 of difference is
-                          		0.6291531728665198 +/- 0.20867671541144125
-                          		(which is [0.42047646 0.83782989])
+                          		0.9079999999999977 +/- 0.2816118829576315
+                          		(which is [0.62638812 1.18961188])
 
-2020-06-15 20:17:21.470428	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.0 9.479670818634787
-                          	Confidence interval at level 0.01 of difference is
-                          		0.08599999999999997 +/- 0.022837018466224334
-                          		(which is [0.06316298 0.10883702])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 914], [0, 85]
+2020-06-16 18:11:46.758695	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.471376	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) unweighted', 'AStar (lambda=0.4, N=100) weighted']
+2020-06-16 18:11:46.760827	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) unweighted']
 
-2020-06-15 20:17:21.471486	Test of equal solution lengths
+2020-06-16 18:11:46.762407	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1991.162258594491 degrees of freedom
+                          	in t-distribution with 1920.1858475591243 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 0.019021067320212026 2.3470330646573547
+                          		 0.0 11.025957170014676
                           	Confidence interval at level 0.01 of difference is
-                          		0.19528140703517494 +/- 0.21452368933305932
-                          		(which is [-0.01924228  0.4098051 ])
+                          		1.1819999999999986 +/- 0.27640770598960085
+                          		(which is [0.90559229 1.45840771])
 
-2020-06-15 20:17:21.472486	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.02516448570031682 2.2388683141982506
-                          	Confidence interval at level 0.01 of difference is
-                          		0.0050000000000000044 +/- 0.005745312053324916
-                          		(which is [-0.00074531  0.01074531])
-                          	Proportion samples (all should be > 10 for accurate model): [1000, 995], [0, 5]
+2020-06-16 18:11:46.767184	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
 
-2020-06-15 20:17:21.473434	Comparison of agents
-                          		['AStar (lambda=0.4, N=100) notau', 'AStar (lambda=0.4, N=100) weighted']
+2020-06-16 18:11:46.769403	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) weighted', 'AStar (lambda=0.12, N=800) paper']
 
-2020-06-15 20:17:21.473544	Test of equal solution lengths
+2020-06-16 18:11:46.770885	Test of equal solution lengths
                           	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
-                          	in t-distribution with 1906.480860707162 degrees of freedom
+                          	in t-distribution with 1997.7943013289623 degrees of freedom
                           	Resulting (non-corrected) p value and t test statistic:
-                          		 5.48715033410474e-08 -5.456593875262722
+                          		 0.4159298327301497 -0.8136720190623091
                           	Confidence interval at level 0.01 of difference is
-                          		-0.4338717658313449 +/- 0.20501792583049236
-                          		(which is [-0.63888969 -0.22885384])
+                          		-0.08200000000000074 +/- 0.2598344057351568
+                          		(which is [-0.34183441  0.17783441])
 
-2020-06-15 20:17:21.474552	Test of equal solve proportions
-                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
-                          	in the standard normal distribution
-                          	Resulting (non-corrected) p value and z test statistic:
-                          		 0.0 -8.691132207340418
+2020-06-16 18:11:46.775730	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
+
+2020-06-16 18:11:46.778108	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) weighted', 'AStar (lambda=0.12, N=800) unweighted']
+
+2020-06-16 18:11:46.779530	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with 1991.8456375773126 degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 0.05160776649743126 1.947561678137487
                           	Confidence interval at level 0.01 of difference is
-                          		-0.08099999999999996 +/- 0.023548631022136973
-                          		(which is [-0.10454863 -0.05745137])
-                          	Proportion samples (all should be > 10 for accurate model): [914, 995], [85, 5]
+                          		0.19200000000000017 +/- 0.2541812054077976
+                          		(which is [-0.06218121  0.44618121])
 
-2020-06-15 20:17:21.475787	CORRECTED p values
-2020-06-15 20:17:21.475846	Corrected p values for ['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) paper']
-                          	Corrected solution length p value for 0.04304732421474222
-                          	Corrected solution proportion p value for 1.0
-2020-06-15 20:17:21.476021	Corrected p values for ['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) unweighted']
-                          	Corrected solution length p value for 0.29235091578439953
-                          	Corrected solution proportion p value for 1.0
-2020-06-15 20:17:21.476195	Corrected p values for ['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) notau']
-                          	Corrected solution length p value for 1.9395078136123325e-10
-                          	Corrected solution proportion p value for 0.0
-2020-06-15 20:17:21.476369	Corrected p values for ['AStar (lambda=0.4, N=100) adaptive', 'AStar (lambda=0.4, N=100) weighted']
-                          	Corrected solution length p value for 0.26350409654356033
-                          	Corrected solution proportion p value for 0.04194080950052803
-2020-06-15 20:17:21.476540	Corrected p values for ['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) unweighted']
-                          	Corrected solution length p value for 0.28658234203227084
-                          	Corrected solution proportion p value for 1.0
-2020-06-15 20:17:21.476710	Corrected p values for ['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) notau']
+2020-06-16 18:11:46.784246	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
+
+2020-06-16 18:11:46.786384	Comparison of agents
+                          		['AStar (lambda=0.12, N=800) paper', 'AStar (lambda=0.12, N=800) unweighted']
+
+2020-06-16 18:11:46.787711	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with 1993.8786370098903 degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 0.005252810843635158 2.7941863704094776
+                          	Confidence interval at level 0.01 of difference is
+                          		0.2740000000000009 +/- 0.2528297614292639
+                          		(which is [0.02117024 0.52682976])
+
+2020-06-16 18:11:46.792234	Test of equal solve proportions
+                          	Proportions are both at 100%, no analysis can be carried out
+
+2020-06-16 18:11:46.794773	CORRECTED p values
+2020-06-16 18:11:46.795453	Corrected p values for ['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) notau']
                           	Corrected solution length p value for 0.0
-                          	Corrected solution proportion p value for 0.0
-2020-06-15 20:17:21.476878	Corrected p values for ['AStar (lambda=0.4, N=100) paper', 'AStar (lambda=0.4, N=100) weighted']
-                          	Corrected solution length p value for 0.000989932301642682
-                          	Corrected solution proportion p value for 0.04194080950052803
-2020-06-15 20:17:21.477050	Corrected p values for ['AStar (lambda=0.4, N=100) unweighted', 'AStar (lambda=0.4, N=100) notau']
-                          	Corrected solution length p value for 6.217248937900877e-14
-                          	Corrected solution proportion p value for 0.0
-2020-06-15 20:17:21.477246	Corrected p values for ['AStar (lambda=0.4, N=100) unweighted', 'AStar (lambda=0.4, N=100) weighted']
-                          	Corrected solution length p value for 0.031701778867020046
-                          	Corrected solution proportion p value for 0.04194080950052803
-2020-06-15 20:17:21.477396	Corrected p values for ['AStar (lambda=0.4, N=100) notau', 'AStar (lambda=0.4, N=100) weighted']
-                          	Corrected solution length p value for 1.371787583526185e-07
-                          	Corrected solution proportion p value for 0.0
-2020-06-15 20:17:22.471200	Normality plot saved for AStar (lambda=0.4, N=100) adaptive
-2020-06-15 20:17:23.408784	Normality plot saved for AStar (lambda=0.4, N=100) paper
-2020-06-15 20:17:24.340339	Normality plot saved for AStar (lambda=0.4, N=100) unweighted
-2020-06-15 20:17:25.311650	Normality plot saved for AStar (lambda=0.4, N=100) notau
-2020-06-15 20:17:26.231953	Normality plot saved for AStar (lambda=0.4, N=100) weighted
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.797515	Corrected p values for ['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) weighted']
+                          	Corrected solution length p value for 0.06873453176212241
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.799659	Corrected p values for ['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) paper']
+                          	Corrected solution length p value for 0.0104261193516512
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.801794	Corrected p values for ['AStar (lambda=0.12, N=800) adaptive', 'AStar (lambda=0.12, N=800) unweighted']
+                          	Corrected solution length p value for 0.9679035921711258
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.803935	Corrected p values for ['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) weighted']
+                          	Corrected solution length p value for 0.0
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.806127	Corrected p values for ['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) paper']
+                          	Corrected solution length p value for 5.551115123125783e-16
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.808324	Corrected p values for ['AStar (lambda=0.12, N=800) notau', 'AStar (lambda=0.12, N=800) unweighted']
+                          	Corrected solution length p value for 0.0
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.810670	Corrected p values for ['AStar (lambda=0.12, N=800) weighted', 'AStar (lambda=0.12, N=800) paper']
+                          	Corrected solution length p value for 0.4621442585890553
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.812988	Corrected p values for ['AStar (lambda=0.12, N=800) weighted', 'AStar (lambda=0.12, N=800) unweighted']
+                          	Corrected solution length p value for 0.07372538071061609
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:46.815195	Corrected p values for ['AStar (lambda=0.12, N=800) paper', 'AStar (lambda=0.12, N=800) unweighted']
+                          	Corrected solution length p value for 0.010505621687270317
+                          	Corrected solution proportion p value for 1.0
+2020-06-16 18:11:48.232061	Normality plot saved for AStar (lambda=0.12, N=800) adaptive
+2020-06-16 18:11:49.650426	Normality plot saved for AStar (lambda=0.12, N=800) notau
+2020-06-16 18:11:51.033961	Normality plot saved for AStar (lambda=0.12, N=800) weighted
+2020-06-16 18:11:52.392938	Normality plot saved for AStar (lambda=0.12, N=800) paper
+2020-06-16 18:11:53.759290	Normality plot saved for AStar (lambda=0.12, N=800) unweighted
