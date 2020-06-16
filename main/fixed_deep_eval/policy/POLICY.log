@@ -1,0 +1,33 @@
+2020-06-16 08:36:43.677922	POLICY
+
+2020-06-16 08:36:43.679028	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-16 08:36:43.845000	Loaded model from /zhome/ac/c/137651/rubiks-models/main
+2020-06-16 08:36:43.845784	Initialized POLICY with agents Greedy policy
+2020-06-16 08:36:43.846469	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-16 09:45:32.543040	Beginning evaluator POLICY
+                          	Location ../rubiks-models/main/policy
+                          	Commit: 1b1ccb55b47562ff6bb9d9384898997a4c93d236
+
+2020-06-16 09:45:32.546650	Evaluationg agent Greedy policy
+
+2020-06-16 09:45:32.547860	Evaluation of Greedy policy
+2020-06-16 09:45:32.548565	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-16 11:08:55.168191	Performed evaluation at depth: 223/0
+2020-06-16 11:08:55.175010	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 9055.02 +/- 7 (std.), Pr. sec.: 1810.06 +/- 2 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+2020-06-16 11:08:55.179745	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.1, N=1000). Depth 100 - 999 | 1,209.704 s | 1,000 | 1,209.704 ms
+                          	Evaluation of BFS MCTS (c=15.0). Depth 100 - 999          | 2,918.276 s | 1,000 | 2,918.276 ms
+                          	Evaluation of Greedy policy. Depth 100 - 999              | 5,002.595 s | 1,000 | 5,002.595 ms
+2020-06-16 11:08:55.189784	Saved evaluation results to
+                          	../rubiks-models/main/policy/evaluation_results/Greedy policy_results.npy
+                          	../rubiks-models/main/policy/evaluation_results/Greedy policy_states_seen.npy
+                          	../rubiks-models/main/policy/evaluation_results/Greedy policy_playtimes.npy

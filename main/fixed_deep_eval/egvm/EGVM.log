@@ -1,0 +1,36 @@
+2020-06-16 08:36:44.021699	EGVM
+
+2020-06-16 08:36:44.022807	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-16 08:36:44.186414	Loaded model from /zhome/ac/c/137651/rubiks-models/main
+2020-06-16 08:36:44.187687	Initialized EGVM with agents EGVM (e=0.45, w=500, d=250)
+2020-06-16 08:36:44.188282	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-16 12:32:17.980337	Beginning evaluator EGVM
+                          	Location ../rubiks-models/main/egvm
+                          	Commit: 1b1ccb55b47562ff6bb9d9384898997a4c93d236
+
+2020-06-16 12:32:17.984711	Evaluationg agent EGVM (e=0.45, w=500, d=250)
+
+2020-06-16 12:32:17.985914	Evaluation of EGVM (e=0.45, w=500, d=250)
+2020-06-16 12:32:17.986521	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-16 12:48:58.761651	Performed evaluation at depth: 622/0
+2020-06-16 12:48:58.766071	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 99.80 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 328.13 +/- 219.1 (std.), Median: 251
+                          		States seen: Pr. game: 200413.50 +/- 157809 (std.), Pr. sec.: 221766.21 +/- 36613 (std.)
+                          		Time:  1.00 +/- 0.88 (std.)
+2020-06-16 12:48:58.773847	Evaluation runtime
+                          	Execution times                                            |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.1, N=1000). Depth 100 - 999  | 1,209.704 s | 1,000 | 1,209.704 ms
+                          	Evaluation of BFS MCTS (c=15.0). Depth 100 - 999           | 2,918.276 s | 1,000 | 2,918.276 ms
+                          	Evaluation of Greedy policy. Depth 100 - 999               | 5,002.595 s | 1,000 | 5,002.595 ms
+                          	Evaluation of Greedy value. Depth 100 - 999                | 5,002.592 s | 1,000 | 5,002.592 ms
+                          	Evaluation of EGVM (e=0.45, w=500, d=250). Depth 100 - 999 | 1,000.749 s | 1,000 | 1,000.749 ms
+2020-06-16 12:48:58.783677	Saved evaluation results to
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.45, w=500, d=250)_results.npy
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.45, w=500, d=250)_states_seen.npy
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.45, w=500, d=250)_playtimes.npy

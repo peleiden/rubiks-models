@@ -1,0 +1,50 @@
+{
+    "ASTAR - AStar (lambda=0.1, N=1000)": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "MCTS - BFS MCTS (c=15.0)": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "POLICY - Greedy policy": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "VALUE - Greedy value": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "EGVM - EGVM (e=0.45, w=500, d=250)": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    },
+    "BFS - Breadth-first search": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    }
+}

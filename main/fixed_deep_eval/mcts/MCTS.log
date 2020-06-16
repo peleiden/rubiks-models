@@ -1,0 +1,33 @@
+2020-06-16 08:36:43.505644	MCTS
+
+2020-06-16 08:36:43.506846	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-16 08:36:43.673526	Loaded model from /zhome/ac/c/137651/rubiks-models/main
+2020-06-16 08:36:43.674270	Initialized MCTS with agents BFS MCTS (c=15.0)
+2020-06-16 08:36:43.674873	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-16 08:56:54.129835	Beginning evaluator MCTS
+                          	Location ../rubiks-models/main/mcts
+                          	Commit: 1b1ccb55b47562ff6bb9d9384898997a4c93d236
+
+2020-06-16 08:56:54.133536	Evaluationg agent BFS MCTS (c=15.0)
+
+2020-06-16 08:56:54.134882	Evaluation of BFS MCTS (c=15.0)
+2020-06-16 08:56:54.135614	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-16 09:45:32.452056	Performed evaluation at depth: 893/0
+2020-06-16 09:45:32.456800	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 76.10 % +/- 3 % (approx. 95 % CI)
+                          		Turns to win: 50.50 +/- 15.8 (std.), Median: 48
+                          		States seen: Pr. game: 16035.59 +/- 7488 (std.), Pr. sec.: 5827.89 +/- 771 (std.)
+                          		Time:  2.92 +/- 1.57 (std.)
+2020-06-16 09:45:32.461623	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.1, N=1000). Depth 100 - 999 | 1,209.704 s | 1,000 | 1,209.704 ms
+                          	Evaluation of BFS MCTS (c=15.0). Depth 100 - 999          | 2,918.276 s | 1,000 | 2,918.276 ms
+2020-06-16 09:45:32.472293	Saved evaluation results to
+                          	../rubiks-models/main/mcts/evaluation_results/BFS MCTS (c=15.0)_results.npy
+                          	../rubiks-models/main/mcts/evaluation_results/BFS MCTS (c=15.0)_states_seen.npy
+                          	../rubiks-models/main/mcts/evaluation_results/BFS MCTS (c=15.0)_playtimes.npy
