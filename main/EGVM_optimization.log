@@ -1,0 +1,820 @@
+2020-06-16 18:18:27.824722	Optimization
+
+2020-06-16 18:18:27.826023	EGVM optimization. Using network from .
+2020-06-16 18:18:27.826684	Received arguments: {'location': 'data/mainEGVM', 'iterations': 125, 'agent': 'EGVM', 'depth': 0, 'eval_games': 100, 'save_optimal': True, 'use_best': True, 'optim_lengths': True, 'optimizer': 'grid'}
+2020-06-16 18:18:27.827373	Optimizer Grid Search created parameters: epsilon: (0, 0.5), workers: (1, 500), depth: (1, 250)
+2020-06-16 18:18:27.827980	Created grid search
+
+2020-06-16 18:18:27.829412	Starting search over 125 parameter combinations
+
+2020-06-16 18:18:27.830742	Optimization 0
+                          		Chosen parameters: epsilon: 0.0, workers: 1, depth: 1
+2020-06-16 18:26:48.083874		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 3633 states on average
+                          		Score:             -0.0
+
+2020-06-16 18:26:48.089071	Optimization 1
+                          		Chosen parameters: epsilon: 0.0, workers: 1, depth: 63
+2020-06-16 18:36:03.360783		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.53 s and saw 3859 states on average
+                          		Score:             -0.0
+
+2020-06-16 18:36:03.365170	Optimization 2
+                          		Chosen parameters: epsilon: 0.0, workers: 1, depth: 125
+2020-06-16 18:44:27.356812		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.04 s and saw 6000 states on average
+                          		Score:             -0.0
+
+2020-06-16 18:44:27.362150	Optimization 3
+                          		Chosen parameters: epsilon: 0.0, workers: 1, depth: 187
+2020-06-16 18:52:50.360200		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.03 s and saw 5898 states on average
+                          		Score:             -0.0
+
+2020-06-16 18:52:50.364279	Optimization 4
+                          		Chosen parameters: epsilon: 0.0, workers: 1, depth: 250
+2020-06-16 19:02:12.207816		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.60 s and saw 5348 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:02:12.212694	Optimization 5
+                          		Chosen parameters: epsilon: 0.0, workers: 125, depth: 1
+2020-06-16 19:10:32.471908		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 350229 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:10:32.475798	Optimization 6
+                          		Chosen parameters: epsilon: 0.0, workers: 125, depth: 63
+2020-06-16 19:18:57.706317		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.05 s and saw 476674 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:18:57.710504	Optimization 7
+                          		Chosen parameters: epsilon: 0.0, workers: 125, depth: 125
+2020-06-16 19:27:25.986496		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.08 s and saw 484375 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:27:25.991384	Optimization 8
+                          		Chosen parameters: epsilon: 0.0, workers: 125, depth: 187
+2020-06-16 19:35:59.033389		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.13 s and saw 490875 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:35:59.037666	Optimization 9
+                          		Chosen parameters: epsilon: 0.0, workers: 125, depth: 250
+2020-06-16 19:44:39.853700		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.21 s and saw 500000 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:44:39.859102	Optimization 10
+                          		Chosen parameters: epsilon: 0.0, workers: 250, depth: 1
+2020-06-16 19:53:00.179263		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 526142 states on average
+                          		Score:             -0.0
+
+2020-06-16 19:53:00.183920	Optimization 11
+                          		Chosen parameters: epsilon: 0.0, workers: 250, depth: 63
+2020-06-16 20:01:28.245946		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.08 s and saw 677250 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:01:28.250443	Optimization 12
+                          		Chosen parameters: epsilon: 0.0, workers: 250, depth: 125
+2020-06-16 20:10:05.451970		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.17 s and saw 687500 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:10:05.456613	Optimization 13
+                          		Chosen parameters: epsilon: 0.0, workers: 250, depth: 187
+2020-06-16 20:18:49.541325		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.24 s and saw 701250 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:18:49.546482	Optimization 14
+                          		Chosen parameters: epsilon: 0.0, workers: 250, depth: 250
+2020-06-16 20:27:23.601249		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.14 s and saw 687500 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:27:23.606601	Optimization 15
+                          		Chosen parameters: epsilon: 0.0, workers: 375, depth: 1
+2020-06-16 20:35:43.930851		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 622912 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:35:43.934452	Optimization 16
+                          		Chosen parameters: epsilon: 0.0, workers: 375, depth: 63
+2020-06-16 20:44:14.494115		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.10 s and saw 779625 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:44:14.499399	Optimization 17
+                          		Chosen parameters: epsilon: 0.0, workers: 375, depth: 125
+2020-06-16 20:52:53.202035		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.19 s and saw 796875 states on average
+                          		Score:             -0.0
+
+2020-06-16 20:52:53.207176	Optimization 18
+                          		Chosen parameters: epsilon: 0.0, workers: 375, depth: 187
+2020-06-16 21:01:14.620621		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.01 s and saw 771375 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:01:14.626511	Optimization 19
+                          		Chosen parameters: epsilon: 0.0, workers: 375, depth: 250
+2020-06-16 21:10:24.220480		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.49 s and saw 843750 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:10:24.225282	Optimization 20
+                          		Chosen parameters: epsilon: 0.0, workers: 500, depth: 1
+2020-06-16 21:18:44.594027		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 669900 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:18:44.598861	Optimization 21
+                          		Chosen parameters: epsilon: 0.0, workers: 500, depth: 63
+2020-06-16 21:27:12.493671		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.08 s and saw 819000 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:27:12.498829	Optimization 22
+                          		Chosen parameters: epsilon: 0.0, workers: 500, depth: 125
+2020-06-16 21:36:08.204166		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.36 s and saw 875000 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:36:08.207895	Optimization 23
+                          		Chosen parameters: epsilon: 0.0, workers: 500, depth: 187
+2020-06-16 21:44:43.395120		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.15 s and saw 841500 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:44:43.401089	Optimization 24
+                          		Chosen parameters: epsilon: 0.0, workers: 500, depth: 250
+2020-06-16 21:53:39.627313		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.36 s and saw 875000 states on average
+                          		Score:             -0.0
+
+2020-06-16 21:53:39.632600	Optimization 25
+                          		Chosen parameters: epsilon: 0.125, workers: 1, depth: 1
+2020-06-16 22:01:49.281230		RESULTS:           Solved 3.00 %, mean solve length 1.0
+                          		                   Used 4.89 s and saw 3681 states on average
+                          		Score:             0.03
+
+2020-06-16 22:01:49.287671	Optimization 26
+                          		Chosen parameters: epsilon: 0.125, workers: 1, depth: 63
+2020-06-16 22:10:04.646706		RESULTS:           Solved 2.00 %, mean solve length 1658.0
+                          		                   Used 4.95 s and saw 6153 states on average
+                          		Score:             1.2062726176115802e-05
+
+2020-06-16 22:10:04.650970	Optimization 27
+                          		Chosen parameters: epsilon: 0.125, workers: 1, depth: 125
+2020-06-16 22:18:31.344104		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.07 s and saw 6335 states on average
+                          		Score:             -0.0
+
+2020-06-16 22:18:31.349088	Optimization 28
+                          		Chosen parameters: epsilon: 0.125, workers: 1, depth: 187
+2020-06-16 22:26:49.019295		RESULTS:           Solved 3.00 %, mean solve length 1755.6666666666667
+                          		                   Used 4.97 s and saw 6241 states on average
+                          		Score:             1.708752610594266e-05
+
+2020-06-16 22:26:49.024090	Optimization 29
+                          		Chosen parameters: epsilon: 0.125, workers: 1, depth: 250
+2020-06-16 22:34:57.969368		RESULTS:           Solved 7.00 %, mean solve length 1522.857142857143
+                          		                   Used 4.89 s and saw 6111 states on average
+                          		Score:             4.596622889305817e-05
+
+2020-06-16 22:34:57.973797	Optimization 30
+                          		Chosen parameters: epsilon: 0.125, workers: 125, depth: 1
+2020-06-16 22:43:18.240786		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 351212 states on average
+                          		Score:             -0.0
+
+2020-06-16 22:43:18.245871	Optimization 31
+                          		Chosen parameters: epsilon: 0.125, workers: 125, depth: 63
+2020-06-16 22:50:48.624004		RESULTS:           Solved 12.00 %, mean solve length 352.25
+                          		                   Used 4.50 s and saw 424412 states on average
+                          		Score:             0.0003406671398154719
+
+2020-06-16 22:50:48.628817	Optimization 32
+                          		Chosen parameters: epsilon: 0.125, workers: 125, depth: 125
+2020-06-16 22:58:06.965753		RESULTS:           Solved 19.00 %, mean solve length 568.5263157894736
+                          		                   Used 4.38 s and saw 416560 states on average
+                          		Score:             0.00033419737085724866
+
+2020-06-16 22:58:06.969724	Optimization 33
+                          		Chosen parameters: epsilon: 0.125, workers: 125, depth: 187
+2020-06-16 23:05:20.102177		RESULTS:           Solved 20.00 %, mean solve length 592.0
+                          		                   Used 4.33 s and saw 411478 states on average
+                          		Score:             0.00033783783783783786
+
+2020-06-16 23:05:20.107536	Optimization 34
+                          		Chosen parameters: epsilon: 0.125, workers: 125, depth: 250
+2020-06-16 23:12:54.573365		RESULTS:           Solved 18.00 %, mean solve length 554.5555555555555
+                          		                   Used 4.54 s and saw 430822 states on average
+                          		Score:             0.00032458425165297536
+
+2020-06-16 23:12:54.577398	Optimization 35
+                          		Chosen parameters: epsilon: 0.125, workers: 250, depth: 1
+2020-06-16 23:21:14.871627		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 527688 states on average
+                          		Score:             -0.0
+
+2020-06-16 23:21:14.877820	Optimization 36
+                          		Chosen parameters: epsilon: 0.125, workers: 250, depth: 63
+2020-06-16 23:28:42.324261		RESULTS:           Solved 14.00 %, mean solve length 292.7857142857143
+                          		                   Used 4.47 s and saw 597662 states on average
+                          		Score:             0.00047816540619663336
+
+2020-06-16 23:28:42.329087	Optimization 37
+                          		Chosen parameters: epsilon: 0.125, workers: 250, depth: 125
+2020-06-16 23:35:46.619049		RESULTS:           Solved 22.00 %, mean solve length 275.95454545454544
+                          		                   Used 4.24 s and saw 563412 states on average
+                          		Score:             0.0007972327458408829
+
+2020-06-16 23:35:46.622599	Optimization 38
+                          		Chosen parameters: epsilon: 0.125, workers: 250, depth: 187
+2020-06-16 23:42:59.386928		RESULTS:           Solved 19.00 %, mean solve length 230.05263157894737
+                          		                   Used 4.33 s and saw 580500 states on average
+                          		Score:             0.0008258979638526653
+
+2020-06-16 23:42:59.392315	Optimization 39
+                          		Chosen parameters: epsilon: 0.125, workers: 250, depth: 250
+2020-06-16 23:49:08.581101		RESULTS:           Solved 31.00 %, mean solve length 217.80645161290323
+                          		                   Used 3.69 s and saw 496398 states on average
+                          		Score:             0.001423281990521327
+
+2020-06-16 23:49:08.586118	Optimization 40
+                          		Chosen parameters: epsilon: 0.125, workers: 375, depth: 1
+2020-06-16 23:57:28.913721		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 635168 states on average
+                          		Score:             -0.0
+
+2020-06-16 23:57:28.918100	Optimization 41
+                          		Chosen parameters: epsilon: 0.125, workers: 375, depth: 63
+2020-06-17 00:04:36.157858		RESULTS:           Solved 17.00 %, mean solve length 167.64705882352942
+                          		                   Used 4.27 s and saw 665002 states on average
+                          		Score:             0.0010140350877192983
+
+2020-06-17 00:04:36.163451	Optimization 42
+                          		Chosen parameters: epsilon: 0.125, workers: 375, depth: 125
+2020-06-17 00:11:01.941450		RESULTS:           Solved 28.00 %, mean solve length 224.78571428571428
+                          		                   Used 3.86 s and saw 607541 states on average
+                          		Score:             0.0012456307594534478
+
+2020-06-17 00:11:01.946658	Optimization 43
+                          		Chosen parameters: epsilon: 0.125, workers: 375, depth: 187
+2020-06-17 00:18:39.227226		RESULTS:           Solved 17.00 %, mean solve length 267.11764705882354
+                          		                   Used 4.57 s and saw 720199 states on average
+                          		Score:             0.0006364236952213169
+
+2020-06-17 00:18:39.231403	Optimization 44
+                          		Chosen parameters: epsilon: 0.125, workers: 375, depth: 250
+2020-06-17 00:24:56.242041		RESULTS:           Solved 36.00 %, mean solve length 283.6388888888889
+                          		                   Used 3.77 s and saw 596104 states on average
+                          		Score:             0.0012692194691998823
+
+2020-06-17 00:24:56.248734	Optimization 45
+                          		Chosen parameters: epsilon: 0.125, workers: 500, depth: 1
+2020-06-17 00:33:16.619854		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 690785 states on average
+                          		Score:             -0.0
+
+2020-06-17 00:33:16.624190	Optimization 46
+                          		Chosen parameters: epsilon: 0.125, workers: 500, depth: 63
+2020-06-17 00:40:22.890533		RESULTS:           Solved 20.00 %, mean solve length 214.3
+                          		                   Used 4.26 s and saw 709320 states on average
+                          		Score:             0.0009332711152589828
+
+2020-06-17 00:40:22.896212	Optimization 47
+                          		Chosen parameters: epsilon: 0.125, workers: 500, depth: 125
+2020-06-17 00:47:42.946037		RESULTS:           Solved 18.00 %, mean solve length 246.33333333333334
+                          		                   Used 4.40 s and saw 743785 states on average
+                          		Score:             0.0007307171853856562
+
+2020-06-17 00:47:42.951347	Optimization 48
+                          		Chosen parameters: epsilon: 0.125, workers: 500, depth: 187
+2020-06-17 00:53:59.451411		RESULTS:           Solved 38.00 %, mean solve length 263.07894736842104
+                          		                   Used 3.76 s and saw 641005 states on average
+                          		Score:             0.0014444333299989999
+
+2020-06-17 00:53:59.456111	Optimization 49
+                          		Chosen parameters: epsilon: 0.125, workers: 500, depth: 250
+2020-06-17 01:00:09.502959		RESULTS:           Solved 33.00 %, mean solve length 240.1818181818182
+                          		                   Used 3.70 s and saw 629400 states on average
+                          		Score:             0.0013739591218773657
+
+2020-06-17 01:00:09.508665	Optimization 50
+                          		Chosen parameters: epsilon: 0.25, workers: 1, depth: 1
+2020-06-17 01:08:14.769358		RESULTS:           Solved 5.00 %, mean solve length 1.0
+                          		                   Used 4.85 s and saw 3717 states on average
+                          		Score:             0.05
+
+2020-06-17 01:08:14.774039	Optimization 51
+                          		Chosen parameters: epsilon: 0.25, workers: 1, depth: 63
+2020-06-17 01:16:28.294690		RESULTS:           Solved 3.00 %, mean solve length 2070.3333333333335
+                          		                   Used 4.93 s and saw 6332 states on average
+                          		Score:             1.4490420222186441e-05
+
+2020-06-17 01:16:28.300796	Optimization 52
+                          		Chosen parameters: epsilon: 0.25, workers: 1, depth: 125
+2020-06-17 01:24:22.253917		RESULTS:           Solved 10.00 %, mean solve length 1762.1
+                          		                   Used 4.74 s and saw 6118 states on average
+                          		Score:             5.675046819136258e-05
+
+2020-06-17 01:24:22.260706	Optimization 53
+                          		Chosen parameters: epsilon: 0.25, workers: 1, depth: 187
+2020-06-17 01:32:35.448623		RESULTS:           Solved 5.00 %, mean solve length 1981.2
+                          		                   Used 4.93 s and saw 6369 states on average
+                          		Score:             2.523722996163941e-05
+
+2020-06-17 01:32:35.453230	Optimization 54
+                          		Chosen parameters: epsilon: 0.25, workers: 1, depth: 250
+2020-06-17 01:40:25.408515		RESULTS:           Solved 10.00 %, mean solve length 1264.9
+                          		                   Used 4.70 s and saw 6072 states on average
+                          		Score:             7.905763301446754e-05
+
+2020-06-17 01:40:25.414704	Optimization 55
+                          		Chosen parameters: epsilon: 0.25, workers: 125, depth: 1
+2020-06-17 01:48:45.673624		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 358102 states on average
+                          		Score:             -0.0
+
+2020-06-17 01:48:45.678490	Optimization 56
+                          		Chosen parameters: epsilon: 0.25, workers: 125, depth: 63
+2020-06-17 01:55:09.551372		RESULTS:           Solved 41.00 %, mean solve length 851.560975609756
+                          		                   Used 3.84 s and saw 371622 states on average
+                          		Score:             0.00048146875179011283
+
+2020-06-17 01:55:09.555463	Optimization 57
+                          		Chosen parameters: epsilon: 0.25, workers: 125, depth: 125
+2020-06-17 02:00:47.997924		RESULTS:           Solved 46.00 %, mean solve length 673.8478260869565
+                          		                   Used 3.38 s and saw 330814 states on average
+                          		Score:             0.0006826467077459109
+
+2020-06-17 02:00:48.006634	Optimization 58
+                          		Chosen parameters: epsilon: 0.25, workers: 125, depth: 187
+2020-06-17 02:05:49.154280		RESULTS:           Solved 55.00 %, mean solve length 791.7818181818182
+                          		                   Used 3.01 s and saw 294202 states on average
+                          		Score:             0.0006946358041701112
+
+2020-06-17 02:05:49.159261	Optimization 59
+                          		Chosen parameters: epsilon: 0.25, workers: 125, depth: 250
+2020-06-17 02:10:51.307353		RESULTS:           Solved 55.00 %, mean solve length 790.2727272727273
+                          		                   Used 3.02 s and saw 294921 states on average
+                          		Score:             0.0006959622684918901
+
+2020-06-17 02:10:51.312038	Optimization 60
+                          		Chosen parameters: epsilon: 0.25, workers: 250, depth: 1
+2020-06-17 02:19:11.601323		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 553802 states on average
+                          		Score:             -0.0
+
+2020-06-17 02:19:11.606363	Optimization 61
+                          		Chosen parameters: epsilon: 0.25, workers: 250, depth: 63
+2020-06-17 02:25:00.648886		RESULTS:           Solved 56.00 %, mean solve length 729.9464285714286
+                          		                   Used 3.49 s and saw 495502 states on average
+                          		Score:             0.0007671795875431172
+
+2020-06-17 02:25:00.654565	Optimization 62
+                          		Chosen parameters: epsilon: 0.25, workers: 250, depth: 125
+2020-06-17 02:29:33.546496		RESULTS:           Solved 62.00 %, mean solve length 485.6290322580645
+                          		                   Used 2.73 s and saw 386568 states on average
+                          		Score:             0.0012766946760104953
+
+2020-06-17 02:29:33.551039	Optimization 63
+                          		Chosen parameters: epsilon: 0.25, workers: 250, depth: 187
+2020-06-17 02:34:29.426804		RESULTS:           Solved 56.00 %, mean solve length 513.5357142857143
+                          		                   Used 2.96 s and saw 423882 states on average
+                          		Score:             0.0010904791710132833
+
+2020-06-17 02:34:29.431150	Optimization 64
+                          		Chosen parameters: epsilon: 0.25, workers: 250, depth: 250
+2020-06-17 02:37:36.580451		RESULTS:           Solved 77.00 %, mean solve length 416.6753246753247
+                          		                   Used 1.87 s and saw 272972 states on average
+                          		Score:             0.0018479616007979055
+
+2020-06-17 02:37:36.584349	Optimization 65
+                          		Chosen parameters: epsilon: 0.25, workers: 375, depth: 1
+2020-06-17 02:45:56.894437		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 672622 states on average
+                          		Score:             -0.0
+
+2020-06-17 02:45:56.899849	Optimization 66
+                          		Chosen parameters: epsilon: 0.25, workers: 375, depth: 63
+2020-06-17 02:51:37.289957		RESULTS:           Solved 44.00 %, mean solve length 321.72727272727275
+                          		                   Used 3.40 s and saw 570296 states on average
+                          		Score:             0.0013676179711782988
+
+2020-06-17 02:51:37.294264	Optimization 67
+                          		Chosen parameters: epsilon: 0.25, workers: 375, depth: 125
+2020-06-17 02:55:49.179482		RESULTS:           Solved 63.00 %, mean solve length 339.5079365079365
+                          		                   Used 2.52 s and saw 428734 states on average
+                          		Score:             0.0018556267240170182
+
+2020-06-17 02:55:49.183662	Optimization 68
+                          		Chosen parameters: epsilon: 0.25, workers: 375, depth: 187
+2020-06-17 02:59:39.069582		RESULTS:           Solved 73.00 %, mean solve length 407.09589041095893
+                          		                   Used 2.30 s and saw 396690 states on average
+                          		Score:             0.001793189312874352
+
+2020-06-17 02:59:39.073364	Optimization 69
+                          		Chosen parameters: epsilon: 0.25, workers: 375, depth: 250
+2020-06-17 03:02:04.746561		RESULTS:           Solved 84.00 %, mean solve length 338.5595238095238
+                          		                   Used 1.45 s and saw 257535 states on average
+                          		Score:             0.002481099898027357
+
+2020-06-17 03:02:04.752317	Optimization 70
+                          		Chosen parameters: epsilon: 0.25, workers: 500, depth: 1
+2020-06-17 03:10:25.104929		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 724005 states on average
+                          		Score:             -0.0
+
+2020-06-17 03:10:25.109199	Optimization 71
+                          		Chosen parameters: epsilon: 0.25, workers: 500, depth: 63
+2020-06-17 03:16:06.931008		RESULTS:           Solved 45.00 %, mean solve length 310.26666666666665
+                          		                   Used 3.42 s and saw 602450 states on average
+                          		Score:             0.0014503652771809198
+
+2020-06-17 03:16:06.935584	Optimization 72
+                          		Chosen parameters: epsilon: 0.25, workers: 500, depth: 125
+2020-06-17 03:20:37.062196		RESULTS:           Solved 63.00 %, mean solve length 301.6507936507937
+                          		                   Used 2.70 s and saw 489045 states on average
+                          		Score:             0.002088507682593138
+
+2020-06-17 03:20:37.067586	Optimization 73
+                          		Chosen parameters: epsilon: 0.25, workers: 500, depth: 187
+2020-06-17 03:24:06.014689		RESULTS:           Solved 67.00 %, mean solve length 198.67164179104478
+                          		                   Used 2.09 s and saw 383555 states on average
+                          		Score:             0.0033723987679362935
+
+2020-06-17 03:24:06.019594	Optimization 74
+                          		Chosen parameters: epsilon: 0.25, workers: 500, depth: 250
+2020-06-17 03:26:35.957190		RESULTS:           Solved 82.00 %, mean solve length 237.52439024390245
+                          		                   Used 1.50 s and saw 286600 states on average
+                          		Score:             0.0034522770447194123
+
+2020-06-17 03:26:35.962165	Optimization 75
+                          		Chosen parameters: epsilon: 0.375, workers: 1, depth: 1
+2020-06-17 03:34:42.933741		RESULTS:           Solved 5.00 %, mean solve length 1.0
+                          		                   Used 4.87 s and saw 3802 states on average
+                          		Score:             0.05
+
+2020-06-17 03:34:42.937979	Optimization 76
+                          		Chosen parameters: epsilon: 0.375, workers: 1, depth: 63
+2020-06-17 03:42:46.569140		RESULTS:           Solved 7.00 %, mean solve length 1827.0
+                          		                   Used 4.83 s and saw 6405 states on average
+                          		Score:             3.831417624521073e-05
+
+2020-06-17 03:42:46.574877	Optimization 77
+                          		Chosen parameters: epsilon: 0.375, workers: 1, depth: 125
+2020-06-17 03:50:45.439500		RESULTS:           Solved 10.00 %, mean solve length 1635.7
+                          		                   Used 4.79 s and saw 6374 states on average
+                          		Score:             6.113590511707526e-05
+
+2020-06-17 03:50:45.444883	Optimization 78
+                          		Chosen parameters: epsilon: 0.375, workers: 1, depth: 187
+2020-06-17 03:58:40.962203		RESULTS:           Solved 11.00 %, mean solve length 1564.2727272727273
+                          		                   Used 4.75 s and saw 6338 states on average
+                          		Score:             7.032021851572035e-05
+
+2020-06-17 03:58:40.966611	Optimization 79
+                          		Chosen parameters: epsilon: 0.375, workers: 1, depth: 250
+2020-06-17 04:06:17.697753		RESULTS:           Solved 18.00 %, mean solve length 1541.9444444444443
+                          		                   Used 4.57 s and saw 6081 states on average
+                          		Score:             0.00011673572329310034
+
+2020-06-17 04:06:17.704718	Optimization 80
+                          		Chosen parameters: epsilon: 0.375, workers: 125, depth: 1
+2020-06-17 04:14:37.968335		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 356228 states on average
+                          		Score:             -0.0
+
+2020-06-17 04:14:37.972616	Optimization 81
+                          		Chosen parameters: epsilon: 0.375, workers: 125, depth: 63
+2020-06-17 04:18:44.151677		RESULTS:           Solved 69.00 %, mean solve length 564.768115942029
+                          		                   Used 2.46 s and saw 237032 states on average
+                          		Score:             0.001221740357720239
+
+2020-06-17 04:18:44.156038	Optimization 82
+                          		Chosen parameters: epsilon: 0.375, workers: 125, depth: 125
+2020-06-17 04:21:23.970765		RESULTS:           Solved 88.00 %, mean solve length 579.4431818181819
+                          		                   Used 1.60 s and saw 156255 states on average
+                          		Score:             0.0015186993783216645
+
+2020-06-17 04:21:23.975933	Optimization 83
+                          		Chosen parameters: epsilon: 0.375, workers: 125, depth: 187
+2020-06-17 04:24:15.868524		RESULTS:           Solved 87.00 %, mean solve length 678.3563218390805
+                          		                   Used 1.72 s and saw 168282 states on average
+                          		Score:             0.0012825118186285307
+
+2020-06-17 04:24:15.872563	Optimization 84
+                          		Chosen parameters: epsilon: 0.375, workers: 125, depth: 250
+2020-06-17 04:27:22.259222		RESULTS:           Solved 87.00 %, mean solve length 820.1609195402299
+                          		                   Used 1.86 s and saw 182156 states on average
+                          		Score:             0.0010607674412086217
+
+2020-06-17 04:27:22.263829	Optimization 85
+                          		Chosen parameters: epsilon: 0.375, workers: 250, depth: 1
+2020-06-17 04:35:42.560068		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 561118 states on average
+                          		Score:             -0.0
+
+2020-06-17 04:35:42.564406	Optimization 86
+                          		Chosen parameters: epsilon: 0.375, workers: 250, depth: 63
+2020-06-17 04:39:47.381937		RESULTS:           Solved 70.00 %, mean solve length 492.7142857142857
+                          		                   Used 2.45 s and saw 352345 states on average
+                          		Score:             0.0014207016526529427
+
+2020-06-17 04:39:47.385926	Optimization 87
+                          		Chosen parameters: epsilon: 0.375, workers: 250, depth: 125
+2020-06-17 04:42:07.980630		RESULTS:           Solved 92.00 %, mean solve length 456.42391304347825
+                          		                   Used 1.40 s and saw 204695 states on average
+                          		Score:             0.002015670024529066
+
+2020-06-17 04:42:07.985701	Optimization 88
+                          		Chosen parameters: epsilon: 0.375, workers: 250, depth: 187
+2020-06-17 04:44:14.956847		RESULTS:           Solved 92.00 %, mean solve length 444.25
+                          		                   Used 1.27 s and saw 188352 states on average
+                          		Score:             0.0020709060213843556
+
+2020-06-17 04:44:14.961105	Optimization 89
+                          		Chosen parameters: epsilon: 0.375, workers: 250, depth: 250
+2020-06-17 04:46:04.463848		RESULTS:           Solved 99.00 %, mean solve length 524.4545454545455
+                          		                   Used 1.09 s and saw 166965 states on average
+                          		Score:             0.0018876755070202807
+
+2020-06-17 04:46:04.467941	Optimization 90
+                          		Chosen parameters: epsilon: 0.375, workers: 375, depth: 1
+2020-06-17 04:54:24.776070		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 676774 states on average
+                          		Score:             -0.0
+
+2020-06-17 04:54:24.781028	Optimization 91
+                          		Chosen parameters: epsilon: 0.375, workers: 375, depth: 63
+2020-06-17 04:57:38.822156		RESULTS:           Solved 81.00 %, mean solve length 381.34567901234567
+                          		                   Used 1.94 s and saw 327986 states on average
+                          		Score:             0.002124057107708246
+
+2020-06-17 04:57:38.826011	Optimization 92
+                          		Chosen parameters: epsilon: 0.375, workers: 375, depth: 125
+2020-06-17 05:00:13.770938		RESULTS:           Solved 89.00 %, mean solve length 397.23595505617976
+                          		                   Used 1.55 s and saw 268819 states on average
+                          		Score:             0.002240481982236805
+
+2020-06-17 05:00:13.776449	Optimization 93
+                          		Chosen parameters: epsilon: 0.375, workers: 375, depth: 187
+2020-06-17 05:02:15.325415		RESULTS:           Solved 94.00 %, mean solve length 381.1595744680851
+                          		                   Used 1.21 s and saw 218554 states on average
+                          		Score:             0.002466158698261185
+
+2020-06-17 05:02:15.330289	Optimization 94
+                          		Chosen parameters: epsilon: 0.375, workers: 375, depth: 250
+2020-06-17 05:03:44.096737		RESULTS:           Solved 99.00 %, mean solve length 370.74747474747477
+                          		                   Used 0.89 s and saw 166500 states on average
+                          		Score:             0.002670281168265039
+
+2020-06-17 05:03:44.100915	Optimization 95
+                          		Chosen parameters: epsilon: 0.375, workers: 500, depth: 1
+2020-06-17 05:12:04.436064		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 767480 states on average
+                          		Score:             -0.0
+
+2020-06-17 05:12:04.440422	Optimization 96
+                          		Chosen parameters: epsilon: 0.375, workers: 500, depth: 63
+2020-06-17 05:15:31.374267		RESULTS:           Solved 80.00 %, mean solve length 338.6875
+                          		                   Used 2.07 s and saw 393660 states on average
+                          		Score:             0.0023620594205572987
+
+2020-06-17 05:15:31.378352	Optimization 97
+                          		Chosen parameters: epsilon: 0.375, workers: 500, depth: 125
+2020-06-17 05:17:30.594230		RESULTS:           Solved 96.00 %, mean solve length 314.0833333333333
+                          		                   Used 1.19 s and saw 239675 states on average
+                          		Score:             0.003056513664101884
+
+2020-06-17 05:17:30.598509	Optimization 98
+                          		Chosen parameters: epsilon: 0.375, workers: 500, depth: 187
+2020-06-17 05:19:02.723635		RESULTS:           Solved 98.00 %, mean solve length 298.42857142857144
+                          		                   Used 0.92 s and saw 193815 states on average
+                          		Score:             0.0032838678793681185
+
+2020-06-17 05:19:02.728155	Optimization 99
+                          		Chosen parameters: epsilon: 0.375, workers: 500, depth: 250
+2020-06-17 05:20:16.537727		RESULTS:           Solved 98.00 %, mean solve length 280.33673469387753
+                          		                   Used 0.74 s and saw 167035 states on average
+                          		Score:             0.0034957958723109963
+
+2020-06-17 05:20:16.542721	Optimization 100
+                          		Chosen parameters: epsilon: 0.5, workers: 1, depth: 1
+2020-06-17 05:28:36.787657		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 3980 states on average
+                          		Score:             -0.0
+
+2020-06-17 05:28:36.792514	Optimization 101
+                          		Chosen parameters: epsilon: 0.5, workers: 1, depth: 63
+2020-06-17 05:36:45.065637		RESULTS:           Solved 6.00 %, mean solve length 1438.5
+                          		                   Used 4.88 s and saw 6679 states on average
+                          		Score:             4.1710114702815434e-05
+
+2020-06-17 05:36:45.070619	Optimization 102
+                          		Chosen parameters: epsilon: 0.5, workers: 1, depth: 125
+2020-06-17 05:44:41.558791		RESULTS:           Solved 10.00 %, mean solve length 1066.4
+                          		                   Used 4.76 s and saw 6543 states on average
+                          		Score:             9.377344336084021e-05
+
+2020-06-17 05:44:41.565132	Optimization 103
+                          		Chosen parameters: epsilon: 0.5, workers: 1, depth: 187
+2020-06-17 05:52:52.836570		RESULTS:           Solved 4.00 %, mean solve length 665.25
+                          		                   Used 4.91 s and saw 6758 states on average
+                          		Score:             6.012777151446825e-05
+
+2020-06-17 05:52:52.841339	Optimization 104
+                          		Chosen parameters: epsilon: 0.5, workers: 1, depth: 250
+2020-06-17 06:00:59.622154		RESULTS:           Solved 8.00 %, mean solve length 1077.875
+                          		                   Used 4.87 s and saw 6701 states on average
+                          		Score:             7.422010901078512e-05
+
+2020-06-17 06:00:59.627382	Optimization 105
+                          		Chosen parameters: epsilon: 0.5, workers: 125, depth: 1
+2020-06-17 06:09:19.901961		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 363555 states on average
+                          		Score:             -0.0
+
+2020-06-17 06:09:19.907898	Optimization 106
+                          		Chosen parameters: epsilon: 0.5, workers: 125, depth: 63
+2020-06-17 06:12:35.527404		RESULTS:           Solved 84.00 %, mean solve length 546.7380952380952
+                          		                   Used 1.95 s and saw 190781 states on average
+                          		Score:             0.001536384618734486
+
+2020-06-17 06:12:35.532017	Optimization 107
+                          		Chosen parameters: epsilon: 0.5, workers: 125, depth: 125
+2020-06-17 06:15:55.571893		RESULTS:           Solved 87.00 %, mean solve length 663.6321839080459
+                          		                   Used 2.00 s and saw 197432 states on average
+                          		Score:             0.0013109671608701678
+
+2020-06-17 06:15:55.575729	Optimization 108
+                          		Chosen parameters: epsilon: 0.5, workers: 125, depth: 187
+2020-06-17 06:18:34.774562		RESULTS:           Solved 93.00 %, mean solve length 600.0860215053764
+                          		                   Used 1.59 s and saw 157879 states on average
+                          		Score:             0.0015497778096330275
+
+2020-06-17 06:18:34.778176	Optimization 109
+                          		Chosen parameters: epsilon: 0.5, workers: 125, depth: 250
+2020-06-17 06:21:19.120295		RESULTS:           Solved 92.00 %, mean solve length 587.4239130434783
+                          		                   Used 1.64 s and saw 162945 states on average
+                          		Score:             0.0015661602797772145
+
+2020-06-17 06:21:19.126350	Optimization 110
+                          		Chosen parameters: epsilon: 0.5, workers: 250, depth: 1
+2020-06-17 06:29:39.397033		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 578288 states on average
+                          		Score:             -0.0
+
+2020-06-17 06:29:39.402023	Optimization 111
+                          		Chosen parameters: epsilon: 0.5, workers: 250, depth: 63
+2020-06-17 06:32:39.838374		RESULTS:           Solved 87.00 %, mean solve length 428.64367816091954
+                          		                   Used 1.80 s and saw 270922 states on average
+                          		Score:             0.0020296578354606887
+
+2020-06-17 06:32:39.842525	Optimization 112
+                          		Chosen parameters: epsilon: 0.5, workers: 250, depth: 125
+2020-06-17 06:35:09.468938		RESULTS:           Solved 95.00 %, mean solve length 466.81052631578945
+                          		                   Used 1.49 s and saw 225002 states on average
+                          		Score:             0.002035086928089837
+
+2020-06-17 06:35:09.473061	Optimization 113
+                          		Chosen parameters: epsilon: 0.5, workers: 250, depth: 187
+2020-06-17 06:37:24.493354		RESULTS:           Solved 98.00 %, mean solve length 508.35714285714283
+                          		                   Used 1.35 s and saw 207190 states on average
+                          		Score:             0.0019277785583813405
+
+2020-06-17 06:37:24.497766	Optimization 114
+                          		Chosen parameters: epsilon: 0.5, workers: 250, depth: 250
+2020-06-17 06:39:36.047319		RESULTS:           Solved 100.00 %, mean solve length 519.89
+                          		                   Used 1.31 s and saw 204330 states on average
+                          		Score:             0.0019234838138837062
+
+2020-06-17 06:39:36.051543	Optimization 115
+                          		Chosen parameters: epsilon: 0.5, workers: 375, depth: 1
+2020-06-17 06:47:56.369933		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 709091 states on average
+                          		Score:             -0.0
+
+2020-06-17 06:47:56.375087	Optimization 116
+                          		Chosen parameters: epsilon: 0.5, workers: 375, depth: 63
+2020-06-17 06:50:44.269986		RESULTS:           Solved 91.00 %, mean solve length 379.74725274725273
+                          		                   Used 1.68 s and saw 300008 states on average
+                          		Score:             0.002396330700002894
+
+2020-06-17 06:50:44.274334	Optimization 117
+                          		Chosen parameters: epsilon: 0.5, workers: 375, depth: 125
+2020-06-17 06:53:14.416176		RESULTS:           Solved 95.00 %, mean solve length 392.65263157894736
+                          		                   Used 1.50 s and saw 274706 states on average
+                          		Score:             0.0024194413168194735
+
+2020-06-17 06:53:14.420026	Optimization 118
+                          		Chosen parameters: epsilon: 0.5, workers: 375, depth: 187
+2020-06-17 06:55:00.377212		RESULTS:           Solved 98.00 %, mean solve length 345.1326530612245
+                          		                   Used 1.06 s and saw 199395 states on average
+                          		Score:             0.002839487922419655
+
+2020-06-17 06:55:00.381128	Optimization 119
+                          		Chosen parameters: epsilon: 0.5, workers: 375, depth: 250
+2020-06-17 06:57:15.454089		RESULTS:           Solved 99.00 %, mean solve length 447.8787878787879
+                          		                   Used 1.35 s and saw 254790 states on average
+                          		Score:             0.0022104194857916104
+
+2020-06-17 06:57:15.458172	Optimization 120
+                          		Chosen parameters: epsilon: 0.5, workers: 500, depth: 1
+2020-06-17 07:05:35.806878		RESULTS:           Solved 0.00 %, mean solve length -1
+                          		                   Used 5.00 s and saw 776340 states on average
+                          		Score:             -0.0
+
+2020-06-17 07:05:35.812467	Optimization 121
+                          		Chosen parameters: epsilon: 0.5, workers: 500, depth: 63
+2020-06-17 07:08:23.877239		RESULTS:           Solved 87.00 %, mean solve length 273.1264367816092
+                          		                   Used 1.68 s and saw 323235 states on average
+                          		Score:             0.0031853379345172968
+
+2020-06-17 07:08:23.881366	Optimization 122
+                          		Chosen parameters: epsilon: 0.5, workers: 500, depth: 125
+2020-06-17 07:10:23.229491		RESULTS:           Solved 98.00 %, mean solve length 310.0816326530612
+                          		                   Used 1.19 s and saw 241985 states on average
+                          		Score:             0.003160458075556141
+
+2020-06-17 07:10:23.233745	Optimization 123
+                          		Chosen parameters: epsilon: 0.5, workers: 500, depth: 187
+2020-06-17 07:12:40.145250		RESULTS:           Solved 99.00 %, mean solve length 396.80808080808083
+                          		                   Used 1.37 s and saw 281065 states on average
+                          		Score:             0.002494908868750636
+
+2020-06-17 07:12:40.148973	Optimization 124
+                          		Chosen parameters: epsilon: 0.5, workers: 500, depth: 250
+2020-06-17 07:14:52.981788		RESULTS:           Solved 99.00 %, mean solve length 393.1313131313131
+                          		                   Used 1.33 s and saw 274490 states on average
+                          		Score:             0.0025182425488180886
+2020-06-17 07:14:52.985638	Optimization done. Best parameters: epsilon: 0.25, workers: 1, depth: 1 with score 0.05
+
+2020-06-17 07:14:52.986866	All parameters and scores
+2020-06-17 07:14:52.987917	Parameter spaces
+                          	epsilon: [0.    0.125 0.25  0.375 0.5  ]
+                          	workers: [  1.   125.75 250.5  375.25 500.  ]
+                          	depth: [  1.    63.25 125.5  187.75 250.  ]
+2020-06-17 07:14:52.989606	Scores
+                          	[[[-0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+                          	   -0.00000000e+00]
+                          	  [-0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+                          	   -0.00000000e+00]
+                          	  [-0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+                          	   -0.00000000e+00]
+                          	  [-0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+                          	   -0.00000000e+00]
+                          	  [-0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+                          	   -0.00000000e+00]]
+
+                          	 [[ 3.00000000e-02  1.20627262e-05 -0.00000000e+00  1.70875261e-05
+                          	    4.59662289e-05]
+                          	  [-0.00000000e+00  3.40667140e-04  3.34197371e-04  3.37837838e-04
+                          	    3.24584252e-04]
+                          	  [-0.00000000e+00  4.78165406e-04  7.97232746e-04  8.25897964e-04
+                          	    1.42328199e-03]
+                          	  [-0.00000000e+00  1.01403509e-03  1.24563076e-03  6.36423695e-04
+                          	    1.26921947e-03]
+                          	  [-0.00000000e+00  9.33271115e-04  7.30717185e-04  1.44443333e-03
+                          	    1.37395912e-03]]
+
+                          	 [[ 5.00000000e-02  1.44904202e-05  5.67504682e-05  2.52372300e-05
+                          	    7.90576330e-05]
+                          	  [-0.00000000e+00  4.81468752e-04  6.82646708e-04  6.94635804e-04
+                          	    6.95962268e-04]
+                          	  [-0.00000000e+00  7.67179588e-04  1.27669468e-03  1.09047917e-03
+                          	    1.84796160e-03]
+                          	  [-0.00000000e+00  1.36761797e-03  1.85562672e-03  1.79318931e-03
+                          	    2.48109990e-03]
+                          	  [-0.00000000e+00  1.45036528e-03  2.08850768e-03  3.37239877e-03
+                          	    3.45227704e-03]]
+
+                          	 [[ 5.00000000e-02  3.83141762e-05  6.11359051e-05  7.03202185e-05
+                          	    1.16735723e-04]
+                          	  [-0.00000000e+00  1.22174036e-03  1.51869938e-03  1.28251182e-03
+                          	    1.06076744e-03]
+                          	  [-0.00000000e+00  1.42070165e-03  2.01567002e-03  2.07090602e-03
+                          	    1.88767551e-03]
+                          	  [-0.00000000e+00  2.12405711e-03  2.24048198e-03  2.46615870e-03
+                          	    2.67028117e-03]
+                          	  [-0.00000000e+00  2.36205942e-03  3.05651366e-03  3.28386788e-03
+                          	    3.49579587e-03]]
+
+                          	 [[-0.00000000e+00  4.17101147e-05  9.37734434e-05  6.01277715e-05
+                          	    7.42201090e-05]
+                          	  [-0.00000000e+00  1.53638462e-03  1.31096716e-03  1.54977781e-03
+                          	    1.56616028e-03]
+                          	  [-0.00000000e+00  2.02965784e-03  2.03508693e-03  1.92777856e-03
+                          	    1.92348381e-03]
+                          	  [-0.00000000e+00  2.39633070e-03  2.41944132e-03  2.83948792e-03
+                          	    2.21041949e-03]
+                          	  [-0.00000000e+00  3.18533793e-03  3.16045808e-03  2.49490887e-03
+                          	    2.51824255e-03]]]
