@@ -1,0 +1,10 @@
+{
+    "AStar (lambda=0.04, N=100)": {
+        "n_games": 1000,
+        "max_time": 5.0,
+        "max_states": 0,
+        "scrambling_depths": [
+            0
+        ]
+    }
+}
