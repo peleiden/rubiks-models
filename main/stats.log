@@ -1,0 +1,365 @@
+2020-06-17 16:55:34.060792	Statistical comparison
+
+2020-06-17 16:55:34.083218	Results loaded for agents
+                          		['Greedy value', 'BFS MCTS (c=4.13)', 'Greedy policy', 'Breadth-first search', 'AStar (lambda=0.16, N=700)', 'EGVM (e=0.375, w=500, d=250)']
+                          	from path
+                          		../rubiks-models/main
+
+2020-06-17 16:55:34.084813	Comparison of agents
+                          		['Greedy value', 'BFS MCTS (c=4.13)']
+
+2020-06-17 16:55:34.086339	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.107726	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -42.36822410323848
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.946 +/- 0.018410243289173775
+                          		(which is [-0.96441024 -0.92758976])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 946], [1000, 54]
+
+2020-06-17 16:55:34.113574	Comparison of agents
+                          		['Greedy value', 'Greedy policy']
+
+2020-06-17 16:55:34.114931	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.119583	Test of equal solve proportions
+                          	Proportions are both at 0%, no analysis can be carried out
+
+2020-06-17 16:55:34.121767	Comparison of agents
+                          		['Greedy value', 'Breadth-first search']
+
+2020-06-17 16:55:34.123285	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.127994	Test of equal solve proportions
+                          	Proportions are both at 0%, no analysis can be carried out
+
+2020-06-17 16:55:34.130136	Comparison of agents
+                          		['Greedy value', 'AStar (lambda=0.16, N=700)']
+
+2020-06-17 16:55:34.131577	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.136262	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.721359549995796
+                          	Confidence interval at level 0.01 of difference is
+                          		-1.0 +/- 0.0
+                          		(which is [-1. -1.])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 1000], [1000, 0]
+
+2020-06-17 16:55:34.141726	Comparison of agents
+                          		['Greedy value', 'EGVM (e=0.375, w=500, d=250)']
+
+2020-06-17 16:55:34.143069	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.147372	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.27635982783545
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.99 +/- 0.008104657694814141
+                          		(which is [-0.99810466 -0.98189534])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 990], [1000, 10]
+
+2020-06-17 16:55:34.152601	Comparison of agents
+                          		['BFS MCTS (c=4.13)', 'Greedy policy']
+
+2020-06-17 16:55:34.154077	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.158614	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 42.36822410323848
+                          	Confidence interval at level 0.01 of difference is
+                          		0.946 +/- 0.018410243289173775
+                          		(which is [0.92758976 0.96441024])
+                          	Proportion samples (all should be > 10 for accurate model): [946, 0], [54, 1000]
+
+2020-06-17 16:55:34.163890	Comparison of agents
+                          		['BFS MCTS (c=4.13)', 'Breadth-first search']
+
+2020-06-17 16:55:34.165243	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.169602	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 42.36822410323848
+                          	Confidence interval at level 0.01 of difference is
+                          		0.946 +/- 0.018410243289173775
+                          		(which is [0.92758976 0.96441024])
+                          	Proportion samples (all should be > 10 for accurate model): [946, 0], [54, 1000]
+
+2020-06-17 16:55:34.174802	Comparison of agents
+                          		['BFS MCTS (c=4.13)', 'AStar (lambda=0.16, N=700)']
+
+2020-06-17 16:55:34.176062	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with 953.1069276424798 degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 0.0 53.820999053418355
+                          	Confidence interval at level 0.01 of difference is
+                          		62.14264482029598 +/- 2.9800637830978394
+                          		(which is [59.16258104 65.1227086 ])
+
+2020-06-17 16:55:34.180859	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 9.348077867343818e-14 -7.4497287451394
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.05400000000000005 +/- 0.018410243289173775
+                          		(which is [-0.07241024 -0.03558976])
+                          	Proportion samples (all should be > 10 for accurate model): [946, 1000], [54, 0]
+
+2020-06-17 16:55:34.185712	Comparison of agents
+                          		['BFS MCTS (c=4.13)', 'EGVM (e=0.375, w=500, d=250)']
+
+2020-06-17 16:55:34.187013	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with 1023.6912355417694 degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 0.0 -23.71192610468611
+                          	Confidence interval at level 0.01 of difference is
+                          		-208.01667841202723 +/- 22.63908316088993
+                          		(which is [-230.65576157 -185.37759525])
+
+2020-06-17 16:55:34.191539	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 2.2684748524071097e-08 -5.590169943749476
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.04400000000000004 +/- 0.02011523140102241
+                          		(which is [-0.06411523 -0.02388477])
+                          	Proportion samples (all should be > 10 for accurate model): [946, 990], [54, 10]
+
+2020-06-17 16:55:34.196611	Comparison of agents
+                          		['Greedy policy', 'Breadth-first search']
+
+2020-06-17 16:55:34.197915	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.202293	Test of equal solve proportions
+                          	Proportions are both at 0%, no analysis can be carried out
+
+2020-06-17 16:55:34.204438	Comparison of agents
+                          		['Greedy policy', 'AStar (lambda=0.16, N=700)']
+
+2020-06-17 16:55:34.205830	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.209803	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.721359549995796
+                          	Confidence interval at level 0.01 of difference is
+                          		-1.0 +/- 0.0
+                          		(which is [-1. -1.])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 1000], [1000, 0]
+
+2020-06-17 16:55:34.214421	Comparison of agents
+                          		['Greedy policy', 'EGVM (e=0.375, w=500, d=250)']
+
+2020-06-17 16:55:34.215660	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.219582	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.27635982783545
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.99 +/- 0.008104657694814141
+                          		(which is [-0.99810466 -0.98189534])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 990], [1000, 10]
+
+2020-06-17 16:55:34.224415	Comparison of agents
+                          		['Breadth-first search', 'AStar (lambda=0.16, N=700)']
+
+2020-06-17 16:55:34.225830	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.229874	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.721359549995796
+                          	Confidence interval at level 0.01 of difference is
+                          		-1.0 +/- 0.0
+                          		(which is [-1. -1.])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 1000], [1000, 0]
+
+2020-06-17 16:55:34.234716	Comparison of agents
+                          		['Breadth-first search', 'EGVM (e=0.375, w=500, d=250)']
+
+2020-06-17 16:55:34.236217	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with nan degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 nan nan
+                          	Confidence interval at level 0.01 of difference is
+                          		nan +/- nan
+                          		(which is [nan nan])
+
+2020-06-17 16:55:34.240275	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0 -44.27635982783545
+                          	Confidence interval at level 0.01 of difference is
+                          		-0.99 +/- 0.008104657694814141
+                          		(which is [-0.99810466 -0.98189534])
+                          	Proportion samples (all should be > 10 for accurate model): [0, 990], [1000, 10]
+
+2020-06-17 16:55:34.244962	Comparison of agents
+                          		['AStar (lambda=0.16, N=700)', 'EGVM (e=0.375, w=500, d=250)']
+
+2020-06-17 16:55:34.246189	Test of equal solution lengths
+                          	Two-sided Welch t-test of H0: mean(sol_lengths_agent1) = mean(sol_lengths_agent2) performed
+                          	in t-distribution with 989.1488980878502 degrees of freedom
+                          	Resulting (non-corrected) p value and t test statistic:
+                          		 0.0 -31.063505267397858
+                          	Confidence interval at level 0.01 of difference is
+                          		-270.15932323232323 +/- 22.445295871187316
+                          		(which is [-292.6046191  -247.71402736])
+
+2020-06-17 16:55:34.250314	Test of equal solve proportions
+                          	Two-sided proportion test of H0: mean(sol_prop) = mean(sol_prop) performed
+                          	in the standard normal distribution
+                          	Resulting (non-corrected) p value and z test statistic:
+                          		 0.0015232716476467623 3.170213124741208
+                          	Confidence interval at level 0.01 of difference is
+                          		0.010000000000000009 +/- 0.008104657694814141
+                          		(which is [0.00189534 0.01810466])
+                          	Proportion samples (all should be > 10 for accurate model): [1000, 990], [0, 10]
+
+2020-06-17 16:55:34.255495	CORRECTED p values
+2020-06-17 16:55:34.256146	Corrected p values for ['Greedy value', 'BFS MCTS (c=4.13)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.258155	Corrected p values for ['Greedy value', 'Greedy policy']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 1.0
+2020-06-17 16:55:34.260321	Corrected p values for ['Greedy value', 'Breadth-first search']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 1.0
+2020-06-17 16:55:34.262289	Corrected p values for ['Greedy value', 'AStar (lambda=0.16, N=700)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.264372	Corrected p values for ['Greedy value', 'EGVM (e=0.375, w=500, d=250)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.266570	Corrected p values for ['BFS MCTS (c=4.13)', 'Greedy policy']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.268650	Corrected p values for ['BFS MCTS (c=4.13)', 'Breadth-first search']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.270533	Corrected p values for ['BFS MCTS (c=4.13)', 'AStar (lambda=0.16, N=700)']
+                          	Corrected solution length p value for 0.0
+                          	Corrected solution proportion p value for 1.4022116801015727e-13
+2020-06-17 16:55:34.272392	Corrected p values for ['BFS MCTS (c=4.13)', 'EGVM (e=0.375, w=500, d=250)']
+                          	Corrected solution length p value for 0.0
+                          	Corrected solution proportion p value for 3.0933747987369677e-08
+2020-06-17 16:55:34.274248	Corrected p values for ['Greedy policy', 'Breadth-first search']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 1.0
+2020-06-17 16:55:34.276075	Corrected p values for ['Greedy policy', 'AStar (lambda=0.16, N=700)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.277968	Corrected p values for ['Greedy policy', 'EGVM (e=0.375, w=500, d=250)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.279899	Corrected p values for ['Breadth-first search', 'AStar (lambda=0.16, N=700)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.281827	Corrected p values for ['Breadth-first search', 'EGVM (e=0.375, w=500, d=250)']
+                          	Corrected solution length p value for nan
+                          	Corrected solution proportion p value for 0.0
+2020-06-17 16:55:34.283704	Corrected p values for ['AStar (lambda=0.16, N=700)', 'EGVM (e=0.375, w=500, d=250)']
+                          	Corrected solution length p value for 0.0
+                          	Corrected solution proportion p value for 0.0019040895595584528
+2020-06-17 16:55:35.828347	Normality plot saved for BFS MCTS (c=4.13)
+2020-06-17 16:55:37.099898	Normality plot saved for AStar (lambda=0.16, N=700)
+2020-06-17 16:55:40.983919	Normality plot saved for EGVM (e=0.375, w=500, d=250)
