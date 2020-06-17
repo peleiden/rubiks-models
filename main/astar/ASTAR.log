@@ -1,0 +1,31 @@
+2020-06-17 10:16:35.127777	ASTAR
+
+2020-06-17 10:16:35.129013	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-17 10:16:35.795114	Loaded model from /zhome/ac/c/137651/rubiks-models/main
+2020-06-17 10:16:35.796860	Initialized ASTAR with agents AStar (lambda=0.16, N=700)
+2020-06-17 10:16:35.797684	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-17 10:16:36.658051	Beginning evaluator ASTAR
+                          	Location ../rubiks-models/main/astar
+                          	Commit: cbb25e8e3db36c756250ff6b632a028bb1d98cf0
+
+2020-06-17 10:16:36.660692	Evaluationg agent AStar (lambda=0.16, N=700)
+
+2020-06-17 10:16:36.662815	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 10:16:36.663806	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 10:31:28.318158	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.07 +/- 2.4 (std.), Median: 25
+                          		States seen: Pr. game: 157968.65 +/- 16835 (std.), Pr. sec.: 177587.98 +/- 4229 (std.)
+                          		Time:  0.89 +/- 0.10 (std.)
+2020-06-17 10:31:28.327634	Evaluation runtime
+                          	Execution times                                           | Total time |  Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999 |  889.914 s | 1,000 | 889.914 ms
+2020-06-17 10:31:28.345481	Saved evaluation results to
+                          	../rubiks-models/main/astar/evaluation_results/AStar (lambda=0.16, N=700)_results.npy
+                          	../rubiks-models/main/astar/evaluation_results/AStar (lambda=0.16, N=700)_states_seen.npy
+                          	../rubiks-models/main/astar/evaluation_results/AStar (lambda=0.16, N=700)_playtimes.npy

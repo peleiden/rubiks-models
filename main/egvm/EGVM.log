@@ -1,0 +1,35 @@
+2020-06-17 10:16:36.362436	EGVM
+
+2020-06-17 10:16:36.363752	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-17 10:16:36.538473	Loaded model from /zhome/ac/c/137651/rubiks-models/main
+2020-06-17 10:16:36.539667	Initialized EGVM with agents EGVM (e=0.375, w=500, d=250)
+2020-06-17 10:16:36.540526	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
+2020-06-17 13:48:00.247213	Beginning evaluator EGVM
+                          	Location ../rubiks-models/main/egvm
+                          	Commit: cbb25e8e3db36c756250ff6b632a028bb1d98cf0
+
+2020-06-17 13:48:00.252149	Evaluationg agent EGVM (e=0.375, w=500, d=250)
+
+2020-06-17 13:48:00.253813	Evaluation of EGVM (e=0.375, w=500, d=250)
+2020-06-17 13:48:00.254681	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 14:01:08.021807	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 99.00 % +/- 1 % (approx. 95 % CI)
+                          		Turns to win: 295.23 +/- 273.5 (std.), Median: 202
+                          		States seen: Pr. game: 172136.50 +/- 182862 (std.), Pr. sec.: 255053.08 +/- 38519 (std.)
+                          		Time:  0.79 +/- 0.98 (std.)
+2020-06-17 14:01:08.033001	Evaluation runtime
+                          	Execution times                                             |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999   |   889.914 s | 1,000 |   889.914 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 100 - 999            | 1,784.110 s | 1,000 | 1,784.110 ms
+                          	Evaluation of Greedy policy. Depth 100 - 999                | 5,001.005 s | 1,000 | 5,001.005 ms
+                          	Evaluation of Greedy value. Depth 100 - 999                 | 5,000.825 s | 1,000 | 5,000.825 ms
+                          	Evaluation of EGVM (e=0.375, w=500, d=250). Depth 100 - 999 |   786.036 s | 1,000 |   786.036 ms
+2020-06-17 14:01:08.045405	Saved evaluation results to
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.375, w=500, d=250)_results.npy
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.375, w=500, d=250)_states_seen.npy
+                          	../rubiks-models/main/egvm/evaluation_results/EGVM (e=0.375, w=500, d=250)_playtimes.npy
