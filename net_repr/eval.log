@@ -1,0 +1,99 @@
+2020-06-17 12:59:23.654134	eval
+
+2020-06-17 12:59:23.655589	Creating evaluator
+                          	Games per scrambling depth: 1000
+                          	Scrambling depths: range(0, 0)
+2020-06-17 12:59:28.259844	Loaded model from data/net_repr_new_astar_params
+2020-06-17 12:59:28.261032	Initialized eval with agents AStar (lambda=0.16, N=700) conv686, AStar (lambda=0.16, N=700) fcbig2024, AStar (lambda=0.16, N=700) fcsmall2024, AStar (lambda=0.16, N=700) fcsmall686
+2020-06-17 12:59:28.261825	TIME ESTIMATE: 333.33 min.	(Rough upper bound)
+2020-06-17 12:59:28.394302	Beginning evaluator eval
+                          	Location data/net_repr_new_astar_params
+                          	Commit: f5938c1f14e2ab7d0c3569bb9a79cbce79a1ae07
+
+2020-06-17 12:59:28.396203	Evaluationg agent AStar (lambda=0.16, N=700) conv686
+
+2020-06-17 12:59:28.397769	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 12:59:28.398617	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 13:49:48.973880	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 99.00 % +/- 1 % (approx. 95 % CI)
+                          		Turns to win: 25.32 +/- 2.5 (std.), Median: 25
+                          		States seen: Pr. game: 161168.29 +/- 21759 (std.), Pr. sec.: 53429.97 +/- 953 (std.)
+                          		Time:  3.02 +/- 0.41 (std.)
+2020-06-17 13:49:48.983150	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999 | 3,016.568 s | 1,000 | 3,016.568 ms
+2020-06-17 13:49:48.994443	Saved evaluation results to
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) conv686_results.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) conv686_states_seen.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) conv686_playtimes.npy
+
+2020-06-17 13:49:48.996079	Evaluationg agent AStar (lambda=0.16, N=700) fcbig2024
+
+2020-06-17 13:49:48.997743	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 13:49:48.998560	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 15:07:58.474415	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 14.20 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 26.08 +/- 3.2 (std.), Median: 26
+                          		States seen: Pr. game: 414957.65 +/- 84984 (std.), Pr. sec.: 88356.98 +/- 1465 (std.)
+                          		Time:  4.69 +/- 0.94 (std.)
+2020-06-17 15:07:58.485024	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999 | 7,704.309 s | 2,000 | 3,852.154 ms
+2020-06-17 15:07:58.497822	Saved evaluation results to
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcbig2024_results.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcbig2024_states_seen.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcbig2024_playtimes.npy
+
+2020-06-17 15:07:58.499562	Evaluationg agent AStar (lambda=0.16, N=700) fcsmall2024
+
+2020-06-17 15:07:58.501320	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 15:07:58.502209	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 15:24:08.384365	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.38 +/- 2.4 (std.), Median: 25
+                          		States seen: Pr. game: 160150.52 +/- 17246 (std.), Pr. sec.: 165506.26 +/- 4569 (std.)
+                          		Time:  0.97 +/- 0.11 (std.)
+2020-06-17 15:24:08.393034	Evaluation runtime
+                          	Execution times                                           |  Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999 | 8,672.538 s | 3,000 | 2,890.846 ms
+2020-06-17 15:24:08.403957	Saved evaluation results to
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall2024_results.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall2024_states_seen.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall2024_playtimes.npy
+
+2020-06-17 15:24:08.405508	Evaluationg agent AStar (lambda=0.16, N=700) fcsmall686
+
+2020-06-17 15:24:08.407010	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 15:24:08.407790	1000 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          	No max states given
+2020-06-17 16:10:28.371106	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 99.80 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 26.29 +/- 3.0 (std.), Median: 26
+                          		States seen: Pr. game: 167961.11 +/- 24217 (std.), Pr. sec.: 60507.68 +/- 867 (std.)
+                          		Time:  2.78 +/- 0.40 (std.)
+2020-06-17 16:10:28.380717	Evaluation runtime
+                          	Execution times                                           |   Total time |  Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 100 - 999 | 11,448.395 s | 4,000 | 2,862.099 ms
+2020-06-17 16:10:28.391911	Saved evaluation results to
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall686_results.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall686_states_seen.npy
+                          	data/net_repr_new_astar_params/evaluation_results/AStar (lambda=0.16, N=700) fcsmall686_playtimes.npy
+2020-06-17 16:10:31.837132	Saved settings to data/net_repr_new_astar_params/eval_settings.json and plots to
+                          	data/net_repr_new_astar_params/eval_winrates.png
+                          	data/net_repr_new_astar_params/eval_sollengths.png
+                          	data/net_repr_new_astar_params/time_winrate.png
+                          	data/net_repr_new_astar_params/states_winrate.png
+                          	data/net_repr_new_astar_params/solve_length_dist.png
+                          	data/net_repr_new_astar_params/time_dist.png
+                          	data/net_repr_new_astar_params/state_dist.png
