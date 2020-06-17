@@ -1,0 +1,400 @@
+2020-06-17 10:17:01.562192	VALUE
+
+2020-06-17 10:17:01.563257	Creating evaluator
+                          	Games per scrambling depth: 50
+                          	Scrambling depths: Uniformly sampled in [100, 999]
+2020-06-17 10:17:01.726540	Loaded model from /zhome/ac/c/137651/rubiks-models/main2
+2020-06-17 10:17:01.727842	Initialized VALUE with agents Greedy value
+2020-06-17 10:17:01.728516	TIME ESTIMATE: 162.50 min.	(Rough upper bound)
+2020-06-17 12:57:04.398330	Beginning evaluator VALUE
+                          	Location ../rubiks-models/main2/value
+                          	Commit: cbb25e8e3db36c756250ff6b632a028bb1d98cf0
+
+2020-06-17 12:57:04.402195	Evaluationg agent Greedy value
+
+2020-06-17 12:57:04.404050	Evaluation of Greedy value
+2020-06-17 12:57:04.404746	1950 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 162.500 min
+                          	No max states given
+2020-06-17 12:57:04.414078	Performed evaluation at depth: 1/39
+2020-06-17 12:57:04.457342	Performed evaluation at depth: 2/39
+2020-06-17 12:57:04.519132	Performed evaluation at depth: 3/39
+2020-06-17 12:57:04.609564	Performed evaluation at depth: 4/39
+2020-06-17 12:57:04.726693	Performed evaluation at depth: 5/39
+2020-06-17 12:57:04.861029	Performed evaluation at depth: 6/39
+2020-06-17 12:57:15.013273	Performed evaluation at depth: 7/39
+2020-06-17 12:57:25.179495	Performed evaluation at depth: 8/39
+2020-06-17 12:57:25.383134	Performed evaluation at depth: 9/39
+2020-06-17 12:58:05.583400	Performed evaluation at depth: 10/39
+2020-06-17 12:58:45.806892	Performed evaluation at depth: 11/39
+2020-06-17 13:00:05.999513	Performed evaluation at depth: 12/39
+2020-06-17 13:01:41.180435	Performed evaluation at depth: 13/39
+2020-06-17 13:03:56.333745	Performed evaluation at depth: 14/39
+2020-06-17 13:06:36.484549	Performed evaluation at depth: 15/39
+2020-06-17 13:09:56.581031	Performed evaluation at depth: 16/39
+2020-06-17 13:12:56.701313	Performed evaluation at depth: 17/39
+2020-06-17 13:16:36.784939	Performed evaluation at depth: 18/39
+2020-06-17 13:20:11.869187	Performed evaluation at depth: 19/39
+2020-06-17 13:24:16.917560	Performed evaluation at depth: 20/39
+2020-06-17 13:28:11.985888	Performed evaluation at depth: 21/39
+2020-06-17 13:32:12.041145	Performed evaluation at depth: 22/39
+2020-06-17 13:36:12.103009	Performed evaluation at depth: 23/39
+2020-06-17 13:40:17.154472	Performed evaluation at depth: 24/39
+2020-06-17 13:44:27.203548	Performed evaluation at depth: 25/39
+2020-06-17 13:48:37.249476	Performed evaluation at depth: 26/39
+2020-06-17 13:52:47.298179	Performed evaluation at depth: 27/39
+2020-06-17 13:56:57.345518	Performed evaluation at depth: 28/39
+2020-06-17 14:01:07.392791	Performed evaluation at depth: 29/39
+2020-06-17 14:05:17.443356	Performed evaluation at depth: 30/39
+2020-06-17 14:09:27.494167	Performed evaluation at depth: 31/39
+2020-06-17 14:13:37.544215	Performed evaluation at depth: 32/39
+2020-06-17 14:17:47.590108	Performed evaluation at depth: 33/39
+2020-06-17 14:21:57.634751	Performed evaluation at depth: 34/39
+2020-06-17 14:26:07.684362	Performed evaluation at depth: 35/39
+2020-06-17 14:30:17.732772	Performed evaluation at depth: 36/39
+2020-06-17 14:34:27.781448	Performed evaluation at depth: 37/39
+2020-06-17 14:38:37.830287	Performed evaluation at depth: 38/39
+2020-06-17 14:42:47.877932	Performed evaluation at depth: 39/39
+2020-06-17 14:42:47.881718	Evaluation results
+                          	Scrambling depth 1
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 1.00 +/- 0.0 (std.), Median: 1
+                          		States seen: Pr. game: 1.00 +/- 0 (std.), Pr. sec.: 8531.37 +/- 885 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 2
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 2.00 +/- 0.0 (std.), Median: 2
+                          		States seen: Pr. game: 2.00 +/- 0 (std.), Pr. sec.: 2570.86 +/- 128 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 3
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 2.64 +/- 0.8 (std.), Median: 3
+                          		States seen: Pr. game: 2.64 +/- 1 (std.), Pr. sec.: 3132.77 +/- 2055 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 4
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 3.56 +/- 0.8 (std.), Median: 4
+                          		States seen: Pr. game: 3.56 +/- 1 (std.), Pr. sec.: 2141.65 +/- 248 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 5
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 4.44 +/- 1.0 (std.), Median: 5
+                          		States seen: Pr. game: 4.44 +/- 1 (std.), Pr. sec.: 2097.23 +/- 772 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 6
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 5.00 +/- 1.3 (std.), Median: 6
+                          		States seen: Pr. game: 5.00 +/- 1 (std.), Pr. sec.: 1989.06 +/- 214 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 7
+                          		Share completed: 96.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 5.67 +/- 1.3 (std.), Median: 5
+                          		States seen: Pr. game: 335.10 +/- 1614 (std.), Pr. sec.: 1872.35 +/- 118 (std.)
+                          		Time:  0.20 +/- 0.98 (std.)
+                          	Scrambling depth 8
+                          		Share completed: 96.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 6.17 +/- 1.4 (std.), Median: 6
+                          		States seen: Pr. game: 336.30 +/- 1617 (std.), Pr. sec.: 1873.44 +/- 137 (std.)
+                          		Time:  0.20 +/- 0.98 (std.)
+                          	Scrambling depth 9
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 7.24 +/- 2.0 (std.), Median: 7
+                          		States seen: Pr. game: 7.24 +/- 2 (std.), Pr. sec.: 1968.39 +/- 788 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 10
+                          		Share completed: 84.00 % +/- 10 % (approx. 95 % CI)
+                          		Turns to win: 8.10 +/- 1.4 (std.), Median: 8
+                          		States seen: Pr. game: 1324.54 +/- 3016 (std.), Pr. sec.: 1762.35 +/- 87 (std.)
+                          		Time:  0.80 +/- 1.83 (std.)
+                          	Scrambling depth 11
+                          		Share completed: 84.00 % +/- 10 % (approx. 95 % CI)
+                          		Turns to win: 9.00 +/- 1.6 (std.), Median: 9
+                          		States seen: Pr. game: 1331.48 +/- 3030 (std.), Pr. sec.: 1761.04 +/- 74 (std.)
+                          		Time:  0.80 +/- 1.83 (std.)
+                          	Scrambling depth 12
+                          		Share completed: 68.00 % +/- 13 % (approx. 95 % CI)
+                          		Turns to win: 9.12 +/- 1.8 (std.), Median: 10
+                          		States seen: Pr. game: 2651.52 +/- 3852 (std.), Pr. sec.: 1724.52 +/- 74 (std.)
+                          		Time:  1.60 +/- 2.33 (std.)
+                          	Scrambling depth 13
+                          		Share completed: 62.00 % +/- 13 % (approx. 95 % CI)
+                          		Turns to win: 9.13 +/- 1.8 (std.), Median: 9
+                          		States seen: Pr. game: 3142.42 +/- 4002 (std.), Pr. sec.: 1708.50 +/- 69 (std.)
+                          		Time:  1.90 +/- 2.42 (std.)
+                          	Scrambling depth 14
+                          		Share completed: 46.00 % +/- 14 % (approx. 95 % CI)
+                          		Turns to win: 9.74 +/- 1.6 (std.), Median: 10
+                          		States seen: Pr. game: 4457.60 +/- 4105 (std.), Pr. sec.: 1680.42 +/- 55 (std.)
+                          		Time:  2.70 +/- 2.49 (std.)
+                          	Scrambling depth 15
+                          		Share completed: 36.00 % +/- 13 % (approx. 95 % CI)
+                          		Turns to win: 11.56 +/- 1.9 (std.), Median: 11
+                          		States seen: Pr. game: 5289.54 +/- 3959 (std.), Pr. sec.: 1667.92 +/- 41 (std.)
+                          		Time:  3.20 +/- 2.40 (std.)
+                          	Scrambling depth 16
+                          		Share completed: 20.00 % +/- 11 % (approx. 95 % CI)
+                          		Turns to win: 10.40 +/- 1.5 (std.), Median: 10
+                          		States seen: Pr. game: 6616.42 +/- 3303 (std.), Pr. sec.: 1659.47 +/- 23 (std.)
+                          		Time:  4.00 +/- 2.00 (std.)
+                          	Scrambling depth 17
+                          		Share completed: 28.00 % +/- 12 % (approx. 95 % CI)
+                          		Turns to win: 10.57 +/- 1.9 (std.), Median: 11
+                          		States seen: Pr. game: 5945.10 +/- 3701 (std.), Pr. sec.: 1660.55 +/- 37 (std.)
+                          		Time:  3.60 +/- 2.24 (std.)
+                          	Scrambling depth 18
+                          		Share completed: 12.00 % +/- 9 % (approx. 95 % CI)
+                          		Turns to win: 12.33 +/- 1.4 (std.), Median: 12
+                          		States seen: Pr. game: 7257.34 +/- 2676 (std.), Pr. sec.: 1652.39 +/- 24 (std.)
+                          		Time:  4.40 +/- 1.62 (std.)
+                          	Scrambling depth 19
+                          		Share completed: 14.00 % +/- 10 % (approx. 95 % CI)
+                          		Turns to win: 10.43 +/- 2.6 (std.), Median: 9
+                          		States seen: Pr. game: 7095.18 +/- 2859 (std.), Pr. sec.: 1650.83 +/- 10 (std.)
+                          		Time:  4.30 +/- 1.73 (std.)
+                          	Scrambling depth 20
+                          		Share completed: 2.00 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 8.00 +/- 0.0 (std.), Median: 8
+                          		States seen: Pr. game: 8089.18 +/- 1155 (std.), Pr. sec.: 1651.04 +/- 7 (std.)
+                          		Time:  4.90 +/- 0.70 (std.)
+                          	Scrambling depth 21
+                          		Share completed: 6.00 % +/- 7 % (approx. 95 % CI)
+                          		Turns to win: 13.00 +/- 2.8 (std.), Median: 15
+                          		States seen: Pr. game: 7770.10 +/- 1960 (std.), Pr. sec.: 1654.76 +/- 16 (std.)
+                          		Time:  4.70 +/- 1.19 (std.)
+                          	Scrambling depth 22
+                          		Share completed: 4.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 11.00 +/- 1.0 (std.), Median: 11
+                          		States seen: Pr. game: 7921.26 +/- 1615 (std.), Pr. sec.: 1650.80 +/- 9 (std.)
+                          		Time:  4.80 +/- 0.98 (std.)
+                          	Scrambling depth 23
+                          		Share completed: 4.00 % +/- 5 % (approx. 95 % CI)
+                          		Turns to win: 13.00 +/- 0.0 (std.), Median: 13
+                          		States seen: Pr. game: 7932.20 +/- 1617 (std.), Pr. sec.: 1652.86 +/- 8 (std.)
+                          		Time:  4.80 +/- 0.98 (std.)
+                          	Scrambling depth 24
+                          		Share completed: 2.00 % +/- 4 % (approx. 95 % CI)
+                          		Turns to win: 10.00 +/- 0.0 (std.), Median: 10
+                          		States seen: Pr. game: 8090.56 +/- 1155 (std.), Pr. sec.: 1650.14 +/- 10 (std.)
+                          		Time:  4.90 +/- 0.70 (std.)
+                          	Scrambling depth 25
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8265.60 +/- 34 (std.), Pr. sec.: 1652.87 +/- 7 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 26
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8260.18 +/- 35 (std.), Pr. sec.: 1651.80 +/- 7 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 27
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8263.34 +/- 29 (std.), Pr. sec.: 1652.42 +/- 6 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 28
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8256.24 +/- 26 (std.), Pr. sec.: 1651.01 +/- 5 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 29
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8252.02 +/- 32 (std.), Pr. sec.: 1650.16 +/- 6 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 30
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8256.82 +/- 47 (std.), Pr. sec.: 1651.11 +/- 9 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 31
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8231.62 +/- 34 (std.), Pr. sec.: 1646.08 +/- 7 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 32
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8294.92 +/- 5 (std.), Pr. sec.: 1658.73 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 33
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8295.00 +/- 3 (std.), Pr. sec.: 1658.77 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 34
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8290.48 +/- 3 (std.), Pr. sec.: 1657.88 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 35
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8293.28 +/- 3 (std.), Pr. sec.: 1658.42 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 36
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8292.80 +/- 4 (std.), Pr. sec.: 1658.32 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 37
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8292.78 +/- 3 (std.), Pr. sec.: 1658.31 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 38
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8294.22 +/- 2 (std.), Pr. sec.: 1658.60 +/- 0 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+                          	Scrambling depth 39
+                          		Share completed: 0.00 % +/- 0 % (approx. 95 % CI)
+                          		States seen: Pr. game: 8293.78 +/- 3 (std.), Pr. sec.: 1658.52 +/- 1 (std.)
+                          		Time:  5.00 +/- 0.00 (std.)
+2020-06-17 14:42:48.001814	Evaluation runtime
+                          	Execution times                                    | Total time | Hits |    Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 1  |    0.049 s |   50 |     0.978 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 2  |    0.103 s |   50 |     2.051 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 3  |    0.295 s |   50 |     5.903 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 4  |    1.594 s |   50 |    31.882 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 5  |    2.508 s |   50 |    50.159 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 6  |    3.712 s |   50 |    74.232 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 7  |    5.245 s |   50 |   104.897 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 8  |    7.063 s |   50 |   141.266 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 9  |    7.618 s |   50 |   152.356 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 10 |    9.344 s |   50 |   186.878 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 11 |   10.703 s |   50 |   214.065 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 12 |   12.572 s |   50 |   251.446 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 13 |   14.102 s |   50 |   282.033 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 14 |   15.064 s |   50 |   301.283 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 15 |   16.049 s |   50 |   320.976 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 16 |   19.761 s |   50 |   395.218 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 17 |   23.103 s |   50 |   462.061 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 18 |   26.332 s |   50 |   526.634 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 19 |   26.606 s |   50 |   532.129 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 20 |   30.235 s |   50 |   604.699 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 21 |   32.408 s |   50 |   648.164 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 22 |   31.517 s |   50 |   630.338 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 23 |   36.214 s |   50 |   724.288 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 24 |   36.831 s |   50 |   736.627 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 25 |   39.175 s |   50 |   783.509 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 26 |   40.244 s |   50 |   804.883 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 27 |   39.436 s |   50 |   788.725 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 28 |   42.201 s |   50 |   844.012 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 29 |   39.500 s |   50 |   790.003 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 30 |   40.967 s |   50 |   819.345 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 31 |   42.018 s |   50 |   840.354 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 32 |   41.837 s |   50 |   836.733 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 33 |   41.636 s |   50 |   832.726 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 34 |   42.245 s |   50 |   844.908 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 35 |   43.355 s |   50 |   867.100 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 36 |   42.588 s |   50 |   851.756 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 37 |   43.561 s |   50 |   871.224 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 38 |   42.777 s |   50 |   855.541 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 39 |   42.773 s |   50 |   855.466 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 1           |    0.097 s |   50 |     1.941 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 2           |    0.149 s |   50 |     2.983 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 3           |    0.221 s |   50 |     4.424 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 4           |    0.255 s |   50 |     5.094 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 5           |    0.291 s |   50 |     5.819 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 6           |    0.328 s |   50 |     6.563 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 7           |    0.387 s |   50 |     7.749 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 8           |    0.470 s |   50 |     9.408 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 9           |    0.481 s |   50 |     9.612 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 10          |    1.885 s |   50 |    37.708 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 11          |   18.573 s |   50 |   371.450 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 12          |   12.215 s |   50 |   244.294 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 13          |   14.027 s |   50 |   280.543 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 14          |   27.571 s |   50 |   551.416 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 15          |   25.434 s |   50 |   508.684 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 16          |   53.884 s |   50 | 1,077.678 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 17          |   51.977 s |   50 | 1,039.538 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 18          |   73.042 s |   50 | 1,460.839 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 19          |   73.112 s |   50 | 1,462.235 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 20          |   73.255 s |   50 | 1,465.095 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 21          |   60.408 s |   50 | 1,208.167 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 22          |   64.685 s |   50 | 1,293.703 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 23          |   83.994 s |   50 | 1,679.872 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 24          |   71.990 s |   50 | 1,439.802 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 25          |   68.764 s |   50 | 1,375.289 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 26          |   79.851 s |   50 | 1,597.029 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 27          |   88.836 s |   50 | 1,776.729 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 28          |   95.319 s |   50 | 1,906.378 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 29          |   87.946 s |   50 | 1,758.926 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 30          |   97.564 s |   50 | 1,951.281 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 31          |   80.149 s |   50 | 1,602.976 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 32          |   91.939 s |   50 | 1,838.780 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 33          |   69.609 s |   50 | 1,392.170 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 34          |   85.470 s |   50 | 1,709.409 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 35          |   78.759 s |   50 | 1,575.185 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 36          |   77.321 s |   50 | 1,546.427 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 37          |   82.951 s |   50 | 1,659.025 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 38          |   86.963 s |   50 | 1,739.251 ms
+                          	Evaluation of BFS MCTS (c=4.13). Depth 39          |   94.281 s |   50 | 1,885.612 ms
+                          	Evaluation of Greedy policy. Depth 1               |    0.028 s |   50 |     0.564 ms
+                          	Evaluation of Greedy policy. Depth 2               |    0.051 s |   50 |     1.017 ms
+                          	Evaluation of Greedy policy. Depth 3               |    0.066 s |   50 |     1.314 ms
+                          	Evaluation of Greedy policy. Depth 4               |    0.086 s |   50 |     1.719 ms
+                          	Evaluation of Greedy policy. Depth 5               |    0.103 s |   50 |     2.051 ms
+                          	Evaluation of Greedy policy. Depth 6               |    0.129 s |   50 |     2.582 ms
+                          	Evaluation of Greedy policy. Depth 7               |   15.143 s |   50 |   302.856 ms
+                          	Evaluation of Greedy policy. Depth 8               |   20.148 s |   50 |   402.954 ms
+                          	Evaluation of Greedy policy. Depth 9               |   15.164 s |   50 |   303.283 ms
+                          	Evaluation of Greedy policy. Depth 10              |   40.160 s |   50 |   803.202 ms
+                          	Evaluation of Greedy policy. Depth 11              |   85.147 s |   50 | 1,702.948 ms
+                          	Evaluation of Greedy policy. Depth 12              |  135.122 s |   50 | 2,702.431 ms
+                          	Evaluation of Greedy policy. Depth 13              |  150.103 s |   50 | 3,002.067 ms
+                          	Evaluation of Greedy policy. Depth 14              |  155.108 s |   50 | 3,102.157 ms
+                          	Evaluation of Greedy policy. Depth 15              |  205.074 s |   50 | 4,101.486 ms
+                          	Evaluation of Greedy policy. Depth 16              |  215.069 s |   50 | 4,301.378 ms
+                          	Evaluation of Greedy policy. Depth 17              |  195.088 s |   50 | 3,901.756 ms
+                          	Evaluation of Greedy policy. Depth 18              |  230.058 s |   50 | 4,601.167 ms
+                          	Evaluation of Greedy policy. Depth 19              |  235.052 s |   50 | 4,701.046 ms
+                          	Evaluation of Greedy policy. Depth 20              |  230.056 s |   50 | 4,601.121 ms
+                          	Evaluation of Greedy policy. Depth 21              |  225.058 s |   50 | 4,501.155 ms
+                          	Evaluation of Greedy policy. Depth 22              |  230.057 s |   50 | 4,601.142 ms
+                          	Evaluation of Greedy policy. Depth 23              |  250.040 s |   50 | 5,000.800 ms
+                          	Evaluation of Greedy policy. Depth 24              |  250.039 s |   50 | 5,000.780 ms
+                          	Evaluation of Greedy policy. Depth 25              |  250.040 s |   50 | 5,000.802 ms
+                          	Evaluation of Greedy policy. Depth 26              |  250.039 s |   50 | 5,000.785 ms
+                          	Evaluation of Greedy policy. Depth 27              |  250.039 s |   50 | 5,000.782 ms
+                          	Evaluation of Greedy policy. Depth 28              |  250.040 s |   50 | 5,000.806 ms
+                          	Evaluation of Greedy policy. Depth 29              |  250.039 s |   50 | 5,000.775 ms
+                          	Evaluation of Greedy policy. Depth 30              |  250.040 s |   50 | 5,000.790 ms
+                          	Evaluation of Greedy policy. Depth 31              |  250.037 s |   50 | 5,000.742 ms
+                          	Evaluation of Greedy policy. Depth 32              |  250.039 s |   50 | 5,000.781 ms
+                          	Evaluation of Greedy policy. Depth 33              |  250.039 s |   50 | 5,000.773 ms
+                          	Evaluation of Greedy policy. Depth 34              |  250.041 s |   50 | 5,000.815 ms
+                          	Evaluation of Greedy policy. Depth 35              |  250.040 s |   50 | 5,000.795 ms
+                          	Evaluation of Greedy policy. Depth 36              |  250.038 s |   50 | 5,000.763 ms
+                          	Evaluation of Greedy policy. Depth 37              |  250.038 s |   50 | 5,000.760 ms
+                          	Evaluation of Greedy policy. Depth 38              |  250.038 s |   50 | 5,000.760 ms
+                          	Evaluation of Greedy policy. Depth 39              |  250.039 s |   50 | 5,000.784 ms
+                          	Evaluation of Greedy value. Depth 1                |    0.006 s |   50 |     0.120 ms
+                          	Evaluation of Greedy value. Depth 2                |    0.039 s |   50 |     0.781 ms
+                          	Evaluation of Greedy value. Depth 3                |    0.058 s |   50 |     1.156 ms
+                          	Evaluation of Greedy value. Depth 4                |    0.086 s |   50 |     1.721 ms
+                          	Evaluation of Greedy value. Depth 5                |    0.113 s |   50 |     2.254 ms
+                          	Evaluation of Greedy value. Depth 6                |    0.130 s |   50 |     2.593 ms
+                          	Evaluation of Greedy value. Depth 7                |   10.147 s |   50 |   202.949 ms
+                          	Evaluation of Greedy value. Depth 8                |   10.160 s |   50 |   203.199 ms
+                          	Evaluation of Greedy value. Depth 9                |    0.197 s |   50 |     3.946 ms
+                          	Evaluation of Greedy value. Depth 10               |   40.195 s |   50 |   803.898 ms
+                          	Evaluation of Greedy value. Depth 11               |   40.216 s |   50 |   804.325 ms
+                          	Evaluation of Greedy value. Depth 12               |   80.185 s |   50 | 1,603.702 ms
+                          	Evaluation of Greedy value. Depth 13               |   95.172 s |   50 | 1,903.449 ms
+                          	Evaluation of Greedy value. Depth 14               |  135.145 s |   50 | 2,702.893 ms
+                          	Evaluation of Greedy value. Depth 15               |  160.143 s |   50 | 3,202.851 ms
+                          	Evaluation of Greedy value. Depth 16               |  200.088 s |   50 | 4,001.752 ms
+                          	Evaluation of Greedy value. Depth 17               |  180.111 s |   50 | 3,602.228 ms
+                          	Evaluation of Greedy value. Depth 18               |  220.075 s |   50 | 4,401.494 ms
+                          	Evaluation of Greedy value. Depth 19               |  215.075 s |   50 | 4,301.501 ms
+                          	Evaluation of Greedy value. Depth 20               |  245.038 s |   50 | 4,900.757 ms
+                          	Evaluation of Greedy value. Depth 21               |  235.058 s |   50 | 4,701.162 ms
+                          	Evaluation of Greedy value. Depth 22               |  240.045 s |   50 | 4,800.906 ms
+                          	Evaluation of Greedy value. Depth 23               |  240.052 s |   50 | 4,801.042 ms
+                          	Evaluation of Greedy value. Depth 24               |  245.041 s |   50 | 4,900.827 ms
+                          	Evaluation of Greedy value. Depth 25               |  250.038 s |   50 | 5,000.760 ms
+                          	Evaluation of Greedy value. Depth 26               |  250.035 s |   50 | 5,000.705 ms
+                          	Evaluation of Greedy value. Depth 27               |  250.038 s |   50 | 5,000.757 ms
+                          	Evaluation of Greedy value. Depth 28               |  250.036 s |   50 | 5,000.722 ms
+                          	Evaluation of Greedy value. Depth 29               |  250.036 s |   50 | 5,000.726 ms
+                          	Evaluation of Greedy value. Depth 30               |  250.038 s |   50 | 5,000.766 ms
+                          	Evaluation of Greedy value. Depth 31               |  250.038 s |   50 | 5,000.753 ms
+                          	Evaluation of Greedy value. Depth 32               |  250.039 s |   50 | 5,000.778 ms
+                          	Evaluation of Greedy value. Depth 33               |  250.035 s |   50 | 5,000.691 ms
+                          	Evaluation of Greedy value. Depth 34               |  250.033 s |   50 | 5,000.663 ms
+                          	Evaluation of Greedy value. Depth 35               |  250.036 s |   50 | 5,000.710 ms
+                          	Evaluation of Greedy value. Depth 36               |  250.036 s |   50 | 5,000.715 ms
+                          	Evaluation of Greedy value. Depth 37               |  250.037 s |   50 | 5,000.735 ms
+                          	Evaluation of Greedy value. Depth 38               |  250.037 s |   50 | 5,000.731 ms
+                          	Evaluation of Greedy value. Depth 39               |  250.035 s |   50 | 5,000.708 ms
+2020-06-17 14:42:48.013502	Saved evaluation results to
+                          	../rubiks-models/main2/value/evaluation_results/Greedy value_results.npy
+                          	../rubiks-models/main2/value/evaluation_results/Greedy value_states_seen.npy
+                          	../rubiks-models/main2/value/evaluation_results/Greedy value_playtimes.npy

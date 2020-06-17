@@ -1,0 +1,298 @@
+2020-06-17 10:17:00.944448	ASTAR
+
+2020-06-17 10:17:00.945546	Creating evaluator
+                          	Games per scrambling depth: 50
+                          	Scrambling depths: Uniformly sampled in [100, 999]
+2020-06-17 10:17:01.215491	Loaded model from /zhome/ac/c/137651/rubiks-models/main2
+2020-06-17 10:17:01.216398	Initialized ASTAR with agents AStar (lambda=0.16, N=700)
+2020-06-17 10:17:01.217058	TIME ESTIMATE: 162.50 min.	(Rough upper bound)
+2020-06-17 10:17:01.980353	Beginning evaluator ASTAR
+                          	Location ../rubiks-models/main2/astar
+                          	Commit: cbb25e8e3db36c756250ff6b632a028bb1d98cf0
+
+2020-06-17 10:17:01.982606	Evaluationg agent AStar (lambda=0.16, N=700)
+
+2020-06-17 10:17:01.983908	Evaluation of AStar (lambda=0.16, N=700)
+2020-06-17 10:17:01.984615	1950 cubes
+                          	Maximum solve time per cube is 5.000 s and estimated total time <= 162.500 min
+                          	No max states given
+2020-06-17 10:17:02.037923	Performed evaluation at depth: 1/39
+2020-06-17 10:17:02.145311	Performed evaluation at depth: 2/39
+2020-06-17 10:17:02.445205	Performed evaluation at depth: 3/39
+2020-06-17 10:17:04.044737	Performed evaluation at depth: 4/39
+2020-06-17 10:17:06.560110	Performed evaluation at depth: 5/39
+2020-06-17 10:17:10.278976	Performed evaluation at depth: 6/39
+2020-06-17 10:17:15.531669	Performed evaluation at depth: 7/39
+2020-06-17 10:17:22.603249	Performed evaluation at depth: 8/39
+2020-06-17 10:17:30.229559	Performed evaluation at depth: 9/39
+2020-06-17 10:17:39.581917	Performed evaluation at depth: 10/39
+2020-06-17 10:17:50.293965	Performed evaluation at depth: 11/39
+2020-06-17 10:18:02.875248	Performed evaluation at depth: 12/39
+2020-06-17 10:18:16.986172	Performed evaluation at depth: 13/39
+2020-06-17 10:18:32.059745	Performed evaluation at depth: 14/39
+2020-06-17 10:18:48.118143	Performed evaluation at depth: 15/39
+2020-06-17 10:19:07.889207	Performed evaluation at depth: 16/39
+2020-06-17 10:19:31.002314	Performed evaluation at depth: 17/39
+2020-06-17 10:19:57.344137	Performed evaluation at depth: 18/39
+2020-06-17 10:20:23.961178	Performed evaluation at depth: 19/39
+2020-06-17 10:20:54.207420	Performed evaluation at depth: 20/39
+2020-06-17 10:21:26.626290	Performed evaluation at depth: 21/39
+2020-06-17 10:21:58.154447	Performed evaluation at depth: 22/39
+2020-06-17 10:22:34.381076	Performed evaluation at depth: 23/39
+2020-06-17 10:23:11.223774	Performed evaluation at depth: 24/39
+2020-06-17 10:23:50.410663	Performed evaluation at depth: 25/39
+2020-06-17 10:24:30.666447	Performed evaluation at depth: 26/39
+2020-06-17 10:25:10.114343	Performed evaluation at depth: 27/39
+2020-06-17 10:25:52.327208	Performed evaluation at depth: 28/39
+2020-06-17 10:26:31.839533	Performed evaluation at depth: 29/39
+2020-06-17 10:27:12.818987	Performed evaluation at depth: 30/39
+2020-06-17 10:27:54.848905	Performed evaluation at depth: 31/39
+2020-06-17 10:28:36.697980	Performed evaluation at depth: 32/39
+2020-06-17 10:29:18.347518	Performed evaluation at depth: 33/39
+2020-06-17 10:30:00.605788	Performed evaluation at depth: 34/39
+2020-06-17 10:30:43.973865	Performed evaluation at depth: 35/39
+2020-06-17 10:31:26.574842	Performed evaluation at depth: 36/39
+2020-06-17 10:32:10.149140	Performed evaluation at depth: 37/39
+2020-06-17 10:32:52.939590	Performed evaluation at depth: 38/39
+2020-06-17 10:33:35.726359	Performed evaluation at depth: 39/39
+2020-06-17 10:33:35.729363	Evaluation results
+                          	Scrambling depth 1
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 1.00 +/- 0.0 (std.), Median: 1
+                          		States seen: Pr. game: 13.00 +/- 0 (std.), Pr. sec.: 14787.99 +/- 1860 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 2
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 2.00 +/- 0.0 (std.), Median: 2
+                          		States seen: Pr. game: 127.00 +/- 0 (std.), Pr. sec.: 62491.19 +/- 4875 (std.)
+                          		Time:  0.00 +/- 0.00 (std.)
+                          	Scrambling depth 3
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 2.56 +/- 0.8 (std.), Median: 3
+                          		States seen: Pr. game: 934.96 +/- 490 (std.), Pr. sec.: 130776.82 +/- 62337 (std.)
+                          		Time:  0.01 +/- 0.00 (std.)
+                          	Scrambling depth 4
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 3.56 +/- 0.8 (std.), Median: 4
+                          		States seen: Pr. game: 6218.10 +/- 3235 (std.), Pr. sec.: 169092.68 +/- 72509 (std.)
+                          		Time:  0.03 +/- 0.02 (std.)
+                          	Scrambling depth 5
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 4.24 +/- 1.0 (std.), Median: 5
+                          		States seen: Pr. game: 9850.80 +/- 6543 (std.), Pr. sec.: 179636.58 +/- 43218 (std.)
+                          		Time:  0.05 +/- 0.03 (std.)
+                          	Scrambling depth 6
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 4.88 +/- 1.4 (std.), Median: 6
+                          		States seen: Pr. game: 14663.26 +/- 8186 (std.), Pr. sec.: 182081.56 +/- 59125 (std.)
+                          		Time:  0.07 +/- 0.04 (std.)
+                          	Scrambling depth 7
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 5.84 +/- 1.4 (std.), Median: 7
+                          		States seen: Pr. game: 20845.06 +/- 8833 (std.), Pr. sec.: 190795.88 +/- 41599 (std.)
+                          		Time:  0.10 +/- 0.04 (std.)
+                          	Scrambling depth 8
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 6.84 +/- 1.4 (std.), Median: 8
+                          		States seen: Pr. game: 27533.16 +/- 9646 (std.), Pr. sec.: 196216.22 +/- 15245 (std.)
+                          		Time:  0.14 +/- 0.05 (std.)
+                          	Scrambling depth 9
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 7.12 +/- 2.0 (std.), Median: 7
+                          		States seen: Pr. game: 29552.32 +/- 14004 (std.), Pr. sec.: 184653.00 +/- 38442 (std.)
+                          		Time:  0.15 +/- 0.07 (std.)
+                          	Scrambling depth 10
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 8.08 +/- 1.8 (std.), Median: 8
+                          		States seen: Pr. game: 36278.54 +/- 12554 (std.), Pr. sec.: 193714.25 +/- 13315 (std.)
+                          		Time:  0.19 +/- 0.06 (std.)
+                          	Scrambling depth 11
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 8.80 +/- 2.2 (std.), Median: 9
+                          		States seen: Pr. game: 41414.50 +/- 15202 (std.), Pr. sec.: 188622.55 +/- 27365 (std.)
+                          		Time:  0.21 +/- 0.08 (std.)
+                          	Scrambling depth 12
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 9.76 +/- 2.1 (std.), Median: 10
+                          		States seen: Pr. game: 48302.76 +/- 14704 (std.), Pr. sec.: 192010.46 +/- 14988 (std.)
+                          		Time:  0.25 +/- 0.08 (std.)
+                          	Scrambling depth 13
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 10.56 +/- 2.2 (std.), Median: 11
+                          		States seen: Pr. game: 53992.92 +/- 15549 (std.), Pr. sec.: 190790.47 +/- 12899 (std.)
+                          		Time:  0.28 +/- 0.08 (std.)
+                          	Scrambling depth 14
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 11.00 +/- 2.5 (std.), Median: 12
+                          		States seen: Pr. game: 57256.34 +/- 17985 (std.), Pr. sec.: 189457.14 +/- 14508 (std.)
+                          		Time:  0.30 +/- 0.09 (std.)
+                          	Scrambling depth 15
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 11.52 +/- 2.5 (std.), Median: 12
+                          		States seen: Pr. game: 61015.72 +/- 17963 (std.), Pr. sec.: 190021.99 +/- 8651 (std.)
+                          		Time:  0.32 +/- 0.09 (std.)
+                          	Scrambling depth 16
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 13.44 +/- 3.6 (std.), Median: 14
+                          		States seen: Pr. game: 74691.60 +/- 25519 (std.), Pr. sec.: 188218.64 +/- 7779 (std.)
+                          		Time:  0.40 +/- 0.13 (std.)
+                          	Scrambling depth 17
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 15.12 +/- 4.1 (std.), Median: 15
+                          		States seen: Pr. game: 86866.02 +/- 29309 (std.), Pr. sec.: 187855.81 +/- 6189 (std.)
+                          		Time:  0.46 +/- 0.16 (std.)
+                          	Scrambling depth 18
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 16.76 +/- 4.8 (std.), Median: 14
+                          		States seen: Pr. game: 98541.86 +/- 33909 (std.), Pr. sec.: 186907.92 +/- 6601 (std.)
+                          		Time:  0.53 +/- 0.18 (std.)
+                          	Scrambling depth 19
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 16.92 +/- 4.9 (std.), Median: 15
+                          		States seen: Pr. game: 99715.92 +/- 34736 (std.), Pr. sec.: 187028.04 +/- 6918 (std.)
+                          		Time:  0.53 +/- 0.18 (std.)
+                          	Scrambling depth 20
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 18.72 +/- 5.6 (std.), Median: 18
+                          		States seen: Pr. game: 112609.54 +/- 39654 (std.), Pr. sec.: 185450.13 +/- 5315 (std.)
+                          		Time:  0.60 +/- 0.21 (std.)
+                          	Scrambling depth 21
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 19.88 +/- 4.9 (std.), Median: 21
+                          		States seen: Pr. game: 120929.46 +/- 34751 (std.), Pr. sec.: 185960.29 +/- 5035 (std.)
+                          		Time:  0.65 +/- 0.18 (std.)
+                          	Scrambling depth 22
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 19.44 +/- 4.7 (std.), Median: 22
+                          		States seen: Pr. game: 117874.84 +/- 33465 (std.), Pr. sec.: 186183.17 +/- 7426 (std.)
+                          		Time:  0.63 +/- 0.17 (std.)
+                          	Scrambling depth 23
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 21.80 +/- 4.6 (std.), Median: 22
+                          		States seen: Pr. game: 134525.40 +/- 32402 (std.), Pr. sec.: 185474.40 +/- 4015 (std.)
+                          		Time:  0.72 +/- 0.17 (std.)
+                          	Scrambling depth 24
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 22.12 +/- 4.1 (std.), Median: 22
+                          		States seen: Pr. game: 136760.70 +/- 29013 (std.), Pr. sec.: 185603.34 +/- 3630 (std.)
+                          		Time:  0.74 +/- 0.15 (std.)
+                          	Scrambling depth 25
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 23.28 +/- 3.3 (std.), Median: 25
+                          		States seen: Pr. game: 145138.32 +/- 23703 (std.), Pr. sec.: 185322.05 +/- 3404 (std.)
+                          		Time:  0.78 +/- 0.13 (std.)
+                          	Scrambling depth 26
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 23.84 +/- 3.3 (std.), Median: 24
+                          		States seen: Pr. game: 148973.98 +/- 23700 (std.), Pr. sec.: 184889.39 +/- 3732 (std.)
+                          		Time:  0.80 +/- 0.12 (std.)
+                          	Scrambling depth 27
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 23.40 +/- 3.3 (std.), Median: 25
+                          		States seen: Pr. game: 145979.72 +/- 23406 (std.), Pr. sec.: 184967.01 +/- 2688 (std.)
+                          		Time:  0.79 +/- 0.12 (std.)
+                          	Scrambling depth 28
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.84 +/- 2.8 (std.), Median: 24
+                          		States seen: Pr. game: 156161.54 +/- 19631 (std.), Pr. sec.: 185136.11 +/- 3480 (std.)
+                          		Time:  0.84 +/- 0.11 (std.)
+                          	Scrambling depth 29
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 23.44 +/- 3.5 (std.), Median: 25
+                          		States seen: Pr. game: 146217.34 +/- 25170 (std.), Pr. sec.: 184982.72 +/- 2950 (std.)
+                          		Time:  0.79 +/- 0.14 (std.)
+                          	Scrambling depth 30
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.12 +/- 2.9 (std.), Median: 24
+                          		States seen: Pr. game: 151214.72 +/- 20386 (std.), Pr. sec.: 184630.18 +/- 2990 (std.)
+                          		Time:  0.82 +/- 0.11 (std.)
+                          	Scrambling depth 31
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.72 +/- 2.6 (std.), Median: 25
+                          		States seen: Pr. game: 155404.34 +/- 18404 (std.), Pr. sec.: 184797.91 +/- 3208 (std.)
+                          		Time:  0.84 +/- 0.09 (std.)
+                          	Scrambling depth 32
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.56 +/- 2.2 (std.), Median: 24
+                          		States seen: Pr. game: 154271.32 +/- 15378 (std.), Pr. sec.: 184329.97 +/- 2810 (std.)
+                          		Time:  0.84 +/- 0.08 (std.)
+                          	Scrambling depth 33
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.52 +/- 2.1 (std.), Median: 25
+                          		States seen: Pr. game: 154045.90 +/- 14760 (std.), Pr. sec.: 184981.51 +/- 2724 (std.)
+                          		Time:  0.83 +/- 0.08 (std.)
+                          	Scrambling depth 34
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.80 +/- 2.5 (std.), Median: 24
+                          		States seen: Pr. game: 155891.06 +/- 17739 (std.), Pr. sec.: 184541.98 +/- 3509 (std.)
+                          		Time:  0.84 +/- 0.10 (std.)
+                          	Scrambling depth 35
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.40 +/- 2.4 (std.), Median: 25
+                          		States seen: Pr. game: 160129.04 +/- 16668 (std.), Pr. sec.: 184679.37 +/- 3040 (std.)
+                          		Time:  0.87 +/- 0.09 (std.)
+                          	Scrambling depth 36
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 24.92 +/- 2.5 (std.), Median: 25
+                          		States seen: Pr. game: 156767.48 +/- 17859 (std.), Pr. sec.: 184098.60 +/- 3222 (std.)
+                          		Time:  0.85 +/- 0.10 (std.)
+                          	Scrambling depth 37
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.44 +/- 2.4 (std.), Median: 25
+                          		States seen: Pr. game: 160428.06 +/- 16994 (std.), Pr. sec.: 184154.17 +/- 3202 (std.)
+                          		Time:  0.87 +/- 0.09 (std.)
+                          	Scrambling depth 38
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.04 +/- 2.1 (std.), Median: 24
+                          		States seen: Pr. game: 157632.06 +/- 14537 (std.), Pr. sec.: 184288.95 +/- 2930 (std.)
+                          		Time:  0.86 +/- 0.08 (std.)
+                          	Scrambling depth 39
+                          		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
+                          		Turns to win: 25.00 +/- 1.9 (std.), Median: 25
+                          		States seen: Pr. game: 157442.38 +/- 13418 (std.), Pr. sec.: 184108.45 +/- 3557 (std.)
+                          		Time:  0.86 +/- 0.07 (std.)
+2020-06-17 10:33:35.877034	Evaluation runtime
+                          	Execution times                                    | Total time | Hits |  Avg. time
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 1  |    0.049 s |   50 |   0.978 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 2  |    0.103 s |   50 |   2.051 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 3  |    0.295 s |   50 |   5.903 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 4  |    1.594 s |   50 |  31.882 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 5  |    2.508 s |   50 |  50.159 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 6  |    3.712 s |   50 |  74.232 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 7  |    5.245 s |   50 | 104.897 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 8  |    7.063 s |   50 | 141.266 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 9  |    7.618 s |   50 | 152.356 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 10 |    9.344 s |   50 | 186.878 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 11 |   10.703 s |   50 | 214.065 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 12 |   12.572 s |   50 | 251.446 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 13 |   14.102 s |   50 | 282.033 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 14 |   15.064 s |   50 | 301.283 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 15 |   16.049 s |   50 | 320.976 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 16 |   19.761 s |   50 | 395.218 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 17 |   23.103 s |   50 | 462.061 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 18 |   26.332 s |   50 | 526.634 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 19 |   26.606 s |   50 | 532.129 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 20 |   30.235 s |   50 | 604.699 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 21 |   32.408 s |   50 | 648.164 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 22 |   31.517 s |   50 | 630.338 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 23 |   36.214 s |   50 | 724.288 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 24 |   36.831 s |   50 | 736.627 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 25 |   39.175 s |   50 | 783.509 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 26 |   40.244 s |   50 | 804.883 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 27 |   39.436 s |   50 | 788.725 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 28 |   42.201 s |   50 | 844.012 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 29 |   39.500 s |   50 | 790.003 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 30 |   40.967 s |   50 | 819.345 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 31 |   42.018 s |   50 | 840.354 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 32 |   41.837 s |   50 | 836.733 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 33 |   41.636 s |   50 | 832.726 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 34 |   42.245 s |   50 | 844.908 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 35 |   43.355 s |   50 | 867.100 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 36 |   42.588 s |   50 | 851.756 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 37 |   43.561 s |   50 | 871.224 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 38 |   42.777 s |   50 | 855.541 ms
+                          	Evaluation of AStar (lambda=0.16, N=700). Depth 39 |   42.773 s |   50 | 855.466 ms
+2020-06-17 10:33:35.893237	Saved evaluation results to
+                          	../rubiks-models/main2/astar/evaluation_results/AStar (lambda=0.16, N=700)_results.npy
+                          	../rubiks-models/main2/astar/evaluation_results/AStar (lambda=0.16, N=700)_states_seen.npy
+                          	../rubiks-models/main2/astar/evaluation_results/AStar (lambda=0.16, N=700)_playtimes.npy
