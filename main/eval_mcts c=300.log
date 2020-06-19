@@ -1,0 +1,39 @@
+2020-06-19 10:57:11.305869	eval
+
+2020-06-19 10:57:11.307029	Creating evaluator
+                          	Games per scrambling depth: 200
+                          	Scrambling depths: range(0, 0)
+2020-06-19 10:57:12.091636	Loaded model from data/main
+2020-06-19 10:57:12.092747	Initialized eval with agents BFS MCTS (c=300.0)
+2020-06-19 10:57:12.093459	TIME ESTIMATE: 1000.00 min.	(Rough upper bound)
+2020-06-19 10:57:12.172622	Beginning evaluator eval
+                          	Location data/main
+                          	Commit: f3514dc813aeb6b960ca275f806997587505122f
+
+2020-06-19 10:57:12.174217	Evaluationg agent BFS MCTS (c=300.0)
+
+2020-06-19 10:57:12.175759	Evaluation of BFS MCTS (c=300.0)
+2020-06-19 10:57:12.176444	200 cubes
+                          	Maximum solve time per cube is 300.000 s and estimated total time <= 1,000.000 min
+                          	No max states given
+2020-06-19 17:42:14.963160	Evaluation results
+                          	Scrambling depth deep
+                          		Share completed: 97.00 % +/- 2 % (approx. 95 % CI)
+                          		Turns to win: 32.96 +/- 6.2 (std.), Median: 32
+                          		States seen: Pr. game: 903289.78 +/- 602012 (std.), Pr. sec.: 7529.41 +/- 303 (std.)
+                          		Time:  121.51 +/- 81.62 (std.)
+2020-06-19 17:42:14.970486	Evaluation runtime
+                          	Execution times                                   |   Total time | Hits |      Avg. time
+                          	Evaluation of BFS MCTS (c=300.0). Depth 100 - 999 | 24,302.446 s |  200 | 121,512.229 ms
+2020-06-19 17:42:14.980583	Saved evaluation results to
+                          	data/main/evaluation_results/BFS MCTS (c=300.0)_results.npy
+                          	data/main/evaluation_results/BFS MCTS (c=300.0)_states_seen.npy
+                          	data/main/evaluation_results/BFS MCTS (c=300.0)_playtimes.npy
+2020-06-19 17:42:17.261026	Saved settings to data/main/eval_settings.json and plots to
+                          	data/main/eval_winrates.png
+                          	data/main/eval_sollengths.png
+                          	data/main/time_winrate.png
+                          	data/main/states_winrate.png
+                          	data/main/solve_length_dist.png
+                          	data/main/time_dist.png
+                          	data/main/state_dist.png
