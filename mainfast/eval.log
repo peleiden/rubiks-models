@@ -1,39 +1,39 @@
-2020-06-17 23:14:46.874216	eval
+2020-06-17 23:02:20.194991	eval
 
-2020-06-17 23:14:46.875418	Creating evaluator
-                          	Games per scrambling depth: 1000
-                          	Scrambling depths: range(0, 0)
-2020-06-17 23:14:47.531591	Loaded model from data/main
-2020-06-17 23:14:47.532891	Initialized eval with agents AStar (lambda=0.075, N=30)
-2020-06-17 23:14:47.533679	TIME ESTIMATE: 83.33 min.	(Rough upper bound)
-2020-06-17 23:14:47.607456	Beginning evaluator eval
-                          	Location data/main
-                          	Commit: 3b3069743cf7c03652368af5a13ebf8597395872
+2020-06-17 23:02:20.195973	Creating evaluator
+                          		Games per scrambling depth: 1000
+                          		Scrambling depths: range(0, 0)
+2020-06-17 23:02:20.463644	Loaded model from data/main
+2020-06-17 23:02:20.464399	Initialized eval with agents AStar (lambda=0.07, N=27)
+2020-06-17 23:02:20.465115	TIME ESTIMATE: 83.33 min.       (Rough upper bound)
+2020-06-17 23:02:20.521476	Beginning evaluator eval
+                          		Location data/main
+                          		Commit: 3b3069743cf7c03652368af5a13ebf8597395872
 
-2020-06-17 23:14:47.609160	Evaluationg agent AStar (lambda=0.075, N=30)
+2020-06-17 23:02:20.522893	Evaluationg agent AStar (lambda=0.07, N=27)
 
-2020-06-17 23:14:47.610675	Evaluation of AStar (lambda=0.075, N=30)
-2020-06-17 23:14:47.611406	1000 cubes
-                          	Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
-                          	No max states given
-2020-06-17 23:16:51.794857	Evaluation results
-                          	Scrambling depth deep
+2020-06-17 23:02:20.524149	Evaluation of AStar (lambda=0.07, N=27)
+2020-06-17 23:02:20.524781	1000 cubes
+                          		Maximum solve time per cube is 5.000 s and estimated total time <= 83.333 min
+                          		No max states given
+2020-06-17 23:04:27.140866	Evaluation results
+							Scrambling depth deep
                           		Share completed: 100.00 % +/- 0 % (approx. 95 % CI)
-                          		Turns to win: 36.95 +/- 7.2 (std.), Median: 37
-                          		States seen: Pr. game: 17579.32 +/- 11951 (std.), Pr. sec.: 142831.44 +/- 7165 (std.)
-                          		Time:  0.12 +/- 0.08 (std.)
-2020-06-17 23:16:51.801416	Evaluation runtime
-                          	Execution times                                           | Total time |  Hits |  Avg. time
-                          	Evaluation of AStar (lambda=0.075, N=30). Depth 100 - 999 |  122.604 s | 1,000 | 122.604 ms
-2020-06-17 23:16:51.816628	Saved evaluation results to
-                          	data/main/evaluation_results/AStar (lambda=0.075, N=30)_results.npy
-                          	data/main/evaluation_results/AStar (lambda=0.075, N=30)_states_seen.npy
-                          	data/main/evaluation_results/AStar (lambda=0.075, N=30)_playtimes.npy
-2020-06-17 23:16:54.238482	Saved settings to data/main/eval_settings.json and plots to
-                          	data/main/eval_winrates.png
-                          	data/main/eval_sollengths.png
-                          	data/main/time_winrate.png
-                          	data/main/states_winrate.png
-                          	data/main/solve_length_dist.png
-                          	data/main/time_dist.png
-                          	data/main/state_dist.png
+                          		Turns to win: 37.80 +/- 7.6 (std.), Median: 38
+                          		States seen: Pr. game: 16820.22 +/- 11543 (std.), Pr. sec.: 134461.26 +/- 6223 (std.)
+                          		Time:  0.12 +/- 0.09 (std.)
+2020-06-17 23:04:27.147256	Evaluation runtime
+                                 Execution times                                          | Total time |  Hits |  Avg. time
+                                 Evaluation of AStar (lambda=0.07, N=27). Depth 100 - 999 |  124.981 s | 1,000 | 124.981 ms
+2020-06-17 23:04:27.157180	Saved evaluation results to
+                          		data/main/evaluation_results/AStar (lambda=0.07, N=27)_results.npy
+                          		data/main/evaluation_results/AStar (lambda=0.07, N=27)_states_seen.npy
+                          		data/main/evaluation_results/AStar (lambda=0.07, N=27)_playtimes.npy
+2020-06-17 23:04:29.640647	Saved settings to data/main/eval_settings.json and plots to
+                          		data/main/eval_winrates.png
+                          		data/main/eval_sollengths.png
+                          		data/main/time_winrate.png
+                          		data/main/states_winrate.png
+                          		data/main/solve_length_dist.png
+                          		data/main/time_dist.png
+                          		data/main/state_dist.png
